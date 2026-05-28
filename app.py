@@ -9,17 +9,16 @@ from datetime import datetime, timedelta, date
 from streamlit_lottie import st_lottie
 import requests
 from bs4 import BeautifulSoup
-import json
 import os
 import pandas as pd
-import socket
 import streamlit.components.v1 as components
-from io import BytesIO
-try:
-    import qrcode
-    _HAS_QR = True
-except ImportError:
-    _HAS_QR = False
+
+from common import (
+    MARKET_INFO, ALL_MARKETS, MARKET_DISPLAYS, MARKET_FLAGS, WSJ_EXCHANGE,
+    FAVORITES_FILE, fmt_price, get_local_ip, load_favorites, save_favorites,
+    make_qr, kakao_pay_button as _kakao_pay_button, handle_kakao_callback,
+)
+_HAS_QR = make_qr.__module__ is not None  # make_qr은 common에서 이미 정의
 
 
 # 한글 폰트 설정 (matplotlib 차트용)
@@ -28,137 +27,6 @@ if os.path.exists(_font_path):
     fm.fontManager.addfont(_font_path)
     plt.rcParams['font.family'] = 'NanumSquareR'
 plt.rcParams['axes.unicode_minus'] = False
-
-
-# 관심종목 저장 파일
-FAVORITES_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "favorites.json")
-
-# 지원 마켓 정보 (한국 + 해외)
-MARKET_INFO = {
-    'KOSPI':  {'display': 'KOSPI 🇰🇷',           'currency': '원',  'decimal': 0},
-    'KOSDAQ': {'display': 'KOSDAQ 🇰🇷',          'currency': '원',  'decimal': 0},
-    'KONEX':  {'display': 'KONEX 🇰🇷',           'currency': '원',  'decimal': 0},
-    'NYSE':   {'display': 'NYSE 🇺🇸 (뉴욕)',       'currency': 'USD', 'decimal': 2},
-    'NASDAQ': {'display': 'NASDAQ 🇺🇸 (나스닥)',   'currency': 'USD', 'decimal': 2},
-    'TSE':    {'display': 'TSE 🇯🇵 (도쿄)',        'currency': 'JPY', 'decimal': 0},
-    'HKEX':   {'display': 'HKEX 🇨🇳 (홍콩)',      'currency': 'HKD', 'decimal': 2},
-    'HOSE':   {'display': 'HOSE 🇻🇳 (베트남)',     'currency': 'VND', 'decimal': 0},
-}
-ALL_MARKETS = list(MARKET_INFO.keys())
-MARKET_DISPLAYS = [MARKET_INFO[m]['display'] for m in ALL_MARKETS]
-MARKET_FLAGS = {
-    'KOSPI': '🇰🇷', 'KOSDAQ': '🇰🇷', 'KONEX': '🇰🇷',
-    'NYSE': '🇺🇸', 'NASDAQ': '🇺🇸', 'TSE': '🇯🇵', 'HKEX': '🇨🇳', 'HOSE': '🇻🇳',
-}
-
-def fmt_price(value, currency, decimal=None):
-    d = decimal if decimal is not None else (0 if currency in ('원', 'JPY', 'VND') else 2)
-    return f"{value:,.{d}f} {currency}"
-
-def get_local_ip():
-    try:
-        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        s.connect(("8.8.8.8", 80))
-        ip = s.getsockname()[0]
-        s.close()
-        return ip
-    except Exception:
-        return "localhost"
-
-# ── 카카오페이 설정 ──
-try:
-    _KAKAO_KEY = st.secrets.get("KAKAO_ADMIN_KEY", "")
-except Exception:
-    _KAKAO_KEY = ""
-_KAKAO_KEY = _KAKAO_KEY or os.environ.get("KAKAO_ADMIN_KEY", "")
-_KAKAO_CID = "TC0ONETIME"  # 카카오페이 단건결제 테스트 CID
-
-def _kakao_ready(local_ip: str, port: int = 8501) -> dict:
-    order_id = f"premium_{int(datetime.now().timestamp())}"
-    base = f"http://{local_ip}:{port}"
-    resp = requests.post(
-        "https://kapi.kakao.com/v1/payment/ready",
-        headers={"Authorization": f"KakaoAK {_KAKAO_KEY}"},
-        data={
-            "cid": _KAKAO_CID,
-            "partner_order_id": order_id,
-            "partner_user_id": "stock_user",
-            "item_name": "주식분석플랫폼 프리미엄",
-            "quantity": 1,
-            "total_amount": 9900,
-            "vat_amount": 900,
-            "tax_free_amount": 0,
-            "approval_url": f"{base}?payment=approve",
-            "fail_url":     f"{base}?payment=fail",
-            "cancel_url":   f"{base}?payment=cancel",
-        },
-        timeout=10,
-    )
-    result = resp.json()
-    result["_order_id"] = order_id
-    return result
-
-def _kakao_approve(tid: str, pg_token: str, order_id: str) -> dict:
-    resp = requests.post(
-        "https://kapi.kakao.com/v1/payment/approve",
-        headers={"Authorization": f"KakaoAK {_KAKAO_KEY}"},
-        data={
-            "cid": _KAKAO_CID,
-            "tid": tid,
-            "partner_order_id": order_id,
-            "partner_user_id": "stock_user",
-            "pg_token": pg_token,
-        },
-        timeout=10,
-    )
-    return resp.json()
-
-def _kakao_pay_button(local_ip: str, port: int = 8501, key: str = "pay"):
-    """카카오페이 결제 버튼 공통 컴포넌트"""
-    if not _KAKAO_KEY:
-        if st.button("💎 프리미엄 시작하기 (데모)", type="primary", use_container_width=True, key=f"demo_{key}"):
-            st.session_state.is_premium = True
-            st.rerun()
-        st.caption("ℹ️ KAKAO_ADMIN_KEY 미설정 상태입니다. 데모 모드로 즉시 활성화됩니다.")
-        return
-    if st.button("💛 카카오페이로 결제 (월 ₩9,900)", type="primary", use_container_width=True, key=f"kakao_{key}"):
-        try:
-            res = _kakao_ready(local_ip, port)
-            if "tid" in res:
-                st.session_state.kakao_tid = res["tid"]
-                st.session_state.kakao_order_id = res["_order_id"]
-                redirect_url = res.get("next_redirect_pc_url", "")
-                components.html(
-                    f"<script>window.top.location.href='{redirect_url}';</script>",
-                    height=0,
-                )
-            else:
-                st.error(f"결제 준비 실패: {res.get('msg', '알 수 없는 오류')}")
-        except Exception as e:
-            st.error(f"카카오페이 연결 오류: {e}")
-
-@st.cache_data
-def make_qr(url):
-    if not _HAS_QR:
-        return None
-    qr = qrcode.QRCode(version=1, box_size=6, border=3,
-                        error_correction=qrcode.constants.ERROR_CORRECT_M)
-    qr.add_data(url)
-    qr.make(fit=True)
-    img = qr.make_image(fill_color="#1a1a2e", back_color="white")
-    buf = BytesIO()
-    img.save(buf, format='PNG')
-    return buf.getvalue()
-
-def load_favorites():
-    if os.path.exists(FAVORITES_FILE):
-        with open(FAVORITES_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
-    return []
-
-def save_favorites(favs):
-    with open(FAVORITES_FILE, "w", encoding="utf-8") as f:
-        json.dump(favs, f, ensure_ascii=False, indent=2)
 
 
 # 페이지 설정
@@ -183,32 +51,7 @@ if "kakao_order_id" not in st.session_state:
 if "payment_msg" not in st.session_state:
     st.session_state.payment_msg = None
 
-# ── 카카오페이 콜백 처리 ──
-_qp = st.query_params
-_payment_status = _qp.get("payment", "")
-if _payment_status == "approve" and st.session_state.kakao_tid:
-    _pg_token = _qp.get("pg_token", "")
-    try:
-        _res = _kakao_approve(
-            st.session_state.kakao_tid,
-            _pg_token,
-            st.session_state.kakao_order_id or "premium",
-        )
-        if "aid" in _res:
-            st.session_state.is_premium = True
-            st.session_state.payment_msg = "success"
-        else:
-            st.session_state.payment_msg = f"오류: {_res.get('msg', '결제 승인 실패')}"
-    except Exception as _e:
-        st.session_state.payment_msg = f"오류: {_e}"
-    finally:
-        st.session_state.kakao_tid = None
-    st.query_params.clear()
-    st.rerun()
-elif _payment_status in ("fail", "cancel"):
-    st.session_state.payment_msg = "결제가 취소되었습니다."
-    st.query_params.clear()
-    st.rerun()
+handle_kakao_callback()
 
 
 # 로티 붙이기
@@ -250,7 +93,6 @@ h4.metric("핵심 차별화", "💰 포트폴리오 시뮬레이터")
 st.markdown("---")
 
 
-# 강사님이 지정해주신 함수(시장 데이터 읽어오는 함수) + 캐시 추가로 최적화
 @st.cache_data
 def getData(code, datestart, dateend):
     try:
@@ -261,7 +103,7 @@ def getData(code, datestart, dateend):
     except Exception:
         return pd.DataFrame()
 
-@st.cache_data
+@st.cache_data(ttl=86400)
 def getSymbols(market='KOSPI', sort='Marcap'):
     df = fdr.StockListing(market)
     if market in ('KOSPI', 'KOSDAQ', 'KONEX'):
@@ -414,8 +256,7 @@ with st.sidebar:
 
     # QR 코드 — 모바일 버전 바로가기
     st.markdown("---")
-    _ip = get_local_ip()
-    _mobile_url = f"http://{_ip}:8502"
+    _mobile_url = f"http://{_local_ip}:8502"
     st.markdown("#### 📱 모바일 버전 바로가기")
     if _HAS_QR:
         _qr = make_qr(_mobile_url)
@@ -429,6 +270,8 @@ with st.sidebar:
         favorites = load_favorites()
         if any(f['code'] == selected_code for f in favorites):
             st.info("이미 추가된 종목입니다.")
+        elif not st.session_state.is_premium and len(favorites) >= 3:
+            st.warning("💎 무료 플랜은 관심종목을 최대 3개까지 저장할 수 있습니다. 프리미엄으로 업그레이드하면 무제한 저장 가능합니다.")
         else:
             favorites.append({"code": selected_code, "name": selected_name, "market": z})
             save_favorites(favorites)
@@ -569,8 +412,14 @@ with tab3:  # 뉴스
 
     with inner_tab2:
         st.subheader("국외 증시 뉴스")
-        st.markdown("#### :newspaper: :gray[The Wall Street Journel]")
-        WSJ_url = f"https://www.wsj.com/market-data/quotes/KR/XKRX/{selected_name.split('(')[-1].replace(')', '')}?mod=searchresults_companyquotes"
+        st.markdown("#### :newspaper: :gray[The Wall Street Journal]")
+        _wsj_exchange = {
+            'KOSPI': 'KR/XKRX', 'KOSDAQ': 'KR/XKOS', 'KONEX': 'KR/XKON',
+            'NYSE': 'US/XNYS', 'NASDAQ': 'US/XNAS',
+            'TSE': 'JP/XTKS', 'HKEX': 'HK/XHKG', 'HOSE': 'VN/XHOSE',
+        }
+        _wsj_code = _wsj_exchange.get(z, 'KR/XKRX')
+        WSJ_url = f"https://www.wsj.com/market-data/quotes/{_wsj_code}/{selected_code}?mod=searchresults_companyquotes"
         st.markdown(f"[월스트리트 저널에서 '{selected_name.split('(')[0]}' 검색결과 바로가기]({WSJ_url})")
         st.warning("⚠️ 종목에 따라 뉴스 정보가 존재하지 않을 수도 있습니다.")
         st.markdown("---")
@@ -582,37 +431,43 @@ with tab3:  # 뉴스
 
 
 with tab4:  # 거래량
-    ''
-    volume_addplot = mpf.make_addplot(
-        df['Volume'].values, type='bar', panel=0,
-        color='blue', alpha=0.7, ylabel='Volume_bar')
-
-    fig_volume, ax_volume = mpf.plot(
-        data=df, volume=False, type='line',
-        style=chart_style, figsize=(10, 4),
-        returnfig=True, addplot=volume_addplot, mav=())
-    st.pyplot(fig_volume)
-
-    st.markdown("---")
-    st.markdown("#### 📊 거래량 주요 통계")
-    ''
-    avg_volume = df['Volume'].mean()
-    max_volume_date = df['Volume'].idxmax().strftime('%Y년 %m월 %d일')
-    max_volume = df['Volume'].max()
-
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        st.metric(label="평균 거래량", value=f"{int(avg_volume):,}")
-    with col2:
-        st.metric(label="최대 거래량", value=f"{int(max_volume):,}")
-    with col3:
-        st.markdown(f"**최대 거래량 날짜**")
-        st.write(f"**{max_volume_date}**")
-
-    if df['Volume'].iloc[-1] > avg_volume * 1.5:
-        st.warning("최근 거래량이 평균 대비 크게 증가했습니다.")
+    if df.empty:
+        st.info("종목을 선택하고 '확인'을 눌러 데이터를 불러와 주세요.")
+    elif 'Volume' not in df.columns:
+        st.warning("이 종목은 거래량 데이터를 제공하지 않습니다.")
     else:
-        st.info("거래량은 평균 수준입니다.")
+        ''
+        volume_addplot = mpf.make_addplot(
+            df['Volume'].values, type='bar', panel=0,
+            color='blue', alpha=0.7, ylabel='Volume_bar')
+
+        fig_volume, ax_volume = mpf.plot(
+            data=df, volume=False, type='line',
+            style=chart_style, figsize=(10, 4),
+            returnfig=True, addplot=volume_addplot, mav=())
+        st.pyplot(fig_volume)
+        plt.close(fig_volume)
+
+        st.markdown("---")
+        st.markdown("#### 📊 거래량 주요 통계")
+        ''
+        avg_volume = df['Volume'].mean()
+        max_volume_date = df['Volume'].idxmax().strftime('%Y년 %m월 %d일')
+        max_volume = df['Volume'].max()
+
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            st.metric(label="평균 거래량", value=f"{int(avg_volume):,}")
+        with col2:
+            st.metric(label="최대 거래량", value=f"{int(max_volume):,}")
+        with col3:
+            st.markdown(f"**최대 거래량 날짜**")
+            st.write(f"**{max_volume_date}**")
+
+        if df['Volume'].iloc[-1] > avg_volume * 1.5:
+            st.warning("최근 거래량이 평균 대비 크게 증가했습니다.")
+        else:
+            st.info("거래량은 평균 수준입니다.")
 
 
 with tab5:  # 투자 지표
@@ -681,6 +536,7 @@ with tab5:  # 투자 지표
         ax_rsi.grid(True, alpha=0.3)
         plt.tight_layout()
         st.pyplot(fig_rsi)
+        plt.close(fig_rsi)
 
         if rsi_latest >= 70:
             st.error(f"RSI {rsi_latest:.1f} → 과매수 구간 (단기 조정 가능성)")
@@ -722,6 +578,7 @@ with tab5:  # 투자 지표
         ax_macd.grid(True, alpha=0.3)
         plt.tight_layout()
         st.pyplot(fig_macd)
+        plt.close(fig_macd)
 
         macd_now = macd_line.iloc[-1]
         signal_now = signal_line.iloc[-1]
@@ -746,9 +603,12 @@ with tab5:  # 투자 지표
         st.markdown("#### ▪️ 최근 수익률")
         col1, col2, col3 = st.columns(3)
         for col, n in zip([col1, col2, col3], [1, 5, 20]):
-            recent_return = (close.iloc[-1] / close.iloc[-n-1] - 1) * 100
             with col:
-                st.metric(f"{n}일 수익률", f"{recent_return:.2f} %")
+                if len(close) > n:
+                    recent_return = (close.iloc[-1] / close.iloc[-n-1] - 1) * 100
+                    st.metric(f"{n}일 수익률", f"{recent_return:.2f} %")
+                else:
+                    st.metric(f"{n}일 수익률", "데이터 부족")
     else:
         st.info("지표 계산을 위한 데이터가 부족합니다. (최소 20일 이상 필요)")
 
@@ -897,6 +757,7 @@ with tab7:  # 포트폴리오 시뮬레이터 (신규)
                     ax_port.grid(True, alpha=0.3)
                     plt.tight_layout()
                     st.pyplot(fig_port)
+                    plt.close(fig_port)
 
                     ''
                     if return_pct >= 20:

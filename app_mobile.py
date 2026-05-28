@@ -9,17 +9,14 @@ import matplotlib.font_manager as fm
 from datetime import datetime, timedelta, date
 import requests
 from bs4 import BeautifulSoup
-import json
 import os
 import pandas as pd
-import socket
-import streamlit.components.v1 as components
-from io import BytesIO
-try:
-    import qrcode
-    _HAS_QR = True
-except ImportError:
-    _HAS_QR = False
+
+from common import (
+    MARKET_INFO, ALL_MARKETS, MARKET_DISPLAYS, MARKET_FLAGS,
+    FAVORITES_FILE, fmt_price, get_local_ip, load_favorites, save_favorites,
+    make_qr, kakao_pay_button as _kakao_pay_button, handle_kakao_callback,
+)
 
 
 # 한글 폰트 설정
@@ -28,136 +25,6 @@ if os.path.exists(_font_path):
     fm.fontManager.addfont(_font_path)
     plt.rcParams['font.family'] = 'NanumSquareR'
 plt.rcParams['axes.unicode_minus'] = False
-
-
-# ── 공통 상수 ──
-FAVORITES_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "favorites.json")
-
-MARKET_INFO = {
-    'KOSPI':  {'display': 'KOSPI 🇰🇷',         'currency': '원',  'decimal': 0},
-    'KOSDAQ': {'display': 'KOSDAQ 🇰🇷',        'currency': '원',  'decimal': 0},
-    'KONEX':  {'display': 'KONEX 🇰🇷',         'currency': '원',  'decimal': 0},
-    'NYSE':   {'display': 'NYSE 🇺🇸 (뉴욕)',     'currency': 'USD', 'decimal': 2},
-    'NASDAQ': {'display': 'NASDAQ 🇺🇸 (나스닥)', 'currency': 'USD', 'decimal': 2},
-    'TSE':    {'display': 'TSE 🇯🇵 (도쿄)',      'currency': 'JPY', 'decimal': 0},
-    'HKEX':   {'display': 'HKEX 🇨🇳 (홍콩)',    'currency': 'HKD', 'decimal': 2},
-    'HOSE':   {'display': 'HOSE 🇻🇳 (베트남)',   'currency': 'VND', 'decimal': 0},
-}
-ALL_MARKETS = list(MARKET_INFO.keys())
-MARKET_DISPLAYS = [MARKET_INFO[m]['display'] for m in ALL_MARKETS]
-MARKET_FLAGS = {
-    'KOSPI': '🇰🇷', 'KOSDAQ': '🇰🇷', 'KONEX': '🇰🇷',
-    'NYSE': '🇺🇸', 'NASDAQ': '🇺🇸', 'TSE': '🇯🇵', 'HKEX': '🇨🇳', 'HOSE': '🇻🇳',
-}
-
-
-def fmt_price(value, currency, decimal=None):
-    d = decimal if decimal is not None else (0 if currency in ('원', 'JPY', 'VND') else 2)
-    return f"{value:,.{d}f} {currency}"
-
-def get_local_ip():
-    try:
-        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        s.connect(("8.8.8.8", 80))
-        ip = s.getsockname()[0]
-        s.close()
-        return ip
-    except Exception:
-        return "localhost"
-
-# ── 카카오페이 설정 ──
-try:
-    _KAKAO_KEY = st.secrets.get("KAKAO_ADMIN_KEY", "")
-except Exception:
-    _KAKAO_KEY = ""
-_KAKAO_KEY = _KAKAO_KEY or os.environ.get("KAKAO_ADMIN_KEY", "")
-_KAKAO_CID = "TC0ONETIME"
-
-def _kakao_ready(local_ip: str, port: int = 8502) -> dict:
-    order_id = f"premium_{int(datetime.now().timestamp())}"
-    base = f"http://{local_ip}:{port}"
-    resp = requests.post(
-        "https://kapi.kakao.com/v1/payment/ready",
-        headers={"Authorization": f"KakaoAK {_KAKAO_KEY}"},
-        data={
-            "cid": _KAKAO_CID,
-            "partner_order_id": order_id,
-            "partner_user_id": "stock_user",
-            "item_name": "주식분석플랫폼 프리미엄",
-            "quantity": 1,
-            "total_amount": 9900,
-            "vat_amount": 900,
-            "tax_free_amount": 0,
-            "approval_url": f"{base}?payment=approve",
-            "fail_url":     f"{base}?payment=fail",
-            "cancel_url":   f"{base}?payment=cancel",
-        },
-        timeout=10,
-    )
-    result = resp.json()
-    result["_order_id"] = order_id
-    return result
-
-def _kakao_approve(tid: str, pg_token: str, order_id: str) -> dict:
-    resp = requests.post(
-        "https://kapi.kakao.com/v1/payment/approve",
-        headers={"Authorization": f"KakaoAK {_KAKAO_KEY}"},
-        data={
-            "cid": _KAKAO_CID,
-            "tid": tid,
-            "partner_order_id": order_id,
-            "partner_user_id": "stock_user",
-            "pg_token": pg_token,
-        },
-        timeout=10,
-    )
-    return resp.json()
-
-def _kakao_pay_button(local_ip: str, port: int = 8502, key: str = "pay"):
-    if not _KAKAO_KEY:
-        if st.button("💎 프리미엄 시작하기 (데모)", type="primary", use_container_width=True, key=f"demo_{key}"):
-            st.session_state.is_premium = True
-            st.rerun()
-        st.caption("ℹ️ KAKAO_ADMIN_KEY 미설정 — 데모 모드")
-        return
-    if st.button("💛 카카오페이로 결제 (월 ₩9,900)", type="primary", use_container_width=True, key=f"kakao_{key}"):
-        try:
-            res = _kakao_ready(local_ip, port)
-            if "tid" in res:
-                st.session_state.kakao_tid = res["tid"]
-                st.session_state.kakao_order_id = res["_order_id"]
-                redirect_url = res.get("next_redirect_mobile_url", res.get("next_redirect_pc_url", ""))
-                components.html(
-                    f"<script>window.top.location.href='{redirect_url}';</script>",
-                    height=0,
-                )
-            else:
-                st.error(f"결제 준비 실패: {res.get('msg', '알 수 없는 오류')}")
-        except Exception as e:
-            st.error(f"카카오페이 연결 오류: {e}")
-
-@st.cache_data
-def make_qr(url):
-    if not _HAS_QR:
-        return None
-    qr = qrcode.QRCode(version=1, box_size=6, border=3,
-                        error_correction=qrcode.constants.ERROR_CORRECT_M)
-    qr.add_data(url)
-    qr.make(fit=True)
-    img = qr.make_image(fill_color="#1a1a2e", back_color="white")
-    buf = BytesIO()
-    img.save(buf, format='PNG')
-    return buf.getvalue()
-
-def load_favorites():
-    if os.path.exists(FAVORITES_FILE):
-        with open(FAVORITES_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
-    return []
-
-def save_favorites(favs):
-    with open(FAVORITES_FILE, "w", encoding="utf-8") as f:
-        json.dump(favs, f, ensure_ascii=False, indent=2)
 
 
 # ── 페이지 설정 (모바일: centered, 사이드바 숨김) ──
@@ -193,33 +60,8 @@ if "kakao_order_id" not in st.session_state:
 if "payment_msg" not in st.session_state:
     st.session_state.payment_msg = None
 
-# ── 카카오페이 콜백 처리 ──
 _local_ip = get_local_ip()
-_qp = st.query_params
-_payment_status = _qp.get("payment", "")
-if _payment_status == "approve" and st.session_state.kakao_tid:
-    _pg_token = _qp.get("pg_token", "")
-    try:
-        _res = _kakao_approve(
-            st.session_state.kakao_tid,
-            _pg_token,
-            st.session_state.kakao_order_id or "premium",
-        )
-        if "aid" in _res:
-            st.session_state.is_premium = True
-            st.session_state.payment_msg = "success"
-        else:
-            st.session_state.payment_msg = f"오류: {_res.get('msg', '결제 승인 실패')}"
-    except Exception as _e:
-        st.session_state.payment_msg = f"오류: {_e}"
-    finally:
-        st.session_state.kakao_tid = None
-    st.query_params.clear()
-    st.rerun()
-elif _payment_status in ("fail", "cancel"):
-    st.session_state.payment_msg = "결제가 취소되었습니다."
-    st.query_params.clear()
-    st.rerun()
+handle_kakao_callback()
 
 # 결제 결과 토스트
 if st.session_state.payment_msg:
@@ -241,7 +83,7 @@ def getData(code, datestart, dateend):
     except Exception:
         return pd.DataFrame()
 
-@st.cache_data
+@st.cache_data(ttl=86400)
 def getSymbols(market='KOSPI'):
     df = fdr.StockListing(market)
     if market in ('KOSPI', 'KOSDAQ', 'KONEX'):
@@ -266,6 +108,17 @@ def getSymbols(market='KOSPI'):
     df['Market'] = market
     result = df[['Code', 'Name', 'Market']].dropna(subset=['Code', 'Name'])
     return result[result['Code'].astype(str).str.strip() != ''].head(2000)
+
+@st.cache_data(ttl=1800)
+def get_mobile_news(stock_name: str, max_news: int = 5):
+    q = stock_name.replace(" ", "+")
+    url = f"https://news.google.com/rss/search?q={q}&hl=ko&gl=KR&ceid=KR:ko"
+    res = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=5)
+    soup = BeautifulSoup(res.text, "xml")
+    return [
+        {"title": item.title.text, "link": item.link.text, "date": item.pubDate.text}
+        for item in soup.find_all("item")[:max_news]
+    ]
 
 def addBollingerBand_m(data, ax):
     d = data.reset_index(drop=True)
@@ -297,7 +150,7 @@ if st.session_state.is_premium:
             st.rerun()
 else:
     st.info("🆓 **무료** 플랜")
-    _kakao_pay_button(_local_ip, 8502, key="m_top")
+    _kakao_pay_button(_local_ip, 8502, key="m_top", mobile=True)
 
 st.caption("💻 PC 버전 → [localhost:8501](http://localhost:8501)")
 st.markdown("---")
@@ -469,15 +322,11 @@ with tab2:
     stock_nm = selected_name.split("(")[0].strip()
     st.markdown(f"**📰 {stock_nm} 관련 뉴스**")
     try:
-        q = stock_nm.replace(" ", "+")
-        url = f"https://news.google.com/rss/search?q={q}&hl=ko&gl=KR&ceid=KR:ko"
-        res = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=5)
-        soup = BeautifulSoup(res.text, "xml")
-        items = soup.find_all("item")[:5]
-        if items:
-            for item in items:
-                st.markdown(f"**[{item.title.text}]({item.link.text})**")
-                st.caption(item.pubDate.text)
+        news_items = get_mobile_news(stock_nm)
+        if news_items:
+            for item in news_items:
+                st.markdown(f"**[{item['title']}]({item['link']})**")
+                st.caption(item['date'])
                 st.markdown("---")
         else:
             st.info("관련 뉴스가 없습니다.")
@@ -498,7 +347,7 @@ with tab3:
 - 📈 MACD 차트 & 매수/매도 신호
 - ⚠️ 연환산 변동성 분석
 """)
-        _kakao_pay_button(_local_ip, 8502, key="m_up3")
+        _kakao_pay_button(_local_ip, 8502, key="m_up3", mobile=True)
     elif df.empty:
         st.info("먼저 종목을 조회해주세요.")
     elif len(df) < 20:
@@ -591,7 +440,7 @@ with tab4:
 - 💰 원금 대비 현재 평가액 & 손익
 - 📊 투자 기간 내 평가액 변화 그래프
 """)
-        _kakao_pay_button(_local_ip, 8502, key="m_up4")
+        _kakao_pay_button(_local_ip, 8502, key="m_up4", mobile=True)
     else:
         st.markdown(f"**{selected_name.split('(')[0].strip()}** 투자 시뮬레이션")
 
@@ -692,13 +541,12 @@ with tab5:
 
 ---
 """)
-        _kakao_pay_button(_local_ip, 8502, key="m_tab5_main")
+        _kakao_pay_button(_local_ip, 8502, key="m_tab5_main", mobile=True)
         st.caption("카카오페이를 통한 안전한 결제 · 언제든 해지 가능")
 
     st.markdown("---")
     st.markdown("#### 💻 PC 버전 바로가기")
-    _ip = get_local_ip()
-    _pc_url = f"http://{_ip}:8501"
+    _pc_url = f"http://{_local_ip}:8501"
     if _HAS_QR:
         _qr = make_qr(_pc_url)
         if _qr:
