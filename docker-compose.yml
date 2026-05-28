@@ -39,21 +39,3 @@ services:
       timeout: 10s
       retries: 3
 
-  stock-mobile:
-    build: .
-    container_name: stock_mobile
-    ports:
-      - "8502:8502"
-    volumes:
-      - ./favorites.json:/app/favorites.json
-    command: >
-      streamlit run app_mobile.py
-      --server.port=8502
-      --server.headless=true
-      --server.enableCORS=false
-    restart: unless-stopped
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8502/_stcore/health"]
-      interval: 30s
-      timeout: 10s
-      retries: 3

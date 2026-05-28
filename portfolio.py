@@ -88,11 +88,9 @@ def make_qr(url, color="#1a1a2e"):
     img.save(buf, format='PNG')
     return buf.getvalue()
 
-_ip       = get_local_ip()
-pc_url    = f"http://{_ip}:8501"
-mobile_url = f"http://{_ip}:8502"
-pc_qr     = make_qr(pc_url,  color="#1a1a2e")
-mobile_qr = make_qr(mobile_url, color="#e53e3e")
+_ip    = get_local_ip()
+pc_url = f"http://{_ip}:8501"
+pc_qr  = make_qr(pc_url, color="#1a1a2e")
 
 
 # ════════════════════════════════════════
@@ -139,7 +137,7 @@ cards = [
     ("#667eea,#764ba2", "4개", "완성 프로젝트"),
     ("#f093fb,#f5576c", "8개", "지원 주식 마켓"),
     ("#4facfe,#00f2fe", "3개", "AI 모델 활용"),
-    ("#43e97b,#38f9d7", "2개", "PC + 모바일 버전"),
+    ("#43e97b,#38f9d7", "1개", "PC 버전"),
 ]
 for col, (grad, num, label) in zip([c1, c2, c3, c4], cards):
     with col:
@@ -157,7 +155,7 @@ st.markdown("<hr class='divider'>", unsafe_allow_html=True)
 # PROJECT 1 — 주식 분석 통합 플랫폼
 # ════════════════════════════════════════
 st.markdown("## 📈 1차 프로젝트 &nbsp; 주식 분석 통합 플랫폼")
-st.caption("국내+해외 8개 마켓 | RSI·MACD·볼린저밴드 | 구독 수익 모델 | PC+모바일 이중 버전")
+st.caption("국내+해외 8개 마켓 | RSI·MACD·볼린저밴드 | 구독 수익 모델 | 프리미엄 결제 연동")
 st.markdown("")
 
 left1, right1 = st.columns([1.3, 1], gap="large")
@@ -171,8 +169,7 @@ with left1:
 | 📊 | **기술 지표** | RSI·MACD·볼린저밴드 차트 & 신호 자동 해석 |
 | 🔁 | **종목 비교** | 최대 3개 종목 누적 수익률 동시 비교 |
 | 💰 | **포트폴리오 시뮬레이터** | "그때 샀다면 지금 얼마?" 자동 계산 |
-| 💎 | **구독 수익 모델** | 무료/프리미엄 기능 게이팅 + 요금제 페이지 |
-| 📱 | **모바일 버전** | 별도 최적화 앱 (centered 레이아웃, 터치 UX) |
+| 💎 | **구독 수익 모델** | 무료/프리미엄 기능 게이팅 + KakaoPay 결제 연동 |
 """)
 
     st.markdown("#### Tech Stack")
@@ -199,26 +196,14 @@ with left1:
 
 with right1:
     st.markdown("#### QR 코드로 바로 접속")
-    q1, q2 = st.columns(2)
-    with q1:
-        st.markdown("""
+    st.markdown("""
 <div class="qr-box">
   <div style="font-size:.85rem; font-weight:700; color:#1a1a2e; margin-bottom:10px;">💻 PC 버전</div>
 """, unsafe_allow_html=True)
-        if pc_qr:
-            st.image(pc_qr, width=155)
-        st.markdown(f"<div style='font-size:.7rem;color:#6b7280;margin-top:6px;word-break:break-all;'>{pc_url}</div>", unsafe_allow_html=True)
-        st.markdown("</div>", unsafe_allow_html=True)
-
-    with q2:
-        st.markdown("""
-<div class="qr-box">
-  <div style="font-size:.85rem; font-weight:700; color:#e53e3e; margin-bottom:10px;">📱 모바일 버전</div>
-""", unsafe_allow_html=True)
-        if mobile_qr:
-            st.image(mobile_qr, width=155)
-        st.markdown(f"<div style='font-size:.7rem;color:#6b7280;margin-top:6px;word-break:break-all;'>{mobile_url}</div>", unsafe_allow_html=True)
-        st.markdown("</div>", unsafe_allow_html=True)
+    if pc_qr:
+        st.image(pc_qr, width=155)
+    st.markdown(f"<div style='font-size:.7rem;color:#6b7280;margin-top:6px;word-break:break-all;'>{pc_url}</div>", unsafe_allow_html=True)
+    st.markdown("</div>", unsafe_allow_html=True)
 
     st.markdown("")
     st.markdown("""
@@ -366,7 +351,7 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-f1, f2, f3 = st.columns([1, 1, 1.2], gap="large")
+f1, f2 = st.columns([1, 1.2], gap="large")
 
 with f1:
     st.markdown("""
@@ -391,27 +376,6 @@ with f1:
 
 with f2:
     st.markdown("""
-<div class="qr-box" style="background:white; border:2px solid #fecaca;">
-  <div style="font-weight:800; font-size:1rem; color:#e53e3e; margin-bottom:12px;">
-    📱 모바일 버전
-  </div>
-""", unsafe_allow_html=True)
-    if mobile_qr:
-        st.image(mobile_qr, width=190)
-    st.markdown(f"""
-  <div style="margin-top:10px;">
-    <a href="{mobile_url}" target="_blank" style="
-      display:inline-block; background:#e53e3e; color:white;
-      padding:8px 20px; border-radius:8px; text-decoration:none;
-      font-size:.82rem; font-weight:700; margin-top:6px;">
-      → 바로가기
-    </a>
-    <div style="font-size:.72rem; color:#9ca3af; margin-top:8px;">{mobile_url}</div>
-  </div>
-</div>""", unsafe_allow_html=True)
-
-with f3:
-    st.markdown("""
 <div style="background:#111827; color:#f9fafb; border-radius:14px; padding:24px; height:100%;">
   <div style="font-size:.9rem; font-weight:800; color:#FF6B6B; margin-bottom:14px;">
     🚀 서버 실행 방법
@@ -423,8 +387,7 @@ with f3:
     <span style="color:#6ee7b7;">$</span> docker compose up -d<br><br>
     <span style="color:#9ca3af;"># 개별 실행</span><br>
     <span style="color:#6ee7b7;">$</span> streamlit run app.py<br>
-    <span style="color:#6ee7b7;">$</span> streamlit run app_mobile.py<br>
-    &nbsp;&nbsp;&nbsp;<span style="color:#fbbf24;">--server.port 8502</span><br><br>
+    &nbsp;&nbsp;&nbsp;<span style="color:#fbbf24;">--server.port 8501</span><br><br>
     <span style="color:#9ca3af;"># 포트폴리오</span><br>
     <span style="color:#6ee7b7;">$</span> streamlit run portfolio.py<br>
     &nbsp;&nbsp;&nbsp;<span style="color:#fbbf24;">--server.port 8500</span>

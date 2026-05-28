@@ -254,17 +254,6 @@ with st.sidebar:
             st.error("시작일이 종료일보다 늦습니다. 다시 선택해주세요!")
         submitted = st.form_submit_button('확인')
 
-    # QR 코드 — 모바일 버전 바로가기
-    st.markdown("---")
-    _mobile_url = f"http://{_local_ip}:8502"
-    st.markdown("#### 📱 모바일 버전 바로가기")
-    if _HAS_QR:
-        _qr = make_qr(_mobile_url)
-        if _qr:
-            st.image(_qr, width=170)
-    st.caption(_mobile_url)
-    st.markdown("---")
-
     # 관심종목 추가 버튼 (폼 밖)
     if st.button("⭐ 현재 종목 관심목록에 추가"):
         favorites = load_favorites()
