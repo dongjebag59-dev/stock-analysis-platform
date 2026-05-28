@@ -13,6 +13,7 @@ import json
 import os
 import pandas as pd
 import socket
+import streamlit.components.v1 as components
 from io import BytesIO
 try:
     import qrcode
@@ -64,6 +65,78 @@ def get_local_ip():
     except Exception:
         return "localhost"
 
+# ── 카카오페이 설정 ──
+try:
+    _KAKAO_KEY = st.secrets.get("KAKAO_ADMIN_KEY", "")
+except Exception:
+    _KAKAO_KEY = ""
+_KAKAO_KEY = _KAKAO_KEY or os.environ.get("KAKAO_ADMIN_KEY", "")
+_KAKAO_CID = "TC0ONETIME"  # 카카오페이 단건결제 테스트 CID
+
+def _kakao_ready(local_ip: str, port: int = 8501) -> dict:
+    order_id = f"premium_{int(datetime.now().timestamp())}"
+    base = f"http://{local_ip}:{port}"
+    resp = requests.post(
+        "https://kapi.kakao.com/v1/payment/ready",
+        headers={"Authorization": f"KakaoAK {_KAKAO_KEY}"},
+        data={
+            "cid": _KAKAO_CID,
+            "partner_order_id": order_id,
+            "partner_user_id": "stock_user",
+            "item_name": "주식분석플랫폼 프리미엄",
+            "quantity": 1,
+            "total_amount": 9900,
+            "vat_amount": 900,
+            "tax_free_amount": 0,
+            "approval_url": f"{base}?payment=approve",
+            "fail_url":     f"{base}?payment=fail",
+            "cancel_url":   f"{base}?payment=cancel",
+        },
+        timeout=10,
+    )
+    result = resp.json()
+    result["_order_id"] = order_id
+    return result
+
+def _kakao_approve(tid: str, pg_token: str, order_id: str) -> dict:
+    resp = requests.post(
+        "https://kapi.kakao.com/v1/payment/approve",
+        headers={"Authorization": f"KakaoAK {_KAKAO_KEY}"},
+        data={
+            "cid": _KAKAO_CID,
+            "tid": tid,
+            "partner_order_id": order_id,
+            "partner_user_id": "stock_user",
+            "pg_token": pg_token,
+        },
+        timeout=10,
+    )
+    return resp.json()
+
+def _kakao_pay_button(local_ip: str, port: int = 8501, key: str = "pay"):
+    """카카오페이 결제 버튼 공통 컴포넌트"""
+    if not _KAKAO_KEY:
+        if st.button("💎 프리미엄 시작하기 (데모)", type="primary", use_container_width=True, key=f"demo_{key}"):
+            st.session_state.is_premium = True
+            st.rerun()
+        st.caption("ℹ️ KAKAO_ADMIN_KEY 미설정 상태입니다. 데모 모드로 즉시 활성화됩니다.")
+        return
+    if st.button("💛 카카오페이로 결제 (월 ₩9,900)", type="primary", use_container_width=True, key=f"kakao_{key}"):
+        try:
+            res = _kakao_ready(local_ip, port)
+            if "tid" in res:
+                st.session_state.kakao_tid = res["tid"]
+                st.session_state.kakao_order_id = res["_order_id"]
+                redirect_url = res.get("next_redirect_pc_url", "")
+                components.html(
+                    f"<script>window.top.location.href='{redirect_url}';</script>",
+                    height=0,
+                )
+            else:
+                st.error(f"결제 준비 실패: {res.get('msg', '알 수 없는 오류')}")
+        except Exception as e:
+            st.error(f"카카오페이 연결 오류: {e}")
+
 @st.cache_data
 def make_qr(url):
     if not _HAS_QR:
@@ -103,6 +176,39 @@ if "fav_market" not in st.session_state:
     st.session_state.fav_market = None
 if "is_premium" not in st.session_state:
     st.session_state.is_premium = False
+if "kakao_tid" not in st.session_state:
+    st.session_state.kakao_tid = None
+if "kakao_order_id" not in st.session_state:
+    st.session_state.kakao_order_id = None
+if "payment_msg" not in st.session_state:
+    st.session_state.payment_msg = None
+
+# ── 카카오페이 콜백 처리 ──
+_qp = st.query_params
+_payment_status = _qp.get("payment", "")
+if _payment_status == "approve" and st.session_state.kakao_tid:
+    _pg_token = _qp.get("pg_token", "")
+    try:
+        _res = _kakao_approve(
+            st.session_state.kakao_tid,
+            _pg_token,
+            st.session_state.kakao_order_id or "premium",
+        )
+        if "aid" in _res:
+            st.session_state.is_premium = True
+            st.session_state.payment_msg = "success"
+        else:
+            st.session_state.payment_msg = f"오류: {_res.get('msg', '결제 승인 실패')}"
+    except Exception as _e:
+        st.session_state.payment_msg = f"오류: {_e}"
+    finally:
+        st.session_state.kakao_tid = None
+    st.query_params.clear()
+    st.rerun()
+elif _payment_status in ("fail", "cancel"):
+    st.session_state.payment_msg = "결제가 취소되었습니다."
+    st.query_params.clear()
+    st.rerun()
 
 
 # 로티 붙이기
@@ -116,6 +222,17 @@ def load_lottieurl(url: str):
 lottie_url = "https://lottie.host/ec84bdca-8c08-41de-90cc-9bd58157f679/ooMiQcJ1eO.json"
 lottie_json = load_lottieurl(lottie_url)
 
+
+# 로컬 IP (결제 콜백 URL에 재사용)
+_local_ip = get_local_ip()
+
+# 결제 결과 토스트
+if st.session_state.payment_msg:
+    if st.session_state.payment_msg == "success":
+        st.toast("💎 프리미엄 결제가 완료되었습니다! 모든 기능이 활성화되었습니다.", icon="✅")
+    else:
+        st.toast(st.session_state.payment_msg, icon="⚠️")
+    st.session_state.payment_msg = None
 
 # 메인 타이틀
 col_logo, col_title = st.columns([0.08, 0.92])
@@ -217,9 +334,7 @@ with st.sidebar:
             st.rerun()
     else:
         st.info("🆓 **무료 플랜** 이용 중")
-        if st.button("💎 프리미엄 무료 체험하기", use_container_width=True, type="primary"):
-            st.session_state.is_premium = True
-            st.rerun()
+        _kakao_pay_button(_local_ip, 8501, key="sidebar")
     st.markdown("---")
 
     # 관심종목 즐겨찾기 섹션
@@ -523,9 +638,7 @@ with tab5:  # 투자 지표
 - ✅ 관심종목 무제한 저장
 """)
         ''
-        if st.button("💎 지금 프리미엄 시작하기 (월 9,900원)", type="primary", key="upgrade_tab5"):
-            st.session_state.is_premium = True
-            st.rerun()
+        _kakao_pay_button(_local_ip, 8501, key="tab5")
         st.caption("👈 사이드바의 '프리미엄 무료 체험하기'로 먼저 모든 기능을 체험해 보세요.")
     elif not df.empty and len(df) >= 20:
         ''
@@ -651,9 +764,7 @@ with tab6:  # 종목 비교 (신규)
 - 종목별 시작가 · 현재가 · 수익률 요약표
 - 같은 기간, 같은 출발선(0%)으로 공정 비교
 """)
-        if st.button("💎 지금 프리미엄 시작하기 (월 9,900원)", type="primary", key="upgrade_tab6"):
-            st.session_state.is_premium = True
-            st.rerun()
+        _kakao_pay_button(_local_ip, 8501, key="tab6")
     else:
         st.markdown("#### 📊 종목 비교 (누적 수익률 기준)")
         st.caption("선택한 기간 동안 여러 종목의 수익률을 같은 출발선(0%)에서 비교합니다. 사이드바에서 최대 2개 종목을 추가로 선택하세요.")
@@ -715,9 +826,7 @@ with tab7:  # 포트폴리오 시뮬레이터 (신규)
 - 📊 투자 기간 내 평가액 변화 그래프
 - 🎯 수익률 구간별 코멘트
 """)
-        if st.button("💎 지금 프리미엄 시작하기 (월 9,900원)", type="primary", key="upgrade_tab7"):
-            st.session_state.is_premium = True
-            st.rerun()
+        _kakao_pay_button(_local_ip, 8501, key="tab7")
     else:
         st.markdown("#### 💰 포트폴리오 시뮬레이터")
         st.markdown(f"**{selected_name.split('(')[0].strip()}** 에 특정 날짜에 투자했다면 지금 얼마일지 계산합니다.")
@@ -861,10 +970,8 @@ with tab8:  # 요금제
                 st.session_state.is_premium = False
                 st.rerun()
         else:
-            if st.button("💎 프리미엄 시작하기 (월 9,900원)", type="primary", use_container_width=True):
-                st.session_state.is_premium = True
-                st.rerun()
-            st.caption("데모 버전입니다. 실제 결제는 발생하지 않습니다.")
+            _kakao_pay_button(_local_ip, 8501, key="tab8_main")
+            st.caption("카카오페이를 통한 안전한 결제 · 언제든 해지 가능")
 
     st.markdown("---")
     st.markdown("### ❓ 자주 묻는 질문")
