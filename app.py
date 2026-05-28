@@ -18,7 +18,6 @@ from common import (
     FAVORITES_FILE, fmt_price, get_local_ip, load_favorites, save_favorites,
     make_qr, kakao_pay_button as _kakao_pay_button, handle_kakao_callback,
 )
-_HAS_QR = make_qr.__module__ is not None  # make_qr은 common에서 이미 정의
 
 
 # 한글 폰트 설정 (matplotlib 차트용)
@@ -80,7 +79,8 @@ if st.session_state.payment_msg:
 # 메인 타이틀
 col_logo, col_title = st.columns([0.08, 0.92])
 with col_logo:
-    st_lottie(lottie_json, speed=2, loop=True, width=80, height=80)
+    if lottie_json:
+        st_lottie(lottie_json, speed=2, loop=True, width=80, height=80)
 with col_title:
     st.markdown("# 📈 주식 분석 통합 플랫폼")
     st.caption("🇰🇷 국내 3개 마켓 · 🇺🇸🇯🇵🇨🇳🇻🇳 해외 5개 마켓 | RSI · MACD · 볼린저밴드 | 종목 비교 · 포트폴리오 시뮬레이션")
@@ -250,9 +250,12 @@ with st.sidebar:
         compare_names = st.multiselect("비교 종목 선택 (최대 2개)", other_symbols, max_selections=2)
 
         ''
-        if date_start > date_end:
+        _date_error = date_start > date_end
+        if _date_error:
             st.error("시작일이 종료일보다 늦습니다. 다시 선택해주세요!")
         submitted = st.form_submit_button('확인')
+        if submitted and _date_error:
+            submitted = False
 
     # 관심종목 추가 버튼 (폼 밖)
     if st.button("⭐ 현재 종목 관심목록에 추가"):
@@ -402,12 +405,7 @@ with tab3:  # 뉴스
     with inner_tab2:
         st.subheader("국외 증시 뉴스")
         st.markdown("#### :newspaper: :gray[The Wall Street Journal]")
-        _wsj_exchange = {
-            'KOSPI': 'KR/XKRX', 'KOSDAQ': 'KR/XKOS', 'KONEX': 'KR/XKON',
-            'NYSE': 'US/XNYS', 'NASDAQ': 'US/XNAS',
-            'TSE': 'JP/XTKS', 'HKEX': 'HK/XHKG', 'HOSE': 'VN/XHOSE',
-        }
-        _wsj_code = _wsj_exchange.get(z, 'KR/XKRX')
+        _wsj_code = WSJ_EXCHANGE.get(z, 'KR/XKRX')
         WSJ_url = f"https://www.wsj.com/market-data/quotes/{_wsj_code}/{selected_code}?mod=searchresults_companyquotes"
         st.markdown(f"[월스트리트 저널에서 '{selected_name.split('(')[0]}' 검색결과 바로가기]({WSJ_url})")
         st.warning("⚠️ 종목에 따라 뉴스 정보가 존재하지 않을 수도 있습니다.")
@@ -657,6 +655,7 @@ with tab6:  # 종목 비교 (신규)
             plt.xticks(rotation=45)
             plt.tight_layout()
             st.pyplot(fig_comp)
+            plt.close(fig_comp)
 
             if summary_rows:
                 st.markdown("#### 요약 비교표")

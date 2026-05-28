@@ -1,4 +1,4 @@
-"""공통 상수·유틸·카카오페이 함수 — app.py와 app_mobile.py 양쪽에서 import"""
+"""공통 상수·유틸·카카오페이 함수 — app.py에서 import"""
 
 import os
 import json
@@ -84,14 +84,18 @@ def make_qr(url: str, color: str = "#1a1a2e"):
 # ── 카카오페이 ──
 try:
     _KAKAO_KEY = st.secrets.get("KAKAO_ADMIN_KEY", "")
+    _APP_BASE_URL = st.secrets.get("APP_BASE_URL", "")
 except Exception:
     _KAKAO_KEY = ""
+    _APP_BASE_URL = ""
 _KAKAO_KEY = _KAKAO_KEY or os.environ.get("KAKAO_ADMIN_KEY", "")
+_APP_BASE_URL = _APP_BASE_URL or os.environ.get("APP_BASE_URL", "")
 _KAKAO_CID = "TC0ONETIME"
 
 def _kakao_ready(local_ip: str, port: int) -> dict:
     order_id = f"premium_{int(datetime.now().timestamp())}"
-    base = f"http://{local_ip}:{port}"
+    # APP_BASE_URL 설정 시 그걸 사용, 없으면 localhost (카카오페이 도메인 검증 때문에 LAN IP 사용 불가)
+    base = _APP_BASE_URL.rstrip("/") if _APP_BASE_URL else f"http://localhost:{port}"
     resp = requests.post(
         "https://kapi.kakao.com/v1/payment/ready",
         headers={"Authorization": f"KakaoAK {_KAKAO_KEY}"},
