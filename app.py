@@ -275,23 +275,27 @@ with st.sidebar:
 df = getData(selected_code, date_start, date_end)
 if submitted:
     st.subheader(f"▪️선택 종목  : :blue[{selected_name} (**{z}**) ]")
-    marketcolors = mpf.make_marketcolors(up='red', down='blue', ohlc={'up': 'red', 'down': 'blue'})
-    mpf_style = mpf.make_mpf_style(base_mpf_style=chart_style, marketcolors=marketcolors)
+    if df.empty:
+        st.error("데이터를 불러올 수 없습니다. 종목 코드나 날짜 범위를 확인해 주세요.")
+    else:
+        marketcolors = mpf.make_marketcolors(up='red', down='blue', ohlc={'up': 'red', 'down': 'blue'})
+        mpf_style = mpf.make_mpf_style(base_mpf_style=chart_style, marketcolors=marketcolors)
 
-    fig, ax = mpf.plot(
-        data=df,
-        volume=False,
-        type=chart_type,
-        style=mpf_style,
-        figsize=(10, 7),
-        fontscale=1.1,
-        mav=(5, 10, 30),
-        mavcolors=('red', 'green', 'blue'),
-        returnfig=True)
+        fig, ax = mpf.plot(
+            data=df,
+            volume=False,
+            type=chart_type,
+            style=mpf_style,
+            figsize=(10, 7),
+            fontscale=1.1,
+            mav=(5, 10, 30),
+            mavcolors=('red', 'green', 'blue'),
+            returnfig=True)
 
-    if show_bollinger:
-        addBollingerBand(df, ax[0])
-    st.pyplot(fig)
+        if show_bollinger:
+            addBollingerBand(df, ax[0])
+        st.pyplot(fig)
+        plt.close(fig)
 
 ''
 ''
