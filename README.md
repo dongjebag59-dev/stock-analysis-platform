@@ -1,7 +1,9 @@
 # 📈 주식 분석 통합 플랫폼
 
 국내외 8개 시장을 지원하는 Streamlit 기반 주식 분석 웹 애플리케이션입니다.  
-PC 버전과 모바일 버전을 동시에 제공하며, 기술적 지표 분석과 프리미엄 구독 모델을 포함합니다.
+기술적 지표 분석과 포트폴리오 시뮬레이터, 카카오페이 연동 프리미엄 구독 모델을 포함합니다.
+
+🌐 **라이브 데모**: [stock-analysis-dongjebag.streamlit.app](https://stock-analysis-platform-yowxfjcpgtwnpthddwwrt.streamlit.app)
 
 ---
 
@@ -10,8 +12,7 @@ PC 버전과 모바일 버전을 동시에 제공하며, 기술적 지표 분석
 | 구분 | URL | 설명 |
 |------|-----|------|
 | 포트폴리오 | `http://localhost:8500` | 프로젝트 소개 랜딩 페이지 |
-| PC 버전 | `http://localhost:8501` | 와이드 레이아웃, 전체 기능 |
-| 모바일 버전 | `http://localhost:8502` | 터치 최적화, 간소화 UI |
+| 주식 분석 앱 | `http://localhost:8501` | 전체 기능 메인 앱 |
 
 ---
 
@@ -24,8 +25,8 @@ PC 버전과 모바일 버전을 동시에 제공하며, 기술적 지표 분석
 - 즐겨찾기 종목 저장 및 빠른 전환
 
 ### 📉 기술적 지표
-- **캔들스틱 차트** (mplfinance)
-- **RSI** — 14일 기준 과매수/과매도 구간 표시
+- **캔들스틱 차트** (mplfinance) — candle / ohlc / line 타입 선택
+- **RSI** — 14일 기준 과매수/과매도 구간 표시 및 신호 해석
 - **MACD** — EMA 12/26/9 기반 추세 신호
 - **볼린저 밴드** — 20일 이동평균 ±2σ
 
@@ -34,13 +35,12 @@ PC 버전과 모바일 버전을 동시에 제공하며, 기술적 지표 분석
 |------|:----:|:--------:|
 | 기본 차트 & 요약 | ✅ | ✅ |
 | 뉴스 & 거래량 분석 | ✅ | ✅ |
-| 투자 지표 (ROE, PER 등) | ❌ | ✅ |
-| 종목 비교 (최대 5개) | ❌ | ✅ |
+| 관심종목 저장 | 최대 3개 | 무제한 |
+| RSI · MACD 지표 | ❌ | ✅ |
+| 종목 비교 (최대 3개) | ❌ | ✅ |
 | 포트폴리오 수익 시뮬레이터 | ❌ | ✅ |
 
-### 📱 QR 코드
-- 로컬 IP 자동 감지 → 같은 Wi-Fi 내 모바일 기기에서 바로 접속 가능
-- PC 버전 사이드바에서 모바일 QR 코드 제공
+결제는 **카카오페이** 연동 (`.streamlit/secrets.toml`에 `KAKAO_ADMIN_KEY` 설정 시 활성화)
 
 ---
 
@@ -48,12 +48,12 @@ PC 버전과 모바일 버전을 동시에 제공하며, 기술적 지표 분석
 
 | 분류 | 라이브러리 |
 |------|-----------|
-| 프레임워크 | Streamlit 1.51 |
+| 프레임워크 | Streamlit |
 | 데이터 수집 | FinanceDataReader |
-| 차트 | mplfinance, matplotlib, plotly |
-| 분석 | pandas, numpy, scikit-learn |
-| 기타 | qrcode, folium, wordcloud, soynlp |
-| 배포 | Docker, Docker Compose |
+| 차트 | mplfinance, matplotlib |
+| 데이터 처리 | pandas, numpy |
+| 기타 | qrcode, beautifulsoup4, requests |
+| 배포 | Docker, Docker Compose, Streamlit Cloud |
 
 ---
 
@@ -63,18 +63,15 @@ PC 버전과 모바일 버전을 동시에 제공하며, 기술적 지표 분석
 ```
 start_all.bat
 ```
-더블클릭 한 번으로 3개 서버가 자동 시작됩니다.
+더블클릭 한 번으로 2개 서버가 자동 시작됩니다.
 
 ### 방법 2 — 수동 실행
 ```bash
 # 포트폴리오 페이지
 streamlit run portfolio.py --server.port 8500
 
-# PC 버전
+# 주식 분석 앱
 streamlit run app.py --server.port 8501
-
-# 모바일 버전
-streamlit run app_mobile.py --server.port 8502
 ```
 
 ### 방법 3 — Docker Compose
@@ -98,9 +95,9 @@ pip install -r requirements.txt
 
 ```
 My First Project/
-├── app.py              # PC 버전 메인 앱
-├── app_mobile.py       # 모바일 버전 앱
-├── portfolio.py        # 포트폴리오 랜딩 페이지
+├── app.py              # 주식 분석 메인 앱 (포트 8501)
+├── portfolio.py        # 포트폴리오 랜딩 페이지 (포트 8500)
+├── common.py           # 공통 유틸 & 카카오페이 함수
 ├── requirements.txt    # 패키지 목록
 ├── Dockerfile
 ├── docker-compose.yml
@@ -110,8 +107,22 @@ My First Project/
 │   ├── background_*.png        # 배경 이미지
 │   └── lottie_*.json           # 애니메이션
 └── .streamlit/
-    └── config.toml             # 테마 설정
+    ├── config.toml             # 테마 설정
+    └── secrets.toml            # API 키 (git 제외)
 ```
+
+---
+
+## 🔑 카카오페이 결제 설정 (선택)
+
+`.streamlit/secrets.toml` 파일을 생성하고 아래 내용을 추가합니다:
+
+```toml
+KAKAO_ADMIN_KEY = "여기에_카카오_Admin_Key_입력"
+APP_BASE_URL = "https://your-app.streamlit.app"  # 배포 URL
+```
+
+키가 없으면 자동으로 데모 모드로 동작합니다.
 
 ---
 
