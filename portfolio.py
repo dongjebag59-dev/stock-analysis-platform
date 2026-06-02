@@ -1,14 +1,9 @@
 
 # portfolio.py — 포트폴리오 메인 페이지 (포트 8500)
 
+import os
 import streamlit as st
-import socket
-from io import BytesIO
-try:
-    import qrcode
-    _HAS_QR = True
-except ImportError:
-    _HAS_QR = False
+from common import get_local_ip, make_qr
 
 
 st.set_page_config(
@@ -64,33 +59,15 @@ section[data-testid="stSidebar"] { display: none; }
 """, unsafe_allow_html=True)
 
 
-# ── QR 헬퍼 ──────────────────────────────
-def get_local_ip():
-    try:
-        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        s.connect(("8.8.8.8", 80))
-        ip = s.getsockname()[0]
-        s.close()
-        return ip
-    except Exception:
-        return "localhost"
-
-@st.cache_data
-def make_qr(url, color="#1a1a2e"):
-    if not _HAS_QR:
-        return None
-    qr = qrcode.QRCode(version=1, box_size=7, border=3,
-                        error_correction=qrcode.constants.ERROR_CORRECT_M)
-    qr.add_data(url)
-    qr.make(fit=True)
-    img = qr.make_image(fill_color=color, back_color="white")
-    buf = BytesIO()
-    img.save(buf, format='PNG')
-    return buf.getvalue()
-
+_is_cloud = os.path.exists('/mount/src')
 _ip    = get_local_ip()
 pc_url = f"http://{_ip}:8501"
-pc_qr  = make_qr(pc_url, color="#1a1a2e")
+pc_qr  = None if _is_cloud else make_qr(pc_url, color="#1a1a2e")
+
+try:
+    _cloud_app_url = st.secrets.get("APP_BASE_URL", "")
+except Exception:
+    _cloud_app_url = ""
 
 
 # ════════════════════════════════════════
@@ -195,15 +172,26 @@ with left1:
 """, unsafe_allow_html=True)
 
 with right1:
-    st.markdown("#### QR 코드로 바로 접속")
-    st.markdown("""
+    st.markdown("#### 바로 접속")
+    if _is_cloud and _cloud_app_url:
+        st.markdown(f"""
 <div class="qr-box">
-  <div style="font-size:.85rem; font-weight:700; color:#1a1a2e; margin-bottom:10px;">💻 PC 버전</div>
+  <div style="font-size:.85rem; font-weight:700; color:#1a1a2e; margin-bottom:14px;">💻 주식 분석 앱</div>
+  <a href="{_cloud_app_url}" target="_blank" style="
+    display:inline-block; background:#1a1a2e; color:white;
+    padding:10px 24px; border-radius:8px; text-decoration:none;
+    font-size:.85rem; font-weight:700;">→ 앱 바로가기</a>
+  <div style="font-size:.7rem;color:#6b7280;margin-top:10px;word-break:break-all;">{_cloud_app_url}</div>
+</div>""", unsafe_allow_html=True)
+    else:
+        st.markdown("""
+<div class="qr-box">
+  <div style="font-size:.85rem; font-weight:700; color:#1a1a2e; margin-bottom:10px;">💻 PC 버전 (로컬 QR)</div>
 """, unsafe_allow_html=True)
-    if pc_qr:
-        st.image(pc_qr, width=155)
-    st.markdown(f"<div style='font-size:.7rem;color:#6b7280;margin-top:6px;word-break:break-all;'>{pc_url}</div>", unsafe_allow_html=True)
-    st.markdown("</div>", unsafe_allow_html=True)
+        if pc_qr:
+            st.image(pc_qr, width=155)
+        st.markdown(f"<div style='font-size:.7rem;color:#6b7280;margin-top:6px;word-break:break-all;'>{pc_url}</div>", unsafe_allow_html=True)
+        st.markdown("</div>", unsafe_allow_html=True)
 
     st.markdown("")
     st.markdown("""
@@ -343,33 +331,39 @@ st.markdown("<hr class='divider'>", unsafe_allow_html=True)
 st.markdown("""
 <div style="text-align:center; margin-bottom:24px;">
   <h2 style="font-size:1.6rem; font-weight:800; color:#111827;">
-    📱 지금 바로 주식 분석 플랫폼 사용해보기
+    💻 지금 바로 주식 분석 플랫폼 사용해보기
   </h2>
-  <p style="color:#6b7280; font-size:.95rem;">
-    같은 Wi-Fi 환경에서 QR 코드를 스캔하거나 주소를 직접 입력하세요.
-  </p>
 </div>
 """, unsafe_allow_html=True)
 
 f1, f2 = st.columns([1, 1.2], gap="large")
 
 with f1:
-    st.markdown("""
+    if _is_cloud and _cloud_app_url:
+        st.markdown(f"""
 <div class="qr-box" style="background:white; border:2px solid #e5e7eb;">
-  <div style="font-weight:800; font-size:1rem; color:#1a1a2e; margin-bottom:12px;">
-    💻 PC 버전
-  </div>
+  <div style="font-weight:800; font-size:1rem; color:#1a1a2e; margin-bottom:16px;">💻 주식 분석 앱</div>
+  <a href="{_cloud_app_url}" target="_blank" style="
+    display:inline-block; background:#1a1a2e; color:white;
+    padding:10px 28px; border-radius:8px; text-decoration:none;
+    font-size:.85rem; font-weight:700;">→ 앱 바로가기</a>
+  <div style="font-size:.72rem; color:#9ca3af; margin-top:12px; word-break:break-all;">{_cloud_app_url}</div>
+</div>""", unsafe_allow_html=True)
+    elif _is_cloud:
+        st.info("앱이 별도 URL로 배포되어 있습니다. APP_BASE_URL을 secrets에 추가하면 링크가 표시됩니다.")
+    else:
+        st.markdown("""
+<div class="qr-box" style="background:white; border:2px solid #e5e7eb;">
+  <div style="font-weight:800; font-size:1rem; color:#1a1a2e; margin-bottom:12px;">💻 PC 버전 (같은 Wi-Fi)</div>
 """, unsafe_allow_html=True)
-    if pc_qr:
-        st.image(pc_qr, width=190)
-    st.markdown(f"""
+        if pc_qr:
+            st.image(pc_qr, width=190)
+        st.markdown(f"""
   <div style="margin-top:10px;">
     <a href="{pc_url}" target="_blank" style="
       display:inline-block; background:#1a1a2e; color:white;
       padding:8px 20px; border-radius:8px; text-decoration:none;
-      font-size:.82rem; font-weight:700; margin-top:6px;">
-      → 바로가기
-    </a>
+      font-size:.82rem; font-weight:700; margin-top:6px;">→ 바로가기</a>
     <div style="font-size:.72rem; color:#9ca3af; margin-top:8px;">{pc_url}</div>
   </div>
 </div>""", unsafe_allow_html=True)

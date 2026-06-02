@@ -52,14 +52,25 @@ def get_local_ip():
         return "localhost"
 
 def load_favorites():
+    if "_favorites" in st.session_state:
+        return list(st.session_state._favorites)
+    favs = []
     if os.path.exists(FAVORITES_FILE):
-        with open(FAVORITES_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
-    return []
+        try:
+            with open(FAVORITES_FILE, "r", encoding="utf-8") as f:
+                favs = json.load(f)
+        except Exception:
+            pass
+    st.session_state._favorites = favs
+    return list(favs)
 
 def save_favorites(favs):
-    with open(FAVORITES_FILE, "w", encoding="utf-8") as f:
-        json.dump(favs, f, ensure_ascii=False, indent=2)
+    st.session_state._favorites = list(favs)
+    try:
+        with open(FAVORITES_FILE, "w", encoding="utf-8") as f:
+            json.dump(favs, f, ensure_ascii=False, indent=2)
+    except Exception:
+        pass
 
 # ── QR 코드 ──
 try:

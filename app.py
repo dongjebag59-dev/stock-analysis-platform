@@ -53,16 +53,32 @@ if "payment_msg" not in st.session_state:
 handle_kakao_callback()
 
 
-# 로티 붙이기
-@st.cache_data
-def load_lottieurl(url: str):
-    r = requests.get(url)
-    if r.status_code != 200:
-        return None
-    return r.json()
+# 로티 — 로컬 파일 우선, 실패 시 URL 폴백
+import json as _json
 
-lottie_url = "https://lottie.host/ec84bdca-8c08-41de-90cc-9bd58157f679/ooMiQcJ1eO.json"
-lottie_json = load_lottieurl(lottie_url)
+_lottie_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+    "resources",
+    "lottie-full-movie-experience-including-music-news-video-weather-and-lots-of-entertainment.json")
+
+@st.cache_data
+def _load_lottie(local_path: str, fallback_url: str):
+    try:
+        with open(local_path, "r", encoding="utf-8") as f:
+            return _json.load(f)
+    except Exception:
+        pass
+    try:
+        r = requests.get(fallback_url, timeout=5)
+        if r.status_code == 200:
+            return r.json()
+    except Exception:
+        pass
+    return None
+
+lottie_json = _load_lottie(
+    _lottie_path,
+    "https://lottie.host/ec84bdca-8c08-41de-90cc-9bd58157f679/ooMiQcJ1eO.json"
+)
 
 
 # 로컬 IP (결제 콜백 URL에 재사용)
@@ -93,7 +109,7 @@ h4.metric("핵심 차별화", "💰 포트폴리오 시뮬레이터")
 st.markdown("---")
 
 
-@st.cache_data
+@st.cache_data(ttl=300)
 def getData(code, datestart, dateend):
     try:
         df = fdr.DataReader(code, datestart, dateend)
