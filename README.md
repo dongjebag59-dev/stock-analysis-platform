@@ -1,18 +1,9 @@
 # 📈 주식 분석 통합 플랫폼
 
 국내외 8개 시장을 지원하는 Streamlit 기반 주식 분석 웹 애플리케이션입니다.  
-기술적 지표 분석과 포트폴리오 시뮬레이터, 카카오페이 연동 프리미엄 구독 모델을 포함합니다.
+종목 선택 즉시 인터랙티브 차트가 자동 갱신되며, 기술적 지표 분석과 프리미엄 구독 모델을 포함합니다.
 
 🌐 **라이브 데모**: [stock-analysis-dongjebag.streamlit.app](https://stock-analysis-platform-yowxfjcpgtwnpthddwwrt.streamlit.app)
-
----
-
-## 🖥️ 화면 구성
-
-| 구분 | URL | 설명 |
-|------|-----|------|
-| 포트폴리오 | `http://localhost:8500` | 프로젝트 소개 랜딩 페이지 |
-| 주식 분석 앱 | `http://localhost:8501` | 전체 기능 메인 앱 |
 
 ---
 
@@ -24,11 +15,11 @@
 - 시장별 통화 자동 적용 (₩, $, ¥, HK$, ₫)
 - 즐겨찾기 종목 저장 및 빠른 전환
 
-### 📉 기술적 지표
-- **캔들스틱 차트** (mplfinance) — candle / ohlc / line 타입 선택
-- **RSI** — 14일 기준 과매수/과매도 구간 표시 및 신호 해석
-- **MACD** — EMA 12/26/9 기반 추세 신호
+### 📉 인터랙티브 차트 (Plotly)
+- **캔들스틱 · OHLC · 라인** 차트 — 줌, 호버, 패닝 지원
+- **이동평균선** — MA5 · MA10 · MA30 동시 표시
 - **볼린저 밴드** — 20일 이동평균 ±2σ
+- 종목/기간 변경 시 **확인 버튼 없이 자동 갱신**
 
 ### 🔒 프리미엄 기능 (구독 모델)
 | 기능 | 무료 | 프리미엄 |
@@ -40,7 +31,13 @@
 | 종목 비교 (최대 3개) | ❌ | ✅ |
 | 포트폴리오 수익 시뮬레이터 | ❌ | ✅ |
 
-결제는 **카카오페이** 연동 (`.streamlit/secrets.toml`에 `KAKAO_ADMIN_KEY` 설정 시 활성화)
+결제는 **카카오페이** 연동 (`.streamlit/secrets.toml`에 키 설정 시 활성화)
+
+### 🔗 URL 링크 공유
+사이드바 하단의 **링크 공유** 섹션에서 현재 종목의 공유 URL을 복사할 수 있습니다.
+```
+?market=KOSPI&code=005930
+```
 
 ---
 
@@ -50,7 +47,7 @@
 |------|-----------|
 | 프레임워크 | Streamlit |
 | 데이터 수집 | FinanceDataReader |
-| 차트 | mplfinance, matplotlib |
+| 차트 | **Plotly** (인터랙티브) |
 | 데이터 처리 | pandas, numpy |
 | 기타 | qrcode, beautifulsoup4, requests |
 | 배포 | Docker, Docker Compose, Streamlit Cloud |
