@@ -3,7 +3,7 @@
 국내외 8개 시장을 지원하는 Streamlit 기반 주식 분석 웹 애플리케이션입니다.  
 종목 선택 즉시 인터랙티브 차트가 자동 갱신되며, 기술적 지표 분석과 프리미엄 구독 모델을 포함합니다.
 
-🌐 **라이브 데모**: [stock-analysis-dongjebag.streamlit.app](https://stock-analysis-platform-yowxfjcpgtwnpthddwwrt.streamlit.app)
+🌐 **라이브 데모**: [stock-analysis-dongjebag.streamlit.app](https://stock-analysis-platform-yowxfjcpgtwnpthddwvwrt.streamlit.app)
 
 ---
 
