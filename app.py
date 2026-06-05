@@ -211,7 +211,7 @@ with st.sidebar:
     # 플랜 표시
     if st.session_state.is_premium:
         st.success("💎 **프리미엄 플랜** 이용 중")
-        if st.button("🔄 무료 플랜으로 전환 (데모)", use_container_width=True):
+        if st.button("🔄 무료 플랜으로 전환 (데모)", width='stretch'):
             st.session_state.is_premium = False
             st.rerun()
     else:
@@ -332,7 +332,7 @@ elif df.empty:
     st.error("데이터를 불러올 수 없습니다. 종목 코드나 날짜 범위를 확인해 주세요.")
 else:
     st.plotly_chart(_candlestick_fig(df, chart_type, _template, show_bollinger),
-                    use_container_width=True)
+                    width='stretch')
 
 ''
 ''
@@ -472,7 +472,7 @@ with tab4:  # 거래량
             xaxis_title='날짜', yaxis_title='거래량',
             margin=dict(l=10, r=10, t=20, b=10), hovermode='x unified'
         )
-        st.plotly_chart(fig_vol, use_container_width=True)
+        st.plotly_chart(fig_vol, width='stretch')
 
         st.markdown("---")
         st.markdown("#### 📊 거래량 주요 통계")
@@ -548,7 +548,7 @@ with tab5:  # 투자 지표
                                yaxis=dict(range=[0, 100]), yaxis_title='RSI',
                                margin=dict(l=10, r=10, t=20, b=10),
                                hovermode='x unified', showlegend=False)
-        st.plotly_chart(fig_rsi, use_container_width=True)
+        st.plotly_chart(fig_rsi, width='stretch')
 
         if rsi_latest >= 70:
             st.error(f"RSI {rsi_latest:.1f} → 과매수 구간 (단기 조정 가능성)")
@@ -592,7 +592,7 @@ with tab5:  # 투자 지표
                                 margin=dict(l=10, r=10, t=20, b=10),
                                 hovermode='x unified',
                                 legend=dict(orientation='h', yanchor='bottom', y=1.01, xanchor='right', x=1))
-        st.plotly_chart(fig_macd, use_container_width=True)
+        st.plotly_chart(fig_macd, width='stretch')
 
         macd_now, signal_now = macd_line.iloc[-1], signal_line.iloc[-1]
         if macd_now > signal_now:
@@ -678,11 +678,11 @@ with tab6:  # 종목 비교
                 legend=dict(orientation='h', yanchor='bottom', y=1.01, xanchor='right', x=1),
                 margin=dict(l=10, r=10, t=40, b=10), hovermode='x unified'
             )
-            st.plotly_chart(fig_comp, use_container_width=True)
+            st.plotly_chart(fig_comp, width='stretch')
 
             if summary_rows:
                 st.markdown("#### 요약 비교표")
-                st.dataframe(pd.DataFrame(summary_rows), use_container_width=True, hide_index=True)
+                st.dataframe(pd.DataFrame(summary_rows), width='stretch', hide_index=True)
 
 
 with tab7:  # 포트폴리오 시뮬레이터
@@ -756,7 +756,7 @@ with tab7:  # 포트폴리오 시뮬레이터
                                            yaxis_title=f'평가액 ({currency})', xaxis_title='날짜',
                                            margin=dict(l=10, r=10, t=20, b=10),
                                            hovermode='x unified', showlegend=False)
-                    st.plotly_chart(fig_port, use_container_width=True)
+                    st.plotly_chart(fig_port, width='stretch')
                     ''
                     if return_pct >= 20:
                         st.success(f"🎉 {return_pct:.2f}% 수익! 훌륭한 투자입니다.")
@@ -818,7 +818,7 @@ with tab8:  # 요금제
 """)
         if st.session_state.is_premium:
             st.success("✅ 현재 이용 중인 플랜입니다.")
-            if st.button("무료 플랜으로 전환 (데모)", use_container_width=True):
+            if st.button("무료 플랜으로 전환 (데모)", width='stretch'):
                 st.session_state.is_premium = False
                 st.rerun()
         else:

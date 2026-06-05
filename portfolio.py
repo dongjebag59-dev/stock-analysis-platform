@@ -155,7 +155,7 @@ with left1:
   <span class="badge" style="background:#FF6B6B18;color:#c0392b;border-color:#FF6B6B55;">Streamlit 1.51</span>
   <span class="badge" style="background:#3776AB18;color:#2c5f8a;border-color:#3776AB55;">Python 3.11</span>
   <span class="badge" style="background:#00897B18;color:#005f56;border-color:#00897B55;">FinanceDataReader</span>
-  <span class="badge" style="background:#F9731618;color:#c05600;border-color:#F9731655;">mplfinance</span>
+  <span class="badge" style="background:#F9731618;color:#c05600;border-color:#F9731655;">Plotly</span>
   <span class="badge" style="background:#8B5CF618;color:#5b21b6;border-color:#8B5CF655;">pandas · numpy</span>
   <span class="badge" style="background:#2496ED18;color:#1361a0;border-color:#2496ED55;">Docker Compose</span>
   <span class="badge" style="background:#43e97b18;color:#15803d;border-color:#43e97b55;">qrcode · BeautifulSoup</span>

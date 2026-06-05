@@ -149,13 +149,13 @@ def kakao_pay_button(local_ip: str, port: int, key: str = "pay", mobile: bool = 
     import streamlit.components.v1 as components
     if not _KAKAO_KEY:
         if st.button("💎 프리미엄 시작하기 (데모)", type="primary",
-                     use_container_width=True, key=f"demo_{key}"):
+                     width='stretch', key=f"demo_{key}"):
             st.session_state.is_premium = True
             st.rerun()
         st.caption("ℹ️ KAKAO_ADMIN_KEY 미설정 — 데모 모드")
         return
     if st.button("💛 카카오페이로 결제 (월 ₩9,900)", type="primary",
-                 use_container_width=True, key=f"kakao_{key}"):
+                 width='stretch', key=f"kakao_{key}"):
         try:
             res = _kakao_ready(local_ip, port)
             if "tid" in res:
