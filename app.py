@@ -9,6 +9,7 @@ from streamlit_lottie import st_lottie
 import requests
 from bs4 import BeautifulSoup
 import os
+import math as _math
 import json as _json
 import pandas as pd
 
@@ -128,7 +129,7 @@ def get_google_news(stock_name, max_news=3):
     query = stock_name.replace(" ", "+")
     url = f"https://news.google.com/rss/search?q={query}+주식&hl=ko&gl=KR&ceid=KR:ko"
     headers = {"User-Agent": "Mozilla/5.0"}
-    res = requests.get(url, headers=headers)
+    res = requests.get(url, headers=headers, timeout=5)
     res.raise_for_status()
     soup = BeautifulSoup(res.text, "xml")
     items = soup.find_all("item")[:max_news]
@@ -372,7 +373,9 @@ with tab1:  # 요약
             _rsi_val = (100 - (100 / (1 + _g.rolling(14).mean() / _l.rolling(14).mean()))).iloc[-1]
             st.markdown("---")
             st.markdown("**📊 현재 RSI 신호**")
-            if _rsi_val >= 70:
+            if _math.isnan(_rsi_val):
+                st.info("RSI — 계산 불가 (변동 없음)")
+            elif _rsi_val >= 70:
                 st.warning(f"⚠️ RSI {_rsi_val:.1f} — **과매수** 구간 (단기 조정 가능성)")
             elif _rsi_val <= 30:
                 st.info(f"💡 RSI {_rsi_val:.1f} — **과매도** 구간 (반등 가능성)")
@@ -406,7 +409,10 @@ with tab2:  # 기간별 통계분석
         st.markdown(f"- **최고가**: :red[{fmt_price(period_max, currency)}]")
         st.markdown(f"- **최저가**: :blue[{fmt_price(period_min, currency)}]")
         st.markdown(f"- **차이**: {fmt_price(price_range, currency)}")
-        st.markdown(f"현재 종가는 최저가 대비 **{(latest_close - period_min) / price_range * 100:.1f}%** 지점에 있습니다.")
+        if price_range > 0:
+            st.markdown(f"현재 종가는 최저가 대비 **{(latest_close - period_min) / price_range * 100:.1f}%** 지점에 있습니다.")
+        else:
+            st.markdown("현재 종가는 기간 내 최고가·최저가와 동일합니다.")
     else:
         st.info("기간 통계를 계산하기 위한 데이터가 부족합니다.")
 
@@ -550,7 +556,9 @@ with tab5:  # 투자 지표
                                hovermode='x unified', showlegend=False)
         st.plotly_chart(fig_rsi, width='stretch')
 
-        if rsi_latest >= 70:
+        if _math.isnan(rsi_latest):
+            st.info("RSI — 계산 불가 (변동 없음)")
+        elif rsi_latest >= 70:
             st.error(f"RSI {rsi_latest:.1f} → 과매수 구간 (단기 조정 가능성)")
         elif rsi_latest <= 30:
             st.info(f"RSI {rsi_latest:.1f} → 과매도 구간 (반등 가능성)")
