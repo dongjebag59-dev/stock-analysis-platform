@@ -98,17 +98,17 @@ def getData(code, datestart, dateend):
     except Exception:
         return pd.DataFrame()
 
-@st.cache_data(ttl=86400)
-def getSymbols(market='KOSPI', sort='Marcap'):
-    try:
-        df = fdr.StockListing(market)
-    except Exception:
-        return pd.DataFrame(columns=['Code', 'Name', 'Market'])
+_LISTINGS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "resources", "listings")
+
+def _load_static_listing(market: str) -> pd.DataFrame:
+    path = os.path.join(_LISTINGS_DIR, f"{market}.csv")
+    if os.path.exists(path):
+        return pd.read_csv(path, dtype={'Code': str})
+    return pd.DataFrame(columns=['Code', 'Name', 'Market'])
+
+def _normalize_listing(df: pd.DataFrame, market: str) -> pd.DataFrame:
     if market in ('KOSPI', 'KOSDAQ', 'KONEX'):
-        ascending = False if sort == 'Marcap' else True
-        if sort in df.columns:
-            df.sort_values(by=[sort], ascending=ascending, inplace=True)
-        return df[['Code', 'Name', 'Market']]
+        return df[['Code', 'Name', 'Market']].copy()
     df = df.copy()
     if df.index.name:
         df = df.reset_index()
@@ -129,6 +129,19 @@ def getSymbols(market='KOSPI', sort='Marcap'):
     df['Market'] = market
     result = df[['Code', 'Name', 'Market']].dropna(subset=['Code', 'Name'])
     return result[result['Code'].astype(str).str.strip() != ''].head(2000)
+
+@st.cache_data(ttl=86400)
+def getSymbols(market='KOSPI', sort='Marcap'):
+    try:
+        df = fdr.StockListing(market)
+        result = _normalize_listing(df, market)
+        if not result.empty:
+            if market in ('KOSPI', 'KOSDAQ', 'KONEX') and sort in result.columns:
+                result.sort_values(by=[sort], ascending=(sort != 'Marcap'), inplace=True)
+            return result
+    except Exception:
+        pass
+    return _load_static_listing(market)
 
 @st.cache_data(ttl=1800)
 def get_google_news(stock_name, max_news=3):
