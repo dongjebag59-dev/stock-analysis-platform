@@ -100,10 +100,14 @@ def getData(code, datestart, dateend):
 
 @st.cache_data(ttl=86400)
 def getSymbols(market='KOSPI', sort='Marcap'):
-    df = fdr.StockListing(market)
+    try:
+        df = fdr.StockListing(market)
+    except Exception:
+        return pd.DataFrame(columns=['Code', 'Name', 'Market'])
     if market in ('KOSPI', 'KOSDAQ', 'KONEX'):
         ascending = False if sort == 'Marcap' else True
-        df.sort_values(by=[sort], ascending=ascending, inplace=True)
+        if sort in df.columns:
+            df.sort_values(by=[sort], ascending=ascending, inplace=True)
         return df[['Code', 'Name', 'Market']]
     df = df.copy()
     if df.index.name:
@@ -116,10 +120,12 @@ def getSymbols(market='KOSPI', sort='Marcap'):
         elif cl in ('name', '종목명', '이름', 'company') and 'Name' not in rename.values():
             rename[col] = 'Name'
     df = df.rename(columns=rename)
-    if 'Code' not in df.columns:
+    if 'Code' not in df.columns and len(df.columns) >= 1:
         df = df.rename(columns={df.columns[0]: 'Code'})
-    if 'Name' not in df.columns:
+    if 'Name' not in df.columns and len(df.columns) >= 2:
         df = df.rename(columns={df.columns[1]: 'Name'})
+    if 'Code' not in df.columns or 'Name' not in df.columns:
+        return pd.DataFrame(columns=['Code', 'Name', 'Market'])
     df['Market'] = market
     result = df[['Code', 'Name', 'Market']].dropna(subset=['Code', 'Name'])
     return result[result['Code'].astype(str).str.strip() != ''].head(2000)
@@ -262,6 +268,9 @@ with st.sidebar:
     currency = MARKET_INFO[z]['currency']
 
     symbols = getSymbols(z)
+    if symbols.empty:
+        st.error(f"⚠️ {z} 종목 목록을 불러올 수 없습니다. 잠시 후 새로고침 해주세요.")
+        st.stop()
     symbols['Display'] = symbols['Name'] + " (" + symbols['Code'] + ")"
     stock_list = list(symbols['Display'])
 
