@@ -157,8 +157,14 @@ def get_google_news(stock_name, max_news=3):
 
 # ── Plotly 차트 헬퍼 ─────────────────────
 _PLOTLY_TEMPLATES = {"default": "plotly_white", "dark": "plotly_dark", "simple": "simple_white"}
+_PLOTLY_CONFIG = {'displayModeBar': True, 'displaylogo': False}
 
-def _candlestick_fig(df, chart_type, template, show_bollinger):
+try:
+    _APP_BASE_URL = st.secrets.get("APP_BASE_URL", "").rstrip("/")
+except Exception:
+    _APP_BASE_URL = ""
+
+def _candlestick_fig(df, chart_type, template, show_bollinger, show_signals=False):
     fig = go.Figure()
 
     if chart_type == "candle":
@@ -210,6 +216,31 @@ def _candlestick_fig(df, chart_type, template, show_bollinger):
             line=dict(color='#00CED1', width=1.5, dash='dot'),
             name='MA20'
         ))
+
+    if show_signals and len(df) >= 30:
+        _ema12 = df['Close'].ewm(span=12, adjust=False).mean()
+        _ema26 = df['Close'].ewm(span=26, adjust=False).mean()
+        _macd = _ema12 - _ema26
+        _sig  = _macd.ewm(span=9, adjust=False).mean()
+        _diff = _macd - _sig
+        _prev = _diff.shift(1)
+        _buf  = (df['High'].max() - df['Low'].min()) * 0.025
+        buy_x  = df.index[(_prev <= 0) & (_diff > 0)]
+        sell_x = df.index[(_prev >= 0) & (_diff < 0)]
+        if len(buy_x) > 0:
+            fig.add_trace(go.Scatter(
+                x=buy_x, y=df.loc[buy_x, 'Low'] - _buf, mode='markers',
+                marker=dict(symbol='triangle-up', size=11, color='#00C853',
+                            line=dict(color='white', width=0.5)),
+                name='매수 신호', hovertemplate='MACD 매수 신호<extra></extra>'
+            ))
+        if len(sell_x) > 0:
+            fig.add_trace(go.Scatter(
+                x=sell_x, y=df.loc[sell_x, 'High'] + _buf, mode='markers',
+                marker=dict(symbol='triangle-down', size=11, color='#FF1744',
+                            line=dict(color='white', width=0.5)),
+                name='매도 신호', hovertemplate='MACD 매도 신호<extra></extra>'
+            ))
 
     fig.update_layout(
         height=520,
@@ -319,6 +350,9 @@ with st.sidebar:
     show_bollinger = st.checkbox(
         "볼린저밴드 표시", value=True,
         help="20일 이동평균(MA20) ±2σ 구간을 표시합니다. 가격이 하단 밴드에 닿으면 반등 가능성이 높아집니다.")
+    show_signals = st.checkbox(
+        "매매 신호 표시", value=False,
+        help="MACD 골든크로스(▲매수)·데드크로스(▽매도) 시점을 메인 차트에 표시합니다.")
 
     other_symbols = [s for s in stock_list if s != selected_name]
     compare_names = st.multiselect("비교 종목 선택 (최대 2개)", other_symbols, max_selections=2)
@@ -340,8 +374,15 @@ with st.sidebar:
 
     # 링크 공유
     with st.expander("🔗 현재 종목 링크 공유"):
-        st.code(f"?market={z}&code={selected_code}")
-        st.caption("브라우저 주소창 끝에 위 파라미터를 붙여서 공유하세요.")
+        _base = _APP_BASE_URL or "https://your-app.streamlit.app"
+        st.code(f"{_base}?market={z}&code={selected_code}")
+        if not _APP_BASE_URL:
+            st.caption("⚙️ secrets에 `APP_BASE_URL` 설정 시 정확한 URL이 표시됩니다.")
+
+    if st.button("🔄 데이터 새로고침", help="캐시를 초기화하고 최신 데이터를 불러옵니다."):
+        getData.clear()
+        getSymbols.clear()
+        st.rerun()
 
 
 # ── 메인 차트 (자동 갱신) ─────────────────
@@ -354,11 +395,28 @@ if _date_error:
 elif df.empty:
     st.error("데이터를 불러올 수 없습니다. 종목 코드나 날짜 범위를 확인해 주세요.")
 else:
-    st.plotly_chart(_candlestick_fig(df, chart_type, _template, show_bollinger),
-                    width='stretch')
+    st.plotly_chart(
+        _candlestick_fig(df, chart_type, _template, show_bollinger, show_signals),
+        config=_PLOTLY_CONFIG, width='stretch')
 
 ''
 ''
+
+# ── 기술 지표 사전 계산 (tab1·tab5 공유) ────────
+_rsi_series = pd.Series(dtype=float)
+_rsi_latest = float('nan')
+_macd_line_pre = pd.Series(dtype=float)
+_signal_line_pre = pd.Series(dtype=float)
+if not df.empty and len(df) >= 20:
+    _c = df['Close']
+    _d = _c.diff()
+    _rsi_series = 100 - (100 / (1 + _d.where(_d > 0, 0.0).rolling(14).mean()
+                                   / (-_d.where(_d < 0, 0.0)).rolling(14).mean()))
+    _rsi_latest = float(_rsi_series.iloc[-1])
+if not df.empty and len(df) >= 26:
+    _c = df['Close']
+    _macd_line_pre = _c.ewm(span=12, adjust=False).mean() - _c.ewm(span=26, adjust=False).mean()
+    _signal_line_pre = _macd_line_pre.ewm(span=9, adjust=False).mean()
 
 
 # ── 탭 ──────────────────────────────────
@@ -389,20 +447,16 @@ with tab1:  # 요약
             st.markdown(f"- **선택 기간 수익률:** {return_pct:.2f}%")
 
         if len(df) >= 20:
-            _d = df['Close'].diff()
-            _g = _d.where(_d > 0, 0.0)
-            _l = -_d.where(_d < 0, 0.0)
-            _rsi_val = (100 - (100 / (1 + _g.rolling(14).mean() / _l.rolling(14).mean()))).iloc[-1]
             st.markdown("---")
             st.markdown("**📊 현재 RSI 신호**")
-            if _math.isnan(_rsi_val):
+            if _math.isnan(_rsi_latest):
                 st.info("RSI — 계산 불가 (변동 없음)")
-            elif _rsi_val >= 70:
-                st.warning(f"⚠️ RSI {_rsi_val:.1f} — **과매수** 구간 (단기 조정 가능성)")
-            elif _rsi_val <= 30:
-                st.info(f"💡 RSI {_rsi_val:.1f} — **과매도** 구간 (반등 가능성)")
+            elif _rsi_latest >= 70:
+                st.warning(f"⚠️ RSI {_rsi_latest:.1f} — **과매수** 구간 (단기 조정 가능성)")
+            elif _rsi_latest <= 30:
+                st.info(f"💡 RSI {_rsi_latest:.1f} — **과매도** 구간 (반등 가능성)")
             else:
-                st.success(f"✅ RSI {_rsi_val:.1f} — **중립** 구간")
+                st.success(f"✅ RSI {_rsi_latest:.1f} — **중립** 구간")
     else:
         st.info("데이터가 없어 요약 정보를 표시할 수 없습니다.")
 
@@ -500,7 +554,7 @@ with tab4:  # 거래량
             xaxis_title='날짜', yaxis_title='거래량',
             margin=dict(l=10, r=10, t=20, b=10), hovermode='x unified'
         )
-        st.plotly_chart(fig_vol, width='stretch')
+        st.plotly_chart(fig_vol, config=_PLOTLY_CONFIG, width='stretch')
 
         st.markdown("---")
         st.markdown("#### 📊 거래량 주요 통계")
@@ -556,13 +610,10 @@ with tab5:  # 투자 지표
         st.caption("💡 변동성이 높을수록 가격 등락이 크고 위험도가 높습니다.")
         st.markdown("---")
 
-        # RSI
+        # RSI (사전 계산값 재사용)
         st.markdown("#### ▪️ RSI (상대강도지수)")
-        delta = close.diff()
-        gain = delta.where(delta > 0, 0.0)
-        loss = -delta.where(delta < 0, 0.0)
-        rsi = 100 - (100 / (1 + gain.rolling(14).mean() / loss.rolling(14).mean()))
-        rsi_latest = rsi.iloc[-1]
+        rsi = _rsi_series
+        rsi_latest = _rsi_latest
 
         fig_rsi = go.Figure()
         fig_rsi.add_trace(go.Scatter(x=close.index, y=rsi,
@@ -576,9 +627,9 @@ with tab5:  # 투자 지표
                                yaxis=dict(range=[0, 100]), yaxis_title='RSI',
                                margin=dict(l=10, r=10, t=20, b=10),
                                hovermode='x unified', showlegend=False)
-        st.plotly_chart(fig_rsi, width='stretch')
+        st.plotly_chart(fig_rsi, config=_PLOTLY_CONFIG, width='stretch')
 
-        if _math.isnan(rsi_latest):
+        if _math.isnan(float(rsi_latest)):
             st.info("RSI — 계산 불가 (변동 없음)")
         elif rsi_latest >= 70:
             st.error(f"RSI {rsi_latest:.1f} → 과매수 구간 (단기 조정 가능성)")
@@ -601,12 +652,10 @@ with tab5:  # 투자 지표
 """)
         st.markdown("---")
 
-        # MACD
+        # MACD (사전 계산값 재사용)
         st.markdown("#### ▪️ MACD (이동평균 수렴·발산)")
-        ema12 = close.ewm(span=12, adjust=False).mean()
-        ema26 = close.ewm(span=26, adjust=False).mean()
-        macd_line = ema12 - ema26
-        signal_line = macd_line.ewm(span=9, adjust=False).mean()
+        macd_line = _macd_line_pre
+        signal_line = _signal_line_pre
         macd_hist = macd_line - signal_line
         bar_colors = ['#FF6B6B' if v >= 0 else '#4169E1' for v in macd_hist]
 
@@ -622,7 +671,7 @@ with tab5:  # 투자 지표
                                 margin=dict(l=10, r=10, t=20, b=10),
                                 hovermode='x unified',
                                 legend=dict(orientation='h', yanchor='bottom', y=1.01, xanchor='right', x=1))
-        st.plotly_chart(fig_macd, width='stretch')
+        st.plotly_chart(fig_macd, config=_PLOTLY_CONFIG, width='stretch')
 
         macd_now, signal_now = macd_line.iloc[-1], signal_line.iloc[-1]
         if macd_now > signal_now:
@@ -708,7 +757,7 @@ with tab6:  # 종목 비교
                 legend=dict(orientation='h', yanchor='bottom', y=1.01, xanchor='right', x=1),
                 margin=dict(l=10, r=10, t=40, b=10), hovermode='x unified'
             )
-            st.plotly_chart(fig_comp, width='stretch')
+            st.plotly_chart(fig_comp, config=_PLOTLY_CONFIG, width='stretch')
 
             if summary_rows:
                 st.markdown("#### 요약 비교표")
@@ -722,16 +771,18 @@ with tab7:  # 포트폴리오 시뮬레이터
         ''
         st.markdown("""
 **이 탭에서 제공하는 기능:**
-- 📅 특정 날짜에 투자했다면 지금 얼마?
-- 💰 투자 원금 대비 현재 평가액 & 손익 계산
-- 📊 투자 기간 내 평가액 변화 그래프
+- 📅 특정 날짜에 최대 3개 종목에 비중 배분 투자했다면 지금 얼마?
+- 💰 종목별 평가액 & 포트폴리오 합산 손익 계산
+- 📊 포트폴리오 vs 개별 종목 수익률 비교 차트
 - 🎯 수익률 구간별 코멘트
 """)
         _kakao_pay_button(_local_ip, 8501, key="tab7")
     else:
         st.markdown("#### 💰 포트폴리오 시뮬레이터")
-        st.markdown(f"**{selected_name.split('(')[0].strip()}** 에 특정 날짜에 투자했다면 지금 얼마일지 계산합니다.")
+        st.caption("최대 3개 종목에 비중을 배분하여 특정 날짜에 투자했다면 지금 얼마일지 계산합니다.")
         ''
+
+        # 투자 날짜 / 총 금액
         col_a, col_b = st.columns(2)
         with col_a:
             invest_date = st.date_input(
@@ -740,64 +791,123 @@ with tab7:  # 포트폴리오 시뮬레이터
                 key="invest_date")
         with col_b:
             invest_amount = st.number_input(
-                f"투자 금액 ({currency})", min_value=1, max_value=10_000_000_000,
+                f"총 투자 금액 ({currency})", min_value=1, max_value=10_000_000_000,
                 value=1_000_000 if currency == '원' else (10_000 if currency == 'USD' else 100_000),
                 step=100_000 if currency == '원' else (1_000 if currency == 'USD' else 10_000),
                 key="invest_amount")
 
-        if st.button("계산하기", key="calc_portfolio"):
-            try:
-                hist_df = getData(selected_code, invest_date, datetime.today().date())
-                if hist_df.empty:
-                    st.error("해당 날짜의 데이터가 없습니다. 거래일을 확인해주세요.")
-                else:
-                    buy_price = hist_df['Close'].iloc[0]
-                    current_price = hist_df['Close'].iloc[-1]
-                    shares = invest_amount / buy_price
-                    current_value = shares * current_price
-                    profit = current_value - invest_amount
-                    return_pct = (current_value / invest_amount - 1) * 100
+        # 종목 / 비중 설정
+        st.markdown("**종목 및 비중 설정** (합계 = 100%)")
+        _port_colors = ['#F39C12', '#3498DB', '#2ECC71']
+        _port_stocks = []
 
-                    st.markdown("---")
-                    st.markdown(f"**실제 매수일:** {hist_df.index[0].strftime('%Y년 %m월 %d일')} (가장 가까운 거래일)")
-                    st.markdown(f"**매수 가격:** {fmt_price(buy_price, currency)} / 주")
-                    st.markdown(f"**매수 수량:** {shares:.4f} 주")
-                    ''
-                    c1, c2, c3 = st.columns(3)
-                    c1.metric("투자 원금", fmt_price(invest_amount, currency))
-                    c2.metric("현재 평가액", fmt_price(current_value, currency))
-                    prefix = "+" if profit >= 0 else ""
-                    c3.metric("손익", f"{prefix}{fmt_price(abs(profit), currency)}", delta=f"{return_pct:.2f}%")
+        # 종목 1: 현재 선택 종목 고정
+        r1c, r1w = st.columns([4, 1])
+        r1c.markdown(f"**① {selected_name.split('(')[0].strip()}** ({selected_code})")
+        w1 = r1w.number_input("비중%", 1, 100, 60, key="pw1", label_visibility="collapsed")
+        _port_stocks.append((selected_code, selected_name.split("(")[0].strip(), w1))
 
-                    invest_values = (hist_df['Close'] / buy_price) * invest_amount
-                    line_color = '#2ECC71' if return_pct >= 0 else '#E74C3C'
-                    fill_color = 'rgba(46,204,113,0.12)' if return_pct >= 0 else 'rgba(231,76,60,0.12)'
+        # 종목 2, 3: 선택 가능
+        _avail = ["없음"] + [s for s in stock_list if s != selected_name]
+        for _i, (_sk, _wk, _icon, _dw) in enumerate([("ps2","pw2","②",30), ("ps3","pw3","③",10)]):
+            r_c, r_w = st.columns([4, 1])
+            _choice = r_c.selectbox(f"{_icon} 종목 추가 (선택)", _avail, key=_sk)
+            if _choice != "없음":
+                _wv = r_w.number_input("비중%", 0, 100, _dw, key=_wk, label_visibility="collapsed")
+                _port_stocks.append((_choice.split("(")[-1].replace(")", ""),
+                                     _choice.split("(")[0].strip(), _wv))
+            else:
+                r_w.empty()
 
-                    fig_port = go.Figure()
-                    fig_port.add_hline(y=invest_amount, line_dash='dash', line_color='gray',
-                                        annotation_text=f'원금 {fmt_price(invest_amount, currency)}',
-                                        annotation_position='right')
+        _total_w = sum(s[2] for s in _port_stocks)
+        if _total_w == 100:
+            st.success(f"비중 합계: **100%** ✅")
+        else:
+            st.warning(f"비중 합계: **{_total_w}%** — 100%가 되도록 조정하세요.")
+
+        if st.button("계산하기", key="calc_portfolio", disabled=(_total_w != 100)):
+            _port_data = {}
+            for _code, _name, _w in _port_stocks:
+                try:
+                    _h = getData(_code, invest_date, datetime.today().date())
+                    if not _h.empty:
+                        _port_data[_code] = (_name, _w, _h)
+                except Exception:
+                    st.warning(f"{_name}: 데이터 로드 실패")
+
+            if not _port_data:
+                st.error("데이터를 불러올 수 없습니다.")
+            else:
+                fig_port = go.Figure()
+                _portfolio_val = None
+                _summary = []
+
+                for _idx, (_code, (_name, _w, _h)) in enumerate(_port_data.items()):
+                    _buy  = _h['Close'].iloc[0]
+                    _curr = _h['Close'].iloc[-1]
+                    _alloc = invest_amount * _w / 100
+                    _vals  = (_h['Close'] / _buy) * _alloc
+                    _ret   = (_curr / _buy - 1) * 100
+
                     fig_port.add_trace(go.Scatter(
-                        x=hist_df.index, y=invest_values,
-                        line=dict(color=line_color, width=2),
-                        fill='tozeroy', fillcolor=fill_color, name='평가액'
+                        x=_h.index, y=_vals,
+                        name=f"{_name} ({_w}%)",
+                        line=dict(color=_port_colors[_idx], width=1.5, dash='dot' if _idx > 0 else 'solid'),
+                        opacity=0.75
                     ))
-                    fig_port.update_layout(height=360, template=_template,
-                                           yaxis_title=f'평가액 ({currency})', xaxis_title='날짜',
-                                           margin=dict(l=10, r=10, t=20, b=10),
-                                           hovermode='x unified', showlegend=False)
-                    st.plotly_chart(fig_port, width='stretch')
-                    ''
-                    if return_pct >= 20:
-                        st.success(f"🎉 {return_pct:.2f}% 수익! 훌륭한 투자입니다.")
-                    elif return_pct > 0:
-                        st.success(f"📈 {return_pct:.2f}% 수익 중입니다.")
-                    elif return_pct > -10:
-                        st.warning(f"📊 {abs(return_pct):.2f}% 손실 중입니다.")
-                    else:
-                        st.error(f"📉 {abs(return_pct):.2f}% 손실 중입니다.")
-            except Exception as e:
-                st.error(f"계산 중 오류가 발생했습니다: {str(e)}")
+
+                    _portfolio_val = _vals if _portfolio_val is None else _portfolio_val.add(_vals, fill_value=0)
+                    _summary.append({
+                        "종목": _name, "비중": f"{_w}%",
+                        f"매수가": fmt_price(_buy, currency),
+                        f"현재가": fmt_price(_curr, currency),
+                        "수익률": f"{_ret:+.2f}%",
+                        f"배분 원금": fmt_price(_alloc, currency),
+                        f"현재 평가액": fmt_price(_vals.iloc[-1], currency),
+                    })
+
+                # 포트폴리오 합계 라인
+                fig_port.add_trace(go.Scatter(
+                    x=_portfolio_val.index, y=_portfolio_val,
+                    name="포트폴리오 합계",
+                    line=dict(color='#ECF0F1', width=3),
+                    fill='tozeroy', fillcolor='rgba(236,240,241,0.08)'
+                ))
+                fig_port.add_hline(y=invest_amount, line_dash='dash', line_color='gray', opacity=0.6,
+                                   annotation_text=f'원금 {fmt_price(invest_amount, currency)}',
+                                   annotation_position='right')
+                fig_port.update_layout(
+                    height=400, template=_template,
+                    yaxis_title=f'평가액 ({currency})', xaxis_title='날짜',
+                    legend=dict(orientation='h', yanchor='bottom', y=1.01, xanchor='right', x=1),
+                    margin=dict(l=10, r=10, t=40, b=10), hovermode='x unified'
+                )
+                st.plotly_chart(fig_port, config=_PLOTLY_CONFIG, width='stretch')
+
+                # 요약 지표
+                _total_curr = _portfolio_val.iloc[-1]
+                _total_ret  = (_total_curr / invest_amount - 1) * 100
+                _profit     = _total_curr - invest_amount
+                st.markdown("---")
+                cm1, cm2, cm3 = st.columns(3)
+                cm1.metric("총 투자 원금", fmt_price(invest_amount, currency))
+                cm2.metric("현재 포트폴리오 평가액", fmt_price(_total_curr, currency))
+                _pref = "+" if _profit >= 0 else ""
+                cm3.metric("포트폴리오 손익",
+                           f"{_pref}{fmt_price(abs(_profit), currency)}",
+                           delta=f"{_total_ret:+.2f}%")
+
+                st.markdown("#### 종목별 현황")
+                st.dataframe(pd.DataFrame(_summary), hide_index=True, width='stretch')
+
+                if _total_ret >= 20:
+                    st.success(f"🎉 {_total_ret:.2f}% 수익! 훌륭한 포트폴리오입니다.")
+                elif _total_ret > 0:
+                    st.success(f"📈 {_total_ret:.2f}% 수익 중입니다.")
+                elif _total_ret > -10:
+                    st.warning(f"📊 {abs(_total_ret):.2f}% 손실 중입니다.")
+                else:
+                    st.error(f"📉 {abs(_total_ret):.2f}% 손실 중입니다.")
 
 
 with tab8:  # 요금제

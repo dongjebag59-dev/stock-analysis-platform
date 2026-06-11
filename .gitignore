@@ -41,3 +41,8 @@ desktop.ini
 
 # Claude settings
 .claude/
+
+# 임시 생성 스크립트
+gen_listings.py
+gen_kr_listings.py
+gen_kr_output.txt
