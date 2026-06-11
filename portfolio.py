@@ -103,6 +103,8 @@ st.markdown("""
                  border-radius:20px; font-size:.82rem; font-weight:700;">🤖 AI / LLM</span>
     <span style="background:#e0f2fe; color:#0369a1; padding:5px 14px;
                  border-radius:20px; font-size:.82rem; font-weight:700;">🐳 Docker</span>
+    <span style="background:#f0fdf4; color:#15803d; padding:5px 14px;
+                 border-radius:20px; font-size:.82rem; font-weight:700;">🐘 PostgreSQL</span>
   </div>
 </div>
 """, unsafe_allow_html=True)
@@ -290,18 +292,20 @@ st.markdown("<hr class='divider'>", unsafe_allow_html=True)
 # PROJECT 4 — 뽀모도로 타이머 (토티)
 # ════════════════════════════════════════
 st.markdown("## ⏱️ 3차 프로젝트 &nbsp; 토티 — AI 뽀모도로 타이머")
-st.caption("FastAPI · Gemini 2.5 · ASMR 플레이어 · AI 플랜 추천 · 집중 통계")
+st.caption("FastAPI · PostgreSQL · Gemini 2.5 Flash · WebSocket 스터디룸 · 레벨/스트릭 · AI 슬럼프 감지 · ASMR · Docker")
 st.markdown("")
 
 l4, r4 = st.columns(2, gap="large")
 with l4:
     st.markdown("""
 #### 주요 기능
-- ⏰ **뽀모도로 타이머** — 집중/휴식 사이클 자동 관리
-- 🤖 **AI 플랜 추천** — Gemini 2.5가 오늘의 집중 블록을 자동 설계
-- 🎵 **ASMR 플레이어** — 집중력 향상 배경음 재생
-- 📊 **집중 통계** — 일별/주별 집중 시간 시각화
-- 📝 **세션 메모** — 집중 중 빠른 메모 기록
+- ⏰ **뽀모도로 타이머** — 집중/휴식 사이클 자동 관리 · PWA 설치 지원
+- 🤖 **AI 플랜 추천** — Gemini 2.5 Flash가 공부 유형별 최적 사이클 자동 설계
+- 🏆 **레벨 / 스트릭 시스템** — EXP 획득 & sqrt 곡선 레벨업 · 연속 공부 일수 추적
+- 🏠 **가상 스터디룸** — WebSocket 실시간 입장 · 집중/휴식/대기 상태 공유
+- 🚨 **AI 슬럼프 감지** — 3일 연속 목표 미달 시 Gemini 맞춤 격려 메시지 생성
+- 🎵 **ASMR 플레이어** — 단독 재생 + 믹스 모드 (빗소리·불소리·파도 자유 조합)
+- 📊 **집중 통계** — 일별·주별·월별·연간 통계 + 히트맵 시각화
 """)
 
 with r4:
@@ -309,16 +313,21 @@ with r4:
     st.markdown("""
 <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px;">
   <span class="badge" style="background:#05998818;color:#037360;border-color:#05998855;">FastAPI</span>
-  <span class="badge" style="background:#1A73E818;color:#0f4d9a;border-color:#1A73E855;">Gemini 2.5</span>
+  <span class="badge" style="background:#33669918;color:#224466;border-color:#33669955;">PostgreSQL</span>
+  <span class="badge" style="background:#1A73E818;color:#0f4d9a;border-color:#1A73E855;">Gemini 2.5 Flash</span>
   <span class="badge" style="background:#8B5CF618;color:#5b21b6;border-color:#8B5CF655;">Python</span>
   <span class="badge" style="background:#F9731618;color:#c05600;border-color:#F9731655;">JavaScript</span>
-  <span class="badge" style="background:#f3f4f618;color:#374151;border-color:#d1d5db;">SQLite</span>
+  <span class="badge" style="background:#06b6d418;color:#0369a1;border-color:#06b6d455;">WebSocket</span>
+  <span class="badge" style="background:#2496ED18;color:#1361a0;border-color:#2496ED55;">Docker Compose</span>
+  <span class="badge" style="background:#ef444418;color:#991b1b;border-color:#ef444455;">slowapi · JWT</span>
 </div>
 
 <div class="highlight" style="background:#f5f3ff; border-left:4px solid #7c3aed;">
   <b>💡 차별점</b><br>
-  기존 타이머 앱과 달리 <b>AI가 할 일을 분석해 집중 블록을 자동 설계</b>하고,
-  ASMR로 집중 환경까지 함께 제공합니다.
+  AI가 공부 유형을 분석해 <b>최적 집중 사이클을 자동 설계</b>합니다.<br>
+  <b>레벨·스트릭 게임화</b>로 지속 동기를 부여하고,
+  <b>WebSocket 가상 스터디룸</b>으로 혼자가 아닌 함께 공부하는 경험을 제공합니다.<br>
+  슬럼프 감지 시 Gemini가 <b>개인화된 격려 메시지</b>를 실시간으로 생성합니다.
 </div>
 """, unsafe_allow_html=True)
 
