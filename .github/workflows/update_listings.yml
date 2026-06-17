@@ -1,0 +1,38 @@
+name: Update Stock Listings
+
+on:
+  schedule:
+    # Every Monday 01:00 UTC (10:00 KST) — after Korean markets open
+    - cron: '0 1 * * 1'
+  workflow_dispatch:  # Allow manual trigger from GitHub Actions tab
+
+jobs:
+  update-listings:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install finance-datareader pandas requests
+
+      - name: Update listing CSVs
+        run: python scripts/update_listings.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add resources/listings/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: auto-update stock listings $(date -u +%Y-%m-%d)"
+            git push
+          fi

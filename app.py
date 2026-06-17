@@ -100,6 +100,15 @@ def getData(code, datestart, dateend):
 
 _LISTINGS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "resources", "listings")
 
+_LISTINGS_META: dict = {}
+try:
+    _meta_path = os.path.join(_LISTINGS_DIR, "meta.json")
+    if os.path.exists(_meta_path):
+        with open(_meta_path, encoding="utf-8") as _f:
+            _LISTINGS_META = _json.load(_f)
+except Exception:
+    pass
+
 def _load_static_listing(market: str) -> pd.DataFrame:
     path = os.path.join(_LISTINGS_DIR, f"{market}.csv")
     if os.path.exists(path):
@@ -317,6 +326,9 @@ with st.sidebar:
         st.stop()
     symbols['Display'] = symbols['Name'] + " (" + symbols['Code'] + ")"
     stock_list = list(symbols['Display'])
+    if _LISTINGS_META.get('updated_at'):
+        _date_ref = _LISTINGS_META.get('kr_data_date') or _LISTINGS_META['updated_at']
+        st.caption(f"📅 종목 목록 기준일: {_date_ref}")
 
     # 종목 기본 인덱스 결정 (관심종목 클릭 > URL 파라미터 > 기본값 순)
     default_idx = 0
@@ -652,32 +664,35 @@ with tab5:  # 투자 지표
 """)
         st.markdown("---")
 
-        # MACD (사전 계산값 재사용)
+        # MACD (사전 계산값 재사용 — 최소 26일 필요)
         st.markdown("#### ▪️ MACD (이동평균 수렴·발산)")
-        macd_line = _macd_line_pre
-        signal_line = _signal_line_pre
-        macd_hist = macd_line - signal_line
-        bar_colors = ['#FF6B6B' if v >= 0 else '#4169E1' for v in macd_hist]
+        if len(df) >= 26:
+            macd_line = _macd_line_pre
+            signal_line = _signal_line_pre
+            macd_hist = macd_line - signal_line
+            bar_colors = ['#FF6B6B' if v >= 0 else '#4169E1' for v in macd_hist]
 
-        fig_macd = go.Figure()
-        fig_macd.add_trace(go.Scatter(x=close.index, y=macd_line,
-                                       line=dict(color='#4ECDC4', width=1.5), name='MACD'))
-        fig_macd.add_trace(go.Scatter(x=close.index, y=signal_line,
-                                       line=dict(color='#FF6B6B', width=1.5), name='Signal'))
-        fig_macd.add_trace(go.Bar(x=close.index, y=macd_hist,
-                                   marker_color=bar_colors, opacity=0.6, name='Histogram'))
-        fig_macd.add_hline(y=0, line_dash='dash', line_color='gray', opacity=0.5)
-        fig_macd.update_layout(height=280, template=_template,
-                                margin=dict(l=10, r=10, t=20, b=10),
-                                hovermode='x unified',
-                                legend=dict(orientation='h', yanchor='bottom', y=1.01, xanchor='right', x=1))
-        st.plotly_chart(fig_macd, config=_PLOTLY_CONFIG, width='stretch')
+            fig_macd = go.Figure()
+            fig_macd.add_trace(go.Scatter(x=close.index, y=macd_line,
+                                           line=dict(color='#4ECDC4', width=1.5), name='MACD'))
+            fig_macd.add_trace(go.Scatter(x=close.index, y=signal_line,
+                                           line=dict(color='#FF6B6B', width=1.5), name='Signal'))
+            fig_macd.add_trace(go.Bar(x=close.index, y=macd_hist,
+                                       marker_color=bar_colors, opacity=0.6, name='Histogram'))
+            fig_macd.add_hline(y=0, line_dash='dash', line_color='gray', opacity=0.5)
+            fig_macd.update_layout(height=280, template=_template,
+                                    margin=dict(l=10, r=10, t=20, b=10),
+                                    hovermode='x unified',
+                                    legend=dict(orientation='h', yanchor='bottom', y=1.01, xanchor='right', x=1))
+            st.plotly_chart(fig_macd, config=_PLOTLY_CONFIG, width='stretch')
 
-        macd_now, signal_now = macd_line.iloc[-1], signal_line.iloc[-1]
-        if macd_now > signal_now:
-            st.success(f"MACD({macd_now:.2f}) > Signal({signal_now:.2f}) → 상승 신호")
+            macd_now, signal_now = macd_line.iloc[-1], signal_line.iloc[-1]
+            if macd_now > signal_now:
+                st.success(f"MACD({macd_now:.2f}) > Signal({signal_now:.2f}) → 상승 신호")
+            else:
+                st.error(f"MACD({macd_now:.2f}) < Signal({signal_now:.2f}) → 하락 신호")
         else:
-            st.error(f"MACD({macd_now:.2f}) < Signal({signal_now:.2f}) → 하락 신호")
+            st.info(f"MACD 계산을 위한 데이터가 부족합니다. (현재 {len(df)}일, 최소 26일 필요)")
 
         with st.expander("💡 MACD(이동평균 수렴·발산)란?"):
             st.markdown("""
@@ -826,88 +841,89 @@ with tab7:  # 포트폴리오 시뮬레이터
             st.warning(f"비중 합계: **{_total_w}%** — 100%가 되도록 조정하세요.")
 
         if st.button("계산하기", key="calc_portfolio", disabled=(_total_w != 100)):
-            _port_data = {}
-            for _code, _name, _w in _port_stocks:
-                try:
-                    _h = getData(_code, invest_date, datetime.today().date())
-                    if not _h.empty:
-                        _port_data[_code] = (_name, _w, _h)
-                except Exception:
-                    st.warning(f"{_name}: 데이터 로드 실패")
+            with st.spinner("포트폴리오 계산 중..."):
+                _port_data = {}
+                for _code, _name, _w in _port_stocks:
+                    try:
+                        _h = getData(_code, invest_date, datetime.today().date())
+                        if not _h.empty:
+                            _port_data[_code] = (_name, _w, _h)
+                    except Exception:
+                        st.warning(f"{_name}: 데이터 로드 실패")
 
-            if not _port_data:
-                st.error("데이터를 불러올 수 없습니다.")
-            else:
-                fig_port = go.Figure()
-                _portfolio_val = None
-                _summary = []
-
-                for _idx, (_code, (_name, _w, _h)) in enumerate(_port_data.items()):
-                    _buy  = _h['Close'].iloc[0]
-                    _curr = _h['Close'].iloc[-1]
-                    _alloc = invest_amount * _w / 100
-                    _vals  = (_h['Close'] / _buy) * _alloc
-                    _ret   = (_curr / _buy - 1) * 100
-
-                    fig_port.add_trace(go.Scatter(
-                        x=_h.index, y=_vals,
-                        name=f"{_name} ({_w}%)",
-                        line=dict(color=_port_colors[_idx], width=1.5, dash='dot' if _idx > 0 else 'solid'),
-                        opacity=0.75
-                    ))
-
-                    _portfolio_val = _vals if _portfolio_val is None else _portfolio_val.add(_vals, fill_value=0)
-                    _summary.append({
-                        "종목": _name, "비중": f"{_w}%",
-                        f"매수가": fmt_price(_buy, currency),
-                        f"현재가": fmt_price(_curr, currency),
-                        "수익률": f"{_ret:+.2f}%",
-                        f"배분 원금": fmt_price(_alloc, currency),
-                        f"현재 평가액": fmt_price(_vals.iloc[-1], currency),
-                    })
-
-                # 포트폴리오 합계 라인
-                fig_port.add_trace(go.Scatter(
-                    x=_portfolio_val.index, y=_portfolio_val,
-                    name="포트폴리오 합계",
-                    line=dict(color='#ECF0F1', width=3),
-                    fill='tozeroy', fillcolor='rgba(236,240,241,0.08)'
-                ))
-                fig_port.add_hline(y=invest_amount, line_dash='dash', line_color='gray', opacity=0.6,
-                                   annotation_text=f'원금 {fmt_price(invest_amount, currency)}',
-                                   annotation_position='right')
-                fig_port.update_layout(
-                    height=400, template=_template,
-                    yaxis_title=f'평가액 ({currency})', xaxis_title='날짜',
-                    legend=dict(orientation='h', yanchor='bottom', y=1.01, xanchor='right', x=1),
-                    margin=dict(l=10, r=10, t=40, b=10), hovermode='x unified'
-                )
-                st.plotly_chart(fig_port, config=_PLOTLY_CONFIG, width='stretch')
-
-                # 요약 지표
-                _total_curr = _portfolio_val.iloc[-1]
-                _total_ret  = (_total_curr / invest_amount - 1) * 100
-                _profit     = _total_curr - invest_amount
-                st.markdown("---")
-                cm1, cm2, cm3 = st.columns(3)
-                cm1.metric("총 투자 원금", fmt_price(invest_amount, currency))
-                cm2.metric("현재 포트폴리오 평가액", fmt_price(_total_curr, currency))
-                _pref = "+" if _profit >= 0 else ""
-                cm3.metric("포트폴리오 손익",
-                           f"{_pref}{fmt_price(abs(_profit), currency)}",
-                           delta=f"{_total_ret:+.2f}%")
-
-                st.markdown("#### 종목별 현황")
-                st.dataframe(pd.DataFrame(_summary), hide_index=True, width='stretch')
-
-                if _total_ret >= 20:
-                    st.success(f"🎉 {_total_ret:.2f}% 수익! 훌륭한 포트폴리오입니다.")
-                elif _total_ret > 0:
-                    st.success(f"📈 {_total_ret:.2f}% 수익 중입니다.")
-                elif _total_ret > -10:
-                    st.warning(f"📊 {abs(_total_ret):.2f}% 손실 중입니다.")
+                if not _port_data:
+                    st.error("데이터를 불러올 수 없습니다.")
                 else:
-                    st.error(f"📉 {abs(_total_ret):.2f}% 손실 중입니다.")
+                    fig_port = go.Figure()
+                    _portfolio_val = None
+                    _summary = []
+
+                    for _idx, (_code, (_name, _w, _h)) in enumerate(_port_data.items()):
+                        _buy  = _h['Close'].iloc[0]
+                        _curr = _h['Close'].iloc[-1]
+                        _alloc = invest_amount * _w / 100
+                        _vals  = (_h['Close'] / _buy) * _alloc
+                        _ret   = (_curr / _buy - 1) * 100
+
+                        fig_port.add_trace(go.Scatter(
+                            x=_h.index, y=_vals,
+                            name=f"{_name} ({_w}%)",
+                            line=dict(color=_port_colors[_idx], width=1.5, dash='dot' if _idx > 0 else 'solid'),
+                            opacity=0.75
+                        ))
+
+                        _portfolio_val = _vals if _portfolio_val is None else _portfolio_val.add(_vals, fill_value=0)
+                        _summary.append({
+                            "종목": _name, "비중": f"{_w}%",
+                            f"매수가": fmt_price(_buy, currency),
+                            f"현재가": fmt_price(_curr, currency),
+                            "수익률": f"{_ret:+.2f}%",
+                            f"배분 원금": fmt_price(_alloc, currency),
+                            f"현재 평가액": fmt_price(_vals.iloc[-1], currency),
+                        })
+
+                    # 포트폴리오 합계 라인
+                    fig_port.add_trace(go.Scatter(
+                        x=_portfolio_val.index, y=_portfolio_val,
+                        name="포트폴리오 합계",
+                        line=dict(color='#ECF0F1', width=3),
+                        fill='tozeroy', fillcolor='rgba(236,240,241,0.08)'
+                    ))
+                    fig_port.add_hline(y=invest_amount, line_dash='dash', line_color='gray', opacity=0.6,
+                                       annotation_text=f'원금 {fmt_price(invest_amount, currency)}',
+                                       annotation_position='right')
+                    fig_port.update_layout(
+                        height=400, template=_template,
+                        yaxis_title=f'평가액 ({currency})', xaxis_title='날짜',
+                        legend=dict(orientation='h', yanchor='bottom', y=1.01, xanchor='right', x=1),
+                        margin=dict(l=10, r=10, t=40, b=10), hovermode='x unified'
+                    )
+                    st.plotly_chart(fig_port, config=_PLOTLY_CONFIG, width='stretch')
+
+                    # 요약 지표
+                    _total_curr = _portfolio_val.iloc[-1]
+                    _total_ret  = (_total_curr / invest_amount - 1) * 100
+                    _profit     = _total_curr - invest_amount
+                    st.markdown("---")
+                    cm1, cm2, cm3 = st.columns(3)
+                    cm1.metric("총 투자 원금", fmt_price(invest_amount, currency))
+                    cm2.metric("현재 포트폴리오 평가액", fmt_price(_total_curr, currency))
+                    _pref = "+" if _profit >= 0 else ""
+                    cm3.metric("포트폴리오 손익",
+                               f"{_pref}{fmt_price(abs(_profit), currency)}",
+                               delta=f"{_total_ret:+.2f}%")
+
+                    st.markdown("#### 종목별 현황")
+                    st.dataframe(pd.DataFrame(_summary), hide_index=True, width='stretch')
+
+                    if _total_ret >= 20:
+                        st.success(f"🎉 {_total_ret:.2f}% 수익! 훌륭한 포트폴리오입니다.")
+                    elif _total_ret > 0:
+                        st.success(f"📈 {_total_ret:.2f}% 수익 중입니다.")
+                    elif _total_ret > -10:
+                        st.warning(f"📊 {abs(_total_ret):.2f}% 손실 중입니다.")
+                    else:
+                        st.error(f"📉 {abs(_total_ret):.2f}% 손실 중입니다.")
 
 
 with tab8:  # 요금제
