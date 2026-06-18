@@ -173,7 +173,7 @@ try:
 except Exception:
     _APP_BASE_URL = ""
 
-def _candlestick_fig(df, chart_type, template, show_bollinger, show_signals=False):
+def _candlestick_fig(df, chart_type, template, show_bollinger, show_signals=False, ma_periods=None):
     fig = go.Figure()
 
     if chart_type == "candle":
@@ -196,13 +196,15 @@ def _candlestick_fig(df, chart_type, template, show_bollinger, show_signals=Fals
             line=dict(color='#1a1a2e', width=2), name='종가'
         ))
 
-    for period, color, name in [(5, '#FF6B6B', 'MA5'), (10, '#2ECC71', 'MA10'), (30, '#3498DB', 'MA30')]:
-        ma = df['Close'].rolling(period).mean()
-        fig.add_trace(go.Scatter(
-            x=df.index, y=ma,
-            line=dict(color=color, width=1, dash='dot'),
-            name=name, opacity=0.9
-        ))
+    _MA_COLORS = {5: '#FF6B6B', 20: '#F39C12', 60: '#3498DB', 120: '#9B59B6'}
+    for _p in (ma_periods or []):
+        if len(df) >= _p and not (show_bollinger and _p == 20):
+            _ma = df['Close'].rolling(_p).mean()
+            fig.add_trace(go.Scatter(
+                x=df.index, y=_ma,
+                line=dict(color=_MA_COLORS.get(_p, '#888888'), width=1.2, dash='dot'),
+                name=f'MA{_p}', opacity=0.9
+            ))
 
     if show_bollinger and len(df) >= 20:
         ma20 = df['Close'].rolling(20).mean()
@@ -303,6 +305,7 @@ with st.sidebar:
                         st.session_state.fav_code = None
                         st.session_state.fav_market = None
                     st.rerun()
+        st.caption("⚠️ 관심종목은 서버 재시작 시 초기화될 수 있습니다.")
         st.markdown("---")
 
     # URL 파라미터로 초기 종목/마켓 설정
@@ -365,6 +368,11 @@ with st.sidebar:
     show_signals = st.checkbox(
         "매매 신호 표시", value=False,
         help="MACD 골든크로스(▲매수)·데드크로스(▽매도) 시점을 메인 차트에 표시합니다.")
+    ma_periods = st.multiselect(
+        "이동평균선 (MA)",
+        options=[5, 20, 60, 120],
+        default=[5, 20],
+        help="메인 차트에 표시할 이동평균선 기간을 선택합니다. MA20은 볼린저밴드 사용 시 자동 포함됩니다.")
 
     other_symbols = [s for s in stock_list if s != selected_name]
     compare_names = st.multiselect("비교 종목 선택 (최대 2개)", other_symbols, max_selections=2)
@@ -408,7 +416,7 @@ elif df.empty:
     st.error("데이터를 불러올 수 없습니다. 종목 코드나 날짜 범위를 확인해 주세요.")
 else:
     st.plotly_chart(
-        _candlestick_fig(df, chart_type, _template, show_bollinger, show_signals),
+        _candlestick_fig(df, chart_type, _template, show_bollinger, show_signals, ma_periods),
         config=_PLOTLY_CONFIG, width='stretch')
 
 ''
@@ -458,10 +466,32 @@ with tab1:  # 요약
         else:
             st.markdown(f"- **선택 기간 수익률:** {return_pct:.2f}%")
 
+        # 52주 신고가·신저가
+        st.markdown("---")
+        _52w_df = getData(selected_code,
+                          (datetime.today() - timedelta(days=365)).date(),
+                          datetime.today().date())
+        if not _52w_df.empty:
+            _52h = _52w_df['High'].max()
+            _52l = _52w_df['Low'].min()
+            _curr = end_price
+            col52a, col52b, col52c = st.columns(3)
+            col52a.metric(
+                "📈 52주 최고가", fmt_price(_52h, currency),
+                delta=f"{(_curr / _52h - 1) * 100:+.1f}%",
+                help="최근 1년 장중 최고가. 현재 종가 대비 비율.")
+            col52b.metric(
+                "📉 52주 최저가", fmt_price(_52l, currency),
+                delta=f"{(_curr / _52l - 1) * 100:+.1f}%",
+                help="최근 1년 장중 최저가. 현재 종가 대비 비율.")
+            col52c.metric(
+                "↕️ 52주 변동폭", fmt_price(_52h - _52l, currency),
+                help="52주 최고가 - 최저가 차이.")
+
         if len(df) >= 20:
             st.markdown("---")
             st.markdown("**📊 현재 RSI 신호**")
-            if _math.isnan(_rsi_latest):
+            if not _math.isfinite(_rsi_latest):
                 st.info("RSI — 계산 불가 (변동 없음)")
             elif _rsi_latest >= 70:
                 st.warning(f"⚠️ RSI {_rsi_latest:.1f} — **과매수** 구간 (단기 조정 가능성)")
@@ -641,7 +671,7 @@ with tab5:  # 투자 지표
                                hovermode='x unified', showlegend=False)
         st.plotly_chart(fig_rsi, config=_PLOTLY_CONFIG, width='stretch')
 
-        if _math.isnan(float(rsi_latest)):
+        if not _math.isfinite(float(rsi_latest)):
             st.info("RSI — 계산 불가 (변동 없음)")
         elif rsi_latest >= 70:
             st.error(f"RSI {rsi_latest:.1f} → 과매수 구간 (단기 조정 가능성)")
@@ -875,6 +905,7 @@ with tab7:  # 포트폴리오 시뮬레이터
                         _portfolio_val = _vals if _portfolio_val is None else _portfolio_val.add(_vals, fill_value=0)
                         _summary.append({
                             "종목": _name, "비중": f"{_w}%",
+                            "실제 매수일": str(_h.index[0].date()),
                             f"매수가": fmt_price(_buy, currency),
                             f"현재가": fmt_price(_curr, currency),
                             "수익률": f"{_ret:+.2f}%",
@@ -914,7 +945,14 @@ with tab7:  # 포트폴리오 시뮬레이터
                                delta=f"{_total_ret:+.2f}%")
 
                     st.markdown("#### 종목별 현황")
-                    st.dataframe(pd.DataFrame(_summary), hide_index=True, width='stretch')
+                    _summary_df = pd.DataFrame(_summary)
+                    st.dataframe(_summary_df, hide_index=True, width='stretch')
+                    st.download_button(
+                        "📥 결과 CSV 다운로드",
+                        data=_summary_df.to_csv(index=False).encode('utf-8-sig'),
+                        file_name=f"portfolio_{datetime.today().strftime('%Y%m%d')}.csv",
+                        mime="text/csv",
+                    )
 
                     if _total_ret >= 20:
                         st.success(f"🎉 {_total_ret:.2f}% 수익! 훌륭한 포트폴리오입니다.")
