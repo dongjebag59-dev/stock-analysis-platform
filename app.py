@@ -33,6 +33,11 @@ for _k, _v in [("fav_code", None), ("fav_market", None), ("is_premium", False),
                ("kakao_tid", None), ("kakao_order_id", None), ("payment_msg", None)]:
     if _k not in st.session_state:
         st.session_state[_k] = _v
+# 날짜 세션 상태 (기간 버튼용)
+if '_ds' not in st.session_state:
+    st.session_state['_ds'] = (datetime.today() - timedelta(days=365)).date()
+if '_de' not in st.session_state:
+    st.session_state['_de'] = datetime.today().date()
 
 handle_kakao_callback()
 
@@ -152,6 +157,30 @@ def getSymbols(market='KOSPI', sort='Marcap'):
         pass
     return _load_static_listing(market)
 
+@st.cache_data(ttl=3600)
+def get_naver_financial(code: str) -> dict:
+    """네이버 금융에서 PER·EPS·PBR·BPS·배당수익률 스크래핑 (한국 주식 전용)."""
+    try:
+        url = f"https://finance.naver.com/item/main.naver?code={code}"
+        r = requests.get(url,
+                         headers={'User-Agent': 'Mozilla/5.0', 'Accept-Language': 'ko-KR'},
+                         timeout=6)
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, 'lxml')
+        result: dict = {}
+        _targets = {'PER', 'EPS', 'PBR', 'BPS', '배당수익률'}
+        for td in soup.find_all('td'):
+            txt = td.get_text(strip=True)
+            if txt in _targets:
+                nxt = td.find_next_sibling('td')
+                if nxt:
+                    val = nxt.get_text(strip=True)
+                    if val and val != '-':
+                        result[txt] = val
+        return result
+    except Exception:
+        return {}
+
 @st.cache_data(ttl=1800)
 def get_google_news(stock_name, max_news=3):
     query = stock_name.replace(" ", "+")
@@ -173,7 +202,8 @@ try:
 except Exception:
     _APP_BASE_URL = ""
 
-def _candlestick_fig(df, chart_type, template, show_bollinger, show_signals=False, ma_periods=None):
+def _candlestick_fig(df, chart_type, template, show_bollinger, show_signals=False,
+                     ma_periods=None, week52_high=None, week52_low=None):
     fig = go.Figure()
 
     if chart_type == "candle":
@@ -252,6 +282,15 @@ def _candlestick_fig(df, chart_type, template, show_bollinger, show_signals=Fals
                             line=dict(color='white', width=0.5)),
                 name='매도 신호', hovertemplate='MACD 매도 신호<extra></extra>'
             ))
+
+    if week52_high is not None:
+        fig.add_hline(y=week52_high, line_dash='dot', line_color='rgba(255,80,80,0.55)',
+                      annotation_text=f'52주 최고', annotation_position='top right',
+                      annotation_font_size=11)
+    if week52_low is not None:
+        fig.add_hline(y=week52_low, line_dash='dot', line_color='rgba(80,80,255,0.55)',
+                      annotation_text=f'52주 최저', annotation_position='bottom right',
+                      annotation_font_size=11)
 
     fig.update_layout(
         height=520,
@@ -348,11 +387,30 @@ with st.sidebar:
             if d in stock_list:
                 default_idx = stock_list.index(d)
 
-    selected_name = st.selectbox("종목 선택", stock_list, index=default_idx)
+    # 종목 검색 필터
+    _search = st.text_input("🔍 종목 검색 (이름/코드)", placeholder="예: 삼성전자, 005930",
+                             key="stock_search")
+    if _search.strip():
+        _sq = _search.strip().lower()
+        _filtered = [s for s in stock_list if _sq in s.lower()]
+        _show_list = _filtered if _filtered else stock_list
+        _show_idx = 0
+    else:
+        _show_list = stock_list
+        _show_idx = default_idx
+
+    selected_name = st.selectbox("종목 선택", _show_list, index=_show_idx)
     selected_code = selected_name.split("(")[-1].replace(")", "")
 
-    date_start = st.date_input("시작일 입력", (datetime.today() - timedelta(days=365)).date())
-    date_end = st.date_input("종료일 입력", datetime.today().date())
+    # 빠른 기간 선택
+    _pb_labels = [('1M', 30), ('3M', 90), ('6M', 180), ('1Y', 365), ('3Y', 1095)]
+    _pb_cols = st.columns(5)
+    for _pbc, (_pbl, _pbd) in zip(_pb_cols, _pb_labels):
+        if _pbc.button(_pbl, key=f"pb_{_pbl}"):
+            st.session_state['_ds'] = (datetime.today() - timedelta(days=_pbd)).date()
+            st.session_state['_de'] = datetime.today().date()
+    date_start = st.date_input("시작일 입력", key='_ds')
+    date_end = st.date_input("종료일 입력", key='_de')
 
     _date_error = date_start > date_end
     if _date_error:
@@ -408,6 +466,13 @@ with st.sidebar:
 # ── 메인 차트 (자동 갱신) ─────────────────
 df = getData(selected_code, date_start, date_end)
 
+# 52주 데이터 (차트 수평선 + tab1 공유)
+_52w_df = getData(selected_code,
+                  (datetime.today() - timedelta(days=365)).date(),
+                  datetime.today().date())
+_52h = float(_52w_df['High'].max()) if not _52w_df.empty else None
+_52l = float(_52w_df['Low'].min()) if not _52w_df.empty else None
+
 st.subheader(f"▪️ 선택 종목 : :blue[{selected_name} (**{z}**)]")
 
 if _date_error:
@@ -416,7 +481,8 @@ elif df.empty:
     st.error("데이터를 불러올 수 없습니다. 종목 코드나 날짜 범위를 확인해 주세요.")
 else:
     st.plotly_chart(
-        _candlestick_fig(df, chart_type, _template, show_bollinger, show_signals, ma_periods),
+        _candlestick_fig(df, chart_type, _template, show_bollinger, show_signals,
+                         ma_periods, _52h, _52l),
         config=_PLOTLY_CONFIG, width='stretch')
 
 ''
@@ -468,12 +534,7 @@ with tab1:  # 요약
 
         # 52주 신고가·신저가
         st.markdown("---")
-        _52w_df = getData(selected_code,
-                          (datetime.today() - timedelta(days=365)).date(),
-                          datetime.today().date())
-        if not _52w_df.empty:
-            _52h = _52w_df['High'].max()
-            _52l = _52w_df['Low'].min()
+        if _52h is not None and _52l is not None:
             _curr = end_price
             col52a, col52b, col52c = st.columns(3)
             col52a.metric(
@@ -487,6 +548,17 @@ with tab1:  # 요약
             col52c.metric(
                 "↕️ 52주 변동폭", fmt_price(_52h - _52l, currency),
                 help="52주 최고가 - 최저가 차이.")
+
+        # 재무 지표 (한국 주식 전용)
+        if z in ('KOSPI', 'KOSDAQ', 'KONEX'):
+            _fin = get_naver_financial(selected_code)
+            if _fin:
+                st.markdown("---")
+                st.markdown("**💹 주요 재무 지표** (네이버 금융 기준)")
+                _fcols = st.columns(len(_fin))
+                for _fc, (_fk, _fv) in zip(_fcols, _fin.items()):
+                    _fc.metric(_fk, _fv)
+                st.caption("PER: 주가수익비율 | PBR: 주가순자산비율 | EPS: 주당순이익 | BPS: 주당순자산")
 
         if len(df) >= 20:
             st.markdown("---")
@@ -588,13 +660,21 @@ with tab4:  # 거래량
         avg_vol = df['Volume'].mean()
         fig_vol = go.Figure()
         fig_vol.add_trace(go.Bar(x=df.index, y=df['Volume'],
-                                  marker_color=vol_colors, opacity=0.8, name='거래량'))
+                                  marker_color=vol_colors, opacity=0.7, name='거래량'))
+        # 거래량 이동평균
+        for _vp, _vc in [(5, '#F39C12'), (20, '#9B59B6')]:
+            if len(df) >= _vp:
+                _vma = df['Volume'].rolling(_vp).mean()
+                fig_vol.add_trace(go.Scatter(x=df.index, y=_vma,
+                                              line=dict(color=_vc, width=1.5),
+                                              name=f'Vol MA{_vp}'))
         fig_vol.add_hline(y=avg_vol, line_dash='dash', line_color='orange',
                            annotation_text=f'평균 {int(avg_vol):,}', annotation_position='right')
         fig_vol.update_layout(
             height=350, template=_template,
             xaxis_title='날짜', yaxis_title='거래량',
-            margin=dict(l=10, r=10, t=20, b=10), hovermode='x unified'
+            margin=dict(l=10, r=10, t=20, b=10), hovermode='x unified',
+            legend=dict(orientation='h', yanchor='bottom', y=1.01, xanchor='right', x=1)
         )
         st.plotly_chart(fig_vol, config=_PLOTLY_CONFIG, width='stretch')
 
@@ -806,7 +886,7 @@ with tab6:  # 종목 비교
 
             if summary_rows:
                 st.markdown("#### 요약 비교표")
-                st.dataframe(pd.DataFrame(summary_rows), width='stretch', hide_index=True)
+                st.dataframe(pd.DataFrame(summary_rows), use_container_width=True, hide_index=True)
 
 
 with tab7:  # 포트폴리오 시뮬레이터
@@ -946,7 +1026,7 @@ with tab7:  # 포트폴리오 시뮬레이터
 
                     st.markdown("#### 종목별 현황")
                     _summary_df = pd.DataFrame(_summary)
-                    st.dataframe(_summary_df, hide_index=True, width='stretch')
+                    st.dataframe(_summary_df, hide_index=True, use_container_width=True)
                     st.download_button(
                         "📥 결과 CSV 다운로드",
                         data=_summary_df.to_csv(index=False).encode('utf-8-sig'),
