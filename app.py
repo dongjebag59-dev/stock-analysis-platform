@@ -181,6 +181,22 @@ def get_naver_financial(code: str) -> dict:
     except Exception:
         return {}
 
+@st.cache_data(ttl=900)
+def get_index_summary() -> dict:
+    """KOSPI·KOSDAQ·S&P500 직전 2일 종가로 등락률 산출."""
+    result = {}
+    _since = (datetime.today() - timedelta(days=7)).strftime('%Y-%m-%d')
+    for name, ticker in [('KOSPI', 'KS11'), ('KOSDAQ', 'KQ11'), ('S&P500', 'US500')]:
+        try:
+            d = fdr.DataReader(ticker, _since)
+            if not d.empty and len(d) >= 2:
+                curr = float(d['Close'].iloc[-1])
+                prev = float(d['Close'].iloc[-2])
+                result[name] = (curr, (curr / prev - 1) * 100)
+        except Exception:
+            pass
+    return result
+
 @st.cache_data(ttl=1800)
 def get_google_news(stock_name, max_news=3):
     query = stock_name.replace(" ", "+")
@@ -195,7 +211,12 @@ def get_google_news(stock_name, max_news=3):
 
 # ── Plotly 차트 헬퍼 ─────────────────────
 _PLOTLY_TEMPLATES = {"default": "plotly_white", "dark": "plotly_dark", "simple": "simple_white"}
-_PLOTLY_CONFIG = {'displayModeBar': True, 'displaylogo': False}
+_PLOTLY_CONFIG = {'displayModeBar': True, 'displaylogo': False,
+                  'toImageButtonOptions': {'format': 'png', 'scale': 2}}
+
+def _plot_config(filename: str) -> dict:
+    return {**_PLOTLY_CONFIG,
+            'toImageButtonOptions': {'format': 'png', 'filename': filename, 'scale': 2}}
 
 try:
     _APP_BASE_URL = st.secrets.get("APP_BASE_URL", "").rstrip("/")
@@ -204,28 +225,35 @@ except Exception:
 
 def _candlestick_fig(df, chart_type, template, show_bollinger, show_signals=False,
                      ma_periods=None, week52_high=None, week52_low=None):
-    fig = go.Figure()
+    has_vol = 'Volume' in df.columns and df['Volume'].sum() > 0
+    if has_vol:
+        fig = make_subplots(rows=2, cols=1, shared_xaxes=True,
+                            row_heights=[0.75, 0.25], vertical_spacing=0.02)
+    else:
+        fig = make_subplots(rows=1, cols=1)
 
+    # ── 메인 가격 차트
     if chart_type == "candle":
         fig.add_trace(go.Candlestick(
             x=df.index, open=df['Open'], high=df['High'],
             low=df['Low'], close=df['Close'],
             increasing_line_color='#FF4444', decreasing_line_color='#4444FF',
             name='가격', showlegend=False
-        ))
+        ), row=1, col=1)
     elif chart_type == "ohlc":
         fig.add_trace(go.Ohlc(
             x=df.index, open=df['Open'], high=df['High'],
             low=df['Low'], close=df['Close'],
             increasing_line_color='#FF4444', decreasing_line_color='#4444FF',
             name='가격', showlegend=False
-        ))
+        ), row=1, col=1)
     else:
         fig.add_trace(go.Scatter(
             x=df.index, y=df['Close'],
             line=dict(color='#1a1a2e', width=2), name='종가'
-        ))
+        ), row=1, col=1)
 
+    # ── 이동평균선
     _MA_COLORS = {5: '#FF6B6B', 20: '#F39C12', 60: '#3498DB', 120: '#9B59B6'}
     for _p in (ma_periods or []):
         if len(df) >= _p and not (show_bollinger and _p == 20):
@@ -234,8 +262,9 @@ def _candlestick_fig(df, chart_type, template, show_bollinger, show_signals=Fals
                 x=df.index, y=_ma,
                 line=dict(color=_MA_COLORS.get(_p, '#888888'), width=1.2, dash='dot'),
                 name=f'MA{_p}', opacity=0.9
-            ))
+            ), row=1, col=1)
 
+    # ── 볼린저밴드
     if show_bollinger and len(df) >= 20:
         ma20 = df['Close'].rolling(20).mean()
         std20 = df['Close'].rolling(20).std()
@@ -245,19 +274,20 @@ def _candlestick_fig(df, chart_type, template, show_bollinger, show_signals=Fals
             x=df.index, y=lower,
             line=dict(color='rgba(68,68,255,0.5)', width=1, dash='dash'),
             name='Lower BB', showlegend=False
-        ))
+        ), row=1, col=1)
         fig.add_trace(go.Scatter(
             x=df.index, y=upper,
             line=dict(color='rgba(255,68,68,0.5)', width=1, dash='dash'),
             fill='tonexty', fillcolor='rgba(128,128,128,0.12)',
             name='볼린저밴드'
-        ))
+        ), row=1, col=1)
         fig.add_trace(go.Scatter(
             x=df.index, y=ma20,
             line=dict(color='#00CED1', width=1.5, dash='dot'),
             name='MA20'
-        ))
+        ), row=1, col=1)
 
+    # ── MACD 매매 신호
     if show_signals and len(df) >= 30:
         _ema12 = df['Close'].ewm(span=12, adjust=False).mean()
         _ema26 = df['Close'].ewm(span=26, adjust=False).mean()
@@ -274,27 +304,47 @@ def _candlestick_fig(df, chart_type, template, show_bollinger, show_signals=Fals
                 marker=dict(symbol='triangle-up', size=11, color='#00C853',
                             line=dict(color='white', width=0.5)),
                 name='매수 신호', hovertemplate='MACD 매수 신호<extra></extra>'
-            ))
+            ), row=1, col=1)
         if len(sell_x) > 0:
             fig.add_trace(go.Scatter(
                 x=sell_x, y=df.loc[sell_x, 'High'] + _buf, mode='markers',
                 marker=dict(symbol='triangle-down', size=11, color='#FF1744',
                             line=dict(color='white', width=0.5)),
                 name='매도 신호', hovertemplate='MACD 매도 신호<extra></extra>'
-            ))
+            ), row=1, col=1)
 
+    # ── 52주 고저 수평선 (가격 차트 row=1 에만)
     if week52_high is not None:
         fig.add_hline(y=week52_high, line_dash='dot', line_color='rgba(255,80,80,0.55)',
-                      annotation_text=f'52주 최고', annotation_position='top right',
-                      annotation_font_size=11)
+                      annotation_text='52주 최고', annotation_position='top right',
+                      annotation_font_size=11, row=1, col=1)
     if week52_low is not None:
         fig.add_hline(y=week52_low, line_dash='dot', line_color='rgba(80,80,255,0.55)',
-                      annotation_text=f'52주 최저', annotation_position='bottom right',
-                      annotation_font_size=11)
+                      annotation_text='52주 최저', annotation_position='bottom right',
+                      annotation_font_size=11, row=1, col=1)
 
+    # ── 거래량 서브플롯 (row=2)
+    if has_vol:
+        _oc = zip(df.get('Open', df['Close']), df['Close'])
+        _vcols = ['#FF4444' if c >= o else '#4444FF' for o, c in _oc]
+        fig.add_trace(go.Bar(
+            x=df.index, y=df['Volume'],
+            marker_color=_vcols, opacity=0.6,
+            name='거래량', showlegend=False
+        ), row=2, col=1)
+        if len(df) >= 5:
+            fig.add_trace(go.Scatter(
+                x=df.index, y=df['Volume'].rolling(5).mean(),
+                line=dict(color='#F39C12', width=1.2),
+                name='Vol MA5', showlegend=False
+            ), row=2, col=1)
+
+    fig.update_xaxes(rangeslider_visible=False)
+    if has_vol:
+        fig.update_xaxes(showticklabels=False, row=1, col=1)
+        fig.update_yaxes(title_text='거래량', tickformat=',.0s', row=2, col=1)
     fig.update_layout(
-        height=520,
-        xaxis_rangeslider_visible=False,
+        height=640 if has_vol else 520,
         template=template,
         legend=dict(orientation='h', yanchor='bottom', y=1.01, xanchor='right', x=1),
         margin=dict(l=10, r=10, t=40, b=10),
@@ -305,6 +355,14 @@ def _candlestick_fig(df, chart_type, template, show_bollinger, show_signals=Fals
 
 # ── 사이드바 ─────────────────────────────
 with st.sidebar:
+    # 주요 지수 현황
+    _idx_data = get_index_summary()
+    if _idx_data:
+        _idx_cols = st.columns(len(_idx_data))
+        for _ic, (_iname, (_ival, _ichg)) in zip(_idx_cols, _idx_data.items()):
+            _ic.metric(_iname, f"{_ival:,.0f}", f"{_ichg:+.2f}%")
+        st.markdown("---")
+
     st.header("⚙️ 차트 설정")
     st.caption("종목과 기간을 선택하면 차트가 자동으로 업데이트됩니다.")
     ''
@@ -345,6 +403,13 @@ with st.sidebar:
                         st.session_state.fav_market = None
                     st.rerun()
         st.caption("⚠️ 관심종목은 서버 재시작 시 초기화될 수 있습니다.")
+        st.download_button(
+            "📤 관심종목 내보내기",
+            data=_json.dumps(favorites, ensure_ascii=False, indent=2).encode('utf-8'),
+            file_name="favorites.json",
+            mime="application/json",
+            help="관심종목을 JSON 파일로 백업합니다.",
+        )
         st.markdown("---")
 
     # URL 파라미터로 초기 종목/마켓 설정
@@ -453,9 +518,13 @@ with st.sidebar:
     # 링크 공유
     with st.expander("🔗 현재 종목 링크 공유"):
         _base = _APP_BASE_URL or "https://your-app.streamlit.app"
-        st.code(f"{_base}?market={z}&code={selected_code}")
+        _share_url = f"{_base}?market={z}&code={selected_code}"
+        st.code(_share_url)
         if not _APP_BASE_URL:
             st.caption("⚙️ secrets에 `APP_BASE_URL` 설정 시 정확한 URL이 표시됩니다.")
+        _qr_bytes = make_qr(_share_url)
+        if _qr_bytes:
+            st.image(_qr_bytes, width=160, caption="QR 코드로 공유")
 
     if st.button("🔄 데이터 새로고침", help="캐시를 초기화하고 최신 데이터를 불러옵니다."):
         getData.clear()
@@ -483,7 +552,7 @@ else:
     st.plotly_chart(
         _candlestick_fig(df, chart_type, _template, show_bollinger, show_signals,
                          ma_periods, _52h, _52l),
-        config=_PLOTLY_CONFIG, width='stretch')
+        config=_plot_config(f'{selected_code}_{date_end}'), width='stretch')
 
 ''
 ''
@@ -676,7 +745,7 @@ with tab4:  # 거래량
             margin=dict(l=10, r=10, t=20, b=10), hovermode='x unified',
             legend=dict(orientation='h', yanchor='bottom', y=1.01, xanchor='right', x=1)
         )
-        st.plotly_chart(fig_vol, config=_PLOTLY_CONFIG, width='stretch')
+        st.plotly_chart(fig_vol, config=_plot_config(f'{selected_code}_volume'), width='stretch')
 
         st.markdown("---")
         st.markdown("#### 📊 거래량 주요 통계")
@@ -749,7 +818,7 @@ with tab5:  # 투자 지표
                                yaxis=dict(range=[0, 100]), yaxis_title='RSI',
                                margin=dict(l=10, r=10, t=20, b=10),
                                hovermode='x unified', showlegend=False)
-        st.plotly_chart(fig_rsi, config=_PLOTLY_CONFIG, width='stretch')
+        st.plotly_chart(fig_rsi, config=_plot_config(f'{selected_code}_RSI'), width='stretch')
 
         if not _math.isfinite(float(rsi_latest)):
             st.info("RSI — 계산 불가 (변동 없음)")
@@ -794,7 +863,7 @@ with tab5:  # 투자 지표
                                     margin=dict(l=10, r=10, t=20, b=10),
                                     hovermode='x unified',
                                     legend=dict(orientation='h', yanchor='bottom', y=1.01, xanchor='right', x=1))
-            st.plotly_chart(fig_macd, config=_PLOTLY_CONFIG, width='stretch')
+            st.plotly_chart(fig_macd, config=_plot_config(f'{selected_code}_MACD'), width='stretch')
 
             macd_now, signal_now = macd_line.iloc[-1], signal_line.iloc[-1]
             if macd_now > signal_now:
@@ -882,7 +951,7 @@ with tab6:  # 종목 비교
                 legend=dict(orientation='h', yanchor='bottom', y=1.01, xanchor='right', x=1),
                 margin=dict(l=10, r=10, t=40, b=10), hovermode='x unified'
             )
-            st.plotly_chart(fig_comp, config=_PLOTLY_CONFIG, width='stretch')
+            st.plotly_chart(fig_comp, config=_plot_config(f'{selected_code}_compare'), width='stretch')
 
             if summary_rows:
                 st.markdown("#### 요약 비교표")
@@ -1009,7 +1078,7 @@ with tab7:  # 포트폴리오 시뮬레이터
                         legend=dict(orientation='h', yanchor='bottom', y=1.01, xanchor='right', x=1),
                         margin=dict(l=10, r=10, t=40, b=10), hovermode='x unified'
                     )
-                    st.plotly_chart(fig_port, config=_PLOTLY_CONFIG, width='stretch')
+                    st.plotly_chart(fig_port, config=_plot_config('portfolio'), width='stretch')
 
                     # 요약 지표
                     _total_curr = _portfolio_val.iloc[-1]
