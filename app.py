@@ -412,6 +412,30 @@ with st.sidebar:
         )
         st.markdown("---")
 
+    # 관심종목 가져오기 (favorites가 없어도 항상 표시)
+    with st.expander("📥 관심종목 가져오기 (.json)"):
+        _fav_upload = st.file_uploader("JSON 파일 선택", type="json",
+                                        key="fav_import", label_visibility="collapsed")
+        if _fav_upload is not None:
+            try:
+                _imported = _json.loads(_fav_upload.read().decode('utf-8'))
+                if isinstance(_imported, list) and all(
+                    isinstance(f, dict) and 'code' in f and 'name' in f for f in _imported
+                ):
+                    _cur = load_favorites()
+                    _cur_codes = {f['code'] for f in _cur}
+                    _new = [f for f in _imported if f.get('code') not in _cur_codes]
+                    if _new:
+                        save_favorites(_cur + _new)
+                        st.success(f"{len(_new)}개 종목을 가져왔습니다!")
+                        st.rerun()
+                    else:
+                        st.info("모두 이미 등록된 종목입니다.")
+                else:
+                    st.error("올바른 favorites.json 파일이 아닙니다.")
+            except Exception:
+                st.error("파일을 읽을 수 없습니다.")
+
     # URL 파라미터로 초기 종목/마켓 설정
     _qp = st.query_params
     _init_market = _qp.get("market", "KOSPI")
@@ -543,6 +567,8 @@ _52h = float(_52w_df['High'].max()) if not _52w_df.empty else None
 _52l = float(_52w_df['Low'].min()) if not _52w_df.empty else None
 
 st.subheader(f"▪️ 선택 종목 : :blue[{selected_name} (**{z}**)]")
+if not df.empty:
+    st.caption(f"📅 데이터 기준: {df.index[-1].strftime('%Y년 %m월 %d일')} (최근 거래일)")
 
 if _date_error:
     st.warning("날짜 범위를 다시 선택해주세요.")
@@ -718,38 +744,11 @@ with tab4:  # 거래량
     elif 'Volume' not in df.columns:
         st.warning("이 종목은 거래량 데이터를 제공하지 않습니다.")
     else:
-        ''
-        # 양봉/음봉 색상 구분
-        if 'Open' in df.columns:
-            vol_colors = ['#FF4444' if c >= o else '#4444FF'
-                          for c, o in zip(df['Close'], df['Open'])]
-        else:
-            vol_colors = '#4169E1'
-
-        avg_vol = df['Volume'].mean()
-        fig_vol = go.Figure()
-        fig_vol.add_trace(go.Bar(x=df.index, y=df['Volume'],
-                                  marker_color=vol_colors, opacity=0.7, name='거래량'))
-        # 거래량 이동평균
-        for _vp, _vc in [(5, '#F39C12'), (20, '#9B59B6')]:
-            if len(df) >= _vp:
-                _vma = df['Volume'].rolling(_vp).mean()
-                fig_vol.add_trace(go.Scatter(x=df.index, y=_vma,
-                                              line=dict(color=_vc, width=1.5),
-                                              name=f'Vol MA{_vp}'))
-        fig_vol.add_hline(y=avg_vol, line_dash='dash', line_color='orange',
-                           annotation_text=f'평균 {int(avg_vol):,}', annotation_position='right')
-        fig_vol.update_layout(
-            height=350, template=_template,
-            xaxis_title='날짜', yaxis_title='거래량',
-            margin=dict(l=10, r=10, t=20, b=10), hovermode='x unified',
-            legend=dict(orientation='h', yanchor='bottom', y=1.01, xanchor='right', x=1)
-        )
-        st.plotly_chart(fig_vol, config=_plot_config(f'{selected_code}_volume'), width='stretch')
-
+        st.info("📊 거래량 차트는 메인 탭 차트 하단 패널에서 확인할 수 있습니다.")
         st.markdown("---")
         st.markdown("#### 📊 거래량 주요 통계")
         ''
+        avg_vol = df['Volume'].mean()
         col1, col2, col3 = st.columns(3)
         col1.metric("평균 거래량", f"{int(avg_vol):,}")
         col2.metric("최대 거래량", f"{int(df['Volume'].max()):,}")
