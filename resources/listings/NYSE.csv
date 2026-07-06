@@ -6,1996 +6,1996 @@ BRK.B,Berkshire Hathaway Inc Class B,NYSE
 V,Visa Inc,NYSE
 JNJ,Johnson & Johnson,NYSE
 XOM,Exxon Mobil Corp,NYSE
-CAT,Caterpillar Inc,NYSE
-ABBV,Abbvie Inc,NYSE
 MA,Mastercard Inc,NYSE
-ORCL,Oracle Corp,NYSE
+ABBV,Abbvie Inc,NYSE
+CAT,Caterpillar Inc,NYSE
 BAC,Bank of America Corp,NYSE
-UNH,UnitedHealth Group Inc,NYSE
+ORCL,Oracle Corp,NYSE
 GE,General Electric Co,NYSE
+UNH,UnitedHealth Group Inc,NYSE
 BRK.A,Berkshire Hathaway Inc Class A,NYSE
 KO,Coca-Cola Co,NYSE
 HD,Home Depot Inc,NYSE
 PG,Procter & Gamble Co,NYSE
-CVX,Chevron Corp,NYSE
 MS,Morgan Stanley,NYSE
+CVX,Chevron Corp,NYSE
 HSBC,HSBC Holdings PLC ADR,NYSE
 MRK,Merck & Co Inc,NYSE
 SMFG,Sumitomo Mitsui Financial Group  Inc ADR,NYSE
-GS,Goldman Sachs Group Inc,NYSE
 NVS,Novartis AG ADR,NYSE
 AZN,AstraZeneca PLC,NYSE
+GS,Goldman Sachs Group Inc,NYSE
+GEV,GE Vernova Inc,NYSE
 RY,Royal Bank of Canada,NYSE
 PM,Philip Morris International Inc,NYSE
-GEV,GE Vernova Inc,NYSE
-DELL,Dell Technologies Inc,NYSE
-WFC,Wells Fargo & Co,NYSE
 IBM,International Business Machines Corp,NYSE
 RTX,RTX Corp,NYSE
-C,Citigroup Inc,NYSE
+WFC,Wells Fargo & Co,NYSE
+DELL,Dell Technologies Inc,NYSE
 AXP,American Express Co,NYSE
-BABA,Alibaba Group Holding Ltd ADR,NYSE
+C,Citigroup Inc,NYSE
 MUFG,Mitsubishi UFJ Financial Group Inc ADR,NYSE
+BABA,Alibaba Group Holding Ltd ADR,NYSE
 SHEL,Shell PLC ADR,NYSE
 BHP,BHP Group Ltd ADR,NYSE
 TM,Toyota Motor Corp ADR,NYSE
 APH,Amphenol Corp,NYSE
-TD,Toronto-Dominion Bank,NYSE
 ANET,Arista Networks Inc,NYSE
-VZ,Verizon Communications Inc,NYSE
 SAN,Banco Santander SA ADR,NYSE
 MCD,McDonald's Corp,NYSE
+TD,Toronto-Dominion Bank,NYSE
 TMO,Thermo Fisher Scientific Inc,NYSE
-GLW,Corning Inc,NYSE
-NEE,Nextera Energy Inc,NYSE
 SAP,SAP SE ADR,NYSE
-TTE,TotalEnergies SE,NYSE
-TJX,TJX Companies Inc,NYSE
-DIS,Walt Disney Co,NYSE
+NEE,Nextera Energy Inc,NYSE
 BA,Boeing Co,NYSE
-DE,Deere & Co,NYSE
-ABT,Abbott Laboratories,NYSE
+VZ,Verizon Communications Inc,NYSE
+TTE,TotalEnergies SE,NYSE
+DIS,Walt Disney Co,NYSE
+TJX,TJX Companies Inc,NYSE
 NVO,Novo Nordisk A/S ADR,NYSE
-UBS,UBS Group AG,NYSE
-UNP,Union Pacific Corp,NYSE
-ETN,Eaton Corporation PLC,NYSE
-WELL,Welltower Inc,NYSE
-T,AT&T Inc,NYSE
+GLW,Corning Inc,NYSE
 SCHW,Charles Schwab Corp,NYSE
+DE,Deere & Co,NYSE
+UNP,Union Pacific Corp,NYSE
+UBS,UBS Group AG,NYSE
+WELL,Welltower Inc,NYSE
+ABT,Abbott Laboratories,NYSE
 BLK,BlackRock Inc,NYSE
+ETN,Eaton Corporation PLC,NYSE
 UBER,Uber Technologies Inc,NYSE
-BUD,Anheuser-Busch Inbev SA ADR,NYSE
-SCCO,Southern Copper Corp,NYSE
-DHR,Danaher Corp,NYSE
-PFE,Pfizer Inc,NYSE
-BBVA,Banco Bilbao Vizcaya Argentaria SA ADR,NYSE
 BX,Blackstone Inc,NYSE
+BBVA,Banco Bilbao Vizcaya Argentaria SA ADR,NYSE
+SCCO,Southern Copper Corp,NYSE
+T,AT&T Inc,NYSE
+BUD,Anheuser-Busch Inbev SA ADR,NYSE
+DHR,Danaher Corp,NYSE
+CB,Chubb Limited,NYSE
+PFE,Pfizer Inc,NYSE
+CRM,Salesforce Inc,NYSE
+PGR,Progressive Corp,NYSE
+UL,Unilever PLC ADR,NYSE
 BTI,British American Tobacco P.l.c ADR,NYSE
 CVS,CVS Health Corp,NYSE
-CB,Chubb Limited,NYSE
 HDB,HDFC Bank Ltd ADR,NYSE
-PGR,Progressive Corp,NYSE
-PLD,Prologis Inc,NYSE
-UL,Unilever PLC ADR,NYSE
-CRM,Salesforce Inc,NYSE
-COP,ConocoPhillips,NYSE
-SYK,Stryker Corp,NYSE
-COF,Capital One Financial Corp,NYSE
-LOW,Lowe's Companies Inc,NYSE
-MO,Altria Group Inc,NYSE
-ENB,Enbridge Inc,NYSE
-BMO,Bank of Montreal,NYSE
-PH,Parker-Hannifin Corp,NYSE
 SPGI,S&P Global Inc,NYSE
-MFG,Mizuho Financial Group Inc ADR,NYSE
-RIO,Rio Tinto PLC ADR,NYSE
-BMY,Bristol-Myers Squibb Co,NYSE
+PLD,Prologis Inc,NYSE
+COP,ConocoPhillips,NYSE
+LOW,Lowe's Companies Inc,NYSE
+COF,Capital One Financial Corp,NYSE
 LMT,Lockheed Martin Corp,NYSE
-VRT,Vertiv Holdings Co,NYSE
+SYK,Stryker Corp,NYSE
 SONY,Sony Group Corp ADR,NYSE
+BMO,Bank of Montreal,NYSE
+MO,Altria Group Inc,NYSE
+PH,Parker-Hannifin Corp,NYSE
+MFG,Mizuho Financial Group Inc ADR,NYSE
+BMY,Bristol-Myers Squibb Co,NYSE
+RIO,Rio Tinto PLC ADR,NYSE
+ENB,Enbridge Inc,NYSE
+VRT,Vertiv Holdings Co,NYSE
 SO,Southern Co,NYSE
-HWM,Howmet Aerospace Inc,NYSE
+NOW,ServiceNow Inc,NYSE
 GSK,GSK plc ADR,NYSE
-BNS,Bank of Nova Scotia,NYSE
+HWM,Howmet Aerospace Inc,NYSE
+MDT,Medtronic PLC,NYSE
+BN,Brookfield Corp,NYSE
 IBN,ICICI Bank Ltd ADR,NYSE
 TT,Trane Technologies PLC,NYSE
-BN,Brookfield Corp,NYSE
+BNS,Bank of Nova Scotia,NYSE
 CM,Canadian Imperial Bank of Commerce,NYSE
-MDT,Medtronic PLC,NYSE
-PWR,Quanta Services Inc,NYSE
 NEM,Newmont Corporation,NYSE
-NOW,ServiceNow Inc,NYSE
-DUK,Duke Energy Corp,NYSE
-BNY,Bank of New York Mellon Corp,NYSE
-PNC,PNC Financial Services Group Inc,NYSE
 BP,BP PLC ADR,NYSE
-WMB,Williams Companies Inc,NYSE
-CMI,Cummins Inc,NYSE
+DUK,Duke Energy Corp,NYSE
+GD,General Dynamics Corp,NYSE
+BNY,Bank of New York Mellon Corp,NYSE
+PWR,Quanta Services Inc,NYSE
+PNC,PNC Financial Services Group Inc,NYSE
 SPOT,Spotify Technology SA,NYSE
 USB,US Bancorp,NYSE
-GD,General Dynamics Corp,NYSE
 UPS,United Parcel Service Inc,NYSE
-WM,Waste Management Inc,NYSE
 BCS,Barclays PLC ADR,NYSE
-FCX,Freeport-McMoRan Inc,NYSE
-ASX,ASE Technology Holding Co Ltd ADR,NYSE
-MCK,McKesson Corp,NYSE
 ING,ING Groep NV ADR,NYSE
-HCA,HCA Healthcare Inc,NYSE
-SNOW,Snowflake Inc,NYSE
+ASX,ASE Technology Holding Co Ltd ADR,NYSE
+CMI,Cummins Inc,NYSE
 ELV,Elevance Health Inc,NYSE
-MMM,3M Co,NYSE
-RCL,Royal Caribbean Cruises Ltd,NYSE
-SHW,Sherwin-Williams Co,NYSE
-JCI,Johnson Controls International PLC,NYSE
-NET,Cloudflare Inc,NYSE
+SNOW,Snowflake Inc,NYSE
+WM,Waste Management Inc,NYSE
+MCK,McKesson Corp,NYSE
+HCA,HCA Healthcare Inc,NYSE
+WMB,Williams Companies Inc,NYSE
 LYG,Lloyds Banking Group PLC ADR,NYSE
+FCX,Freeport-McMoRan Inc,NYSE
+SHW,Sherwin-Williams Co,NYSE
+NET,Cloudflare Inc,NYSE
+MRSH,Marsh & McLennan Companies Inc,NYSE
+JCI,Johnson Controls International PLC,NYSE
+MCO,Moody's Corp,NYSE
+KKR,KKR & Co Inc,NYSE
+ACN,Accenture PLC,NYSE
+MMM,3M Co,NYSE
 NGG,National Grid PLC ADR,NYSE
 CNQ,Canadian Natural Resources Ltd,NYSE
-AMT,American Tower Corp,NYSE
-MRSH,Marsh & McLennan Companies Inc,NYSE
-KKR,KKR & Co Inc,NYSE
-EMR,Emerson Electric Co,NYSE
-ECL,Ecolab Inc,NYSE
-AMX,America Movil SAB de CV ADR,NYSE
-EPD,Enterprise Products Partners Units,NYSE
-ACN,Accenture PLC,NYSE
-AEM,Agnico Eagle Mines Ltd,NYSE
-MCO,Moody's Corp,NYSE
-CP,Canadian Pacific Kansas City Ltd,NYSE
 EQNR,Equinor ASA ADR,NYSE
-ITW,Illinois Tool Works Inc,NYSE
+ECL,Ecolab Inc,NYSE
+EPD,Enterprise Products Partners Units,NYSE
 VLO,Valero Energy Corp,NYSE
-FDX,FedEx Corp,NYSE
-HLT,Hilton Worldwide Holdings Inc,NYSE
-CRH,CRH PLC,NYSE
-CI,Cigna Group,NYSE
-COHR,Coherent Corp,NYSE
-MPC,Marathon Petroleum Corp,NYSE
-TDG,TransDigm Group Inc,NYSE
-KMI,Kinder Morgan Inc,NYSE
-CNI,Canadian National Railway Co,NYSE
-CL,Colgate-Palmolive Co,NYSE
-SPG,Simon Property Group Inc,NYSE
-BAM,BROOKFIELD ASSET MANAGEMENT LTD,NYSE
-NOK,Nokia Oyj ADR,NYSE
-TRP,TC Energy Corp,NYSE
-BE,Bloom Energy Corp,NYSE
-RACE,Ferrari NV,NYSE
+RCL,Royal Caribbean Cruises Ltd,NYSE
+ITW,Illinois Tool Works Inc,NYSE
 NOC,Northrop Grumman Corp,NYSE
-EOG,EOG Resources Inc,NYSE
-GM,General Motors Co,NYSE
-URI,United Rentals Inc,NYSE
-SLB,SLB NV,NYSE
-NSC,Norfolk Southern Corp,NYSE
-ICE,Intercontinental Exchange Inc,NYSE
-TRV,Travelers Companies Inc,NYSE
-PSX,Phillips 66,NYSE
-NWG,NatWest Group PLC ADR,NYSE
-CVNA,Carvana Co,NYSE
-APO,Apollo Global Management Inc,NYSE
-CIEN,Ciena Corp,NYSE
-DLR,Digital Realty Trust Inc,NYSE
-E,Eni SpA ADR,NYSE
-FIX,Comfort Systems USA Inc,NYSE
-UMC,United Microelectronics Corp ADR,NYSE
+CP,Canadian Pacific Kansas City Ltd,NYSE
+EMR,Emerson Electric Co,NYSE
+MPC,Marathon Petroleum Corp,NYSE
+AMT,American Tower Corp,NYSE
+AMX,America Movil SAB de CV ADR,NYSE
+BE,Bloom Energy Corp,NYSE
+HLT,Hilton Worldwide Holdings Inc,NYSE
+AEM,Agnico Eagle Mines Ltd,NYSE
 AON,Aon PLC,NYSE
-MFC,Manulife Financial Corp,NYSE
+CI,Cigna Group,NYSE
+CL,Colgate-Palmolive Co,NYSE
+TDG,TransDigm Group Inc,NYSE
+CVNA,Carvana Co,NYSE
+ICE,Intercontinental Exchange Inc,NYSE
+BAM,BROOKFIELD ASSET MANAGEMENT LTD,NYSE
+FDX,FedEx Corp,NYSE
+RACE,Ferrari NV,NYSE
+CNI,Canadian National Railway Co,NYSE
+SPG,Simon Property Group Inc,NYSE
+TRV,Travelers Companies Inc,NYSE
+NSC,Norfolk Southern Corp,NYSE
+CRH,CRH PLC,NYSE
+NWG,NatWest Group PLC ADR,NYSE
+KMI,Kinder Morgan Inc,NYSE
+PSX,Phillips 66,NYSE
 MSI,Motorola Solutions Inc,NYSE
+APD,Air Products and Chemicals Inc,NYSE
+EOG,EOG Resources Inc,NYSE
+TRP,TC Energy Corp,NYSE
+E,Eni SpA ADR,NYSE
+URI,United Rentals Inc,NYSE
+MFC,Manulife Financial Corp,NYSE
+GM,General Motors Co,NYSE
+APO,Apollo Global Management Inc,NYSE
+NOK,Nokia Oyj ADR,NYSE
+SLB,SLB NV,NYSE
+COHR,Coherent Corp,NYSE
+DB,Deutsche Bank AG,NYSE
+BSX,Boston Scientific Corp,NYSE
 RSG,Republic Services Inc,NYSE
 ET,Energy Transfer Units,NYSE
-BSX,Boston Scientific Corp,NYSE
-VALE,Vale SA ADR,NYSE
-DB,Deutsche Bank AG,NYSE
 NU,Nu Holdings Ltd.,NYSE
-GWW,WW Grainger Inc,NYSE
-TGT,Target Corp,NYSE
-SU,Suncor Energy Inc (Canada),NYSE
-STM,STMicroelectronics NV ADR,NYSE
-TFC,Truist Financial Corp,NYSE
-B,Barrick Mining Corp,NYSE
-APD,Air Products and Chemicals Inc,NYSE
-ALL,Allstate Corp,NYSE
-SRE,Sempra,NYSE
-AFL,Aflac Inc,NYSE
-CARR,Carrier Global Corp,NYSE
-D,Dominion Energy Inc,NYSE
-DAL,Delta Air Lines Inc,NYSE
-PBR,Petroleo Brasileiro ADR Reptg 2,NYSE
-NKE,Nike Inc,NYSE
-O,Realty Income Corp,NYSE
 AJG,Arthur J. Gallagher & Co.,NYSE
-TRGP,Targa Resources Corp,NYSE
-HPE,Hewlett Packard Enterprise Co,NYSE
-TEL,TE Connectivity PLC,NYSE
-MPLX,MPLX Common Units,NYSE
-PSA,Public Storage,NYSE
-F,Ford Motor Co,NYSE
-OKE,ONEOK Inc,NYSE
-KEYS,Keysight Technologies Inc,NYSE
+NKE,Nike Inc,NYSE
+SU,Suncor Energy Inc (Canada),NYSE
+ALL,Allstate Corp,NYSE
+B,Barrick Mining Corp,NYSE
+VALE,Vale SA ADR,NYSE
+TFC,Truist Financial Corp,NYSE
+GWW,WW Grainger Inc,NYSE
 SE,Sea Ltd ADR,NYSE
-CAH,Cardinal Health  Inc,NYSE
-COR,Cencora Inc,NYSE
+DLR,Digital Realty Trust Inc,NYSE
+UMC,United Microelectronics Corp ADR,NYSE
+AFL,Aflac Inc,NYSE
+D,Dominion Energy Inc,NYSE
+FIX,Comfort Systems USA Inc,NYSE
+DAL,Delta Air Lines Inc,NYSE
+SRE,Sempra,NYSE
+STM,STMicroelectronics NV ADR,NYSE
+PBR,Petroleo Brasileiro ADR Reptg 2,NYSE
+CIEN,Ciena Corp,NYSE
+O,Realty Income Corp,NYSE
+TGT,Target Corp,NYSE
+CARR,Carrier Global Corp,NYSE
+MPLX,MPLX Common Units,NYSE
 MET,MetLife Inc,NYSE
+PSA,Public Storage,NYSE
+COR,Cencora Inc,NYSE
+TEL,TE Connectivity PLC,NYSE
 CTVA,Corteva Inc,NYSE
-VST,Vistra Corp,NYSE
-RELX,Relx PLC ADR,NYSE
-NUE,Nucor Corp,NYSE
-AME,AMETEK Inc,NYSE
 LHX,L3harris Technologies  Inc,NYSE
-ETR,Entergy Corp,NYSE
-ROK,Rockwell Automation Inc,NYSE
+RELX,Relx PLC ADR,NYSE
+CAH,Cardinal Health  Inc,NYSE
+TRGP,Targa Resources Corp,NYSE
+OKE,ONEOK Inc,NYSE
+HPE,Hewlett Packard Enterprise Co,NYSE
 EW,Edwards Lifesciences Corp,NYSE
-WPM,Wheaton Precious Metals Corp,NYSE
-AZO,Autozone Inc,NYSE
-FITB,Fifth Third Bancorp,NYSE
+AME,AMETEK Inc,NYSE
+KEYS,Keysight Technologies Inc,NYSE
 TAK,Takeda Pharmaceutical Co Ltd ADR,NYSE
+F,Ford Motor Co,NYSE
+ETR,Entergy Corp,NYSE
+WPM,Wheaton Precious Metals Corp,NYSE
+ROK,Rockwell Automation Inc,NYSE
+FITB,Fifth Third Bancorp,NYSE
+AZO,Autozone Inc,NYSE
 LNG,Cheniere Energy Inc,NYSE
-ABEV,Ambev SA ADR,NYSE
+VST,Vistra Corp,NYSE
+NUE,Nucor Corp,NYSE
 OXY,Occidental Petroleum Corp,NYSE
-DVN,Devon Energy Corp,NYSE
-DHI,D.R. Horton Inc,NYSE
+ABEV,Ambev SA ADR,NYSE
+HUM,Humana Inc,NYSE
 STT,State Street Corp,NYSE
-FERG,Ferguson Enterprises Inc,NYSE
-WAB,Westinghouse Air Brake Technologies Corp,NYSE
+XYZ,Block Inc,NYSE
+DVN,Devon Energy Corp,NYSE
+GRMN,Garmin Ltd,NYSE
+CVE,Cenovus Energy Incorporation,NYSE
 MT,ArcelorMittal SA ADR,NYSE
 DEO,Diageo PLC ADR,NYSE
-XYZ,Block Inc,NYSE
-CVE,Cenovus Energy Incorporation,NYSE
-HUM,Humana Inc,NYSE
-VIK,Viking Holdings Ltd(Pembroke),NYSE
-CCJ,Cameco Corp,NYSE
-GRMN,Garmin Ltd,NYSE
-ITUB,Itau Unibanco Holding SA ADR,NYSE
+YUM,Yum! Brands Inc,NYSE
+CMG,Chipotle Mexican Grill Inc,NYSE
 INFY,Infosys Ltd ADR,NYSE
 VTR,Ventas Inc,NYSE
-SLF,Sun Life Financial Inc,NYSE
-YUM,Yum! Brands Inc,NYSE
-BDX,Becton Dickinson and Co,NYSE
-CMG,Chipotle Mexican Grill Inc,NYSE
-WCN,Waste Connections  Inc,NYSE
+DHI,D.R. Horton Inc,NYSE
+VIK,Viking Holdings Ltd(Pembroke),NYSE
+FERG,Ferguson Enterprises Inc,NYSE
 RKT,Rocket Companies Inc,NYSE
-IX,ORIX Corp ADR,NYSE
-LYV,Live Nation Entertainment Inc,NYSE
-PEG,Public Service Enterprise Group Inc,NYSE
-FNV,Franco-Nevada Corp,NYSE
-ED,Consolidated Edison Inc,NYSE
-AU,Anglogold Ashanti PLC,NYSE
-TKO,TKO Group Holdings Inc,NYSE
-HLN,Haleon PLC ADR,NYSE
+WAB,Westinghouse Air Brake Technologies Corp,NYSE
+SLF,Sun Life Financial Inc,NYSE
 AMP,Ameriprise Financial Inc,NYSE
-VMC,Vulcan Materials Co,NYSE
 MSCI,MSCI Inc,NYSE
-CBRE,CBRE Group Inc,NYSE
+ITUB,Itau Unibanco Holding SA ADR,NYSE
+BDX,Becton Dickinson and Co,NYSE
+LYV,Live Nation Entertainment Inc,NYSE
+HLN,Haleon PLC ADR,NYSE
+IX,ORIX Corp ADR,NYSE
+WCN,Waste Connections  Inc,NYSE
+AU,Anglogold Ashanti PLC,NYSE
 AIG,American International Group Inc,NYSE
-TFIN PR,Triumph Financial 40 Dep Shs Repstg 1 Perp Non Cum 7 125  Pref Shs Series C,NYSE
-PBR.A,Petroleo Brasileiro ADR Reptg 2 Pref Shs,NYSE
-CCL,Carnival Corporation Ltd,NYSE
+CCJ,Cameco Corp,NYSE
+ED,Consolidated Edison Inc,NYSE
+FNV,Franco-Nevada Corp,NYSE
+CBRE,CBRE Group Inc,NYSE
+PEG,Public Service Enterprise Group Inc,NYSE
 SYY,Sysco Corp,NYSE
-IRM,Iron Mountain Inc,NYSE
-CLS,Celestica Inc,NYSE
-WEC,WEC Energy Group Inc,NYSE
 TEVA,Teva Pharmaceutical Industries Limited.. ADR,NYSE
-A,Agilent Technologies Inc,NYSE
-PCG,PG&E Corp,NYSE
-JBL,Jabil Inc,NYSE
+TFIN PR,Triumph Financial 40 Dep Shs Repstg 1 Perp Non Cum 7 125  Pref Shs Series C,NYSE
+RBLX,Roblox Corp,NYSE
+PBR.A,Petroleo Brasileiro ADR Reptg 2 Pref Shs,NYSE
+VMC,Vulcan Materials Co,NYSE
 PRU,Prudential Financial Inc,NYSE
-ADM,Archer-Daniels-Midland Co,NYSE
-MLM,Martin Marietta Materials Inc,NYSE
-WAT,Waters Corp,NYSE
+KB,KB Financial Group Inc ADR,NYSE
+WEC,WEC Energy Group Inc,NYSE
+CLS,Celestica Inc,NYSE
+ARES,Ares Management Corp,NYSE
+CCL,Carnival Corporation Ltd,NYSE
 KVUE,Kenvue Inc,NYSE
 HIG,Hartford Insurance Group Inc,NYSE
-HSY,Hershey Co,NYSE
-CCI,Crown Castle Inc,NYSE
-WDS,Woodside Energy Group Ltd ADR,NYSE
-ARES,Ares Management Corp,NYSE
-EME,EMCOR Group Inc,NYSE
-KR,Kroger Co,NYSE
-KB,KB Financial Group Inc ADR,NYSE
-CHT,Chunghwa Telecom Co Ltd ADR,NYSE
-HMC,Honda Motor Co Ltd ADR,NYSE
-MTB,M&T Bank Corp,NYSE
-RBLX,Roblox Corp,NYSE
-ALC,Alcon AG,NYSE
-PUK,Prudential PLC ADR,NYSE
-Q,Qnity Electronics Inc,NYSE
-EQT,EQT Corp,NYSE
-AEE,Ameren Corp,NYSE
-CNC,Centene Corp,NYSE
+PCG,PG&E Corp,NYSE
 RDDT,Reddit Inc,NYSE
-DTE,DTE Energy Co,NYSE
+WAT,Waters Corp,NYSE
+TKO,TKO Group Holdings Inc,NYSE
+WDS,Woodside Energy Group Ltd ADR,NYSE
+ADM,Archer-Daniels-Midland Co,NYSE
+HSY,Hershey Co,NYSE
+A,Agilent Technologies Inc,NYSE
+HMC,Honda Motor Co Ltd ADR,NYSE
+MLM,Martin Marietta Materials Inc,NYSE
+JBL,Jabil Inc,NYSE
+KR,Kroger Co,NYSE
+MTB,M&T Bank Corp,NYSE
+IRM,Iron Mountain Inc,NYSE
+PUK,Prudential PLC ADR,NYSE
 IQV,IQVIA Holdings Inc,NYSE
-ZTS,Zoetis Inc,NYSE
-UI,Ubiquiti Inc,NYSE
-IR,Ingersoll Rand Inc,NYSE
+EME,EMCOR Group Inc,NYSE
+CHT,Chunghwa Telecom Co Ltd ADR,NYSE
+CNC,Centene Corp,NYSE
+ALC,Alcon AG,NYSE
+CCI,Crown Castle Inc,NYSE
 CPNG,Coupang Inc,NYSE
-EXR,Extra Space Storage Inc,NYSE
-NRG,NRG Energy Inc,NYSE
-MTZ,MasTec Inc,NYSE
-LVS,Las Vegas Sands Corp,NYSE
-AMRZ,Amrize AG,NYSE
-BAP,Credicorp Ltd,NYSE
-DOV,Dover Corp,NYSE
-SUNB,Sunbelt Rentals Holdings Inc,NYSE
-EC,Ecopetrol SA ADR,NYSE
+EQT,EQT Corp,NYSE
+SHG,Shinhan Financial Group Co Ltd ADR,NYSE
+DTE,DTE Energy Co,NYSE
+AEE,Ameren Corp,NYSE
+UI,Ubiquiti Inc,NYSE
+TWLO,Twilio Inc,NYSE
 GFI,Gold Fields Ltd ADR,NYSE
+RJF,Raymond James Financial Inc,NYSE
+EXR,Extra Space Storage Inc,NYSE
+IR,Ingersoll Rand Inc,NYSE
+ZTS,Zoetis Inc,NYSE
+VEEV,Veeva Systems Inc,NYSE
+NTR,Nutrien Ltd,NYSE
+LVS,Las Vegas Sands Corp,NYSE
+BAP,Credicorp Ltd,NYSE
+RMD,Resmed Inc,NYSE
+EL,Estee Lauder Companies Inc,NYSE
+EC,Ecopetrol SA ADR,NYSE
+TDY,Teledyne Technologies Inc,NYSE
 CFG,Citizens Financial Group Inc,NYSE
 VICI,VICI Properties Inc,NYSE
-FTS,Fortis Inc,NYSE
-TPR,Tapestry Inc,NYSE
-CNP,CenterPoint Energy Inc,NYSE
-CRS,Carpenter Technology Corp,NYSE
 CQP,Cheniere Energy Partners Units,NYSE
-NTR,Nutrien Ltd,NYSE
+AMRZ,Amrize AG,NYSE
+CRS,Carpenter Technology Corp,NYSE
+Q,Qnity Electronics Inc,NYSE
+SUNB,Sunbelt Rentals Holdings Inc,NYSE
 ATO,Atmos Energy Corp,NYSE
-RJF,Raymond James Financial Inc,NYSE
-SHG,Shinhan Financial Group Co Ltd ADR,NYSE
-EL,Estee Lauder Companies Inc,NYSE
-EIX,Edison International,NYSE
-TWLO,Twilio Inc,NYSE
-RMD,Resmed Inc,NYSE
+FTS,Fortis Inc,NYSE
+MTZ,MasTec Inc,NYSE
 KGC,Kinross Gold Corp,NYSE
-TDY,Teledyne Technologies Inc,NYSE
-HAL,Halliburton Co,NYSE
-TS,Tenaris SA ADR,NYSE
-WSM,Williams-Sonoma Inc,NYSE
-OTIS,Otis Worldwide Corp,NYSE
-TECK,Teck Resources Ltd,NYSE
-FE,FirstEnergy Corp,NYSE
-PPL,PPL Corp,NYSE
-XYL,Xylem Inc,NYSE
-ES,Eversource Energy,NYSE
-CW,Curtiss-Wright Corp,NYSE
-PPG,PPG Industries Inc,NYSE
-PBA,Pembina Pipeline Corp,NYSE
 FICO,Fair Isaac Corp,NYSE
-HUBB,Hubbell Inc,NYSE
+CNP,CenterPoint Energy Inc,NYSE
+TPR,Tapestry Inc,NYSE
+EIX,Edison International,NYSE
+TECK,Teck Resources Ltd,NYSE
+NRG,NRG Energy Inc,NYSE
+DOV,Dover Corp,NYSE
 TPL,Texas Pacific Land Corp (Dover),NYSE
+CW,Curtiss-Wright Corp,NYSE
+XYL,Xylem Inc,NYSE
+FE,FirstEnergy Corp,NYSE
+OTIS,Otis Worldwide Corp,NYSE
+ES,Eversource Energy,NYSE
+PPG,PPG Industries Inc,NYSE
+PPL,PPL Corp,NYSE
 VG,Venture Global Inc,NYSE
+HAL,Halliburton Co,NYSE
 AVB,AvalonBay Communities Inc,NYSE
-ATI,ATI Inc,NYSE
-SYF,Synchrony Financial,NYSE
-NVT,nVent Electric PLC,NYSE
-IHG,InterContinental Hotels Group PLC ADR,NYSE
-PHG,Koninklijke Philips NV ADR,NYSE
-FTI,TechnipFMC PLC,NYSE
-VEEV,Veeva Systems Inc,NYSE
+TS,Tenaris SA ADR,NYSE
+PBA,Pembina Pipeline Corp,NYSE
 WRB,W. R. Berkley Corp,NYSE
-DG,Dollar General Corp,NYSE
-PHM,Pultegroup Inc,NYSE
-AWK,American Water Works Co Inc,NYSE
-QSR,Restaurant Brands International Inc,NYSE
+WSM,Williams-Sonoma Inc,NYSE
+FTI,TechnipFMC PLC,NYSE
 NMR,Nomura Holdings Inc ADR,NYSE
-RF,Regions Financial Corp,NYSE
-EQR,Equity Residential,NYSE
 MTD,Mettler-toledo International Inc,NYSE
-FMX,Fomento Economico Mexicano SAB de CV ADR,NYSE
-LUV,Southwest Airlines Co,NYSE
-KEY,KeyCorp,NYSE
-STZ,Constellation Brands Inc,NYSE
+RF,Regions Financial Corp,NYSE
+ATI,ATI Inc,NYSE
+AWK,American Water Works Co Inc,NYSE
+PHG,Koninklijke Philips NV ADR,NYSE
+EQR,Equity Residential,NYSE
+DG,Dollar General Corp,NYSE
+QSR,Restaurant Brands International Inc,NYSE
 WST,West Pharmaceutical Services Inc,NYSE
-SW,Smurfit WestRock PLC,NYSE
-DRI,Darden Restaurants Inc,NYSE
-RL,Ralph Lauren Corp,NYSE
-CMS,CMS Energy Corp,NYSE
+HUBB,Hubbell Inc,NYSE
+SYF,Synchrony Financial,NYSE
+FMX,Fomento Economico Mexicano SAB de CV ADR,NYSE
+PHM,Pultegroup Inc,NYSE
+IHG,InterContinental Hotels Group PLC ADR,NYSE
+KEY,KeyCorp,NYSE
 MKL,Markel Group Inc,NYSE
-WIT,Wipro Ltd ADR,NYSE
+NVT,nVent Electric PLC,NYSE
+LUV,Southwest Airlines Co,NYSE
 XPO,XPO Inc,NYSE
-CHD,Church & Dwight Co Inc,NYSE
-NI,NiSource Inc,NYSE
-AER,AerCap Holdings NV,NYSE
+P,Everpure Inc,NYSE
+SW,Smurfit WestRock PLC,NYSE
+CMS,CMS Energy Corp,NYSE
 L,Loews Corp,NYSE
 DGX,Quest Diagnostics Inc,NYSE
-P,Everpure Inc,NYSE
-LH,Labcorp Holdings Inc,NYSE
-VLTO,Veralto Corp,NYSE
 BRO,Brown & Brown Inc,NYSE
+RL,Ralph Lauren Corp,NYSE
+LH,Labcorp Holdings Inc,NYSE
+STZ,Constellation Brands Inc,NYSE
+DRI,Darden Restaurants Inc,NYSE
+CHD,Church & Dwight Co Inc,NYSE
+AER,AerCap Holdings NV,NYSE
 CPAY,Corpay Inc,NYSE
 USFD,US Foods Holding Corp,NYSE
+NI,NiSource Inc,NYSE
+VLTO,Veralto Corp,NYSE
+OMC,Omnicom Group Inc,NYSE
 HEI.A,HEICO Corp Class A,NYSE
+EXPD,Expeditors International of Washington Inc,NYSE
+FIS,Fidelity National Information Services Inc,NYSE
+GPN,Global Payments Inc,NYSE
+SN,Sharkninja Inc,NYSE
+IFF,International Flavors & Fragrances Inc,NYSE
+SNA,Snap-On Inc,NYSE
+STE,STERIS plc,NYSE
 PKG,Packaging Corp of America,NYSE
 VIV,Telefonica Brasil SA ADR,NYSE
-RBA,RB Global Inc,NYSE
-BG,Bunge Global SA,NYSE
 DKS,Dick's Sporting Goods Inc,NYSE
-AXIA,Axia Energia SA ADR,NYSE
-BCE,BCE Inc,NYSE
-SNX,TD Synnex Corp,NYSE
-EXPD,Expeditors International of Washington Inc,NYSE
-STE,STERIS plc,NYSE
-DOW,Dow Inc,NYSE
-HPQ,HP Inc,NYSE
-ROL,Rollins Inc,NYSE
-OMC,Omnicom Group Inc,NYSE
-TSN,Tyson Foods Inc,NYSE
-SNA,Snap-On Inc,NYSE
-SN,Sharkninja Inc,NYSE
-IP,International Paper Co,NYSE
-SBS,Companhia de Saneamento Basico do Estado de Sao Paulo - SABESP ADR,NYSE
-BURL,Burlington Stores Inc,NYSE
-LEN,Lennar Corp Class A,NYSE
-RBC,RBC Bearings Inc,NYSE
-RS,Reliance Inc,NYSE
-LII,Lennox International Inc,NYSE
-MAIR,Madison Air Solutions Corp,NYSE
-FN,Fabrinet,NYSE
-ULS,UL Solutions Inc,NYSE
-FIS,Fidelity National Information Services Inc,NYSE
-AMCR,Amcor PLC,NYSE
-AS,Amer Sports Inc,NYSE
-BSBR,Banco Santander Brasil SA ADR,NYSE
-BCH,Banco de Chile ADR,NYSE
-IFF,International Flavors & Fragrances Inc,NYSE
-GIS,General Mills Inc,NYSE
-PAAS,Pan American Silver Corp,NYSE
-GPN,Global Payments Inc,NYSE
-HEI,HEICO Corp,NYSE
-ESS,Essex Property Trust Inc,NYSE
-EFX,Equifax Inc,NYSE
-FTV,Fortive Corp,NYSE
-H,Hyatt Hotels Corp,NYSE
-CX,Cemex SAB de CV ADR,NYSE
-DD,Dupont De Nemours Inc,NYSE
-NVR,NVR Inc,NYSE
-IONQ,IONQ Inc,NYSE
-FDXF,FedEx Freight Holding Company Inc,NYSE
-CRCL,Circle Internet Group Inc,NYSE
-BBD,Banco Bradesco ADR Reptg 1 Pref Shs,NYSE
-WY,Weyerhaeuser Co,NYSE
-WES,Western Midstream Partners Common Units,NYSE
+RBA,RB Global Inc,NYSE
 IOT,Samsara Inc (Pre-Reincorporation),NYSE
-BWXT,BWX Technologies Inc,NYSE
-INVH,Invitation Homes Inc,NYSE
+ROL,Rollins Inc,NYSE
+AMCR,Amcor PLC,NYSE
+TSN,Tyson Foods Inc,NYSE
+BG,Bunge Global SA,NYSE
+IP,International Paper Co,NYSE
+AXIA,Axia Energia SA ADR,NYSE
+AS,Amer Sports Inc,NYSE
+SBS,Companhia de Saneamento Basico do Estado de Sao Paulo - SABESP ADR,NYSE
+HPQ,HP Inc,NYSE
+GIS,General Mills Inc,NYSE
+HEI,HEICO Corp,NYSE
+LII,Lennox International Inc,NYSE
+BURL,Burlington Stores Inc,NYSE
+SNX,TD Synnex Corp,NYSE
+EFX,Equifax Inc,NYSE
+BCE,BCE Inc,NYSE
+DOW,Dow Inc,NYSE
+BCH,Banco de Chile ADR,NYSE
+BSBR,Banco Santander Brasil SA ADR,NYSE
+ULS,UL Solutions Inc,NYSE
+PAAS,Pan American Silver Corp,NYSE
+ESS,Essex Property Trust Inc,NYSE
+RBC,RBC Bearings Inc,NYSE
+FTV,Fortive Corp,NYSE
+RS,Reliance Inc,NYSE
+DD,Dupont De Nemours Inc,NYSE
+WIT,Wipro Ltd ADR,NYSE
+MAIR,Madison Air Solutions Corp,NYSE
+CX,Cemex SAB de CV ADR,NYSE
+LEN,Lennar Corp Class A,NYSE
+WES,Western Midstream Partners Common Units,NYSE
 FLUT,Flutter Entertainment PLC,NYSE
-ZBH,Zimmer Biomet Holdings  Inc,NYSE
-LYB,Lyondellbasell Industries N.v,NYSE
-MGA,Magna International Inc,NYSE
+IONQ,IONQ Inc,NYSE
+GPC,Genuine Parts Co,NYSE
+NVR,NVR Inc,NYSE
+BBD,Banco Bradesco ADR Reptg 1 Pref Shs,NYSE
 APG,APi Group Corp,NYSE
-YPF,YPF SA ADR,NYSE
-TU,Telus Corporation,NYSE
-KIM,Kimco Realty Corp,NYSE
+INVH,Invitation Homes Inc,NYSE
+H,Hyatt Hotels Corp,NYSE
+FDXF,FedEx Freight Holding Company Inc,NYSE
+FN,Fabrinet,NYSE
+CDE,Coeur Mining  Inc,NYSE
+ZTO,ZTO Express (Cayman) Inc ADR,NYSE
 PFGC,Performance Food Group Co,NYSE
 BEN,Franklin Resources Inc,NYSE
-ITT,ITT Inc,NYSE
-WCC,Wesco International Inc,NYSE
-ZTO,ZTO Express (Cayman) Inc ADR,NYSE
-LTM,LATAM Airlines Group SA ADR,NYSE
-BIP,Brookfield Infrastructure Partners Units,NYSE
-NLY,Annaly Capital Management Inc,NYSE
-IEX,IDEX Corp,NYSE
-FPS,Forgent Power Solutions  Inc,NYSE
-EMA,Emera Inc,NYSE
-CDE,Coeur Mining  Inc,NYSE
-STLA,Stellantis NV,NYSE
+THC,Tenet Healthcare Corp,NYSE
+BWXT,BWX Technologies Inc,NYSE
+YPF,YPF SA ADR,NYSE
 BEKE,KE Holdings Inc ADR,NYSE
-WPC,W.p. Carey Inc,NYSE
+MGA,Magna International Inc,NYSE
+LYB,Lyondellbasell Industries N.v,NYSE
+RBRK,Rubrik Inc,NYSE
+WY,Weyerhaeuser Co,NYSE
+KIM,Kimco Realty Corp,NYSE
+BIP,Brookfield Infrastructure Partners Units,NYSE
+CF,CF Industries Holdings Inc,NYSE
+ZBH,Zimmer Biomet Holdings  Inc,NYSE
 BALL,Ball Corp,NYSE
-GNRC,Generac Holdings Inc,NYSE
+STLA,Stellantis NV,NYSE
+QXO,QXO Inc,NYSE
+TOST,Toast Inc,NYSE
+ITT,ITT Inc,NYSE
+MAS,Masco Corp,NYSE
+BR,Broadridge Financial Solutions Inc,NYSE
+IEX,IDEX Corp,NYSE
+MAA,Mid-America Apartment Communities Inc,NYSE
+NLY,Annaly Capital Management Inc,NYSE
 SGI,Somnigroup International Inc,NYSE
 BBY,Best Buy Co Inc,NYSE
-MAA,Mid-America Apartment Communities Inc,NYSE
-CF,CF Industries Holdings Inc,NYSE
-MAS,Masco Corp,NYSE
-ONTO,Onto Innovation Inc,NYSE
+EMA,Emera Inc,NYSE
+LTM,LATAM Airlines Group SA ADR,NYSE
+TU,Telus Corporation,NYSE
 ALB,Albemarle Corp,NYSE
-KEP,Korea Electric Power Corp ADR,NYSE
-THC,Tenet Healthcare Corp,NYSE
-GPC,Genuine Parts Co,NYSE
-BR,Broadridge Financial Solutions Inc,NYSE
-CLH,Clean Harbors Inc,NYSE
+ONTO,Onto Innovation Inc,NYSE
 TXT,Textron Inc,NYSE
-BBDO,Banco Bradesco ADS Representing 1 Ord Shs,NYSE
-CSL,Carlisle Companies Inc,NYSE
-TOST,Toast Inc,NYSE
-PR,Permian Resources Corp,NYSE
-JHX,James Hardie Industries PLC,NYSE
-DTM,DT Midstream Inc,NYSE
-TOL,Toll Brothers Inc,NYSE
-PNFP,Pinnacle Financial Partners Inc,NYSE
-BSAC,Banco Santander Chile ADR,NYSE
+CRCL,Circle Internet Group Inc,NYSE
+KEP,Korea Electric Power Corp ADR,NYSE
+WPC,W.p. Carey Inc,NYSE
 PKX,Posco Holdings Inc ADR,NYSE
-RCI,Rogers Communications Inc,NYSE
-OVV,Ovintiv Inc,NYSE
+BBDO,Banco Bradesco ADS Representing 1 Ord Shs,NYSE
+CLH,Clean Harbors Inc,NYSE
+BSAC,Banco Santander Chile ADR,NYSE
+PR,Permian Resources Corp,NYSE
 SUI,Sun Communities Inc,NYSE
-RBRK,Rubrik Inc,NYSE
-DOC,Healthpeak Properties  Inc,NYSE
-J,Jacobs Solutions Inc,NYSE
-ARMK,Aramark,NYSE
-DY,Dycom Industries Inc,NYSE
-RRX,Regal Rexnord Corp,NYSE
 JLL,Jones Lang LaSalle Inc,NYSE
 RTO,Rentokil Initial PLC ADR,NYSE
-HRL,Hormel Foods Corp,NYSE
-DOCN,DigitalOcean Holdings Inc,NYSE
-DECK,Deckers Outdoor Corp,NYSE
-ALLY,Ally Financial Inc,NYSE
-UNM,Unum Group,NYSE
-WSO,Watsco Inc,NYSE
-RPM,RPM International Inc,NYSE
-OHI,Omega Healthcare Investors  Inc,NYSE
-SWK,Stanley Black & Decker Inc,NYSE
-AA,Alcoa Corp,NYSE
-YUMC,Yum China Holdings Inc,NYSE
-MLI,Mueller Industries Inc,NYSE
-EVR,Evercore Inc,NYSE
-RGA,Reinsurance Group of America Inc,NYSE
-EG,Everest Group Ltd,NYSE
-BWA,Borgwarner Inc,NYSE
-WF,Woori Financial Group Inc ADR,NYSE
-DVA,DaVita Inc,NYSE
-GL,Globe Life Inc,NYSE
-TLK,Telkom Indonesia (Persero) Tbk PT ADR,NYSE
-SOLV,Solventum Corp,NYSE
-CNH,CNH Industrial NV,NYSE
-GIB,CGI Inc,NYSE
-RNR,Renaissancere Holdings Ltd,NYSE
-SUN,Sunoco Common Units,NYSE
-JBS,Jbs NV,NYSE
-MOD,Modine Manufacturing Co,NYSE
-GFL,GFL Environmental Inc,NYSE
-OWL,Blue Owl Capital Inc,NYSE
-AGI,Alamos Gold Inc,NYSE
-AIZ,Assurant Inc,NYSE
-PNW,Pinnacle West Capital Corp,NYSE
-QXO,QXO Inc,NYSE
-APTV,APTIV PLC,NYSE
+J,Jacobs Solutions Inc,NYSE
 TRU,TransUnion,NYSE
-TME,Tencent Music Entertainment Group ADR,NYSE
+DOC,Healthpeak Properties  Inc,NYSE
+DVA,DaVita Inc,NYSE
+PNFP,Pinnacle Financial Partners Inc,NYSE
+WCC,Wesco International Inc,NYSE
+JHX,James Hardie Industries PLC,NYSE
+GNRC,Generac Holdings Inc,NYSE
+CSL,Carlisle Companies Inc,NYSE
+OVV,Ovintiv Inc,NYSE
+WF,Woori Financial Group Inc ADR,NYSE
+ARMK,Aramark,NYSE
+UNM,Unum Group,NYSE
+DTM,DT Midstream Inc,NYSE
+OHI,Omega Healthcare Investors  Inc,NYSE
+EG,Everest Group Ltd,NYSE
+TOL,Toll Brothers Inc,NYSE
+YUMC,Yum China Holdings Inc,NYSE
+RRX,Regal Rexnord Corp,NYSE
+DECK,Deckers Outdoor Corp,NYSE
+RGA,Reinsurance Group of America Inc,NYSE
+SWK,Stanley Black & Decker Inc,NYSE
+FPS,Forgent Power Solutions  Inc,NYSE
+RPM,RPM International Inc,NYSE
+WSO,Watsco Inc,NYSE
+EVR,Evercore Inc,NYSE
+OWL,Blue Owl Capital Inc,NYSE
+GIB,CGI Inc,NYSE
+GL,Globe Life Inc,NYSE
+SUN,Sunoco Common Units,NYSE
+RNR,Renaissancere Holdings Ltd,NYSE
+ALLY,Ally Financial Inc,NYSE
+AIZ,Assurant Inc,NYSE
 CNA,CNA Financial Corp,NYSE
-UDR,UDR Inc,NYSE
+HRL,Hormel Foods Corp,NYSE
+TLK,Telkom Indonesia (Persero) Tbk PT ADR,NYSE
+JBS,Jbs NV,NYSE
+TME,Tencent Music Entertainment Group ADR,NYSE
+DOCN,DigitalOcean Holdings Inc,NYSE
 MKC,McCormick & Co Non-Voting Ord Shs,NYSE
-RDY,Dr Reddy's Laboratories Ltd ADR,NYSE
-LDOS,Leidos Holdings Inc,NYSE
-CRBG,Corebridge Financial Inc,NYSE
-SNN,Smith & Nephew PLC ADR,NYSE
-GGG,Graco Inc,NYSE
-AVY,Avery Dennison Corp,NYSE
-CR,Crane Co,NYSE
+RCI,Rogers Communications Inc,NYSE
+SOLV,Solventum Corp,NYSE
+GFL,GFL Environmental Inc,NYSE
+CNH,CNH Industrial NV,NYSE
+DY,Dycom Industries Inc,NYSE
 DT,Dynatrace  Inc,NYSE
-AEG,Aegon Ltd ADR,NYSE
+BWA,Borgwarner Inc,NYSE
 PS,Pershing Square Inc,NYSE
-RVTY,Revvity Inc,NYSE
-MGM,MGM Resorts International,NYSE
-FNF,Fidelity National Financial Inc,NYSE
-FMS,Fresenius Medical Care AG ADR,NYSE
-BROS,Dutch Bros Inc,NYSE
-W,Wayfair Inc,NYSE
-AIT,Applied Industrial Technologies Inc,NYSE
-ELS,Equity LifeStyle Properties Inc,NYSE
-PEN,Penumbra Inc,NYSE
-KNX,Knight-Swift Transportation Holdings Inc,NYSE
+LDOS,Leidos Holdings Inc,NYSE
 TYL,Tyler Technologies Inc,NYSE
-CCK,Crown Holdings Inc,NYSE
-ONON,On Holding AG,NYSE
-PNR,Pentair PLC,NYSE
-SJM,J.M. Smucker Co,NYSE
-U,Unity Software Inc,NYSE
+UDR,UDR Inc,NYSE
+CRBG,Corebridge Financial Inc,NYSE
+PNW,Pinnacle West Capital Corp,NYSE
+AGI,Alamos Gold Inc,NYSE
+FNF,Fidelity National Financial Inc,NYSE
 DINO,HF Sinclair Corp,NYSE
-SKM,SK Telecom Co Ltd ADR,NYSE
+AEG,Aegon Ltd ADR,NYSE
+ELS,Equity LifeStyle Properties Inc,NYSE
+AA,Alcoa Corp,NYSE
+U,Unity Software Inc,NYSE
+SNN,Smith & Nephew PLC ADR,NYSE
+AVY,Avery Dennison Corp,NYSE
+FMS,Fresenius Medical Care AG ADR,NYSE
+RVTY,Revvity Inc,NYSE
+CCK,Crown Holdings Inc,NYSE
+BROS,Dutch Bros Inc,NYSE
+CR,Crane Co,NYSE
+XPEV,Xpeng Inc ADR,NYSE
+PEN,Penumbra Inc,NYSE
+MLI,Mueller Industries Inc,NYSE
+GGG,Graco Inc,NYSE
 ELAN,Elanco Animal Health Inc,NYSE
-AMH,American Homes 4 Rent,NYSE
+W,Wayfair Inc,NYSE
+APTV,APTIV PLC,NYSE
+EQH,Equitable Holdings Inc,NYSE
 WBS,Webster Financial Corp,NYSE
+SJM,J.M. Smucker Co,NYSE
+KNX,Knight-Swift Transportation Holdings Inc,NYSE
+PNR,Pentair PLC,NYSE
+PINS,Pinterest Inc,NYSE
+WTS,Watts Water Technologies Inc,NYSE
+ONON,On Holding AG,NYSE
+AMH,American Homes 4 Rent,NYSE
+AIT,Applied Industrial Technologies Inc,NYSE
+MOD,Modine Manufacturing Co,NYSE
+SKM,SK Telecom Co Ltd ADR,NYSE
 FHN,First Horizon Corp,NYSE
+OC,Owens Corning,NYSE
+ALLE,Allegion PLC,NYSE
+MGM,MGM Resorts International,NYSE
+MOH,Molina Healthcare Inc,NYSE
+RDY,Dr Reddy's Laboratories Ltd ADR,NYSE
+IVZ,Invesco Ltd,NYSE
+NYT,New York Times Co,NYSE
 MOG.A,Moog Inc Class A,NYSE
 NIO,NIO Inc ADR,NYSE
-EQH,Equitable Holdings Inc,NYSE
-ALLE,Allegion PLC,NYSE
-WTS,Watts Water Technologies Inc,NYSE
-PAG,Penske Automotive Group Inc,NYSE
-MOH,Molina Healthcare Inc,NYSE
-BLD,TopBuild Corp,NYSE
-TFII,TFI International Inc,NYSE
-WMS,Advanced Drainage Systems Inc,NYSE
-CLX,Clorox Co,NYSE
-GMED,Globus Medical Inc,NYSE
-CPT,Camden Property Trust,NYSE
-SPXC,SPX Technologies Inc,NYSE
-IVZ,Invesco Ltd,NYSE
-XPEV,Xpeng Inc ADR,NYSE
 AFG,American Financial Group Inc,NYSE
-NYT,New York Times Co,NYSE
-BAX,Baxter International Inc,NYSE
-EMBJ,Embraer SA ADR,NYSE
-ESI,Element Solutions Inc,NYSE
-VMI,Valmont Industries Inc,NYSE
-ARW,Arrow Electronics Inc,NYSE
-PINS,Pinterest Inc,NYSE
-BJ,BJ's Wholesale Club Holdings Inc,NYSE
+PAG,Penske Automotive Group Inc,NYSE
+CPT,Camden Property Trust,NYSE
+CLX,Clorox Co,NYSE
 GDDY,GoDaddy Inc,NYSE
-EGP,Eastgroup Properties Inc,NYSE
-HII,Huntington Ingalls Industries Inc,NYSE
-AM,Antero Midstream Corp,NYSE
-WTRG,Essential Utilities Inc,NYSE
-OC,Owens Corning,NYSE
-AR,Antero Resources Corp,NYSE
-PAC,Grupo Aeroportuario del Pacifico SAB de CV ADR,NYSE
-AYI,Acuity Inc,NYSE
-FRT,Federal Realty Investment Trust,NYSE
-BEP,Brookfield Renewable Partners Non Voting Units,NYSE
-BXP,BXP Inc,NYSE
-AGX,Argan Inc,NYSE
-MICC,Magnum Ice Cream Company NV,NYSE
-SF,Stifel Financial Corp,NYSE
-TIMB,Tim SA ADR,NYSE
-AES,AES Corp,NYSE
-SCI,Service Corporation International,NYSE
-HBM,Hudbay Minerals Inc,NYSE
-HL,Hecla Mining Co,NYSE
-CRL,Charles River Laboratories International Inc,NYSE
-UHAL.B,U-Haul Holding Co Series N,NYSE
-DCI,Donaldson Company Inc,NYSE
-RYAN,Ryan Specialty Holdings Inc,NYSE
-OGE,OGE Energy Corp,NYSE
-SQM,Sociedad Quimica y Minera de Chile SA ADR,NYSE
-R,Ryder System Inc,NYSE
-EHC,Encompass Health Corp,NYSE
-ORI,Old Republic International Corp,NYSE
-JEF,Jefferies Financial Group Inc,NYSE
-CACI,CACI International Inc,NYSE
-GTLS,Chart Industries Inc,NYSE
-BRX,Brixmor Property Group Inc,NYSE
-ALSN,Allison Transmission Holdings Inc,NYSE
-SSB,SouthState Bank Corp,NYSE
-AHR,American Healthcare REIT Inc,NYSE
-WLK,Westlake Corp,NYSE
-TKR,Timken Co,NYSE
-GIL,Gildan Activewear Inc,NYSE
-GME,GameStop Corp,NYSE
-CFR,Cullen/Frost Bankers Inc,NYSE
-NCLH,Norwegian Cruise Line Holdings Ltd,NYSE
-MUSA,Murphy USA Inc,NYSE
-CAVA,CAVA Group Inc,NYSE
-HMY,Harmony Gold Mining Company Ltd ADR,NYSE
+BAX,Baxter International Inc,NYSE
+WMS,Advanced Drainage Systems Inc,NYSE
+TFII,TFI International Inc,NYSE
+EMBJ,Embraer SA ADR,NYSE
+SPXC,SPX Technologies Inc,NYSE
 PL,Planet Labs PBC,NYSE
-CTRE,CareTrust REIT Inc,NYSE
-ARE,Alexandria Real Estate Equities  Inc,NYSE
-MP,MP Materials Corp,NYSE
-BLDR,Builders FirstSource Inc,NYSE
-HLI,Houlihan Lokey Inc,NYSE
-SUZ,Suzano SA ADR,NYSE
-CNM,Core & Main Inc,NYSE
-OSK,Oshkosh Corp,NYSE
-VIRT,Virtu Financial Inc,NYSE
-FLS,Flowserve Corp,NYSE
-ASR,Grupo Aeroportuario del Sureste SAB de CV ADR,NYSE
-TTC,Toro Co,NYSE
-GWRE,Guidewire Software Inc,NYSE
+ESI,Element Solutions Inc,NYSE
+HII,Huntington Ingalls Industries Inc,NYSE
+MICC,Magnum Ice Cream Company NV,NYSE
+BJ,BJ's Wholesale Club Holdings Inc,NYSE
+EGP,Eastgroup Properties Inc,NYSE
 FIG,Figma Inc,NYSE
-HUBS,HubSpot Inc,NYSE
-MSGS,Madison Square Garden Sports Corp,NYSE
-LEVI,Levi Strauss & Co,NYSE
-SARO,StandardAero  Inc.,NYSE
-CUBE,CubeSmart,NYSE
+SF,Stifel Financial Corp,NYSE
+GWRE,Guidewire Software Inc,NYSE
+WTRG,Essential Utilities Inc,NYSE
+CRL,Charles River Laboratories International Inc,NYSE
+CACI,CACI International Inc,NYSE
+RYAN,Ryan Specialty Holdings Inc,NYSE
+BXP,BXP Inc,NYSE
+AR,Antero Resources Corp,NYSE
+HL,Hecla Mining Co,NYSE
+PAC,Grupo Aeroportuario del Pacifico SAB de CV ADR,NYSE
+GMED,Globus Medical Inc,NYSE
+SCI,Service Corporation International,NYSE
+VMI,Valmont Industries Inc,NYSE
+JEF,Jefferies Financial Group Inc,NYSE
+AYI,Acuity Inc,NYSE
+AM,Antero Midstream Corp,NYSE
+AHR,American Healthcare REIT Inc,NYSE
+EHC,Encompass Health Corp,NYSE
+FRT,Federal Realty Investment Trust,NYSE
+UHAL.B,U-Haul Holding Co Series N,NYSE
+AES,AES Corp,NYSE
+SQM,Sociedad Quimica y Minera de Chile SA ADR,NYSE
+TIMB,Tim SA ADR,NYSE
+BEP,Brookfield Renewable Partners Non Voting Units,NYSE
+MUSA,Murphy USA Inc,NYSE
+DCI,Donaldson Company Inc,NYSE
+GME,GameStop Corp,NYSE
+OGE,OGE Energy Corp,NYSE
+ORI,Old Republic International Corp,NYSE
+ARW,Arrow Electronics Inc,NYSE
+R,Ryder System Inc,NYSE
+HMY,Harmony Gold Mining Company Ltd ADR,NYSE
 PSO,Pearson PLC ADR,NYSE
-ADC,Agree Realty Corp,NYSE
-IAG,IAMGOLD Corp,NYSE
-LTH,Life Time Group Holdings  Inc,NYSE
-ACM,AECOM,NYSE
-PRMB,Primo Brands Corp,NYSE
-IT,Gartner Inc,NYSE
-AMG,Affiliated Managers Group Inc,NYSE
-NNN,NNN REIT Inc,NYSE
-DDS,Dillard's Inc,NYSE
+HBM,Hudbay Minerals Inc,NYSE
+SARO,StandardAero  Inc.,NYSE
+GTLS,Chart Industries Inc,NYSE
+AGX,Argan Inc,NYSE
+CTRE,CareTrust REIT Inc,NYSE
+HUBS,HubSpot Inc,NYSE
+SSB,SouthState Bank Corp,NYSE
+SUZ,Suzano SA ADR,NYSE
+CFR,Cullen/Frost Bankers Inc,NYSE
 OSCR,Oscar Health Inc,NYSE
-CIB,Grupo Cibest SA ADR,NYSE
-WAL,Western Alliance Bancorp,NYSE
-TX,Ternium SA ADR,NYSE
-PRI,Primerica Inc,NYSE
-RRC,Range Resources Corp,NYSE
-UHS,Universal Health Services Inc,NYSE
-ESE,ESCO Technologies Inc,NYSE
-ALV,Autoliv Inc,NYSE
-ELPC,Companhia Paranaense de Energia ADR,NYSE
-OKLO,Oklo Inc,NYSE
-JOBY,Joby Aviation Inc,NYSE
-SSD,Simpson Manufacturing Co Inc,NYSE
+HLI,Houlihan Lokey Inc,NYSE
+TKR,Timken Co,NYSE
+ALSN,Allison Transmission Holdings Inc,NYSE
+WLK,Westlake Corp,NYSE
+VIRT,Virtu Financial Inc,NYSE
+BRX,Brixmor Property Group Inc,NYSE
+GIL,Gildan Activewear Inc,NYSE
+MSGS,Madison Square Garden Sports Corp,NYSE
+MP,MP Materials Corp,NYSE
 COMP,Compass Inc,NYSE
-KT,KT Corp ADR,NYSE
-AOS,A O Smith Corp,NYSE
-AGCO,AGCO Corp,NYSE
-ZWS,Zurn Elkay Water Solutions Corp,NYSE
+LEVI,Levi Strauss & Co,NYSE
+NCLH,Norwegian Cruise Line Holdings Ltd,NYSE
+UHS,Universal Health Services Inc,NYSE
+IAG,IAMGOLD Corp,NYSE
+ADC,Agree Realty Corp,NYSE
+ASR,Grupo Aeroportuario del Sureste SAB de CV ADR,NYSE
+CUBE,CubeSmart,NYSE
+PRI,Primerica Inc,NYSE
+FLS,Flowserve Corp,NYSE
+TTC,Toro Co,NYSE
+ARE,Alexandria Real Estate Equities  Inc,NYSE
+IT,Gartner Inc,NYSE
+OKLO,Oklo Inc,NYSE
+BLDR,Builders FirstSource Inc,NYSE
+AMG,Affiliated Managers Group Inc,NYSE
+LTH,Life Time Group Holdings  Inc,NYSE
+PRMB,Primo Brands Corp,NYSE
+NNN,NNN REIT Inc,NYSE
+DAR,Darling Ingredients Inc,NYSE
+CAVA,CAVA Group Inc,NYSE
+CIB,Grupo Cibest SA ADR,NYSE
+RRC,Range Resources Corp,NYSE
+WAL,Western Alliance Bancorp,NYSE
+OSK,Oshkosh Corp,NYSE
+FDS,Factset Research Systems Inc,NYSE
+EGO,Eldorado Gold Corp,NYSE
+AG,First Majestic Silver Corp,NYSE
+YMM,Full Truck Alliance Co Ltd ADR,NYSE
 GKOS,Glaukos Corp,NYSE
+ACM,AECOM,NYSE
+CNM,Core & Main Inc,NYSE
+AOS,A O Smith Corp,NYSE
+ESE,ESCO Technologies Inc,NYSE
+ELPC,Companhia Paranaense de Energia ADR,NYSE
 IDA,Idacorp  Inc,NYSE
+VOYA,Voya Financial Inc,NYSE
+DDS,Dillard's Inc,NYSE
+CHWY,Chewy Inc,NYSE
+KT,KT Corp ADR,NYSE
+HIMS,Hims & Hers Health Inc,NYSE
+ALV,Autoliv Inc,NYSE
+PB,Prosperity Bancshares  Inc,NYSE
+BIRK,Birkenstock Holding PLC,NYSE
+AGCO,AGCO Corp,NYSE
+TX,Ternium SA ADR,NYSE
+AXS,AXIS Capital Holdings Ltd,NYSE
+JOBY,Joby Aviation Inc,NYSE
 QBTS,D-Wave Quantum Inc,NYSE
 FR,First Industrial Realty Trust Inc,NYSE
-BVN,Compania de Minas Buenaventura SAA ADR,NYSE
-DAR,Darling Ingredients Inc,NYSE
-RHP,Ryman Hospitality Properties Inc,NYSE
-AG,First Majestic Silver Corp,NYSE
-LUMN,Lumen Technologies Inc,NYSE
-VOYA,Voya Financial Inc,NYSE
-TEX,Terex Corp,NYSE
-EGO,Eldorado Gold Corp,NYSE
-BIRK,Birkenstock Holding PLC,NYSE
 QGEN,Qiagen NV,NYSE
-BF.B,Brown-Forman Corp Class B,NYSE
-ENS,EnerSys,NYSE
-EMN,Eastman Chemical Co,NYSE
-RAL,Ralliant Corp,NYSE
-ATR,Aptargroup Inc,NYSE
-NPO,Enpro Inc,NYSE
-JHG,Janus Henderson Group PLC,NYSE
-ECG,Everus Construction Group Inc,NYSE
-FRO,Frontline PLC,NYSE
-VSH,Vishay Intertechnology Inc,NYSE
-CMC,Commercial Metals Co,NYSE
-FDS,Factset Research Systems Inc,NYSE
+SSD,Simpson Manufacturing Co Inc,NYSE
 CAE,CAE Inc,NYSE
-KNTK,Kinetik Holdings Inc,NYSE
-AXS,AXIS Capital Holdings Ltd,NYSE
-YMM,Full Truck Alliance Co Ltd ADR,NYSE
-EDU,New Oriental Education & Technology Group Inc ADR,NYSE
-STN,Stantec Inc,NYSE
-HIMS,Hims & Hers Health Inc,NYSE
-BA PR A,Boeing Depositary Shares Representing a 1 20th int in a share of 6 00 Mndtry,NYSE
-HESM,Hess Midstream LP,NYSE
-REXR,Rexford Industrial Realty Inc,NYSE
-KGS,Kodiak Gas Services Inc,NYSE
-KLAR,Klarna Group PLC,NYSE
-PDI,PIMCO Dynamic Income Fund,NYSE
-FSS,Federal Signal Corp,NYSE
-SOBO,South Bow Corp,NYSE
-UGI,Ugi Corp,NYSE
-CHWY,Chewy Inc,NYSE
+ZWS,Zurn Elkay Water Solutions Corp,NYSE
 KNSL,Kinsale Capital Group Inc,NYSE
-CWEN,Clearway Energy Inc,NYSE
-STAG,STAG Industrial Inc,NYSE
-PB,Prosperity Bancshares  Inc,NYSE
-FLR,Fluor Corp,NYSE
-KMX,Carmax Inc,NYSE
-BAH,Booz Allen Hamilton Holding Corp,NYSE
-NFG,National Fuel Gas Co,NYSE
-JXN,Jackson Financial Inc,NYSE
+BVN,Compania de Minas Buenaventura SAA ADR,NYSE
+ATR,Aptargroup Inc,NYSE
+RHP,Ryman Hospitality Properties Inc,NYSE
+EDU,New Oriental Education & Technology Group Inc ADR,NYSE
+SNAP,Snap Inc,NYSE
+RAL,Ralliant Corp,NYSE
+ENS,EnerSys,NYSE
+VSH,Vishay Intertechnology Inc,NYSE
+FRO,Frontline PLC,NYSE
+FSS,Federal Signal Corp,NYSE
+STN,Stantec Inc,NYSE
+BA PR A,Boeing Depositary Shares Representing a 1 20th int in a share of 6 00 Mndtry,NYSE
+EMN,Eastman Chemical Co,NYSE
+HESM,Hess Midstream LP,NYSE
+TEX,Terex Corp,NYSE
 THG,Hanover Insurance Group Inc,NYSE
-LOAR,Loar Holdings Inc,NYSE
-ETSY,ETSY Inc,NYSE
-YOU,Clear Secure Inc,NYSE
+KNTK,Kinetik Holdings Inc,NYSE
+REXR,Rexford Industrial Realty Inc,NYSE
+BMNR,Bitmine Immersion Technologies Inc,NYSE
+PDI,PIMCO Dynamic Income Fund,NYSE
 VNO,Vornado Realty Trust,NYSE
 EAT,Brinker International Inc,NYSE
-AROC,Archrock Inc,NYSE
+BF.B,Brown-Forman Corp Class B,NYSE
+JBTM,JBT Marel Corp,NYSE
+LOAR,Loar Holdings Inc,NYSE
+NFG,National Fuel Gas Co,NYSE
+UGI,Ugi Corp,NYSE
+AXTA,Axalta Coating Systems Ltd,NYSE
+HXL,Hexcel Corp,NYSE
+BAH,Booz Allen Hamilton Holding Corp,NYSE
+STAG,STAG Industrial Inc,NYSE
+KRMN,Karman Holdings Inc,NYSE
+KLAR,Klarna Group PLC,NYSE
 RSI,Rush Street Interactive Inc,NYSE
-MAC,Macerich Co,NYSE
-KEX,Kirby Corp,NYSE
-GTES,Gates Industrial Corporation PLC,NYSE
-SNAP,Snap Inc,NYSE
+SGHC,SGHC Ltd,NYSE
+ETSY,ETSY Inc,NYSE
+JXN,Jackson Financial Inc,NYSE
 MHK,Mohawk Industries Inc,NYSE
 NEU,NewMarket Corp,NYSE
-BMNR,Bitmine Immersion Technologies Inc,NYSE
-HXL,Hexcel Corp,NYSE
-GAP,Gap Inc,NYSE
-TAP,Molson Coors Beverage Co Class B,NYSE
-JBTM,JBT Marel Corp,NYSE
-EXP,Eagle Materials Inc,NYSE
-ORA,Ormat Technologies Inc,NYSE
-MOS,Mosaic Co,NYSE
+KMX,Carmax Inc,NYSE
+MAC,Macerich Co,NYSE
+YOU,Clear Secure Inc,NYSE
+SOBO,South Bow Corp,NYSE
+TRNO,Terreno Realty Corp,NYSE
 HR,Healthcare Realty Trust Inc,NYSE
 ACA,Arcosa Inc,NYSE
-LNC,Lincoln National Corp,NYSE
-AVTR,Avantor Inc,NYSE
-GVA,Granite Construction Inc,NYSE
-TRNO,Terreno Realty Corp,NYSE
-OMF,OneMain Holdings Inc,NYSE
-AWI,Armstrong World Industries Inc,NYSE
-BEPC,Brookfield Renewable Corp,NYSE
-LEA,Lear Corp,NYSE
-ST,Sensata Technologies Holding PLC,NYSE
-VSXY,Victoria's Secret & Co,NYSE
-SGHC,SGHC Ltd,NYSE
-GOLF,Acushnet Holdings Corp,NYSE
-FNB,FNB Corp,NYSE
+NPO,Enpro Inc,NYSE
 FAF,First American Financial Corp,NYSE
-M,Macy's Inc,NYSE
-VFC,VF Corp,NYSE
-GBCI,Glacier Bancorp Inc,NYSE
-VIST,Vista Energy SAB de CV ADR,NYSE
-CAG,Conagra Brands Inc,NYSE
-NOV,Nov Inc,NYSE
-BB,BlackBerry Ltd,NYSE
-BYD,Boyd Gaming Corp,NYSE
-LAD,Lithia Motors Inc,NYSE
-ACI,Albertsons Companies Inc,NYSE
-DPC,DPC Holdings Ltd,NYSE
+LNC,Lincoln National Corp,NYSE
+ECG,Everus Construction Group Inc,NYSE
+AVTR,Avantor Inc,NYSE
 PACS,Pacs Group Inc,NYSE
-EPRT,Essential Properties Realty Trust Inc,NYSE
-TMHC,Taylor Morrison Home Corp,NYSE
+DPC,DPC Holdings Ltd,NYSE
+TAP,Molson Coors Beverage Co Class B,NYSE
+KEX,Kirby Corp,NYSE
+ORA,Ormat Technologies Inc,NYSE
+FLR,Fluor Corp,NYSE
+GOLF,Acushnet Holdings Corp,NYSE
+OMF,OneMain Holdings Inc,NYSE
+CAG,Conagra Brands Inc,NYSE
 MSM,Msc Industrial Direct Co.  Inc,NYSE
-RYN,Rayonier Inc,NYSE
-SWX,Southwest Gas Holdings Inc,NYSE
-MSA,MSA Safety Inc,NYSE
-WH,Wyndham Hotels & Resorts Inc,NYSE
-BIO,Bio Rad Laboratories Inc Class A,NYSE
-ICL,ICL Group Ltd,NYSE
-GATX,GATX Corp,NYSE
-NXE,Nexgen Energy Ltd,NYSE
-FND,Floor & Decor Holdings Inc,NYSE
-BBUC,Brookfield Business Holdings Corp,NYSE
-CPA,Copa Holdings SA,NYSE
-AN,AutoNation Inc,NYSE
-INGM,Ingram Micro Holding Corp,NYSE
-FLG,Flagstar Bank NA,NYSE
-SNDR,Schneider National Inc,NYSE
-TXNM,TXNM Energy Inc,NYSE
-SM,SM Energy Co,NYSE
-VIPS,Vipshop Holdings Ltd ADR,NYSE
-SBSW,Sibanye Stillwater Ltd ADR,NYSE
-STWD,Starwood Property Trust Inc (Maryland),NYSE
-LW,Lamb Weston Holdings Inc,NYSE
-IBP,Installed Building Products  Inc,NYSE
-IFS,Intercorp Financial Services Inc,NYSE
-MTDR,Matador Resources Co,NYSE
-KRMN,Karman Holdings Inc,NYSE
-CHE,Chemed Corp,NYSE
-INGR,Ingredion Inc,NYSE
-SSL,Sasol Ltd ADR,NYSE
-ESAB,ESAB Corp,NYSE
-ABCB,Ameris Bancorp,NYSE
-NE,Noble Corporation PLC,NYSE
-ENIC,Enel Chile SA ADR,NYSE
-POR,Portland General Electric Co,NYSE
-PJT,PJT Partners Inc,NYSE
-JAN,Janus Living Inc,NYSE
-AUB,Atlantic Union Bankshares Corp,NYSE
-AXTA,Axalta Coating Systems Ltd,NYSE
-MATX,Matson Inc,NYSE
-CLF,Cleveland-Cliffs Inc,NYSE
-PRM,Perimeter Solutions Inc,NYSE
+KGS,Kodiak Gas Services Inc,NYSE
+GTES,Gates Industrial Corporation PLC,NYSE
+FNB,FNB Corp,NYSE
+BB,BlackBerry Ltd,NYSE
+GBCI,Glacier Bancorp Inc,NYSE
+CWEN,Clearway Energy Inc,NYSE
+LUMN,Lumen Technologies Inc,NYSE
+LAD,Lithia Motors Inc,NYSE
+GAP,Gap Inc,NYSE
+ACI,Albertsons Companies Inc,NYSE
+CMC,Commercial Metals Co,NYSE
+EXP,Eagle Materials Inc,NYSE
+AWI,Armstrong World Industries Inc,NYSE
+EPRT,Essential Properties Realty Trust Inc,NYSE
+MOS,Mosaic Co,NYSE
+BEPC,Brookfield Renewable Corp,NYSE
 PCOR,Procore Technologies Inc,NYSE
+MSA,MSA Safety Inc,NYSE
+TMHC,Taylor Morrison Home Corp,NYSE
+ST,Sensata Technologies Holding PLC,NYSE
+LEA,Lear Corp,NYSE
+BYD,Boyd Gaming Corp,NYSE
+PJT,PJT Partners Inc,NYSE
 TFPM,Triple Flag Precious Metals Corp,NYSE
 HNGE,Hinge Health Inc,NYSE
-SPHR,Sphere Entertainment Co,NYSE
-OR,OR Royalties Inc,NYSE
+SWX,Southwest Gas Holdings Inc,NYSE
+CHE,Chemed Corp,NYSE
+ICL,ICL Group Ltd,NYSE
 PAYC,Paycom Software Inc,NYSE
-ALK,Alaska Air Group Inc,NYSE
-MTRN,Materion Corp,NYSE
+NOV,Nov Inc,NYSE
+RYN,Rayonier Inc,NYSE
+IFS,Intercorp Financial Services Inc,NYSE
+AROC,Archrock Inc,NYSE
+BIO,Bio Rad Laboratories Inc Class A,NYSE
+SM,SM Energy Co,NYSE
+VFC,VF Corp,NYSE
+GVA,Granite Construction Inc,NYSE
+FND,Floor & Decor Holdings Inc,NYSE
+NXE,Nexgen Energy Ltd,NYSE
+VIPS,Vipshop Holdings Ltd ADR,NYSE
+FBIN,Fortune Brands Innovations Inc,NYSE
+LW,Lamb Weston Holdings Inc,NYSE
+BBUC,Brookfield Business Holdings Corp,NYSE
+TXNM,TXNM Energy Inc,NYSE
+VIST,Vista Energy SAB de CV ADR,NYSE
+SNDR,Schneider National Inc,NYSE
+AN,AutoNation Inc,NYSE
+MTDR,Matador Resources Co,NYSE
+CPA,Copa Holdings SA,NYSE
+JAN,Janus Living Inc,NYSE
+WH,Wyndham Hotels & Resorts Inc,NYSE
+GATX,GATX Corp,NYSE
+MATX,Matson Inc,NYSE
+INGR,Ingredion Inc,NYSE
+SSL,Sasol Ltd ADR,NYSE
+M,Macy's Inc,NYSE
+STWD,Starwood Property Trust Inc (Maryland),NYSE
+ENIC,Enel Chile SA ADR,NYSE
+VSXY,Victoria's Secret & Co,NYSE
+FLG,Flagstar Bank NA,NYSE
+ABCB,Ameris Bancorp,NYSE
+AUB,Atlantic Union Bankshares Corp,NYSE
+ESTC,Elastic NV,NYSE
+S,SentinelOne Inc,NYSE
+INGM,Ingram Micro Holding Corp,NYSE
+SPHR,Sphere Entertainment Co,NYSE
+MBGL,Mobility Global Inc,NYSE
+SBSW,Sibanye Stillwater Ltd ADR,NYSE
+BLCO,Bausch + Lomb Corp,NYSE
 MCY,Mercury General Corp,NYSE
-KRG,Kite Realty Group Trust,NYSE
-HOMB,Home BancShares Inc,NYSE
+POR,Portland General Electric Co,NYSE
+IBP,Installed Building Products  Inc,NYSE
+PATH,UiPath Inc,NYSE
+NE,Noble Corporation PLC,NYSE
+PSN,Parsons Corp,NYSE
+GXO,GXO Logistics Inc,NYSE
 ESNT,Essent Group Ltd,NYSE
 MTG,MGIC Investment Corp,NYSE
-OUT,Outfront Media Inc,NYSE
-ESTC,Elastic NV,NYSE
-BLCO,Bausch + Lomb Corp,NYSE
-NJR,New Jersey Resources Corp,NYSE
-BKH,Black Hills Corp,NYSE
-GXO,GXO Logistics Inc,NYSE
-LPX,Louisiana-Pacific Corp,NYSE
-ENVA,Enova International Inc,NYSE
 TFX,Teleflex Inc,NYSE
-BMA,Banco Macro SA ADR,NYSE
-RIG,Transocean Ltd,NYSE
-AIR,AAR Corp,NYSE
-MTH,Meritage Homes Corp,NYSE
-BC,Brunswick Corp,NYSE
-SEI,Solaris Energy Infrastructure Inc,NYSE
-KOF,Coca-Cola Femsa SAB de CV ADR,NYSE
-BXSL,Blackstone Secured Lending Fund,NYSE
+OR,OR Royalties Inc,NYSE
+ENVA,Enova International Inc,NYSE
+KRG,Kite Realty Group Trust,NYSE
 OGC,OceanaGold Corp,NYSE
-FBIN,Fortune Brands Innovations Inc,NYSE
-AX,Axos Financial Inc,NYSE
-PATH,UiPath Inc,NYSE
-S,SentinelOne Inc,NYSE
-SON,Sonoco Products Co,NYSE
-WFG,West Fraser Timber Co Ltd,NYSE
-CE,Celanese Corp,NYSE
-PIPR,Piper Sandler Companies,NYSE
+NJR,New Jersey Resources Corp,NYSE
+OUT,Outfront Media Inc,NYSE
+HOMB,Home BancShares Inc,NYSE
 STVN,Stevanato Group SpA,NYSE
-BOOT,Boot Barn Holdings Inc,NYSE
-OBDC,Blue Owl Capital Corp,NYSE
-UGP,Ultrapar Participacoes SA ADR,NYSE
 RLI,RLI Corp,NYSE
-TKC,Turkcell Iletisim Hizmetleri AS ADR,NYSE
-VAL,Valaris Ltd,NYSE
-KNF,Knife River Corp,NYSE
-ALH,Alliance Laundry Holdings Inc,NYSE
-RITM,Rithm Capital Corp,NYSE
-ASB,Associated Banc-Corp,NYSE
-GGB,Gerdau SA ADR,NYSE
-SITE,SiteOne Landscape Supply Inc,NYSE
-TREX,Trex Company Inc,NYSE
-CHH,Choice Hotels International Inc,NYSE
-VVV,Valvoline Inc,NYSE
-SXT,Sensient Technologies Corp,NYSE
-MC,Moelis & Co,NYSE
-PRIM,Primoris Services Corp,NYSE
-HRI,Herc Holdings Inc,NYSE
-MUR,Murphy Oil Corp,NYSE
-PSN,Parsons Corp,NYSE
-MANE,Veradermics Inc,NYSE
-TAL,TAL Education Group ADR,NYSE
-WTM,White Mountains Insurance Group Ltd,NYSE
-MRP,Millrose Properties Inc,NYSE
-PBF,PBF Energy Inc,NYSE
-DLB,Dolby Laboratories Inc,NYSE
-HASI,HA Sustainable Infrastructure Capital Inc,NYSE
-ADT,ADT Inc,NYSE
+ALK,Alaska Air Group Inc,NYSE
 LB,LandBridge Co LLC,NYSE
-OGS,ONE Gas Inc,NYSE
-GHC,Graham Holdings Co,NYSE
-RDN,Radian Group Inc,NYSE
-MGY,Magnolia Oil & Gas Corp,NYSE
+SON,Sonoco Products Co,NYSE
+BMA,Banco Macro SA ADR,NYSE
 MDA,Mda Space Ltd,NYSE
-AMTM,Amentum Holdings Inc,NYSE
-CUZ,Cousins Properties Inc,NYSE
-GBTG,Global Business Travel Group Inc,NYSE
-MTN,Vail Resorts Inc,NYSE
-CNO,CNO Financial Group Inc,NYSE
-SLGN,Silgan Holdings Inc,NYSE
-SKY,Champion Homes Inc,NYSE
-TNL,Travel + Leisure Co,NYSE
-OTF,Blue Owl Technology Finance Corp,NYSE
-ATH PR A,Athene Holding DS Representing 1 1000 Pref Shs Series A,NYSE
-SFBS,ServisFirst Bancshares Inc,NYSE
-G,Genpact Ltd,NYSE
-NNI,Nelnet Inc,NYSE
-BF.A,Brown-Forman Corp Class A,NYSE
-CBT,Cabot Corp,NYSE
-BIPC,Brookfield Infrastructure Corp,NYSE
-UNF,UniFirst Corp,NYSE
-WEX,WEX Inc,NYSE
-SR,Spire Inc,NYSE
-CNX,CNX Resources Corp,NYSE
-CRC,California Resources Corp,NYSE
-LION,Lionsgate Studios Corp,NYSE
-MAIN,Main Street Capital Corp,NYSE
+PBF,PBF Energy Inc,NYSE
+RIG,Transocean Ltd,NYSE
+ESAB,ESAB Corp,NYSE
+KOF,Coca-Cola Femsa SAB de CV ADR,NYSE
+CLF,Cleveland-Cliffs Inc,NYSE
+BKH,Black Hills Corp,NYSE
+AIR,AAR Corp,NYSE
+AX,Axos Financial Inc,NYSE
+LPX,Louisiana-Pacific Corp,NYSE
+PRM,Perimeter Solutions Inc,NYSE
+BXSL,Blackstone Secured Lending Fund,NYSE
+MTRN,Materion Corp,NYSE
+LMND,Lemonade Inc,NYSE
+MTH,Meritage Homes Corp,NYSE
+WFG,West Fraser Timber Co Ltd,NYSE
+TAL,TAL Education Group ADR,NYSE
+MANE,Veradermics Inc,NYSE
+UGP,Ultrapar Participacoes SA ADR,NYSE
+ADT,ADT Inc,NYSE
+MC,Moelis & Co,NYSE
+WTM,White Mountains Insurance Group Ltd,NYSE
+OBDC,Blue Owl Capital Corp,NYSE
+SXT,Sensient Technologies Corp,NYSE
 ZETA,Zeta Global Holdings Corp,NYSE
+BC,Brunswick Corp,NYSE
+ALH,Alliance Laundry Holdings Inc,NYSE
+TKC,Turkcell Iletisim Hizmetleri AS ADR,NYSE
+CUZ,Cousins Properties Inc,NYSE
+ASB,Associated Banc-Corp,NYSE
+RITM,Rithm Capital Corp,NYSE
+PIPR,Piper Sandler Companies,NYSE
+TREX,Trex Company Inc,NYSE
+SEI,Solaris Energy Infrastructure Inc,NYSE
+PRIM,Primoris Services Corp,NYSE
+CE,Celanese Corp,NYSE
+VAL,Valaris Ltd,NYSE
+AMTM,Amentum Holdings Inc,NYSE
+CHH,Choice Hotels International Inc,NYSE
+GHC,Graham Holdings Co,NYSE
+GGB,Gerdau SA ADR,NYSE
+WEX,WEX Inc,NYSE
 HRB,H & R Block Inc,NYSE
-AZZ,AZZ Inc,NYSE
-REZI,Resideo Technologies Inc,NYSE
-BDC,Belden Inc,NYSE
-SKT,Tanger Inc,NYSE
-AQN,Algonquin Power & Utilities Corp,NYSE
-MIR,Mirion Technologies Inc,NYSE
-CSW,CSW Industrials Inc,NYSE
-WFC PR L,Wells Fargo 7.50% Non Cumulative Perpetual Convertible Pref Shs Class A Series L,NYSE
-KTB,Kontoor Brands Inc,NYSE
-MDU,MDU Resources Group Inc,NYSE
-EPR,EPR Properties,NYSE
-ORCL PR D,Oracle Depositary Shares Rep 1 2000th Prf Series D,NYSE
-RXO,RXO Inc,NYSE
-CMBT,CMB.TECH NV,NYSE
-TBBB,Bbb Foods Inc,NYSE
-ATMU,Atmus Filtration Technologies Inc,NYSE
-LBRT,Liberty Energy Inc,NYSE
-BBU,Brookfield Business Partners Units,NYSE
-CSTM,Constellium SE,NYSE
-HCC,Warrior Met Coal Inc,NYSE
+KVYO,Klaviyo Inc,NYSE
+RDN,Radian Group Inc,NYSE
+MTN,Vail Resorts Inc,NYSE
+VVV,Valvoline Inc,NYSE
+SITE,SiteOne Landscape Supply Inc,NYSE
+UNF,UniFirst Corp,NYSE
+MRP,Millrose Properties Inc,NYSE
+G,Genpact Ltd,NYSE
+ATH PR A,Athene Holding DS Representing 1 1000 Pref Shs Series A,NYSE
+SLGN,Silgan Holdings Inc,NYSE
+GBTG,Global Business Travel Group Inc,NYSE
+CNO,CNO Financial Group Inc,NYSE
+HASI,HA Sustainable Infrastructure Capital Inc,NYSE
+NNI,Nelnet Inc,NYSE
+GPGI,GPGI Inc (Nevada),NYSE
+OGS,ONE Gas Inc,NYSE
+OTF,Blue Owl Technology Finance Corp,NYSE
+DLB,Dolby Laboratories Inc,NYSE
+MAIN,Main Street Capital Corp,NYSE
 STUB,Stubhub Holdings  Inc,NYSE
-BBWI,Bath & Body Works Inc,NYSE
+KNF,Knife River Corp,NYSE
+BIPC,Brookfield Infrastructure Corp,NYSE
+CNX,CNX Resources Corp,NYSE
+BOOT,Boot Barn Holdings Inc,NYSE
+TNL,Travel + Leisure Co,NYSE
+SFBS,ServisFirst Bancshares Inc,NYSE
+SR,Spire Inc,NYSE
+KTB,Kontoor Brands Inc,NYSE
+SKY,Champion Homes Inc,NYSE
+MGY,Magnolia Oil & Gas Corp,NYSE
+REZI,Resideo Technologies Inc,NYSE
 COLD,Americold Realty Trust Inc,NYSE
 FCN,FTI Consulting Inc,NYSE
-OPLN,Openlane Inc,NYSE
-LMND,Lemonade Inc,NYSE
-PFSI,PennyMac Financial Services Inc,NYSE
-KVYO,Klaviyo Inc,NYSE
-KRC,Kilroy Realty Corp,NYSE
-GFF,Griffon Corp,NYSE
-PAM,Pampa Energia SA ADR,NYSE
-NVST,Envista Holdings Corp,NYSE
-TDS,Telephone and Data Systems Inc,NYSE
-FHI,Federated Hermes Inc,NYSE
-GPGI,GPGI Inc (Nevada),NYSE
-TAC,TransAlta Corp,NYSE
-CVSA,Covista Inc,NYSE
-HGV,Hilton Grand Vacations Inc,NYSE
-HHH,Howard Hughes Holdings Inc,NYSE
-BFH,Bread Financial Holdings Inc,NYSE
-EE,Excelerate Energy Inc,NYSE
-UCB,United Community Banks Inc,NYSE
-BRC,Brady Corp,NYSE
-KBR,KBR Inc,NYSE
-CAAP,Corporacion America Airports SA,NYSE
+WFC PR L,Wells Fargo 7.50% Non Cumulative Perpetual Convertible Pref Shs Class A Series L,NYSE
 EPAM,Epam Systems Inc,NYSE
-CRK,Comstock Resources Inc,NYSE
-PLNT,Planet Fitness Inc,NYSE
-TPC,Tutor Perini Corp,NYSE
-MWA,Mueller Water Products Inc,NYSE
-MHO,M/I Homes Inc,NYSE
-WHD,Cactus Inc,NYSE
-VNT,Vontier Corp,NYSE
-ANDG,Andersen Group Inc,NYSE
-PII,Polaris Inc,NYSE
-SXI,Standex International Corp,NYSE
-CNR,Core Natural Resources Inc,NYSE
-CDP,COPT Defense Properties,NYSE
-BMI,Badger Meter Inc,NYSE
-DNP,DNP Select Income Fund Inc,NYSE
-THO,Thor Industries Inc,NYSE
-CIG,Companhia Energetica Minas Gerais ADR Repstg One Pref Shs,NYSE
-FBP,First BanCorp,NYSE
-SMG,Scotts Miracle-Gro Co,NYSE
-BNL,Broadstone Net Lease Inc,NYSE
-ANF,Abercrombie & Fitch Co,NYSE
-GEO,Geo Group Inc,NYSE
-POST,Post Holdings Inc,NYSE
-CNS,Cohen & Steers Inc,NYSE
-APLE,Apple Hospitality REIT Inc,NYSE
-RNST,Renasant Corp,NYSE
-OII,Oceaneering International Inc,NYSE
-IRT,Independence Realty Trust  Inc,NYSE
-LAZ,Lazard Inc,NYSE
-INSW,International Seaways Inc,NYSE
-BBAR,Banco BBVA Argentina SA ADR,NYSE
-PHI,PLDT Inc ADR,NYSE
-BAC PR L,Bank of America 7.25% Non Cumulative Perpetual Conv Pref Series L,NYSE
-BCO,Brinks Co,NYSE
-LPL,LG Display Co Ltd ADR,NYSE
+CMBT,CMB.TECH NV,NYSE
 NP,Neptune Insurance Holdings Inc,NYSE
-HGTY,Hagerty Inc,NYSE
+KRC,Kilroy Realty Corp,NYSE
+MUR,Murphy Oil Corp,NYSE
+CRC,California Resources Corp,NYSE
 ELF,elf Beauty Inc,NYSE
-MANU,Manchester United PLC,NYSE
-CNK,Cinemark Holdings Inc,NYSE
-RCUS,Arcus Biosciences Inc,NYSE
-KBH,KB Home,NYSE
-YETI,Yeti Holdings Inc,NYSE
-CON,Concentra Group Holdings Parent Inc,NYSE
+SKT,Tanger Inc,NYSE
+BF.A,Brown-Forman Corp Class A,NYSE
+CSW,CSW Industrials Inc,NYSE
+HRI,Herc Holdings Inc,NYSE
+AZZ,AZZ Inc,NYSE
+BDC,Belden Inc,NYSE
+CBT,Cabot Corp,NYSE
+BBWI,Bath & Body Works Inc,NYSE
+RXO,RXO Inc,NYSE
+BBU,Brookfield Business Partners Units,NYSE
+MIR,Mirion Technologies Inc,NYSE
+KBR,KBR Inc,NYSE
+EPR,EPR Properties,NYSE
+NVST,Envista Holdings Corp,NYSE
+TBBB,Bbb Foods Inc,NYSE
+HHH,Howard Hughes Holdings Inc,NYSE
+CVSA,Covista Inc,NYSE
+PAM,Pampa Energia SA ADR,NYSE
+PFSI,PennyMac Financial Services Inc,NYSE
+BRC,Brady Corp,NYSE
+MDU,MDU Resources Group Inc,NYSE
+EE,Excelerate Energy Inc,NYSE
+CRK,Comstock Resources Inc,NYSE
+OPLN,Openlane Inc,NYSE
+FHI,Federated Hermes Inc,NYSE
+ORCL PR D,Oracle Depositary Shares Rep 1 2000th Prf Series D,NYSE
+CDP,COPT Defense Properties,NYSE
+HCC,Warrior Met Coal Inc,NYSE
+LION,Lionsgate Studios Corp,NYSE
+GFF,Griffon Corp,NYSE
+BMI,Badger Meter Inc,NYSE
+TAC,TransAlta Corp,NYSE
+HGTY,Hagerty Inc,NYSE
+UCB,United Community Banks Inc,NYSE
+PLNT,Planet Fitness Inc,NYSE
+AQN,Algonquin Power & Utilities Corp,NYSE
+POST,Post Holdings Inc,NYSE
+HGV,Hilton Grand Vacations Inc,NYSE
+BCO,Brinks Co,NYSE
 BETA,BETA Technologies Inc,NYSE
-WBI,WaterBridge Infrastructure LLC,NYSE
-KAI,Kadant Inc,NYSE
-ABG,Asbury Automotive Group Inc,NYSE
-USAC,USA Compression Partners Common Units,NYSE
+CAAP,Corporacion America Airports SA,NYSE
+BFH,Bread Financial Holdings Inc,NYSE
+TDS,Telephone and Data Systems Inc,NYSE
+ANF,Abercrombie & Fitch Co,NYSE
+ANDG,Andersen Group Inc,NYSE
+DNP,DNP Select Income Fund Inc,NYSE
+LAZ,Lazard Inc,NYSE
+IRT,Independence Realty Trust  Inc,NYSE
+CON,Concentra Group Holdings Parent Inc,NYSE
+BNL,Broadstone Net Lease Inc,NYSE
+FBP,First BanCorp,NYSE
+ATMU,Atmus Filtration Technologies Inc,NYSE
+WHD,Cactus Inc,NYSE
+GEO,Geo Group Inc,NYSE
+CNS,Cohen & Steers Inc,NYSE
+TPC,Tutor Perini Corp,NYSE
+VNT,Vontier Corp,NYSE
+CSTM,Constellium SE,NYSE
+MHO,M/I Homes Inc,NYSE
+SMG,Scotts Miracle-Gro Co,NYSE
+CNR,Core Natural Resources Inc,NYSE
 DOCS,Doximity Inc,NYSE
-MSGE,Madison Square Garden Entertainment Corp,NYSE
-JOE,St Joe Co,NYSE
+MANU,Manchester United PLC,NYSE
+THO,Thor Industries Inc,NYSE
+BBAR,Banco BBVA Argentina SA ADR,NYSE
+SXI,Standex International Corp,NYSE
+RNST,Renasant Corp,NYSE
+AADX,Applied Aerospace & Defense Inc,NYSE
+MWA,Mueller Water Products Inc,NYSE
+LBRT,Liberty Energy Inc,NYSE
+OII,Oceaneering International Inc,NYSE
+INSW,International Seaways Inc,NYSE
 FOUR,Shift4 Payments  Inc,NYSE
-NHI,National Health Investors Inc,NYSE
-BKD,Brookdale Senior Living Inc,NYSE
-AAP,Advance Auto Parts Inc,NYSE
-SLG,SL Green Realty Corp,NYSE
-LRN,Stride Inc,NYSE
-ACHR,Archer Aviation Inc,NYSE
-PSUS,Pershing Square USA Ltd,NYSE
-SMR,Nuscale Power Corp,NYSE
+BILL,BILL Holdings Inc,NYSE
+CIG,Companhia Energetica Minas Gerais ADR Repstg One Pref Shs,NYSE
 BFAM,Bright Horizons Family Solutions Inc,NYSE
 MIAX,Miami International Holdings Inc,NYSE
+APLE,Apple Hospitality REIT Inc,NYSE
+PHI,PLDT Inc ADR,NYSE
 BOX,Box Inc,NYSE
-STNG,Scorpio Tankers Inc,NYSE
-KFY,Korn Ferry,NYSE
-GNW,Genworth Financial Inc,NYSE
-GPI,Group 1 Automotive Inc,NYSE
-WRBY,Warby Parker Inc,NYSE
-BKU,BankUnited Inc,NYSE
-FG,F&G Annuities & Life Inc,NYSE
-HAYW,Hayward Holdings Inc,NYSE
-TTAM,Titan America SA,NYSE
-CBU,Community Financial System Inc,NYSE
-OGN,Organon & Co,NYSE
-MNSO,MINISO Group Holding Ltd ADR,NYSE
-AGO,Assured Guaranty Ltd,NYSE
-ZGN,Ermenegildo Zegna NV,NYSE
-NSA,National Storage Affiliates Trust,NYSE
-HAE,Haemonetics Corp,NYSE
-UWMC,UWM Holdings Corp,NYSE
-HAFN,Hafnia Ltd,NYSE
-WPP,WPP PLC ADR,NYSE
-VAC,Marriott Vacations Worldwide Corp,NYSE
-AVNT,Avient Corp,NYSE
-NEA,Nuveen AMT-Free Quality Municipal Income Fund,NYSE
-NIC,Nicolet Bankshares  Inc,NYSE
-XXI,Twenty One Capital Inc,NYSE
-GRBK,Green Brick Partners Inc,NYSE
-AVA,Avista Corp,NYSE
-KEN,Kenon Holdings Ltd,NYSE
-KN,Knowles Corp,NYSE
-HPE PR C,Hewlett Packard Enterprise 7 625 Mandatory Convertible Pref Shs Series C,NYSE
-HP,Helmerich and Payne Inc,NYSE
-BHE,Benchmark Electronics Inc,NYSE
-BILL,BILL Holdings Inc,NYSE
-AADX,Applied Aerospace & Defense Inc,NYSE
+WBI,WaterBridge Infrastructure LLC,NYSE
+LRN,Stride Inc,NYSE
 BLSH,Bullish,NYSE
-CALY,Callaway Golf Co,NYSE
+BAC PR L,Bank of America 7.25% Non Cumulative Perpetual Conv Pref Series L,NYSE
+KBH,KB Home,NYSE
+ABG,Asbury Automotive Group Inc,NYSE
+USAC,USA Compression Partners Common Units,NYSE
+RCUS,Arcus Biosciences Inc,NYSE
+SLG,SL Green Realty Corp,NYSE
+PSUS,Pershing Square USA Ltd,NYSE
+BKD,Brookdale Senior Living Inc,NYSE
+ACHR,Archer Aviation Inc,NYSE
+YETI,Yeti Holdings Inc,NYSE
+NHI,National Health Investors Inc,NYSE
+AAP,Advance Auto Parts Inc,NYSE
+MSGE,Madison Square Garden Entertainment Corp,NYSE
+AGO,Assured Guaranty Ltd,NYSE
+FG,F&G Annuities & Life Inc,NYSE
+CNK,Cinemark Holdings Inc,NYSE
+HAYW,Hayward Holdings Inc,NYSE
+STNG,Scorpio Tankers Inc,NYSE
+GNW,Genworth Financial Inc,NYSE
+KAI,Kadant Inc,NYSE
+MNSO,MINISO Group Holding Ltd ADR,NYSE
+PII,Polaris Inc,NYSE
+WRBY,Warby Parker Inc,NYSE
+LPL,LG Display Co Ltd ADR,NYSE
+NSA,National Storage Affiliates Trust,NYSE
+SMR,Nuscale Power Corp,NYSE
+WPP,WPP PLC ADR,NYSE
+OGN,Organon & Co,NYSE
+CBU,Community Financial System Inc,NYSE
+KEN,Kenon Holdings Ltd,NYSE
+KFY,Korn Ferry,NYSE
+NIC,Nicolet Bankshares  Inc,NYSE
+ZGN,Ermenegildo Zegna NV,NYSE
+XXI,Twenty One Capital Inc,NYSE
 SUNC,SunocoCorp Units,NYSE
-YSS,York Space Systems Inc,NYSE
-SIG,Signet Jewelers Ltd,NYSE
+BKU,BankUnited Inc,NYSE
+JOE,St Joe Co,NYSE
+HIW,Highwoods Properties Inc,NYSE
+NEA,Nuveen AMT-Free Quality Municipal Income Fund,NYSE
+UWMC,UWM Holdings Corp,NYSE
 PVH,PVH Corp,NYSE
-FUL,H.B. Fuller Company,NYSE
+CURB,Curbline Properties Corp.,NYSE
+VAC,Marriott Vacations Worldwide Corp,NYSE
+GPI,Group 1 Automotive Inc,NYSE
+RNG,RingCentral Inc,NYSE
+HPE PR C,Hewlett Packard Enterprise 7 625 Mandatory Convertible Pref Shs Series C,NYSE
+KN,Knowles Corp,NYSE
+BHE,Benchmark Electronics Inc,NYSE
+SKE,Skeena Resources Ltd,NYSE
+HAFN,Hafnia Ltd,NYSE
 RHI,Robert Half Inc,NYSE
+AVNT,Avient Corp,NYSE
+AVA,Avista Corp,NYSE
+GRBK,Green Brick Partners Inc,NYSE
+HG,Hamilton Insurance Group Ltd,NYSE
+HAE,Haemonetics Corp,NYSE
+PAY,Paymentus Holdings Inc,NYSE
+EROC,ERock Inc,NYSE
 AB,AllianceBernstein Holding Units,NYSE
 TDW,Tidewater Inc,NYSE
-CRGY,Crescent Energy Co,NYSE
-CURB,Curbline Properties Corp.,NYSE
-HG,Hamilton Insurance Group Ltd,NYSE
-SKE,Skeena Resources Ltd,NYSE
-BANC,Banc of California Inc,NYSE
-HIW,Highwoods Properties Inc,NYSE
-LXP,LXP Industrial Trust,NYSE
-GPK,Graphic Packaging Holding Co,NYSE
-LEU,Centrus Energy Corp,NYSE
-BOH,Bank of Hawaii Corp,NYSE
+TTAM,Titan America SA,NYSE
 AWR,American States Water Co,NYSE
-CGAU,Centerra Gold Inc,NYSE
-AD,Array Digital Infrastructure Inc,NYSE
-CWK,Cushman & Wakefield Ltd,NYSE
-NATL,NCR Atleos Corp,NYSE
-ITGR,Integer Holdings Corp,NYSE
-EBR.B,Centrais Eletricas Brasileiras Eletrobras ADR Representing 1 Pref Shs,NYSE
-PHIN,Phinia Inc,NYSE
+SIG,Signet Jewelers Ltd,NYSE
 ARIS,Aris Mining Corp,NYSE
-CWEN.A,Clearway Energy Inc Class A,NYSE
-AKR,Acadia Realty Trust,NYSE
-CC,Chemours Co,NYSE
-RNG,RingCentral Inc,NYSE
-UTF,Cohen & Steers Infrastructure Fund Inc,NYSE
-CTRI,Centuri Holdings Inc,NYSE
-TDC,Teradata Corp,NYSE
-ZIM,ZIM Integrated Shipping Services Ltd,NYSE
-PFS,Provident Financial Services Inc,NYSE
-ADX,Adams Diversified Equity Fund，Inc.,NYSE
-EFXT,Enerflex Ltd,NYSE
-DAN,Dana Inc,NYSE
-CPK,Chesapeake Utilities Corp,NYSE
-EROC,ERock Inc,NYSE
-RH,RH,NYSE
-BSM,Black Stone Minerals Units,NYSE
-AEO,American Eagle Outfitters Inc,NYSE
-VTMX,Vesta Real Estate Corporation SAB de CV ADR,NYSE
-HLIO,Helios Technologies Inc,NYSE
-PK,Park Hotels & Resorts Inc,NYSE
-UNFI,United Natural Foods Inc,NYSE
-UE,Urban Edge Properties,NYSE
-DBD,Diebold Nixdorf Inc,NYSE
-BXMT,Blackstone Mortgage Trust Inc,NYSE
-VGNT,Versigent PLC,NYSE
-ASH,Ashland Inc,NYSE
-JPC,Nuveen Preferred & Income Opportunities Fund,NYSE
-ROG,Rogers Corp,NYSE
-DHT,DHT Holdings Inc,NYSE
-CXW,CoreCivic Inc,NYSE
 QTWO,Q2 Holdings Inc,NYSE
-ARX,Accelerant Holdings,NYSE
-INFQ,Infleqtion Inc,NYSE
-PAY,Paymentus Holdings Inc,NYSE
-CWT,California Water Service Group,NYSE
+NATL,NCR Atleos Corp,NYSE
+CALY,Callaway Golf Co,NYSE
+CGAU,Centerra Gold Inc,NYSE
+CWK,Cushman & Wakefield Ltd,NYSE
+BOH,Bank of Hawaii Corp,NYSE
+LXP,LXP Industrial Trust,NYSE
+YSS,York Space Systems Inc,NYSE
+TDC,Teradata Corp,NYSE
+BANC,Banc of California Inc,NYSE
+ITGR,Integer Holdings Corp,NYSE
 DK,Delek US Holdings Inc,NYSE
-GPOR,Gulfport Energy Corp,NYSE
+GPK,Graphic Packaging Holding Co,NYSE
+RH,RH,NYSE
+LEU,Centrus Energy Corp,NYSE
+EBR.B,Centrais Eletricas Brasileiras Eletrobras ADR Representing 1 Pref Shs,NYSE
+ADX,Adams Diversified Equity Fund，Inc.,NYSE
+AD,Array Digital Infrastructure Inc,NYSE
+HP,Helmerich and Payne Inc,NYSE
+CWEN.A,Clearway Energy Inc Class A,NYSE
+FUL,H.B. Fuller Company,NYSE
 AAUC,Allied Gold Corp,NYSE
-DBRG,DigitalBridge Group Inc,NYSE
-HTGC,Hercules Capital Inc,NYSE
-CIG.C,Companhia Energ ADR Reptg One Ord Shs,NYSE
-FSK,FS KKR Capital Corp,NYSE
-EXG,Eaton Vance Tax-Managed Global Diversified Equity Income Closed Fund,NYSE
-SII,Sprott Inc,NYSE
-APAM,Artisan Partners Asset Management Inc,NYSE
-FBK,FB Financial Corp,NYSE
-TRN,Trinity Industries Inc,NYSE
-MMS,Maximus Inc,NYSE
-BTU,Peabody Energy Corp,NYSE
-LEN.B,Lennar Corp Class B,NYSE
-HNI,HNI Corp,NYSE
-BCC,Boise Cascade Co,NYSE
-CSAN,Cosan SA ADR,NYSE
-BTE,Baytex Energy Corp,NYSE
-BKV,BKV Corp,NYSE
-DX,Dynex Capital Inc,NYSE
-IVT,Inventrust Properties Corp,NYSE
-SA,Seabridge Gold Inc,NYSE
-NAD,Nuveen Quality Municipal Income Fund,NYSE
-FCPT,Four Corners Property Trust Inc,NYSE
-SPNT,Siriuspoint Ltd,NYSE
+CRGY,Crescent Energy Co,NYSE
+ZIM,ZIM Integrated Shipping Services Ltd,NYSE
+UTF,Cohen & Steers Infrastructure Fund Inc,NYSE
+CXW,CoreCivic Inc,NYSE
+ASH,Ashland Inc,NYSE
+PFS,Provident Financial Services Inc,NYSE
+VTMX,Vesta Real Estate Corporation SAB de CV ADR,NYSE
+GPOR,Gulfport Energy Corp,NYSE
+AKR,Acadia Realty Trust,NYSE
 CXT,Crane NXT Co,NYSE
-BNT,Brookfield Wealth Solutions Ltd,NYSE
-KWR,Quaker Chemical Corp,NYSE
-BWLP,BW LPG Ltd,NYSE
-WOR,Worthington Enterprises  Inc,NYSE
-ERO,Ero Copper Corp,NYSE
-IHS,IHS Holding Ltd,NYSE
-AMBP,Ardagh Metal Packaging SA,NYSE
-WK,Workiva Inc,NYSE
-ATS,ATS Corp,NYSE
-CUBI,Customers Bancorp Inc,NYSE
+CWT,California Water Service Group,NYSE
+CPK,Chesapeake Utilities Corp,NYSE
+LCII,LCI Industries,NYSE
+EXG,Eaton Vance Tax-Managed Global Diversified Equity Income Closed Fund,NYSE
+BKV,BKV Corp,NYSE
+HTGC,Hercules Capital Inc,NYSE
+HNI,HNI Corp,NYSE
+JPC,Nuveen Preferred & Income Opportunities Fund,NYSE
 PARR,Par Pacific Holdings Inc,NYSE
-NVG,Nuveen AMT-Free Municipal Credit Income Fund,NYSE
-KMT,Kennametal Inc,NYSE
-CVI,CVR Energy Inc,NYSE
-WTTR,Select Water Solutions Inc,NYSE
-CTOS,Custom Truck One Source Inc,NYSE
-MPT,Medical Properties Trust Inc,NYSE
-BGSI,Boyd Group Services Inc,NYSE
-DKL,Delek Logistics Partners Common Units,NYSE
-SAH,Sonic Automotive Inc,NYSE
-ABM,ABM Industries Inc,NYSE
-HOG,Harley-Davidson Inc,NYSE
-WT,WisdomTree Inc,NYSE
-ATKR,Atkore Inc,NYSE
-BBT,Beacon Financial Corp,NYSE
-RDW,Redwire Corp,NYSE
-ALB PR A,Albemarle Dep Shares Each Rep A 1 20Th Interest In A Share Of 7 25 Mandatory,NYSE
-NGVT,Ingevity Corp,NYSE
-DCO,Ducommun Inc,NYSE
-GRDN,Guardian Pharmacy Services Inc,NYSE
-AAMI,Acadian Asset Management Inc,NYSE
-C PR N,Citigroup Capital XIII 7.875% Fixed Rate/Floating Rate Trust Preferred,NYSE
-GRND,Grindr Inc,NYSE
-FSM,Fortuna Mining Corp,NYSE
+FSK,FS KKR Capital Corp,NYSE
+CC,Chemours Co,NYSE
+VGNT,Versigent PLC,NYSE
+ARX,Accelerant Holdings,NYSE
+SA,Seabridge Gold Inc,NYSE
+SII,Sprott Inc,NYSE
+CIG.C,Companhia Energ ADR Reptg One Ord Shs,NYSE
+BSM,Black Stone Minerals Units,NYSE
+MMS,Maximus Inc,NYSE
+BWLP,BW LPG Ltd,NYSE
 NIQ,NIQ Global Intelligence PLC,NYSE
-GDV,Gabelli Dividend & Income Trust,NYSE
-PAGS,PagSeguro Digital Ltd,NYSE
-WHR,Whirlpool Corp,NYSE
-PTY,PIMCO Corporate & Income Opportunity Fund,NYSE
-ATEN,A10 Networks Inc,NYSE
-LCLN,Lincoln International Inc,NYSE
-AERO,Grupo Aeromexico SAB de CV ADR,NYSE
+DBRG,DigitalBridge Group Inc,NYSE
+WK,Workiva Inc,NYSE
+BXMT,Blackstone Mortgage Trust Inc,NYSE
+PK,Park Hotels & Resorts Inc,NYSE
+SPNT,Siriuspoint Ltd,NYSE
+UE,Urban Edge Properties,NYSE
+AMBP,Ardagh Metal Packaging SA,NYSE
+FBK,FB Financial Corp,NYSE
+DBD,Diebold Nixdorf Inc,NYSE
+APAM,Artisan Partners Asset Management Inc,NYSE
+CVI,CVR Energy Inc,NYSE
+GRND,Grindr Inc,NYSE
+BNT,Brookfield Wealth Solutions Ltd,NYSE
+CSAN,Cosan SA ADR,NYSE
+EFXT,Enerflex Ltd,NYSE
+NAD,Nuveen Quality Municipal Income Fund,NYSE
+DCO,Ducommun Inc,NYSE
+PHIN,Phinia Inc,NYSE
+DX,Dynex Capital Inc,NYSE
+KWR,Quaker Chemical Corp,NYSE
+DKL,Delek Logistics Partners Common Units,NYSE
+IVT,Inventrust Properties Corp,NYSE
+BTE,Baytex Energy Corp,NYSE
+DHT,DHT Holdings Inc,NYSE
+CTRI,Centuri Holdings Inc,NYSE
+WT,WisdomTree Inc,NYSE
+AEO,American Eagle Outfitters Inc,NYSE
+IHS,IHS Holding Ltd,NYSE
+UNFI,United Natural Foods Inc,NYSE
+FCPT,Four Corners Property Trust Inc,NYSE
+MPT,Medical Properties Trust Inc,NYSE
+NVG,Nuveen AMT-Free Municipal Credit Income Fund,NYSE
+ERO,Ero Copper Corp,NYSE
+HLIO,Helios Technologies Inc,NYSE
+BTU,Peabody Energy Corp,NYSE
+ATS,ATS Corp,NYSE
+TRN,Trinity Industries Inc,NYSE
+BGSI,Boyd Group Services Inc,NYSE
 KD,Kyndryl Holdings Inc,NYSE
-OLN,Olin Corp,NYSE
+RDW,Redwire Corp,NYSE
+WOR,Worthington Enterprises  Inc,NYSE
+INFQ,Infleqtion Inc,NYSE
+DAN,Dana Inc,NYSE
+BCC,Boise Cascade Co,NYSE
+GRDN,Guardian Pharmacy Services Inc,NYSE
+SAH,Sonic Automotive Inc,NYSE
+CUBI,Customers Bancorp Inc,NYSE
+ATEN,A10 Networks Inc,NYSE
+GDV,Gabelli Dividend & Income Trust,NYSE
+ROG,Rogers Corp,NYSE
+WTTR,Select Water Solutions Inc,NYSE
+WHR,Whirlpool Corp,NYSE
+UTI,Universal Technical Institute Inc,NYSE
+HOG,Harley-Davidson Inc,NYSE
+LEN.B,Lennar Corp Class B,NYSE
+FSM,Fortuna Mining Corp,NYSE
+C PR N,Citigroup Capital XIII 7.875% Fixed Rate/Floating Rate Trust Preferred,NYSE
+AAMI,Acadian Asset Management Inc,NYSE
+ABM,ABM Industries Inc,NYSE
+PTY,PIMCO Corporate & Income Opportunity Fund,NYSE
+KMT,Kennametal Inc,NYSE
+PAGS,PagSeguro Digital Ltd,NYSE
+ALB PR A,Albemarle Dep Shares Each Rep A 1 20Th Interest In A Share Of 7 25 Mandatory,NYSE
+TNET,TriNet Group Inc,NYSE
+EXK,Endeavour Silver Corp,NYSE
+BBT,Beacon Financial Corp,NYSE
+NGVT,Ingevity Corp,NYSE
+LCLN,Lincoln International Inc,NYSE
+WU,Western Union Co,NYSE
+SDRL,Seadrill Ltd,NYSE
+NZF,Nuveen Municipal Credit Income Fund,NYSE
+CALX,Calix Inc,NYSE
+SHAK,Shake Shack Inc,NYSE
+BHVN,Biohaven Ltd,NYSE
+TE,T1 Energy Inc,NYSE
+AERO,Grupo Aeromexico SAB de CV ADR,NYSE
+NTB,Bank of NT Butterfield & Son Ltd,NYSE
+AVEX,AEVEX Corp,NYSE
+RLX,RLX Technology Inc ADR,NYSE
+HE,Hawaiian Electric Industries Inc,NYSE
+KYN,Kayne Anderson Energy Infrastructure Fund Inc,NYSE
+TNK,Teekay Tankers Ltd,NYSE
+PBH,Prestige Consumer Healthcare Inc,NYSE
+USB PR R,Us Ban Del Depositary Shs Repstg 1 1000Th Int Pfd Ser M 4 Drc Series M,NYSE
+ATKR,Atkore Inc,NYSE
+HCI,Hci Group Inc,NYSE
+GOF,Guggenheim Strategic Opportunities Mutual Fund,NYSE
+AKO.B,Embotelladora Andina SA ADR Series B,NYSE
+ETY,Eaton Vance Tax Managed Diversified Equity Income Closed Fund,NYSE
+VVX,V2X Inc,NYSE
 MTX,Minerals Technologies Inc,NYSE
 DNOW,DNOW Inc,NYSE
-EXK,Endeavour Silver Corp,NYSE
-NZF,Nuveen Municipal Credit Income Fund,NYSE
-PBI,Pitney Bowes Inc,NYSE
-SDRL,Seadrill Ltd,NYSE
-SHAK,Shake Shack Inc,NYSE
-NTB,Bank of NT Butterfield & Son Ltd,NYSE
-WOLF,Wolfspeed Inc,NYSE
-BHVN,Biohaven Ltd,NYSE
-GRC,Gorman- Rupp Co,NYSE
-WU,Western Union Co,NYSE
-TNK,Teekay Tankers Ltd,NYSE
-KYN,Kayne Anderson Energy Infrastructure Fund Inc,NYSE
-HE,Hawaiian Electric Industries Inc,NYSE
-PBH,Prestige Consumer Healthcare Inc,NYSE
-HTH,Hilltop Holdings Inc,NYSE
-USB PR R,Us Ban Del Depositary Shs Repstg 1 1000Th Int Pfd Ser M 4 Drc Series M,NYSE
-LCII,LCI Industries,NYSE
-VCX,Fundrise Innovation Fund  LLC,NYSE
-HCI,Hci Group Inc,NYSE
-AKO.B,Embotelladora Andina SA ADR Series B,NYSE
-TNET,TriNet Group Inc,NYSE
-TE,T1 Energy Inc,NYSE
-UTI,Universal Technical Institute Inc,NYSE
-RLX,RLX Technology Inc ADR,NYSE
-VVX,V2X Inc,NYSE
-CALX,Calix Inc,NYSE
-GOF,Guggenheim Strategic Opportunities Mutual Fund,NYSE
-RAMP,Liveramp Holdings Inc,NYSE
-IMAX,Imax Corp,NYSE
-ETY,Eaton Vance Tax Managed Diversified Equity Income Closed Fund,NYSE
-FUN,Six Flags Entertainment Corp,NYSE
-DAC,Danaos Corp,NYSE
-CEPU,Central Puerto SA ADR,NYSE
-RVT,Royce Small-Cap Trust Inc,NYSE
-BKE,Buckle Inc,NYSE
-CPRI,Capri Holdings Ltd,NYSE
-TALO,Talos Energy Inc,NYSE
+OLN,Olin Corp,NYSE
+CTOS,Custom Truck One Source Inc,NYSE
 PRKS,United Parks & Resorts Inc,NYSE
+PBI,Pitney Bowes Inc,NYSE
+HTH,Hilltop Holdings Inc,NYSE
+TALO,Talos Energy Inc,NYSE
+RAMP,Liveramp Holdings Inc,NYSE
+RVT,Royce Small-Cap Trust Inc,NYSE
+DAC,Danaos Corp,NYSE
+GRC,Gorman- Rupp Co,NYSE
+CEPU,Central Puerto SA ADR,NYSE
+WLY,John Wiley & Sons Inc Class A,NYSE
 LC,LendingClub Corp,NYSE
-KSS,Kohls Corp,NYSE
-BW,Babcock & Wilcox Enterprises Inc,NYSE
-BFLY,Butterfly Network Inc,NYSE
-SHO,Sunstone Hotel Investors Inc,NYSE
-AIN,Albany International Corp,NYSE
-PEB,Pebblebrook Hotel Trust,NYSE
-NEE PR S,Nextera Energy Units,NYSE
+VCX,Fundrise Innovation Fund  LLC,NYSE
+MD,Pediatrix Medical Group Inc,NYSE
+IMAX,Imax Corp,NYSE
+BKE,Buckle Inc,NYSE
 ARR,ARMOUR Residential REIT Inc,NYSE
-NWN,Northwest Natural Holding Co,NYSE
-ATHM,Autohome Inc ADR,NYSE
-AESI,Atlas Energy Solutions Inc,NYSE
-MNR,Mach Natural Resources Units,NYSE
-PLGO,Pelagos Insurance Capital Ltd,NYSE
-BOBS,Bob's Discount Furniture  Inc,NYSE
-CCU,Compania Cervecerias Unidas SA ADR,NYSE
-AMR,Alpha Metallurgical Resources Inc,NYSE
-STC,Stewart Information Services Corp,NYSE
-FCF,First Commonwealth Financial Corp,NYSE
-NOG,Northern Oil and Gas Inc,NYSE
-HMN,Horace Mann Educators Corp,NYSE
-HAWK,HawkEye 360 Inc,NYSE
 TGLS,Tecnoglass Inc,NYSE
-BRSL,Brightstar Lottery PLC,NYSE
-TGS,Transportadora de Gas del Sur SA ADR,NYSE
-OFG,OFG Bancorp,NYSE
-CCS,Century Communities Inc,NYSE
+WOLF,Wolfspeed Inc,NYSE
+PLGO,Pelagos Insurance Capital Ltd,NYSE
+CPRI,Capri Holdings Ltd,NYSE
+HMN,Horace Mann Educators Corp,NYSE
+NEE PR S,Nextera Energy Units,NYSE
+FUN,Six Flags Entertainment Corp,NYSE
+BOBS,Bob's Discount Furniture  Inc,NYSE
+PEB,Pebblebrook Hotel Trust,NYSE
+SHO,Sunstone Hotel Investors Inc,NYSE
+ECO,Okeanis Eco Tankers Corp,NYSE
 NTST,Netstreit Corp,NYSE
+MNR,Mach Natural Resources Units,NYSE
+DEI,Douglas Emmett Inc,NYSE
+ATHM,Autohome Inc ADR,NYSE
+NWN,Northwest Natural Holding Co,NYSE
+OFG,OFG Bancorp,NYSE
+KKR PR D,KKR And Co Mandatory Convertible Preference Ser D,NYSE
+AIN,Albany International Corp,NYSE
+MHD,BlackRock MuniHoldings Fund，Inc.,NYSE
+BRSL,Brightstar Lottery PLC,NYSE
+FCF,First Commonwealth Financial Corp,NYSE
 GTY,Getty Realty Corp,NYSE
 ALG,Alamo Group Inc,NYSE
-MHD,BlackRock MuniHoldings Fund，Inc.,NYSE
-SEM,Select Medical Holdings Corp,NYSE
-SPB,Spectrum Brands Holdings Inc,NYSE
-KKR PR D,KKR And Co Mandatory Convertible Preference Ser D,NYSE
-NBHC,National Bank Holdings Corp,NYSE
-MD,Pediatrix Medical Group Inc,NYSE
-MBC,Masterbrand Inc,NYSE
-WLY,John Wiley & Sons Inc Class A,NYSE
-STEL,Stellar Bancorp Inc,NYSE
+HAWK,HawkEye 360 Inc,NYSE
+STC,Stewart Information Services Corp,NYSE
 EVT,Eaton Vance Tax Advantaged Dividend Income Closed Fund,NYSE
-HUN,Huntsman Corp,NYSE
-DEI,Douglas Emmett Inc,NYSE
-GEF.B,Greif Inc Class B,NYSE
-NGL,NGL Energy Partners Units,NYSE
-ECO,Okeanis Eco Tankers Corp,NYSE
+KSS,Kohls Corp,NYSE
+NMM,Navios Maritime Partners Units,NYSE
+SSMR,Sunshine Silver Mining & Refining Co,NYSE
+CCU,Compania Cervecerias Unidas SA ADR,NYSE
+AMR,Alpha Metallurgical Resources Inc,NYSE
+VOYG,Voyager Technologies Inc,NYSE
+MBC,Masterbrand Inc,NYSE
+COTY,Coty Inc,NYSE
+BSTZ,BlackRock Science and Technology Term Closed End Fund,NYSE
+CCS,Century Communities Inc,NYSE
+LTC,LTC Properties Inc,NYSE
+BFLY,Butterfly Network Inc,NYSE
+MH,McGraw Hill Inc,NYSE
+SNDA,Sonida Senior Living Inc,NYSE
+NBHC,National Bank Holdings Corp,NYSE
 WMK,Weis Markets Inc,NYSE
 WSO.B,Watsco Inc Class B,NYSE
-LTC,LTC Properties Inc,NYSE
-NUVB,Nuvation Bio Inc,NYSE
-NMM,Navios Maritime Partners Units,NYSE
-BSTZ,BlackRock Science and Technology Term Closed End Fund,NYSE
-AVAL,Grupo Aval Acciones y Valores SA ADR,NYSE
-BLX,Bladex Inc,NYSE
-PRLB,Proto Labs Inc,NYSE
-LOB,Live Oak Bancshares Inc,NYSE
-NUV,Nuveen Municipal Value Fund Inc,NYSE
+GEF.B,Greif Inc Class B,NYSE
 AMBQ,Ambiq Micro Inc,NYSE
-GNL,Global Net Lease Inc,NYSE
-EPAC,Enerpac Tool Group Corp,NYSE
-BPRE,Bluerock Private Real Estate Closed End Fund,NYSE
-CTS,CTS Corp,NYSE
-CDLR,Cadeler A/S ADR,NYSE
-BHC,Bausch Health Companies Inc,NYSE
-SAM,Boston Beer Company Inc,NYSE
-AGL,agilon health inc,NYSE
-FLOC,Flowco Holdings Inc,NYSE
-AVEX,AEVEX Corp,NYSE
-FIGS,Figs Inc,NYSE
-AMC,AMC Entertainment Holdings Inc,NYSE
-WS,Worthington Steel Inc,NYSE
-XHR,Xenia Hotels & Resorts Inc,NYSE
+TGS,Transportadora de Gas del Sur SA ADR,NYSE
+SPB,Spectrum Brands Holdings Inc,NYSE
+NOG,Northern Oil and Gas Inc,NYSE
 BXDC,Blackstone Digital Infrastructure Trust Inc,NYSE
-VSTS,Vestis Corp,NYSE
-SSMR,Sunshine Silver Mining & Refining Co,NYSE
+NUV,Nuveen Municipal Value Fund Inc,NYSE
+AVAL,Grupo Aval Acciones y Valores SA ADR,NYSE
 NAC,Nuveen California Quality Municipal Income Fund,NYSE
-WD,Walker & Dunlop Inc,NYSE
-PDO,PIMCO Dynamic Income Opportunities Fund,NYSE
-AMPX,Amprius Technologies Inc,NYSE
-JPM PR C,JPMORGAN CHASE Depositary SH Repstg 1 400TH Pfd Ser EE,NYSE
-GEF,Greif Inc Class A,NYSE
-DRD,DRDGOLD Ltd ADR,NYSE
-SMA,SmartStop Self Storage REIT Inc,NYSE
-SNDA,Sonida Senior Living Inc,NYSE
-PRG,PROG Holdings Inc,NYSE
-TY,Tri Continental Closed Fund,NYSE
-TIC,TIC Solutions Inc,NYSE
-TFIN,Triumph Financial Inc,NYSE
-RLJ,RLJ Lodging Trust,NYSE
-IIPR,Innovative Industrial Properties Inc,NYSE
+LOB,Live Oak Bancshares Inc,NYSE
+NGL,NGL Energy Partners Units,NYSE
+VSTS,Vestis Corp,NYSE
 AGM,Federal Agricultural Mortgage Corp Class C,NYSE
-MH,McGraw Hill Inc,NYSE
-PUMP,ProPetro Holding Corp,NYSE
-DCOM,Dime Commercial Bancshares Inc,NYSE
-AKO.A,Embotelladora Andina SA ADR Series A,NYSE
-USA,Liberty All Star Equity Closed Fund,NYSE
-SOMN,Southern Units,NYSE
-ARCO,Arcos Dorados Holdings Inc,NYSE
-APO PR A,Apollo Global Management 6 75 Mandatory Convertible Preferred Stock Series A,NYSE
-GAB,Gabelli Equity Trust Inc,NYSE
-INVX,Innovex International Inc,NYSE
-MQY,BlackRock MuniYield Quality Fund，Inc.,NYSE
-ETG,Eaton Vance Tax Advantaged Global Dividend Income Closed Fund,NYSE
-CMRE,Costamare Inc,NYSE
-VOYG,Voyager Technologies Inc,NYSE
-WKC,World Kinect Corp,NYSE
-GEL,Genesis Energy Units Class A,NYSE
-RITM PR A,Rithm Capital 7 50 Cumulative Redeemable Pref Shs Series A,NYSE
-STEW,SRH Total Return Fund，Inc,NYSE
-BY,Byline Bancorp Inc,NYSE
-ETV,Eaton Vance Tax Managed Buy Write Opportunities Closed Fund,NYSE
-NEXA,Nexa Resources SA,NYSE
-EFC,Ellington Financial Inc,NYSE
+BLX,Bladex Inc,NYSE
+AESI,Atlas Energy Solutions Inc,NYSE
+AMPX,Amprius Technologies Inc,NYSE
+BW,Babcock & Wilcox Enterprises Inc,NYSE
 VPG,Vishay Precision Group Inc,NYSE
-KRP,Kimbell Royalty Partners LP Units,NYSE
-COTY,Coty Inc,NYSE
-CYD,China Yuchai International Ltd,NYSE
-SILA,Sila Realty Trust Inc,NYSE
-RQI,Cohen & Steers Quality Income Realty Fund Inc,NYSE
-BCAT,BlackRock Capital Allocation Term Closed End Fund,NYSE
-BST,BlackRock Science and Technology Trust,NYSE
-BDJ,BlackRock Enhanced Equity Dividend Trust,NYSE
-HYT,BlackRock Corporate High Yield Fund，Inc.,NYSE
-COUR,Coursera Inc,NYSE
-TRLV,Trulieve Cannabis Corp,NYSE
-RVLV,Revolve Group Inc,NYSE
+NUVB,Nuvation Bio Inc,NYSE
+CDLR,Cadeler A/S ADR,NYSE
+GNL,Global Net Lease Inc,NYSE
+SAM,Boston Beer Company Inc,NYSE
+DRD,DRDGOLD Ltd ADR,NYSE
+HUN,Huntsman Corp,NYSE
+PDO,PIMCO Dynamic Income Opportunities Fund,NYSE
 CBZ,CBIZ Inc,NYSE
+TRLV,Trulieve Cannabis Corp,NYSE
+XHR,Xenia Hotels & Resorts Inc,NYSE
+JPM PR C,JPMORGAN CHASE Depositary SH Repstg 1 400TH Pfd Ser EE,NYSE
+FLOC,Flowco Holdings Inc,NYSE
+WD,Walker & Dunlop Inc,NYSE
+SMA,SmartStop Self Storage REIT Inc,NYSE
+GEF,Greif Inc Class A,NYSE
+TY,Tri Continental Closed Fund,NYSE
+AGL,agilon health inc,NYSE
+BPRE,Bluerock Private Real Estate Closed End Fund,NYSE
+IIPR,Innovative Industrial Properties Inc,NYSE
+TFIN,Triumph Financial Inc,NYSE
+BHC,Bausch Health Companies Inc,NYSE
 FLO,Flowers Foods Inc,NYSE
 EVTC,Evertec Inc,NYSE
-TPB,Turning Point Brands Inc,NYSE
+PRLB,Proto Labs Inc,NYSE
 MAN,ManpowerGroup Inc,NYSE
-BBAI,BigBear.ai Holdings Inc,NYSE
-DV,Doubleverify Holdings Inc,NYSE
-GENI,Genius Sports Ltd,NYSE
-CBL,CBL & Associates Properties Inc,NYSE
+EPAC,Enerpac Tool Group Corp,NYSE
+SIND,Sinda Ltd,NYSE
+TIC,TIC Solutions Inc,NYSE
+ETG,Eaton Vance Tax Advantaged Global Dividend Income Closed Fund,NYSE
+RLJ,RLJ Lodging Trust,NYSE
+USA,Liberty All Star Equity Closed Fund,NYSE
+AKO.A,Embotelladora Andina SA ADR Series A,NYSE
+DCOM,Dime Commercial Bancshares Inc,NYSE
+SOMN,Southern Units,NYSE
+PRG,PROG Holdings Inc,NYSE
+GAB,Gabelli Equity Trust Inc,NYSE
 TR,Tootsie Roll Industries Inc,NYSE
-LZB,La-Z-Boy Inc,NYSE
-FOR,Forestar Group Inc,NYSE
-JPM PR D,Jpmorgan Chase Depositary Shares Representing 1/400 Pref Shs Series DD,NYSE
-XPRO,Expro Group Holdings NV,NYSE
-TEO,Telecom Argentina SA ADR,NYSE
-ASAN,Asana Inc,NYSE
-TTI,Tetra Technologies Inc,NYSE
-TSLX,Sixth Street Specialty Lending Inc,NYSE
-OBK,Origin Bancorp Inc,NYSE
-CRI,Carter's Inc,NYSE
-FLNG,FLEX LNG Ltd,NYSE
-LEG,Leggett & Platt Inc,NYSE
+DV,Doubleverify Holdings Inc,NYSE
+APO PR A,Apollo Global Management 6 75 Mandatory Convertible Preferred Stock Series A,NYSE
+ETV,Eaton Vance Tax Managed Buy Write Opportunities Closed Fund,NYSE
+STEW,SRH Total Return Fund，Inc,NYSE
+MQY,BlackRock MuniYield Quality Fund，Inc.,NYSE
+GEL,Genesis Energy Units Class A,NYSE
+ARCO,Arcos Dorados Holdings Inc,NYSE
+CTS,CTS Corp,NYSE
+CMRE,Costamare Inc,NYSE
+GENI,Genius Sports Ltd,NYSE
+RITM PR A,Rithm Capital 7 50 Cumulative Redeemable Pref Shs Series A,NYSE
+BDJ,BlackRock Enhanced Equity Dividend Trust,NYSE
+WKC,World Kinect Corp,NYSE
+BY,Byline Bancorp Inc,NYSE
+BBAI,BigBear.ai Holdings Inc,NYSE
+COUR,Coursera Inc,NYSE
+EFC,Ellington Financial Inc,NYSE
+AMC,AMC Entertainment Holdings Inc,NYSE
+BST,BlackRock Science and Technology Trust,NYSE
+INVX,Innovex International Inc,NYSE
+TPB,Turning Point Brands Inc,NYSE
+CBL,CBL & Associates Properties Inc,NYSE
+CYD,China Yuchai International Ltd,NYSE
 NSP,Insperity Inc,NYSE
-GLP,Global Partners Units,NYSE
+NEXA,Nexa Resources SA,NYSE
+XZO,Exzeo Group Inc,NYSE
 KMPR,Kemper Corp,NYSE
-DFH,Dream Finders Homes Inc (Texas),NYSE
-ADNT,Adient PLC,NYSE
-SVV,Savers Value Village Inc,NYSE
-SLVM,Sylvamo Corp,NYSE
-GBX,Greenbrier Companies Inc,NYSE
+ASAN,Asana Inc,NYSE
+RQI,Cohen & Steers Quality Income Realty Fund Inc,NYSE
+HYT,BlackRock Corporate High Yield Fund，Inc.,NYSE
+FIGS,Figs Inc,NYSE
+KRP,Kimbell Royalty Partners LP Units,NYSE
+BCAT,BlackRock Capital Allocation Term Closed End Fund,NYSE
+TDOC,Teladoc Health Inc,NYSE
+CLVT,Clarivate PLC,NYSE
+TSLX,Sixth Street Specialty Lending Inc,NYSE
+XPRO,Expro Group Holdings NV,NYSE
+LEG,Leggett & Platt Inc,NYSE
+JPM PR D,Jpmorgan Chase Depositary Shares Representing 1/400 Pref Shs Series DD,NYSE
+RVLV,Revolve Group Inc,NYSE
+GLP,Global Partners Units,NYSE
+BRBR,Bellring Brands Inc,NYSE
+DXC,DXC Technology Co,NYSE
+WS,Worthington Steel Inc,NYSE
 NOMD,Nomad Foods Ltd,NYSE
+LZB,La-Z-Boy Inc,NYSE
+OBK,Origin Bancorp Inc,NYSE
+FLNG,FLEX LNG Ltd,NYSE
+TEO,Telecom Argentina SA ADR,NYSE
+ECAT,BlackRock ESG Capital Allocation Term Closed End Fund,NYSE
+FOR,Forestar Group Inc,NYSE
+VIA,Via Transportation Inc,NYSE
+AAT,American Assets Trust Inc,NYSE
+SFL,Sfl Corporation Ltd,NYSE
+ARDT,Ardent Health Inc,NYSE
+LPG,Dorian LPG Ltd,NYSE
+DFH,Dream Finders Homes Inc (Texas),NYSE
+SVV,Savers Value Village Inc,NYSE
+GAM,General American Investors Closed Fund,NYSE
+SLVM,Sylvamo Corp,NYSE
+PRGO,Perrigo Company PLC,NYSE
+DAO,Youdao Inc ADR,NYSE
+PRSU,Pursuit Attractions and Hospitality Inc,NYSE
+OI,O-i Glass  Inc,NYSE
+BIO.B,Bio Rad Laboratories Inc Class B,NYSE
+CRI,Carter's Inc,NYSE
 TNC,Tennant Co,NYSE
 ENR,Energizer Holdings Inc,NYSE
-SFL,Sfl Corporation Ltd,NYSE
-AAT,American Assets Trust Inc,NYSE
-LPG,Dorian LPG Ltd,NYSE
-ECAT,BlackRock ESG Capital Allocation Term Closed End Fund,NYSE
-TDOC,Teladoc Health Inc,NYSE
-BIO.B,Bio Rad Laboratories Inc Class B,NYSE
-PRSU,Pursuit Attractions and Hospitality Inc,NYSE
-GAM,General American Investors Closed Fund,NYSE
-OI,O-i Glass  Inc,NYSE
-ODC,Oil-Dri Corporation of America,NYSE
-FMC,FMC Corp,NYSE
+LSPD,Lightspeed Commerce Inc,NYSE
+PUMP,ProPetro Holding Corp,NYSE
 REX,REX American Resources Corp,NYSE
-TV,Grupo Televisa SAB ADR,NYSE
-RYZ,Ryerson Holding Corp,NYSE
-BTT,BlackRock Municipal 2030 Target Term Trust,NYSE
+UAA,Under Armour Inc Class A,NYSE
+ADNT,Adient PLC,NYSE
+GBX,Greenbrier Companies Inc,NYSE
 IDT,IDT Corp,NYSE
-GHM,Graham Corp,NYSE
-AMRC,Ameresco Inc,NYSE
+YELP,Yelp Inc,NYSE
+ODC,Oil-Dri Corporation of America,NYSE
+BTT,BlackRock Municipal 2030 Target Term Trust,NYSE
+ARLO,Arlo Technologies Inc,NYSE
+TV,Grupo Televisa SAB ADR,NYSE
+AI,C3.ai Inc,NYSE
+ALX,Alexander's Inc,NYSE
+TTI,Tetra Technologies Inc,NYSE
+FMC,FMC Corp,NYSE
+NFJ,Virtus Dividend  Interest & Prem Str Fd,NYSE
+GLOB,Globant SA,NYSE
+AGRO,Adecoagro SA,NYSE
+JPM PR L,JPMorgan Chase Depositary Shares Each Rep 1 400th Interest 4 625 Non Cumulative,NYSE
+ORC,Orchid Island Capital Inc,NYSE
+JPM PR M,Jpmorgan Chase And Co DS Repstg 1 400Th Series MM,NYSE
+BORR,Borr Drilling Ltd,NYSE
+MUC,BlackRock MuniHoldings California Quality Fd，Inc.,NYSE
+MOG.B,Moog Inc Class B,NYSE
+GSL,Global Ship Lease Inc,NYSE
+LOMA,Loma Negra Compania Industrial Argentina SA ADR,NYSE
 VET,Vermilion Energy Inc,NYSE
 ARI,Apollo Commercial Real Estate Finance Inc,NYSE
-WWW,Wolverine World Wide Inc,NYSE
-ORC,Orchid Island Capital Inc,NYSE
-NFJ,Virtus Dividend  Interest & Prem Str Fd,NYSE
-JPM PR L,JPMorgan Chase Depositary Shares Each Rep 1 400th Interest 4 625 Non Cumulative,NYSE
-DCH,Dauch Corp,NYSE
-XZO,Exzeo Group Inc,NYSE
-DXC,DXC Technology Co,NYSE
-VIA,Via Transportation Inc,NYSE
-UAA,Under Armour Inc Class A,NYSE
-ALX,Alexander's Inc,NYSE
-LSPD,Lightspeed Commerce Inc,NYSE
-ARDT,Ardent Health Inc,NYSE
-FDP,Del Monte Corp,NYSE
-AI,C3.ai Inc,NYSE
-SBH,Sally Beauty Holdings Inc,NYSE
-PRGO,Perrigo Company PLC,NYSE
-MOG.B,Moog Inc Class B,NYSE
-MUC,BlackRock MuniHoldings California Quality Fd，Inc.,NYSE
-JPM PR M,Jpmorgan Chase And Co DS Repstg 1 400Th Series MM,NYSE
-BV,Brightview Holdings Inc,NYSE
-GSL,Global Ship Lease Inc,NYSE
-CLVT,Clarivate PLC,NYSE
-ARLO,Arlo Technologies Inc,NYSE
-AGRO,Adecoagro SA,NYSE
 MYI,BlackRock MuniYield Quality Fund III，Inc.,NYSE
-LOMA,Loma Negra Compania Industrial Argentina SA ADR,NYSE
-BAC PR B,Bank Amer Depositary Shares Representing 1/1000 Non Cumulative Pref Shs Series,NYSE
-DAO,Youdao Inc ADR,NYSE
-GIC,Global Industrial Co,NYSE
-LAC,Lithium Americas Corp,NYSE
-BRBR,Bellring Brands Inc,NYSE
-BORR,Borr Drilling Ltd,NYSE
-UVV,Universal Corp,NYSE
-NRP,Natural Resource Partners Units,NYSE
-DOLE,Dole PLC,NYSE
-ECVT,Ecovyst Inc,NYSE
-LADR,Ladder Capital Corp,NYSE
-YELP,Yelp Inc,NYSE
-NPKI,NPK International Inc,NYSE
-INSP,Inspire Medical Systems Inc,NYSE
-UMH,UMH Properties Inc,NYSE
-UHAL,U-Haul Holding Co,NYSE
-ENOV,Enovis Corp,NYSE
-MSDL,Morgan Stanley Direct Lending Fund,NYSE
-HLX,Helix Energy Solutions Group Inc,NYSE
-TWO,Two Harbors Investment Corp,NYSE
-RES,RPC Inc,NYSE
-CMP,Compass Minerals International Inc,NYSE
 HLF,Herbalife Ltd,NYSE
-LNN,Lindsay Corp,NYSE
-KOS,Kosmos Energy Ltd,NYSE
-WFC PR Z,Wells Fargo 1000 Depositary Shares Representing Pref Shs Class A,NYSE
-LAR,Lithium Argentina AG,NYSE
+WWW,Wolverine World Wide Inc,NYSE
+INSP,Inspire Medical Systems Inc,NYSE
+BAC PR B,Bank Amer Depositary Shares Representing 1/1000 Non Cumulative Pref Shs Series,NYSE
+GHM,Graham Corp,NYSE
+SBH,Sally Beauty Holdings Inc,NYSE
 AMN,AMN Healthcare Services Inc,NYSE
-SCL,Stepan Co,NYSE
-PLOW,Douglas Dynamics Inc,NYSE
-SID,Companhia Siderurgica Nacional SA ADR,NYSE
-T PR C,AT&T Depo Sha Rep 1000 Preferred Series C,NYSE
-NVGS,Navigator Holdings Ltd,NYSE
-VTOL,Bristow Group Inc,NYSE
-NAT,Nordic American Tankers Ltd,NYSE
-DSL,DoubleLine Income Solutions Fd,NYSE
-NBXG,Neuberger Next Gen Connectivity Fund Inc.,NYSE
-JFR,Nuveen Floating Rate Income Closed Fund,NYSE
-NBR,Nabors Industries Ltd,NYSE
-GLOB,Globant SA,NYSE
-EPC,Edgewell Personal Care Co,NYSE
-MCB,Metropolitan Bank Holding Corp,NYSE
-HQH,abrdn Healthcare Investors,NYSE
-CCO,Clear Channel Outdoor Holdings Inc,NYSE
-NMZ,Nuveen Municipal High Income Opportunity Closed Fund,NYSE
+PCG PR X,PG And E 6 Conv Pref Series A,NYSE
+AMRC,Ameresco Inc,NYSE
+DMC,Del Monte Corp,NYSE
+BV,Brightview Holdings Inc,NYSE
+DOLE,Dole PLC,NYSE
+LAC,Lithium Americas Corp,NYSE
+UMH,UMH Properties Inc,NYSE
 UA,Under Armour Inc Class C,NYSE
-IRS,IRSA Inversiones y Representaciones SA ADR,NYSE
+UHAL,U-Haul Holding Co,NYSE
+NRP,Natural Resource Partners Units,NYSE
+LAR,Lithium Argentina AG,NYSE
+MSDL,Morgan Stanley Direct Lending Fund,NYSE
+WFC PR Z,Wells Fargo 1000 Depositary Shares Representing Pref Shs Class A,NYSE
 TDAY,USA TODAY Co Inc,NYSE
-BHLB,Berkshire Hills Bancorp Inc,NYSE
+ECVT,Ecovyst Inc,NYSE
+SCL,Stepan Co,NYSE
+UVV,Universal Corp,NYSE
+LADR,Ladder Capital Corp,NYSE
 ACVA,ACV Auctions Inc,NYSE
+GIC,Global Industrial Co,NYSE
+LNN,Lindsay Corp,NYSE
+TWO,Two Harbors Investment Corp,NYSE
 CXM,Sprinklr Inc,NYSE
+NBXG,Neuberger Next Gen Connectivity Fund Inc.,NYSE
+DSL,DoubleLine Income Solutions Fd,NYSE
+HQH,abrdn Healthcare Investors,NYSE
+HLX,Helix Energy Solutions Group Inc,NYSE
+CMP,Compass Minerals International Inc,NYSE
+EPC,Edgewell Personal Care Co,NYSE
+T PR C,AT&T Depo Sha Rep 1000 Preferred Series C,NYSE
+RYZ,Ryerson Holding Corp,NYSE
+RES,RPC Inc,NYSE
+JFR,Nuveen Floating Rate Income Closed Fund,NYSE
+NMZ,Nuveen Municipal High Income Opportunity Closed Fund,NYSE
+MCB,Metropolitan Bank Holding Corp,NYSE
+DCH,Dauch Corp,NYSE
+LU,Lufax Holding Ltd ADR,NYSE
 MYE,Myers Industries Inc,NYSE
+ENOV,Enovis Corp,NYSE
 CDRE,Cadre Holdings Inc,NYSE
 GOLD,Gold.com Inc,NYSE
-MMI,Marcus & Millichap Inc,NYSE
+IRS,IRSA Inversiones y Representaciones SA ADR,NYSE
 PXED,Phoenix Education Partners Inc,NYSE
+NAT,Nordic American Tankers Ltd,NYSE
+KOS,Kosmos Energy Ltd,NYSE
+CCO,Clear Channel Outdoor Holdings Inc,NYSE
+VTOL,Bristow Group Inc,NYSE
+RHLD,Resolute Holdings Management  Inc,NYSE
+ASIC,Ategrity Specialty Insurance Company Holdings,NYSE
+BHLB,Berkshire Hills Bancorp Inc,NYSE
+NPKI,NPK International Inc,NYSE
+MMI,Marcus & Millichap Inc,NYSE
+UAN,CVR Partners Units,NYSE
 PDM,Piedmont Realty Trust Inc,NYSE
+EVC,Entravision Communications Corp,NYSE
+SID,Companhia Siderurgica Nacional SA ADR,NYSE
+UVE,Universal Insurance Holdings Inc,NYSE
+VYX,NCR Voyix Corp,NYSE
+UTZ,UTZ Brands Inc,NYSE
+DEA,Easterly Government Properties Inc,NYSE
 BAC PR M,Bank Amer DS Representing 1/1000 Non Cum Pref Shs Series KK,NYSE
-PCG PR X,PG And E 6 Conv Pref Series A,NYSE
+NVGS,Navigator Holdings Ltd,NYSE
+EOS,Eaton Vance Enhanced Equity Income II Closed Fund,NYSE
 SAFE,Safehold Inc,NYSE
 AVNS,Avanos Medical Inc,NYSE
-UAN,CVR Partners Units,NYSE
-DEA,Easterly Government Properties Inc,NYSE
-SPH,Suburban Propane Partners Common Units,NYSE
-UVE,Universal Insurance Holdings Inc,NYSE
-AORT,Artivion Inc,NYSE
-CIM,Chimera Investment Corp,NYSE
-EOS,Eaton Vance Enhanced Equity Income II Closed Fund,NYSE
-SOC,Sable Offshore Corp,NYSE
-PBT,Permian Basin Royalty Units,NYSE
 XIFR,XPLR Infrastructure LP,NYSE
-FINV,FinVolution Group ADR,NYSE
-CVLG,Covenant Logistics Group Inc,NYSE
-PPLC,Ppl Units,NYSE
-TBN,Tamboran Resources Corp,NYSE
+AORT,Artivion Inc,NYSE
+PLOW,Douglas Dynamics Inc,NYSE
+SPH,Suburban Propane Partners Common Units,NYSE
 OPY,Oppenheimer Holdings Inc,NYSE
-AGBK,Agi Inc,NYSE
-EVC,Entravision Communications Corp,NYSE
-TEN,Tsakos Energy Navigation Ltd,NYSE
-TUYA,Tuya Inc ADR,NYSE
-LU,Lufax Holding Ltd ADR,NYSE
-JPM PR K,JPMorgan Chase DRC Rep 1 400 4 55 Non Cumul Pref Shs Series JJ,NYSE
-FPF,First Trust Intermediate Duration Preferred & Inc,NYSE
-DLX,Deluxe Corp,NYSE
-VLRS,Controladora Vuela Compania de Aviacion SAB de CV ADR,NYSE
-CII,BlackRock Enhanced Large Cap Core Closed End Fund,NYSE
-SG,Sweetgreen Inc,NYSE
-ACEL,Accel Entertainment Inc,NYSE
-ENHA,A Paradise Acquisition Corp,NYSE
-COF PR I,Capital One Financial 40 DS Representing Perpetual Pref Shs Series I,NYSE
+NMAX,Newsmax Inc,NYSE
+PBT,Permian Basin Royalty Units,NYSE
+DFIN,Donnelley Financial Solutions Inc,NYSE
+NBR,Nabors Industries Ltd,NYSE
 ARES PR B,Ares Management 6 75 Mandatory Convertible Prf Shs Series B,NYSE
-LUCK,Lucky Strike Entertainment Corp,NYSE
-AOD,abrdn Total Dynamic Dividend Mutual Fund,NYSE
-TROX,Tronox Holdings PLC,NYSE
-SBR,Sabine Royalty Units,NYSE
-GSBD,Goldman Sachs BDC Inc,NYSE
-PTA,Cohen & Steers Tax-Adv Pref Secs and Inc Fund,NYSE
-SBSI,Southside Bancshares Inc,NYSE
-BTX,BlackRock Technology and Private Equity Term Trust,NYSE
-ASIC,Ategrity Specialty Insurance Company Holdings,NYSE
-UTZ,UTZ Brands Inc,NYSE
-RHLD,Resolute Holdings Management  Inc,NYSE
-VYX,NCR Voyix Corp,NYSE
-CNMD,Conmed Corp,NYSE
+FINV,FinVolution Group ADR,NYSE
+ABX,Abacus Global Management Inc,NYSE
+AGBK,Agi Inc,NYSE
 MUX,McEwen Inc,NYSE
+PPLC,Ppl Units,NYSE
+CII,BlackRock Enhanced Large Cap Core Closed End Fund,NYSE
+DLX,Deluxe Corp,NYSE
+JPM PR K,JPMorgan Chase DRC Rep 1 400 4 55 Non Cumul Pref Shs Series JJ,NYSE
+FUBO,FuboTV Inc,NYSE
+CVLG,Covenant Logistics Group Inc,NYSE
 USPH,US Physical Therapy Inc,NYSE
-BAC PR N,Bank of America 1000 Depositary Shares Representing Pref Series LL,NYSE
-ABR,Arbor Realty Trust Inc,NYSE
 UAMY,United States Antimony Corp,NYSE
-LUXE,LuxExperience BV ADR,NYSE
+COF PR I,Capital One Financial 40 DS Representing Perpetual Pref Shs Series I,NYSE
+CIM,Chimera Investment Corp,NYSE
+FPF,First Trust Intermediate Duration Preferred & Inc,NYSE
+AOD,abrdn Total Dynamic Dividend Mutual Fund,NYSE
+TUYA,Tuya Inc ADR,NYSE
+GSBD,Goldman Sachs BDC Inc,NYSE
+TBN,Tamboran Resources Corp,NYSE
+VLRS,Controladora Vuela Compania de Aviacion SAB de CV ADR,NYSE
+PTA,Cohen & Steers Tax-Adv Pref Secs and Inc Fund,NYSE
 GNK,Genco Shipping & Trading Ltd,NYSE
+SG,Sweetgreen Inc,NYSE
+TEN,Tsakos Energy Navigation Ltd,NYSE
+LUXE,LuxExperience BV ADR,NYSE
+SBR,Sabine Royalty Units,NYSE
+LUCK,Lucky Strike Entertainment Corp,NYSE
+BAC PR N,Bank of America 1000 Depositary Shares Representing Pref Series LL,NYSE
+ACEL,Accel Entertainment Inc,NYSE
+SBSI,Southside Bancshares Inc,NYSE
+ETW,Eaton Vance Tax Managed Global Buy Write Opportunities Closed Fund,NYSE
+BKSY,Blacksky Technology Inc,NYSE
+DEC,Diversified Energy Co,NYSE
+BOW,Bowhead Specialty Holdings Inc,NYSE
+GS PR D,Goldman Sachs Group Depository Shares Repstg 1/1000th Floating Rate Non,NYSE
+ASA,ASA Gold And Precious Metals Limited,NYSE
+CNMD,Conmed Corp,NYSE
 MS PR Q,Morgan Stanley Depositary Shares Each Repsng 1 1000th Share of 6 625 Non,NYSE
 EQBK,Equity Bancshares Inc,NYSE
-GS PR D,Goldman Sachs Group Depository Shares Repstg 1/1000th Floating Rate Non,NYSE
-CPAC,Cementos Pacasmayo SAA ADR,NYSE
-MS PR P,Morgan Stanley Dep Shs Repstg 1 1000 Sh Non-Cumulative Ser P Pref Shs Series P,NYSE
-DFIN,Donnelley Financial Solutions Inc,NYSE
-ETW,Eaton Vance Tax Managed Global Buy Write Opportunities Closed Fund,NYSE
-PDS,Precision Drilling Corp(Calgary),NYSE
-ASA,ASA Gold And Precious Metals Limited,NYSE
-MS PR I,Morgan Stanley DS Representing 1 1000 Fixed Floating Non Cumulative Pref Shs,NYSE
-AMTB,Amerant Bancorp Inc,NYSE
-BBN,BlackRock Taxable Municipal Bond Trust,NYSE
-MFA,MFA Financial Inc,NYSE
-EMO,ClearBridge Energy Midstream Opportunity Closed End Fund,NYSE
-EEX,Emerald Holding Inc,NYSE
-CPF,Central Pacific Financial Corp,NYSE
+ABR,Arbor Realty Trust Inc,NYSE
 VRTS,Virtus Investment Partners Inc,NYSE
-RNP,Cohen & Steers REIT & Preferred & Income Fund Inc,NYSE
-DUK PR A,Duke Energy 1000 Drc Representing Pref Shs Series A,NYSE
-BOW,Bowhead Specialty Holdings Inc,NYSE
+CPAC,Cementos Pacasmayo SAA ADR,NYSE
+GLAS,Glass House Brands Inc,NYSE
+MS PR P,Morgan Stanley Dep Shs Repstg 1 1000 Sh Non-Cumulative Ser P Pref Shs Series P,NYSE
+BTX,BlackRock Technology and Private Equity Term Trust,NYSE
 FSCO,FS Credit Opportunities Corp.,NYSE
-WSR,Whitestone REIT,NYSE
-UTL,Unitil Corp,NYSE
-USB PR A,U S Bancorp 100 DS Rep Non Cumulative preference Series A,NYSE
-CSR,Centerspace,NYSE
-AIO,Virtus Artificial Intelligence and Technology Opportunities Fund,NYSE
-PML,PIMCO Municipal Income Fund II,NYSE
-MYN,BlackRock MuniYield New York Quality Fund，Inc.,NYSE
-BTZ,BlackRock Credit Allocation Income Trust,NYSE
-MS PR K,Morgan Stanley DS Representing 1/1000 Non Cum Pref Shs Series K,NYSE
+MS PR I,Morgan Stanley DS Representing 1 1000 Fixed Floating Non Cumulative Pref Shs,NYSE
+CPF,Central Pacific Financial Corp,NYSE
+AMTB,Amerant Bancorp Inc,NYSE
+EEX,Emerald Holding Inc,NYSE
+RNP,Cohen & Steers REIT & Preferred & Income Fund Inc,NYSE
+TROX,Tronox Holdings PLC,NYSE
+BBN,BlackRock Taxable Municipal Bond Trust,NYSE
+DUK PR A,Duke Energy 1000 Drc Representing Pref Shs Series A,NYSE
+EMO,ClearBridge Energy Midstream Opportunity Closed End Fund,NYSE
 BMEZ,BlackRock Health Sciences Term Closed End Fund,NYSE
-MEC,Mayville Engineering Company Inc,NYSE
-PMT,PennyMac Mortgage Investment Trust,NYSE
-DEC,Diversified Energy Co,NYSE
-TK,Teekay Corp Ltd,NYSE
-KODK,Eastman Kodak Co,NYSE
-SYF PR A,Synchrony Finl 40 Dep Shs Representing Perp Prf Shs Series A,NYSE
-BFS,Saul Centers Inc,NYSE
-NRK,Nuveen New York AMT-Free Quality Municipal Inc Fd,NYSE
-ALL PR H,Allstate Depositary Shares Representing 1/1000th Shares Perpetual Preferred,NYSE
-PDX,PIMCO Dynamic Income Strategy Fund,NYSE
-BUR,Burford Capital Ltd,NYSE
-BKSY,Blacksky Technology Inc,NYSE
-KBDC,Kayne Anderson BDC Inc,NYSE
-HTD,John Hancock Tax Advantaged Dividend Income Closed Fund,NYSE
-STK,Columbia Seligman Premium Technology Growth Fund,NYSE
-TYG,Tortoise Energy Infrastructure Closed Fund,NYSE
-T PR A,AT T Depositary Shares Reprs a 1 1 000th interest in a share of 5.000%,NYSE
-FUBO,FuboTV Inc,NYSE
-NMAX,Newsmax Inc,NYSE
-ABX,Abacus Global Management Inc,NYSE
-ANRO,Alto Neuroscience Inc,NYSE
 ESRT,Empire State Realty Trust Inc,NYSE
+PDS,Precision Drilling Corp(Calgary),NYSE
+ENHA,A Paradise Acquisition Corp,NYSE
+WSR,Whitestone REIT,NYSE
+USB PR A,U S Bancorp 100 DS Rep Non Cumulative preference Series A,NYSE
+MFA,MFA Financial Inc,NYSE
+UTL,Unitil Corp,NYSE
+CSR,Centerspace,NYSE
+MYN,BlackRock MuniYield New York Quality Fund，Inc.,NYSE
+PML,PIMCO Municipal Income Fund II,NYSE
+BTZ,BlackRock Credit Allocation Income Trust,NYSE
 EIG,Employers Holdings Inc,NYSE
-EVMN,Evommune Inc,NYSE
-SMP,Standard Motor Products Inc,NYSE
-NXP,Nuveen Select Tax-Free Income Portfolio,NYSE
-NPK,National Presto Industries Inc,NYSE
-OFRM,Once Upon A Farm PBC,NYSE
-WGO,Winnebago Industries Inc,NYSE
-PCN,PIMCO Corporate & Income Strategy Fund,NYSE
-KFRC,Kforce Inc,NYSE
-BAC PR Q,Bank Amer DS Repstg 1 1000Th Non Cum Pref Shs Series QQ,NYSE
-MS PR E,Morgan Stanley Depositary Shares Representing 1/1000th Fixed/Floating Non,NYSE
-MS PR O,Morgan Stanley Each DS Repstg 1 1000 Shs of 4 250  Non Cum Pref Shs Series O,NYSE
-AWF,AllianceBernstein Global High Income Closed Fund,NYSE
-JBGS,JBG SMITH Properties,NYSE
-DQ,Daqo New Energy Corp ADR,NYSE
-KOP,Koppers Holdings Inc,NYSE
+MS PR K,Morgan Stanley DS Representing 1/1000 Non Cum Pref Shs Series K,NYSE
+PMT,PennyMac Mortgage Investment Trust,NYSE
+SYF PR A,Synchrony Finl 40 Dep Shs Representing Perp Prf Shs Series A,NYSE
+BUR,Burford Capital Ltd,NYSE
+NRK,Nuveen New York AMT-Free Quality Municipal Inc Fd,NYSE
+PDX,PIMCO Dynamic Income Strategy Fund,NYSE
+AIO,Virtus Artificial Intelligence and Technology Opportunities Fund,NYSE
+BFS,Saul Centers Inc,NYSE
+ALL PR H,Allstate Depositary Shares Representing 1/1000th Shares Perpetual Preferred,NYSE
+T PR A,AT T Depositary Shares Reprs a 1 1 000th interest in a share of 5.000%,NYSE
+STK,Columbia Seligman Premium Technology Growth Fund,NYSE
+KBDC,Kayne Anderson BDC Inc,NYSE
 BBDC,Barings BDC Inc,NYSE
-MS PR F,Morgan Stanley DS Representing 1/1000th Non-Cumulative Pref Shs Series F,NYSE
-PHK,PIMCO High Income Fund,NYSE
-COF PR J,Capital One Finl 40 DS Representing 1 Perp Pfd Series J,NYSE
-WFC PR A,Wells Fargo And New 1000 DS Repstg Perp Pfd Ser Aa Class A,NYSE
-RPC,Ridgepost Capital Inc,NYSE
-JKS,JinkoSolar Holding Co Ltd ADR,NYSE
-CAPL,CrossAmerica Partners Common Units,NYSE
-RERE,ATRenew Inc ADR,NYSE
-NXDR,Nextdoor Holdings Inc,NYSE
-EVEX,Eve Holding Inc,NYSE
-MS PR A,Morgan Stanley Depository Shares Repstg 1/1000th Interest in Floating Rate Non,NYSE
-BH,Biglari Holdings Inc Class B,NYSE
-BAC PR K,Bank of America DS Rep 1/1000th 5.875% Non Cum PRF Series HH,NYSE
-SUPV,Grupo Supervielle SA ADR,NYSE
-YALA,Yalla Group Ltd ADR,NYSE
-WFC PR D,Wells Fargo And Company Dep Shs Repstg 1 1000Th Int Perp Pfd Class A Ser Dd,NYSE
+OFRM,Once Upon A Farm PBC,NYSE
+KODK,Eastman Kodak Co,NYSE
 HPP,Hudson Pacific Properties Inc,NYSE
-HZO,MarineMax Inc,NYSE
-MTUS,Metallus Inc,NYSE
-INR,Infinity Natural Resources Inc,NYSE
+KFRC,Kforce Inc,NYSE
+NXP,Nuveen Select Tax-Free Income Portfolio,NYSE
+HTD,John Hancock Tax Advantaged Dividend Income Closed Fund,NYSE
+EVEX,Eve Holding Inc,NYSE
+TYG,Tortoise Energy Infrastructure Closed Fund,NYSE
+JBGS,JBG SMITH Properties,NYSE
+TK,Teekay Corp Ltd,NYSE
+KOP,Koppers Holdings Inc,NYSE
+PCN,PIMCO Corporate & Income Strategy Fund,NYSE
+BAC PR Q,Bank Amer DS Repstg 1 1000Th Non Cum Pref Shs Series QQ,NYSE
+NPK,National Presto Industries Inc,NYSE
+WGO,Winnebago Industries Inc,NYSE
+AWF,AllianceBernstein Global High Income Closed Fund,NYSE
+MS PR O,Morgan Stanley Each DS Repstg 1 1000 Shs of 4 250  Non Cum Pref Shs Series O,NYSE
+COF PR J,Capital One Finl 40 DS Representing 1 Perp Pfd Series J,NYSE
+BH,Biglari Holdings Inc Class B,NYSE
 BCX,BlackRock Resources And Commodities Strategy Trust,NYSE
-NX,Quanex Building Products Corp,NYSE
+NXDR,Nextdoor Holdings Inc,NYSE
+JMIA,Jumia Technologies AG ADR,NYSE
+MS PR E,Morgan Stanley Depositary Shares Representing 1/1000th Fixed/Floating Non,NYSE
+RERE,ATRenew Inc ADR,NYSE
+ANRO,Alto Neuroscience Inc,NYSE
+PHK,PIMCO High Income Fund,NYSE
+RPC,Ridgepost Capital Inc,NYSE
+WFC PR A,Wells Fargo And New 1000 DS Repstg Perp Pfd Ser Aa Class A,NYSE
+CAPL,CrossAmerica Partners Common Units,NYSE
+MS PR F,Morgan Stanley DS Representing 1/1000th Non-Cumulative Pref Shs Series F,NYSE
+MEC,Mayville Engineering Company Inc,NYSE
+OPFI,OppFi Inc,NYSE
+SMP,Standard Motor Products Inc,NYSE
 FSSL,FS Specialty Lending Close End Fund,NYSE
+MAX,Mediaalpha Inc,NYSE
+WFC PR D,Wells Fargo And Company Dep Shs Repstg 1 1000Th Int Perp Pfd Class A Ser Dd,NYSE
+SUPV,Grupo Supervielle SA ADR,NYSE
+MS PR A,Morgan Stanley Depository Shares Repstg 1/1000th Interest in Floating Rate Non,NYSE
+YALA,Yalla Group Ltd ADR,NYSE
 HTB,HomeTrust Bancshares Inc,NYSE
+JKS,JinkoSolar Holding Co Ltd ADR,NYSE
+DQ,Daqo New Energy Corp ADR,NYSE
+IBTA,Ibotta Inc,NYSE
+BAC PR K,Bank of America DS Rep 1/1000th 5.875% Non Cum PRF Series HH,NYSE
+MNTN,MNTN Inc,NYSE
+HRTG,Heritage Insurance Holdings Inc,NYSE
+BCSF,Bain Capital Specialty Finance Inc,NYSE
+EOI,Eaton Vance Enhanced Equity Income Closed Fund,NYSE
 SMBK,SmartFinancial Inc,NYSE
+SDHC,Smith Douglas Homes Corp,NYSE
 FTK,Flotek Industries Inc,NYSE
 C PR R,Citigroup Dep Shs Repstg 1 1000 Int Sh Non Cum Pfd Ser II,NYSE
-WLKP,Westlake Chemical Partners Units,NYSE
-MEGI,NYLI CBRE Global Infrstrctr Megatrends Term Fd,NYSE
-BCSF,Bain Capital Specialty Finance Inc,NYSE
-OPFI,OppFi Inc,NYSE
-JMIA,Jumia Technologies AG ADR,NYSE
-GMRS,GMR Solutions Inc,NYSE
-EOI,Eaton Vance Enhanced Equity Income Closed Fund,NYSE
-LXU,LSB Industries Inc,NYSE
-MTB PR J,M And T Bk Dep Shs Repstg 1 400Th Int Perp Prf Shs Series J,NYSE
-FFC,Flaherty Crumrine Preferred and Income Securities Mutual Fund  Incorporated,NYSE
-BTO,John Hancock Financial Opportunities Fund,NYSE
-EFOR,Everforth Inc,NYSE
-BZH,Beazer Homes USA Inc,NYSE
-OPTU,Optimum Communications Inc,NYSE
-IBTA,Ibotta Inc,NYSE
-HRTG,Heritage Insurance Holdings Inc,NYSE
 CODI,Compass Diversified Holdings,NYSE
-CWH,Camping World Holdings Inc,NYSE
-THQ,abrdn Healthcare Opportunities Fund,NYSE
-INN,Summit Hotel Properties Inc,NYSE
-MCS,Marcus Corp,NYSE
-BUI,BlackRock Utilities Infrastructure & Power Oppty,NYSE
-GDOT,Green Dot Corp,NYSE
+MEGI,NYLI CBRE Global Infrstrctr Megatrends Term Fd,NYSE
+PKE,Park Aerospace Corp,NYSE
+WLKP,Westlake Chemical Partners Units,NYSE
+BTO,John Hancock Financial Opportunities Fund,NYSE
+NX,Quanex Building Products Corp,NYSE
+GMRS,GMR Solutions Inc,NYSE
 RMT,Royce Micro Cap Closed Fund,NYSE
-MKC.V,Mccormick & Co Voting Ord Shs,NYSE
-BAC PR O,Bank of America Depositary shares Representing 1 1000 Non Cumulative Pref Shs,NYSE
-KRO,Kronos Worldwide Inc,NYSE
+HZO,MarineMax Inc,NYSE
 NRGV,Energy Vault Holdings Inc,NYSE
-USB PR H,US Depository Shares Repstg 1/1000th Non Cum Perp Pref Shs Series B,NYSE
-HOV,Hovnanian Enterprises Inc,NYSE
-JBI,Janus International Group Inc,NYSE
-SDHC,Smith Douglas Homes Corp,NYSE
-MAX,Mediaalpha Inc,NYSE
+INR,Infinity Natural Resources Inc,NYSE
+MKC.V,Mccormick & Co Voting Ord Shs,NYSE
+THQ,abrdn Healthcare Opportunities Fund,NYSE
+ODV,Osisko Development Corp,NYSE
+PAR,PAR Technology Corp,NYSE
+FFC,Flaherty Crumrine Preferred and Income Securities Mutual Fund  Incorporated,NYSE
+MTB PR J,M And T Bk Dep Shs Repstg 1 400Th Int Perp Prf Shs Series J,NYSE
+NABL,N-Able Inc,NYSE
+PD,PagerDuty Inc,NYSE
+BZH,Beazer Homes USA Inc,NYSE
+LXU,LSB Industries Inc,NYSE
+BUI,BlackRock Utilities Infrastructure & Power Oppty,NYSE
+SKYH,Sky Harbour Group Corp,NYSE
+BAC PR O,Bank of America Depositary shares Representing 1 1000 Non Cumulative Pref Shs,NYSE
+GDOT,Green Dot Corp,NYSE
+ONT,Onterris Inc,NYSE
+HIPO,Hippo Holdings Inc,NYSE
 NGVC,Natural Grocers by Vitamin Cottage Inc,NYSE
 MET PR F,Metlife 1000 DS Rep Prf Series F,NYSE
-IVR,Invesco Mortgage Capital Inc,NYSE
-CTO,CTO Realty Growth Inc,NYSE
+CWH,Camping World Holdings Inc,NYSE
 PFLT,PennantPark Floating Rate Capital Ltd,NYSE
-ODV,Osisko Development Corp,NYSE
-BALY,Bally's Corp,NYSE
-NLY PR F,Annaly Capital Mgt 6.95% Fixed to Floating Rate Cum Redeemable Pref Shs Series F,NYSE
-NXRT,NexPoint Residential Trust Inc,NYSE
-RSKD,Riskified Ltd,NYSE
-SCHW PR D,Charles Schwab DS Representing 1 40 interest 5.95 Non Cum Perpetual Pref Shs,NYSE
-NIE,Virtus Equity And Convertible Income Fund,NYSE
-SKYH,Sky Harbour Group Corp,NYSE
-BRSP,Brightspire Capital Inc,NYSE
-ASGI,abrdn Global Infrastructure Income Fund,NYSE
-AHRT,AH Realty Trust  Inc,NYSE
-VEL,Velocity Financial Inc,NYSE
-HIPO,Hippo Holdings Inc,NYSE
-MET PR E,Metlife DS 1 1000 representing Pref Shs Series E,NYSE
-SXC,SunCoke Energy Inc,NYSE
-JQC,Nuveen Credit Strategies Income Closed Fund,NYSE
-GFR,Greenfire Resources Ltd,NYSE
-BWMX,Betterware de Mexico SAPI de CV,NYSE
-BIT,BlackRock Multi-Sector Income Trust,NYSE
-RA,Brookfield Real Assets Income Closed Fund,NYSE
-WDI,Western Asset Diversified Income Fund,NYSE
-IGR,CBRE Global Real Estate Income Fund,NYSE
-JPM PR J,JP Morgan Chase DS Representing 1 400 Non Cumulaive Series GG Pref Shs,NYSE
-TXO,TXO Partners Units,NYSE
-PFN,Pimco Income Strategy II Closed Fund,NYSE
-PSTL,Postal Realty Trust Inc,NYSE
-WFC PR C,Wells Fargo 1000 Depositary Shares representing Non-Cumulative Perpetual Class,NYSE
-TFC PR R,Truist Financial DS Rep 1 1000th Non Cum Perp Pfd Series R,NYSE
-PEO,Adams Natural Resources Fund，Inc.,NYSE
-TCBX,Third Coast Bancshares Inc,NYSE
-DLY,DoubleLine Yield Opportunities Fund,NYSE
-NOAH,Noah Holdings Ltd ADR,NYSE
-SB,Safe Bulkers Inc,NYSE
-ONT,Onterris Inc,NYSE
-MNTN,MNTN Inc,NYSE
-PKE,Park Aerospace Corp,NYSE
-PD,PagerDuty Inc,NYSE
-PAR,PAR Technology Corp,NYSE
-VTEX,VTEX,NYSE
-MEI,Methode Electronics Inc,NYSE
-PAXS,PIMCO Access Income Fund,NYSE
-NABL,N-Able Inc,NYSE
-VMO,Invesco Municipal Opportunity Trust,NYSE
-NKX,Nuveen California AMT-Free Quality Municipal In Fd,NYSE
-ORN,Orion Group Holdings Inc,NYSE
-VTS,Vitesse Energy Inc,NYSE
-BOE,BlackRock Enhanced Global Dividend Closed End Fund,NYSE
-BHK,BlackRock Core Bond Closed Fund,NYSE
 SPIR,Spire Global Inc,NYSE
-TRTX,TPG RE Finance Trust Inc,NYSE
-NPB,Northpointe Bancshares Inc,NYSE
-MUJ,BlackRock MuniHoldings New Jersey Quality Fd，Inc.,NYSE
+USB PR H,US Depository Shares Repstg 1/1000th Non Cum Perp Pref Shs Series B,NYSE
+INN,Summit Hotel Properties Inc,NYSE
+ASGI,abrdn Global Infrastructure Income Fund,NYSE
+NLY PR F,Annaly Capital Mgt 6.95% Fixed to Floating Rate Cum Redeemable Pref Shs Series F,NYSE
+NIE,Virtus Equity And Convertible Income Fund,NYSE
+NXRT,NexPoint Residential Trust Inc,NYSE
+SCHW PR D,Charles Schwab DS Representing 1 40 interest 5.95 Non Cum Perpetual Pref Shs,NYSE
+JBI,Janus International Group Inc,NYSE
+VEL,Velocity Financial Inc,NYSE
+CTO,CTO Realty Growth Inc,NYSE
+IVR,Invesco Mortgage Capital Inc,NYSE
+MTUS,Metallus Inc,NYSE
+MET PR E,Metlife DS 1 1000 representing Pref Shs Series E,NYSE
+EFOR,Everforth Inc,NYSE
+BALY,Bally's Corp,NYSE
+AHRT,AH Realty Trust  Inc,NYSE
+JQC,Nuveen Credit Strategies Income Closed Fund,NYSE
+RA,Brookfield Real Assets Income Closed Fund,NYSE
+BIT,BlackRock Multi-Sector Income Trust,NYSE
+MCS,Marcus Corp,NYSE
+WDI,Western Asset Diversified Income Fund,NYSE
+BWMX,Betterware de Mexico SAPI de CV,NYSE
+BRSP,Brightspire Capital Inc,NYSE
+NOAH,Noah Holdings Ltd ADR,NYSE
+VTEX,VTEX,NYSE
+PFN,Pimco Income Strategy II Closed Fund,NYSE
+IGR,CBRE Global Real Estate Income Fund,NYSE
+GFR,Greenfire Resources Ltd,NYSE
+JPM PR J,JP Morgan Chase DS Representing 1 400 Non Cumulaive Series GG Pref Shs,NYSE
+PAXS,PIMCO Access Income Fund,NYSE
+KRO,Kronos Worldwide Inc,NYSE
+PSTL,Postal Realty Trust Inc,NYSE
+DLY,DoubleLine Yield Opportunities Fund,NYSE
+WFC PR C,Wells Fargo 1000 Depositary Shares representing Non-Cumulative Perpetual Class,NYSE
+TXO,TXO Partners Units,NYSE
+TFC PR R,Truist Financial DS Rep 1 1000th Non Cum Perp Pfd Series R,NYSE
+HOV,Hovnanian Enterprises Inc,NYSE
+SOC,Sable Offshore Corp,NYSE
+RSKD,Riskified Ltd,NYSE
+PEO,Adams Natural Resources Fund，Inc.,NYSE
+PHR,Phreesia Inc,NYSE
+NKX,Nuveen California AMT-Free Quality Municipal In Fd,NYSE
+BOE,BlackRock Enhanced Global Dividend Closed End Fund,NYSE
+FOUR PR A,Shift4 Pmts Mandatory Pfd Stk Conv Prf Shs Ser A,NYSE
+VMO,Invesco Municipal Opportunity Trust,NYSE
+HSHP,Himalaya Shipping Ltd,NYSE
+TCBX,Third Coast Bancshares Inc,NYSE
+SXC,SunCoke Energy Inc,NYSE
 ACP,abrdn Income Credit Strategies Mutual Fund,NYSE
-HY,Hyster-Yale Inc,NYSE
+BHK,BlackRock Core Bond Closed Fund,NYSE
+ANGX,Angel Studios Inc,NYSE
+MUJ,BlackRock MuniHoldings New Jersey Quality Fd，Inc.,NYSE
+NPB,Northpointe Bancshares Inc,NYSE
+SB,Safe Bulkers Inc,NYSE
+TRTX,TPG RE Finance Trust Inc,NYSE
 DNA,Ginkgo Bioworks Holdings Inc,NYSE
 CNNE,Cannae Holdings Inc,NYSE
-FBRT,Franklin BSP Realty Trust Inc,NYSE
-CLDT,Chatham Lodging Trust,NYSE
-FOUR PR A,Shift4 Pmts Mandatory Pfd Stk Conv Prf Shs Ser A,NYSE
-PDT,John Hancock Premium Dividend Fund,NYSE
-NCDL,Nuveen Churchill Direct Lending Corp,NYSE
-ALL PR J,Allstate Dep Shs Repstg 1 1000Th Non Cum Perp Pfd Series J,NYSE
-HSHP,Himalaya Shipping Ltd,NYSE
-DSU,BlackRock Debt Strategies Fund，Inc.,NYSE
-PACK,Ranpak Holdings Corp,NYSE
-MOV,Movado Group Inc,NYSE
-EMD,Western Asset Emerging Markets Debt Fund,NYSE
-WFC PR Y,Wells Fargo DS Repstg 1000 Int Non Cumulative Perp Series Y Pref shs Class A,NYSE
-NDMO,Nuveen Dynamic Municipal Opportunities Fund,NYSE
-CSV,Carriage Services Inc,NYSE
-EQH PR A,Equitable Hldngs 1000 DRC Representing Pref Shs Series A,NYSE
-WHK,Whitehawk Minerals Corp,NYSE
-ASC,Ardmore Shipping Corp,NYSE
-RNR PR F,Renaissancere Holdings Depositary Shares Rep 1/1000 Int Pref Shs Series F,NYSE
-RGR,Sturm Ruger & Company Inc,NYSE
-BAC PR P,Bank of America 1000 DS Representing Non-Cumulative Pref Shs Series PP,NYSE
-BCSS.U,Bain Capital GSS Investment Units,NYSE
-LDP,Cohen & Steers Ltd Dur Pref and Income Fund Inc,NYSE
-MLR,Miller Industries Inc,NYSE
-RWT,Redwood Trust Inc,NYSE
-SMC,Summit Midstream Corp,NYSE
-BCSS,Bain Capital GSS Investment Corp,NYSE
-NMCO,Nuveen Municipal Credit Opportunities Fund,NYSE
-IIM,Invesco Value Municipal Income Closed Fund,NYSE
-GRNT,Granite Ridge Resources Inc,NYSE
-MG,Mistras Group Inc,NYSE
-KEY PR L,KeyCorp Depositary Shares Reprstg A 1 40th interest Fixed Rate Perpetual Non,NYSE
-UHT,Universal Health Realty Income Trust,NYSE
-EVAC,EQV Ventures Acquisition Corp II,NYSE
-IIIN,Insteel Industries Inc,NYSE
-HQL,abrdn Life Sciences Investors,NYSE
-GUT,Gabelli Utility Trust,NYSE
-CTEV,Claritev Corp,NYSE
-PHR,Phreesia Inc,NYSE
+VTS,Vitesse Energy Inc,NYSE
 EVH,Evolent Health Inc,NYSE
+PDT,John Hancock Premium Dividend Fund,NYSE
+UHT,Universal Health Realty Income Trust,NYSE
 NVRI,Enviri Corp (Delaware),NYSE
 CARS,Cars.com Inc,NYSE
-ANGX,Angel Studios Inc,NYSE
+WHK,Whitehawk Minerals Corp,NYSE
+EMD,Western Asset Emerging Markets Debt Fund,NYSE
+NCDL,Nuveen Churchill Direct Lending Corp,NYSE
+WFC PR Y,Wells Fargo DS Repstg 1000 Int Non Cumulative Perp Series Y Pref shs Class A,NYSE
+ALL PR J,Allstate Dep Shs Repstg 1 1000Th Non Cum Perp Pfd Series J,NYSE
+DSU,BlackRock Debt Strategies Fund，Inc.,NYSE
+NDMO,Nuveen Dynamic Municipal Opportunities Fund,NYSE
+RNR PR F,Renaissancere Holdings Depositary Shares Rep 1/1000 Int Pref Shs Series F,NYSE
+FBRT,Franklin BSP Realty Trust Inc,NYSE
+CSV,Carriage Services Inc,NYSE
+LDP,Cohen & Steers Ltd Dur Pref and Income Fund Inc,NYSE
+EQH PR A,Equitable Hldngs 1000 DRC Representing Pref Shs Series A,NYSE
+BAC PR P,Bank of America 1000 DS Representing Non-Cumulative Pref Shs Series PP,NYSE
+HQL,abrdn Life Sciences Investors,NYSE
+IIM,Invesco Value Municipal Income Closed Fund,NYSE
+CLDT,Chatham Lodging Trust,NYSE
+ASC,Ardmore Shipping Corp,NYSE
+BCSS.U,Bain Capital GSS Investment Units,NYSE
+SMC,Summit Midstream Corp,NYSE
+NMCO,Nuveen Municipal Credit Opportunities Fund,NYSE
+KEY PR L,KeyCorp Depositary Shares Reprstg A 1 40th interest Fixed Rate Perpetual Non,NYSE
+BCSS,Bain Capital GSS Investment Corp,NYSE
+RGR,Sturm Ruger & Company Inc,NYSE
+ORN,Orion Group Holdings Inc,NYSE
+EVAC,EQV Ventures Acquisition Corp II,NYSE
+MOV,Movado Group Inc,NYSE
 BTGO,BitGo Holdings Inc,NYSE
-GS PR A,Goldman Sachs Depository Shares Repstg 1/1000 Floating Rate Non Cumulative,NYSE
-ETD,Ethan Allen Interiors Inc,NYSE
-FET,Forum Energy Technologies Inc,NYSE
-WNC,Wabash National Corp,NYSE
-MMU,Western Asset Managed Municipals Fund,NYSE
-BDN,Brandywine Realty Trust,NYSE
-VGM,Invesco Trust For Inv Grade Munis,NYSE
+GUT,Gabelli Utility Trust,NYSE
 AEXA,American Exceptionalism Acquisition Corp A,NYSE
+IIIN,Insteel Industries Inc,NYSE
+HY,Hyster-Yale Inc,NYSE
+RWT,Redwood Trust Inc,NYSE
+PACK,Ranpak Holdings Corp,NYSE
+MLR,Miller Industries Inc,NYSE
+MEI,Methode Electronics Inc,NYSE
+GRNT,Granite Ridge Resources Inc,NYSE
+GS PR A,Goldman Sachs Depository Shares Repstg 1/1000 Floating Rate Non Cumulative,NYSE
+KLC,Kindercare Learning Companies Inc,NYSE
+VGM,Invesco Trust For Inv Grade Munis,NYSE
+MMU,Western Asset Managed Municipals Fund,NYSE
 AVK,Advent Convertible and Income Fund,NYSE
+BME,BlackRock Health Sciences Trust,NYSE
+ETJ,Eaton Vance Risk Managed Diversified Equity Income Closed Fund,NYSE
+BDN,Brandywine Realty Trust,NYSE
 JXN PR A,Jackson Financial Depositary Shr each representg a 1 1000th int shr Fxd Rt Rst,NYSE
-NGS,Natural Gas Services Group Inc,NYSE
+VKQ,Invesco Municipal Trust,NYSE
+CTEV,Claritev Corp,NYSE
+THW,abrdn World Healthcare Fund,NYSE
+MUA,BlackRock MuniAssets Fund，Inc.,NYSE
+OPTU,Optimum Communications Inc,NYSE
+ETD,Ethan Allen Interiors Inc,NYSE
+OLP,One Liberty Properties Inc,NYSE
+ASIX,AdvanSix Inc,NYSE
+HUYA,HUYA Inc ADR,NYSE
 DXYZ,Destiny Tech100 Closed End Fund,NYSE
 EBF,Ennis Inc,NYSE
-VKQ,Invesco Municipal Trust,NYSE
-ETJ,Eaton Vance Risk Managed Diversified Equity Income Closed Fund,NYSE
-BME,BlackRock Health Sciences Trust,NYSE
-ASIX,AdvanSix Inc,NYSE
-MUA,BlackRock MuniAssets Fund，Inc.,NYSE
-EDN,Empresa Distribuidora y Comercializadora Norte SA ADR,NYSE
-RYAM,Rayonier Advanced Materials Inc,NYSE
-OXM,Oxford Industries Inc,NYSE
-DPG,Duff & Phelps Utility and Infrastructure Fund Inc,NYSE
-OLP,One Liberty Properties Inc,NYSE
-TWN,Taiwan Fund Inc.,NYSE
+SMWB,Similarweb Ltd,NYSE
 IQI,Invesco Quality Municipal Income Closed Fund,NYSE
-THW,abrdn World Healthcare Fund,NYSE
-MSIF,MSC Income Fund Inc,NYSE
+WNC,Wabash National Corp,NYSE
+TWN,Taiwan Fund Inc.,NYSE
+EDN,Empresa Distribuidora y Comercializadora Norte SA ADR,NYSE
+OOMA,Ooma Inc,NYSE
+NEE PR N,NextEra Energy Capital Holdings Junior Subordinated  Debentures Series N Exp 1,NYSE
+FET,Forum Energy Technologies Inc,NYSE
+MG,Mistras Group Inc,NYSE
 VCV,Invesco California Value Muni Inc Tr,NYSE
 SCE PR M,SCE Trust VII 7 50 Pref Shs,NYSE
-LNC PR D,Lincoln Natl Depositary Shs Representing 1/1000Th Class D Non Cumulative Pref,NYSE
-NEE PR N,NextEra Energy Capital Holdings Junior Subordinated  Debentures Series N Exp 1,NYSE
-CHCT,Community Healthcare Trust Inc,NYSE
-GUG,Guggenheim Active Allocation CEF,NYSE
-SSTK,Shutterstock Inc,NYSE
-HUYA,HUYA Inc ADR,NYSE
-BAC PR S,Bank Amer Dep Shs Repstg 1 1000 Interest Share of 4 750 Non Cum Prf Shs Series,NYSE
-BANC PR F,Banc of California Depositary Shs Each Repsntg 1 40th Interest 7 75 Non,NYSE
-TWI,Titan International Inc,NYSE
-TDS PR V,Telephone And Data Sys Dep Shs Repstg 1 1000Th Perp Pref Shs Series VV,NYSE
-MTW,Manitowoc Company Inc,NYSE
-ALL PR B,Allstate 5.100% Fixed-To-Floating Rate Subordinated Debenture Exp 2053,NYSE
+CLB,Core Laboratories Inc,NYSE
+DPG,Duff & Phelps Utility and Infrastructure Fund Inc,NYSE
 EGY,VAALCO Energy Inc,NYSE
-WIW,Western Asset Inflation Linked Opportunities Income Closed End Fund,NYSE
+GUG,Guggenheim Active Allocation CEF,NYSE
+WEAV,Weave Communications Inc,NYSE
+CHCT,Community Healthcare Trust Inc,NYSE
+BAC PR S,Bank Amer Dep Shs Repstg 1 1000 Interest Share of 4 750 Non Cum Prf Shs Series,NYSE
+MSIF,MSC Income Fund Inc,NYSE
+TDS PR V,Telephone And Data Sys Dep Shs Repstg 1 1000Th Perp Pref Shs Series VV,NYSE
+LNC PR D,Lincoln Natl Depositary Shs Representing 1/1000Th Class D Non Cumulative Pref,NYSE
+OXM,Oxford Industries Inc,NYSE
 BGY,BlackRock Enhanced International Dividend Closed End Fund,NYSE
 SYF PR B,Synchrony Finl Depositary Shs Each Rep 1 40Th Int In A Sh Of Fxd Rate Non Cum,NYSE
-BK PR K,Bank New York Mellon Depositary Shs Repstg 1 4000Th Prf Shs Ser K,NYSE
-CLB,Core Laboratories Inc,NYSE
+BANC PR F,Banc of California Depositary Shs Each Repsntg 1 40th Interest 7 75 Non,NYSE
+WIW,Western Asset Inflation Linked Opportunities Income Closed End Fund,NYSE
 MET PR A,MetLife Floating Rate Non Cumulative Pref Shs Series A,NYSE
+BK PR K,Bank New York Mellon Depositary Shs Repstg 1 4000Th Prf Shs Ser K,NYSE
+ALL PR B,Allstate 5.100% Fixed-To-Floating Rate Subordinated Debenture Exp 2053,NYSE
+TRC,Tejon Ranch Co,NYSE
 BNY PR K,Bank New York Mellon Depositary Shs Repstg 1 4000Th Prf Shs Ser K,NYSE
 RF PR F,Regions Financial Depositary Shares Representing a 1 40th Interest in a Share,NYSE
-BGB,Blackstone Strategic Credit 2027 Term Fund,NYSE
 NWAX,New America Acquisition I Corp,NYSE
-LXFR,Luxfer Holdings PLC,NYSE
-QXO PR B,Qxo Depositary Shares Repstg 1 20Th Int Conv Pfd Ser B,NYSE
+BGB,Blackstone Strategic Credit 2027 Term Fund,NYSE
 EROK,EagleRock Land LLC,NYSE
-TRC,Tejon Ranch Co,NYSE
-BXC,Bluelinx Holdings Inc,NYSE
-CPS,Cooper-Standard Holdings Inc,NYSE
-OOMA,Ooma Inc,NYSE
-FTHY,First Trust High Yield Opportunities 2027 Term Closed End Fd,NYSE
-KLC,Kindercare Learning Companies Inc,NYSE
 HKD,AMTD Digital Inc ADR,NYSE
-KEY PR I,Keycorp DS Representing 1 40 Non Cumulative Pref Shs Series E,NYSE
-PCQ,PIMCO California Municipal Income Fund,NYSE
-SD,SandRidge Energy Inc,NYSE
-ATH PR E,Athene Holding Ltd DRC,NYSE
-USB PR P,US DS Representing 1/1000 Perp Pref Shs Series K,NYSE
-ETO,Eaton Vance Tax Advantaged Global Dividend Opportunities Closed Fund,NYSE
-DDD,3D Systems Corp,NYSE
-XRN,Chiron Real Estate Inc,NYSE
-GPRK,GeoPark Ltd,NYSE
-IFN,Aberdeen India Fund,NYSE
-SMWB,Similarweb Ltd,NYSE
-ECC,Eagle Point Credit Company Inc,NYSE
-GHY,PGIM Global High Yield Fund，Inc,NYSE
-WTI,W&T Offshore Inc,NYSE
-OIS,Oil States International Inc,NYSE
-RF PR C,Regions Financial DS Representing 1/40th 5.7% Fixed to Floating Rate Non Cum,NYSE
-KRSP,Rice Acquisition Corp 3,NYSE
-EVAC.U,EQV Ventures Acquisition II Units,NYSE
-BLW,BlackRock Limited Duration Income Trust,NYSE
-RVI,Robinhood Ventures Fund I,NYSE
-IGD,Voya Global Equity Dividend & Premium Opportunity Closed Fund,NYSE
-ET PR I,Energy Transfer Prf Shs Series I,NYSE
-NMG,Nouveau Monde Graphite Inc,NYSE
-SI,Shoulder Innovations Inc,NYSE
-BNED,Barnes & Noble Education Inc,NYSE
-WEAV,Weave Communications Inc,NYSE
+NGS,Natural Gas Services Group Inc,NYSE
+RYAM,Rayonier Advanced Materials Inc,NYSE
 BBBY,Bed Bath & Beyond Inc,NYSE
-TFC PR O,Truist Financial 1000 Depositary Shares Representing Perp Pref Shs Series O,NYSE
-FLG PR A,Flagstar Bank National Association DS Representing 1 40 Noncumulative Perp Pref,NYSE
-ASPN,Aspen Aerogels Inc,NYSE
-RITM PR D,Rithm Capital 7 00 Fixed Rate Reset Cumulative Redeemable Pref Shs Series D,NYSE
-IPI,Intrepid Potash Inc,NYSE
 CYH,Community Health Systems Inc,NYSE
-KREF,KKR Real Estate Finance Trust Inc,NYSE
-VVR,Invesco Senior Income Trust,NYSE
-NBB,Nuveen Taxable Municipal Income Fund,NYSE
-HPS,John Hancock Preferred Income III Closed Fund,NYSE
-NMAI,Nuveen Multi-Asset Income Fund,NYSE
-KIO,KKR Income Opportunities Fund,NYSE
-FVR,FrontView REIT Inc,NYSE
-FITB PR I,Fifth Third Bancorp Depositary Shares Representing 1/1000th Perp Pref Shs,NYSE
-MATV,Mativ Holdings Inc,NYSE
-GOOS,Canada Goose Holdings Inc,NYSE
-MAGN,Magnera Corp,NYSE
-NPFD,Nuveen Variable Rate Preferred Income Closed End Fund,NYSE
-ETB,Eaton Vance Tax Managed Buy Write Income Closed Fund,NYSE
-EVN,Eaton Vance Municipal Income Trust,NYSE
-MTB PR K,M T Bk Dep Shs Repstg 1 400Th Int Perp Non Cum Pfd Ser K,NYSE
-FFA,First Trust Enhanced Equity Income Closed Fund,NYSE
-CINT,Ciandt Inc,NYSE
-NLY PR I,Annaly Capital Management Pref Shs Series I,NYSE
-BAK,Braskem SA ADR,NYSE
-DIN,Dine Brands Global Inc,NYSE
-CAL,Caleres Inc,NYSE
+NMG,Nouveau Monde Graphite Inc,NYSE
+ECC,Eagle Point Credit Company Inc,NYSE
+PCQ,PIMCO California Municipal Income Fund,NYSE
+ETO,Eaton Vance Tax Advantaged Global Dividend Opportunities Closed Fund,NYSE
+XRN,Chiron Real Estate Inc,NYSE
+ATH PR E,Athene Holding Ltd DRC,NYSE
+KEY PR I,Keycorp DS Representing 1 40 Non Cumulative Pref Shs Series E,NYSE
+FTHY,First Trust High Yield Opportunities 2027 Term Closed End Fd,NYSE
+IFN,Aberdeen India Fund,NYSE
 YEXT,Yext Inc,NYSE
-EBS,Emergent BioSolutions Inc,NYSE
-CBAN,Colony Bankcorp Inc,NYSE
-QUAD,Quad/Graphics Inc,NYSE
-FPI,Farmland Partners Inc,NYSE
-HPI,John Hancock Preferred Income Closed Fund,NYSE
-STT PR G,State Street DS Representing 1/4000th Perpetual Non Cumulative Pref Shs Series G,NYSE
-AIV,Apartment Investment and Management Co,NYSE
-ISD,PGIM High Yield Bond Fund，Inc,NYSE
-SGU,Star Group Units,NYSE
-AXS PR E,Axis Cap 100 DS Representing 1 Pref Shs Series E,NYSE
-COF PR L,Capital One FINL DRC Rep 1 40TH INT Pref Shs Series L,NYSE
-CMDB,Costamare Bulkers Holdings Ltd,NYSE
-FINS,Angel Oak Financial Strategies Income Term Trust,NYSE
-BH.A,Biglari Holdings Inc Class A,NYSE
-NLY PR G,Annaly Capital Management Pref Shs Series G,NYSE
-DFP,Flaherty & Crumrine Dynamic Pfd and Inc Fd,NYSE
-BLND,Blend Labs Inc,NYSE
-DDL,Dingdong (Cayman) Ltd ADR,NYSE
-VHI,Valhi Inc,NYSE
-SCHW PR J,Charles Schwab DS Each Rep 1 40 Intrst of 4 450 Non Cumulative Perpetual Pref,NYSE
-GOTU,Gaotu Techedu Inc ADR,NYSE
-BOC,Boston Omaha Corp,NYSE
+GHY,PGIM Global High Yield Fund，Inc,NYSE
+RVI,Robinhood Ventures Fund I,NYSE
+USB PR P,US DS Representing 1/1000 Perp Pref Shs Series K,NYSE
+RF PR C,Regions Financial DS Representing 1/40th 5.7% Fixed to Floating Rate Non Cum,NYSE
+BLW,BlackRock Limited Duration Income Trust,NYSE
+SD,SandRidge Energy Inc,NYSE
+IGD,Voya Global Equity Dividend & Premium Opportunity Closed Fund,NYSE
+GPRK,GeoPark Ltd,NYSE
+EVAC.U,EQV Ventures Acquisition II Units,NYSE
+KRSP,Rice Acquisition Corp 3,NYSE
+ET PR I,Energy Transfer Prf Shs Series I,NYSE
+TFC PR O,Truist Financial 1000 Depositary Shares Representing Perp Pref Shs Series O,NYSE
+FVR,FrontView REIT Inc,NYSE
+FLG PR A,Flagstar Bank National Association DS Representing 1 40 Noncumulative Perp Pref,NYSE
+CPS,Cooper-Standard Holdings Inc,NYSE
+RITM PR D,Rithm Capital 7 00 Fixed Rate Reset Cumulative Redeemable Pref Shs Series D,NYSE
+EVMN,Evommune Inc,NYSE
+NMAI,Nuveen Multi-Asset Income Fund,NYSE
+HPS,John Hancock Preferred Income III Closed Fund,NYSE
+QXO PR B,Qxo Depositary Shares Repstg 1 20Th Int Conv Pfd Ser B,NYSE
+KIO,KKR Income Opportunities Fund,NYSE
+OIS,Oil States International Inc,NYSE
+TWI,Titan International Inc,NYSE
+DIN,Dine Brands Global Inc,NYSE
+LXFR,Luxfer Holdings PLC,NYSE
+ASPN,Aspen Aerogels Inc,NYSE
+NBB,Nuveen Taxable Municipal Income Fund,NYSE
 WLYB,John Wiley & Sons Inc Class B,NYSE
+VVR,Invesco Senior Income Trust,NYSE
+WTI,W&T Offshore Inc,NYSE
+FITB PR I,Fifth Third Bancorp Depositary Shares Representing 1/1000th Perp Pref Shs,NYSE
+BOC,Boston Omaha Corp,NYSE
+ETB,Eaton Vance Tax Managed Buy Write Income Closed Fund,NYSE
+DDD,3D Systems Corp,NYSE
+NPFD,Nuveen Variable Rate Preferred Income Closed End Fund,NYSE
+CINT,Ciandt Inc,NYSE
+KREF,KKR Real Estate Finance Trust Inc,NYSE
+IPI,Intrepid Potash Inc,NYSE
+BH.A,Biglari Holdings Inc Class A,NYSE
+MTW,Manitowoc Company Inc,NYSE
+FFA,First Trust Enhanced Equity Income Closed Fund,NYSE
+EVN,Eaton Vance Municipal Income Trust,NYSE
+GOOS,Canada Goose Holdings Inc,NYSE
+BXC,Bluelinx Holdings Inc,NYSE
+MTB PR K,M T Bk Dep Shs Repstg 1 400Th Int Perp Non Cum Pfd Ser K,NYSE
+CMDB,Costamare Bulkers Holdings Ltd,NYSE
+BLND,Blend Labs Inc,NYSE
+QUAD,Quad/Graphics Inc,NYSE
+BNED,Barnes & Noble Education Inc,NYSE
+MAGN,Magnera Corp,NYSE
+SI,Shoulder Innovations Inc,NYSE
+HPI,John Hancock Preferred Income Closed Fund,NYSE
+NLY PR I,Annaly Capital Management Pref Shs Series I,NYSE
+ISD,PGIM High Yield Bond Fund，Inc,NYSE
+COF PR L,Capital One FINL DRC Rep 1 40TH INT Pref Shs Series L,NYSE
+PSFE,Paysafe Ltd,NYSE
+STT PR G,State Street DS Representing 1/4000th Perpetual Non Cumulative Pref Shs Series G,NYSE
+FINS,Angel Oak Financial Strategies Income Term Trust,NYSE
+CBAN,Colony Bankcorp Inc,NYSE
+EBS,Emergent BioSolutions Inc,NYSE
+AIV,Apartment Investment and Management Co,NYSE
+DFP,Flaherty & Crumrine Dynamic Pfd and Inc Fd,NYSE
+DDL,Dingdong (Cayman) Ltd ADR,NYSE
+FPI,Farmland Partners Inc,NYSE
+AVBC,Avidia Bancorp Inc,NYSE
+NLY PR G,Annaly Capital Management Pref Shs Series G,NYSE
+SGU,Star Group Units,NYSE
+BAK,Braskem SA ADR,NYSE
+SCHW PR J,Charles Schwab DS Each Rep 1 40 Intrst of 4 450 Non Cumulative Perpetual Pref,NYSE
+TCI,Transcontinental Realty Investors Inc,NYSE
+GOTU,Gaotu Techedu Inc ADR,NYSE
+HFRO,Highland Opportunities and Income Fund,NYSE
+LDI,loanDepot Inc,NYSE
+AXS PR E,Axis Cap 100 DS Representing 1 Pref Shs Series E,NYSE
 FITB PR M,Fifth Third Bancorp Depositary Shares Representing a 1 40th Ownership Interest,NYSE
 CLBR,Colombier Acquisition Corp III,NYSE
+HTT,High Templar Tech Ltd ADR,NYSE
 CFG PR H,Citizens Finl Group Dep Shs Repstg 1 40Th Perp Pfd Series H,NYSE
-AVBC,Avidia Bancorp Inc,NYSE
-LDI,loanDepot Inc,NYSE
+VHI,Valhi Inc,NYSE
 MVF,BlackRock MuniVest Fund，Inc.,NYSE
-LEO,BNY Mellon Strategic Municipals Inc,NYSE
-GCO,Genesco Inc,NYSE
 PSA PR L,Public Storage 1000 Depositary Shares Representing 4 625 Cumulative Pref Shs,NYSE
-FHN PR H,First Horizon Depositary Sh Repstg 1 4000 Int Sh Non Cum Perp Pfd Stk Ser H,NYSE
+LEO,BNY Mellon Strategic Municipals Inc,NYSE
 SDHY,PGIM Short Duration High Yield Opportunities Fund,NYSE
-OEC,Orion SA,NYSE
+FHN PR H,First Horizon Depositary Sh Repstg 1 4000 Int Sh Non Cum Perp Pfd Stk Ser H,NYSE
 CFG PR I,Citizens Finl Group Dep Shs Repstg 1 40Th Perp Pfd Ser I Depositary Share,NYSE
-MS PR L,Morgan Stanley 1000 Depositary Share Representing Pref Shs Series L,NYSE
-HFRO,Highland Opportunities and Income Fund,NYSE
+MATV,Mativ Holdings Inc,NYSE
+USNA,USANA Health Sciences Inc,NYSE
+XPER,Xperi Inc,NYSE
 GBAB,Guggenheim Taxable Muni Bd & Inv Grade Dbt Trust,NYSE
 BBW,Build-A-Bear Workshop Inc,NYSE
-GETY,Getty Images Holdings Inc,NYSE
-NCV,Virtus Convertible And Income Fund,NYSE
-NC,NACCO Industries Inc,NYSE
-RITM PR C,Rithm Capital 6 375 Cumulative Redeemable Pref Shs Series C,NYSE
-EQV.U,EQV Ventures Acquisition Units,NYSE
-FCBM,First Carolina Financial Services Inc,NYSE
 MSC,Studio City International Holdings Ltd ADR,NYSE
-GNE,Genie Energy Ltd,NYSE
+CAL,Caleres Inc,NYSE
+MS PR L,Morgan Stanley 1000 Depositary Share Representing Pref Shs Series L,NYSE
+NCV,Virtus Convertible And Income Fund,NYSE
+FCBM,First Carolina Financial Services Inc,NYSE
 PFL,Pimco Income Strategy Closed Fund,NYSE
-HVT,Haverty Furniture Companies Inc,NYSE
-FRA,BlackRock Floating Rate Income Strategies Fd，Inc.,NYSE
-EDD,Morgan Stanley Emerging Mrkt Domestic Debt Fd Inc,NYSE
-ATH PR D,Athene Holding DS Representing a 1 1 000 Non Cum Pref Shs Series D,NYSE
-BGR,BlackRock Energy and Resources Closed Fund,NYSE
-FOF,Cohen & Steers Closed End Opportunity Closed Fund,NYSE
-NPWR,NET Power Inc,NYSE
-ZKH,ZKH Group Ltd ADR,NYSE
-TCI,Transcontinental Realty Investors Inc,NYSE
-FVRR,Fiverr International Ltd,NYSE
-MLP,Maui Land & Pineapple Company Inc,NYSE
-FPH,Five Point Holdings LLC,NYSE
-HTT,High Templar Tech Ltd ADR,NYSE
-XPER,Xperi Inc,NYSE
-ACCO,ACCO Brands Corp,NYSE
-USNA,USANA Health Sciences Inc,NYSE
 AUNA,Auna SA,NYSE
-PSFE,Paysafe Ltd,NYSE
+FVRR,Fiverr International Ltd,NYSE
+RITM PR C,Rithm Capital 6 375 Cumulative Redeemable Pref Shs Series C,NYSE
+ACCO,ACCO Brands Corp,NYSE
+FRA,BlackRock Floating Rate Income Strategies Fd，Inc.,NYSE
+GNE,Genie Energy Ltd,NYSE
+EQV.U,EQV Ventures Acquisition Units,NYSE
+ATH PR D,Athene Holding DS Representing a 1 1 000 Non Cum Pref Shs Series D,NYSE
+FOF,Cohen & Steers Closed End Opportunity Closed Fund,NYSE
 RM,Regional Management Corp,NYSE
+SOR,Source Capital Beneficial Interest,NYSE
+MZYX,Mozayyx Acquisition Corp,NYSE
+HVT,Haverty Furniture Companies Inc,NYSE
+ALIT,Alight Inc,NYSE
+GTN,Gray Media Inc,NYSE
+BGR,BlackRock Energy and Resources Closed Fund,NYSE
+FPH,Five Point Holdings LLC,NYSE
+AII,American Integrity Insurance Group Inc,NYSE
+SECZ,Cantor Equity Partners II Inc,NYSE
+NAN,Nuveen New York Quality Municipal Income Fund,NYSE
+EDD,Morgan Stanley Emerging Mrkt Domestic Debt Fd Inc,NYSE
+PSA PR P,PUBLIC STORAGE DS Representing 1 1000TH BEN Pref Shs Series P,NYSE
+PNFP PR B,Pinnacle Financial Partners Non Cumulative Prf Shs Series B,NYSE
 BKKT,Bakkt Inc,NYSE
 KRSP.U,Rice Acquisition Redeemable Units,NYSE
+KEY PR K,Keycorp New Depository Shares Representing 1 40th Ownership Fixed Rate,NYSE
+NPWR,NET Power Inc,NYSE
+FCRS,FutureCrest Acquisition Corp,NYSE
+GCO,Genesco Inc,NYSE
 RNGR,Ranger Energy Services Inc,NYSE
-PNFP PR B,Pinnacle Financial Partners Non Cumulative Prf Shs Series B,NYSE
-MZYX,Mozayyx Acquisition Corp,NYSE
-CVEO,Civeo Corp,NYSE
-NAN,Nuveen New York Quality Municipal Income Fund,NYSE
-SOR,Source Capital Beneficial Interest,NYSE
-PSA PR P,PUBLIC STORAGE DS Representing 1 1000TH BEN Pref Shs Series P,NYSE
+NWAX.U,New America Acquisition I Units,NYSE
+NXG,NXG NextGen Infrastructure Income Fund,NYSE
+NC,NACCO Industries Inc,NYSE
