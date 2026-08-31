@@ -8,15 +8,15 @@ TCB,Vietnam Technological And Commercial Joint Stock Bank,HOSE
 VPB,Vietnam Prosperity Joint Stock Commercial Bank,HOSE
 GAS,Petrovietnam Gas Joint Stock Corp,HOSE
 MBB,Military Commercial Joint Stock Bank,HOSE
-HPG,Hoa Phat Group JSC,HOSE
 MCH,Masan Consumer Corp,HOSE
+HPG,Hoa Phat Group JSC,HOSE
 LPB,Fortune Vietnam Joint Stock Commercial Bank,HOSE
 STB,Saigon Treasure Commercial Joint Stock Bank,HOSE
 VPL,Vinpearl JSC,HOSE
 HDB,Ho Chi Minh City Development Joint Stock Commercial Bank,HOSE
 BSR,Petrovietnam Refining and Petrochemical Corp,HOSE
-VNM,Vietnam Dairy Products JSC,HOSE
 ACB,Asia Commercial Joint Stock Bank,HOSE
+VNM,Vietnam Dairy Products JSC,HOSE
 GVR,Viet Nam Rubber Group JSC,HOSE
 FPT,FPT CORPORATION,HOSE
 TCX,Techcom Securities JSC,HOSE
@@ -28,60 +28,60 @@ VCK,VPS Securities JSC,HOSE
 HVN,Vietnam Airlines JSC,HOSE
 SHB,Sai Gon Ha Noi Commercial Joint Stock Bank,HOSE
 SSI,SSI Securities Corporation,HOSE
-SAB,Saigon Beer Alcohol Beverage Corp,HOSE
-VRE,Vincom Retail JSC,HOSE
 SSB,Southeast Asia Commercial Joint Stock Bank,HOSE
+VRE,Vincom Retail JSC,HOSE
+SAB,Saigon Beer Alcohol Beverage Corp,HOSE
 VIB,Viet Nam International Commercial Joint Stock Bank,HOSE
 MSB,Vietnam Maritime Commercial Joint Stock Bank,HOSE
+VPX,VPBank Securities JSC,HOSE
 BVH,BaoViet Holdings,HOSE
 PLX,Vietnam National Petroleum Group,HOSE
-VPX,VPBank Securities JSC,HOSE
 BCM,Becamex Investment and Industrial Development Group,HOSE
 GEE,Gelex Electricity JSC,HOSE
-POW,Petrovietnam Power Corp,HOSE
-LPS,LPBANK SECURITIES JOINT STOCK COMPANY,HOSE
 TPB,Tien Phong Commercial Joint Stock Bank,HOSE
-HCM,Ho Chi Minh City Securities Corp,HOSE
+POW,Petrovietnam Power Corp,HOSE
+LPS,LPS SECURITIES JOINT STOCK COMPANY,HOSE
 VIX,VIX Securities JSC,HOSE
+HCM,Ho Chi Minh City Securities Corp,HOSE
 GEX,Gelex Group JSC,HOSE
 GMD,Gemadept Group Corp,HOSE
 OCB,Orient Commercial Joint Stock Bank,HOSE
 EIB,Vietnam Export Import Commercial Joint Stock Bank,HOSE
 NVL,No Va Land Investment Group Corp,HOSE
 REE,REFRIGERATION ELECTRICAL ENGINEERING CORPORATION,HOSE
-GEL,Gelex Infrastructure JSC,HOSE
 PGV,Power Generation Joint Stock Corp 3,HOSE
+VCI,Vietcap Securities Joint Stock Company,HOSE
+FRT,FPT Digital Retail JSC,HOSE
+GEL,Gelex Infrastructure JSC,HOSE
 KBC,Kinhbac City Development Holding Corp,HOSE
 VND,VNDIRECT Securities Corp,HOSE
-FRT,FPT Digital Retail JSC,HOSE
-VCI,Vietcap Securities Joint Stock Company,HOSE
 NAB,Nam A Commercial Joint Stock Bank,HOSE
-SBT,Thanh Thanh Cong Bien Hoa JSC,HOSE
 VPI,Van Phu Real Estate Development JSC,HOSE
 PNJ,Phu Nhuan Jewelry JSC,HOSE
 KDH,Khang Dien House Trading and Investment JSC,HOSE
+SBT,Thanh Thanh Cong Bien Hoa JSC,HOSE
 VGC,Viglacera Corp JSC,HOSE
 HAG,Hoang Anh Gia Lai JSC,HOSE
 PVD,PetroVietnam Drilling & Well Service Corp,HOSE
+CRV,CRV Real Estate Group JSC,HOSE
+SJS,SJ Group JSC,HOSE
 DCM,Petrovietnam Ca Mau Fertilizer Corp,HOSE
 DGC,DucGiang Chemicals Group JSC,HOSE
-CRV,CRV Real Estate Group JSC,HOSE
-DPM,PetroVietnam Fertilizer and Chemicals Corp,HOSE
 DXG,Bluemarq Group JSC,HOSE
-VBB,Vietnam Thuong Tin Commercial Joint Stock Bank,HOSE
+DPM,PetroVietnam Fertilizer and Chemicals Corp,HOSE
 KDC,Kido Group Corp,HOSE
-SJS,SJ Group JSC,HOSE
+VBB,Vietnam Thuong Tin Commercial Joint Stock Bank,HOSE
 LGC,CII Bridges and Roads Investment JSC,HOSE
+TAL,Taseco Land Investment JSC,HOSE
 DHG,Dhg Pharmaceutical Joint-Stock Co,HOSE
 PDR,Phat Dat Real Estate Development Corp,HOSE
-TAL,Taseco Land Investment JSC,HOSE
-SIP,Sai Gon Vrg Investment Corp,HOSE
-BMP,Binh Minh Plastics JSC,HOSE
-BAF,BAF Viet Nam Agriculture JSC,HOSE
-NLG,Nam Long Investment Corp,HOSE
 TCH,Hoang Huy Investment Financial Services JSC,HOSE
-VHC,Vinh Hoan Corp,HOSE
+SIP,Sai Gon Vrg Investment Corp,HOSE
+BAF,BAF Viet Nam Agriculture JSC,HOSE
+BMP,Binh Minh Plastics JSC,HOSE
+NLG,Nam Long Investment Corp,HOSE
 VCG,Viet Nam Construction and Import Export Joint Stock Corp,HOSE
+VHC,Vinh Hoan Corp,HOSE
 VTP,Viettel Post Joint Stock Corp,HOSE
 BWE,Binh Duong Water Environment Corporation JSC,HOSE
 PVT,Petrovietnam Transportation Corp,HOSE
@@ -91,320 +91,320 @@ CTR,Viettel Construction Joint Stock Corp,HOSE
 VSH,Vinh Son Song Hinh Hydropower JSC,HOSE
 EVF,EVF General Finance JSC,HOSE
 DGW,Digiworld Corp,HOSE
-KLB,Kien Long Commercial Joint Stock Bank,HOSE
 HAH,Hai An Transport and Stevedoring JSC,HOSE
-ORS,Tien Phong Securities Corp,HOSE
-FTS,FPT Securities JSC,HOSE
+KLB,Kien Long Commercial Joint Stock Bank,HOSE
 DIG,Development Investment Construction JSC,HOSE
 HSG,Hoa Sen Group,HOSE
+FTS,FPT Securities JSC,HOSE
+ORS,Tien Phong Securities Corp,HOSE
 PC1,PC1 Group JSC,HOSE
 PHR,Phuoc Hoa Rubber JSC,HOSE
 VAB,VietNam-Asia Commercial Joint Stock Bank,HOSE
 HPA,Hoa Phat Agriculture Development JSC,HOSE
 BSI,BIDV Securities JSC,HOSE
-BVB,Viet Capital Commercial Joint Stock Bank,HOSE
 VCF,Vinacafe Bien Hoa JSC,HOSE
-KOS,Kosy JSC,HOSE
+BVB,Viet Capital Commercial Joint Stock Bank,HOSE
 DBC,Dabaco Group,HOSE
+KOS,Kosy JSC,HOSE
 TDM,Thu Dau Mot Water JSC,HOSE
-CTD,Coteccons Construction JSC,HOSE
 BHN,Hanoi Beer Alcohol And Beverage Joint Stock Corp,HOSE
+CTD,Coteccons Construction JSC,HOSE
 HDG,Ha Do Group JSC,HOSE
 CTS,VietinBank Securities JSC,HOSE
 TMS,Transimex Corp,HOSE
+IMP,Imexpharm Corp,HOSE
 NT2,PetroVietnam Power Nhon Trach 2 JSC,HOSE
 PET,PetroVietnam General Services Corp,HOSE
 HHV,Deo Ca Traffic Infrastructure Investment JSC,HOSE
-IMP,Imexpharm Corp,HOSE
-VSC,Vietnam Container Shipping Joint Stock Corp,HOSE
 CMG,CMC Corp,HOSE
+VSC,Vietnam Container Shipping Joint Stock Corp,HOSE
 NKG,Nam Kim Steel JSC,HOSE
-TLG,Thien Long Group Corp,HOSE
 HNA,Hua Na Hydropower JSC,HOSE
-PAN,PAN Group JSC,HOSE
+TLG,Thien Long Group Corp,HOSE
 PDN,Dong Nai Port JSC,HOSE
+PAN,PAN Group JSC,HOSE
+ACG,An Cuong Wood Working JSC,HOSE
 HT1,Vicem Ha Tien Cement JSC,HOSE
 GEG,Gia Lai Electricity JSC,HOSE
-ACG,An Cuong Wood Working JSC,HOSE
-DBD,Binh Dinh Pharmaceutical and Medical Equipment JSC,HOSE
+HHS,Hoang Huy Investment Services JSC,HOSE
 IJC,Becamex Infrastructure Development JSC,HOSE
 ANV,Nam Viet Corp,HOSE
-HHS,Hoang Huy Investment Services JSC,HOSE
+DBD,Binh Dinh Pharmaceutical and Medical Equipment JSC,HOSE
 BIC,BIDV Insurance Corp,HOSE
 SCS,Sai Gon Cargo Service Corp,HOSE
 CHP,Central Hydropower JSC,HOSE
 VVS,Vietnam Machine Investment Development JSC,HOSE
 DHC,Donghai JSC of Bentre,HOSE
 TMP,Thac Mo Hydropower JSC,HOSE
-MIG,Military Insurance Corp,HOSE
-STG,South Logistics JSC,HOSE
-DPG,Dat Phuong Group JSC,HOSE
+AST,Taseco Air Services JSC,HOSE
 SZC,Sonadezi Chau Duc Shareholding Co,HOSE
+DPG,Dat Phuong Group JSC,HOSE
 DXS,Dat Xanh Real Estate Services JSC,HOSE
 TVS,Thien Viet Securities JSC,HOSE
 MSH,Song Hong Garment JSC,HOSE
-AST,Taseco Air Services JSC,HOSE
+MIG,Military Insurance Corp,HOSE
 VDS,Viet Dragon Securities Corp,HOSE
-CRE,Century Land JSC,HOSE
-DPR,Dong Phu Rubber JSC,HOSE
 PTB,Phu Tai JSC,HOSE
+DPR,Dong Phu Rubber JSC,HOSE
+CRE,Century Land JSC,HOSE
 SHP,Southern Hydropower JSC,HOSE
 DVP,Dinhvu Port Investment & Development JSC,HOSE
 NTC,Nam Tan Uyen Joint Stock Corp,HOSE
-TRA,Traphaco JSC,HOSE
 AGR,Agribank Securities Corp,HOSE
+QCG,Quoc Cuong GiaLai JSC,HOSE
+TRA,Traphaco JSC,HOSE
 DSC,DSC Securities Corp,HOSE
-MCM,Mocchau Dairy Cattle Breeding JSC,HOSE
 NAF,Nafoods Group JSC,HOSE
+STG,South Logistics JSC,HOSE
 TDP,Thuan Duc JSC,HOSE
+MCM,Mocchau Dairy Cattle Breeding JSC,HOSE
 PPC,Pha Lai Thermal Power JSC,HOSE
 DCL,Cuu Long Pharmaceutical JSC,HOSE
-QCG,Quoc Cuong GiaLai JSC,HOSE
-AAA,An Phat Bioplastics JSC,HOSE
 HDC,Ba Ria Vung Tau House Development JSC,HOSE
+AAA,An Phat Bioplastics JSC,HOSE
 BFC,Binh Dien Fertilizer JSC,HOSE
-PGI,Petrolimex Insurance Corp,HOSE
 TRC,Tay Ninh Rubber JSC,HOSE
+PGI,Petrolimex Insurance Corp,HOSE
 SAM,Sam Holdings Corp,HOSE
-ASM,Sao Mai Group Corp,HOSE
-CSV,South Basic Chemicals JSC,HOSE
 SHI,SonHa International Corp,HOSE
+CSV,South Basic Chemicals JSC,HOSE
+ASM,Sao Mai Group Corp,HOSE
 VPD,Viet Nam Power Development JSC,HOSE
-FMC,Sao Ta Foods JSC,HOSE
 PGD,Petrovietnam Low Pressure Gas Distribution JSC Class D,HOSE
-KHG,Khai Hoan Land Group JSC,HOSE
+FMC,Sao Ta Foods JSC,HOSE
 NCT,Noibai Cargo Terminal Services JSC,HOSE
-TBC,Thacba Hydro Power JSC,HOSE
-CDC,Chuong Duong Corp,HOSE
-TTA,Truong Thanh Development and Construction Investment JSC,HOSE
+KHG,Khai Hoan Land Group JSC,HOSE
 BMI,Baominh Insurance Corp,HOSE
-CTF,City Auto Corp,HOSE
+CDC,Chuong Duong Corp,HOSE
 DMC,Domesco Medical Import Export Joint Stock Corp,HOSE
-SCR,Sai Gon Thuong Tin Real Estate JSC,HOSE
+TTA,Truong Thanh Development and Construction Investment JSC,HOSE
 TCM,Thanh Cong Textile Garment Investment Trading JSC,HOSE
+TBC,Thacba Hydro Power JSC,HOSE
+SCR,Sai Gon Thuong Tin Real Estate JSC,HOSE
+AGG,An Gia Real Estate Investment and Development Corp,HOSE
+CTF,City Auto Corp,HOSE
 PVP,Pacific Petroleum Transportation JSC,HOSE
 VFG,Viet Nam Fumigation JSC,HOSE
 RAL,Rang Dong Light Source and Vacuum Flask JSC,HOSE
-SGN,Sai Gon Ground Services JSC,HOSE
-AGG,An Gia Real Estate Investment and Development Corp,HOSE
 TV2,Power Engineering Consulting JSC 2,HOSE
-FCN,Fecon Corp,HOSE
+SGN,Sai Gon Ground Services JSC,HOSE
+FCN,FECON CORPORATION,HOSE
 NBB,577 Investment Corp,HOSE
+MZG,Miza Corp,HOSE
 ELC,Elcom Technology Communications Corp,HOSE
-DRC,Danang Rubber JSC,HOSE
 LIX,LIX Detergent JSC,HOSE
+DRC,Danang Rubber JSC,HOSE
 KSB,Binh Duong Mineral and Construction JSC,HOSE
-SVC,Saigon General Service Corp,HOSE
-VOS,Viet Nam Ocean Shipping JSC,HOSE
 OPC,OPC Pharmaceutical JSC,HOSE
 YEG,Yeah1 Group Corp,HOSE
-MZG,Miza Corp,HOSE
+VOS,Viet Nam Ocean Shipping JSC,HOSE
+SVC,Saigon General Service Corp,HOSE
 NTL,Tu Liem Urban Development JSC,HOSE
 ASG,ASG Corp,HOSE
 SBA,Song Ba JSC,HOSE
-AAN,A An Food JSC,HOSE
+HHP,HHP Global JSC,HOSE
+SZL,Sonadezi Long Thanh Shareholding Co,HOSE
 LCG,Lizen JSC,HOSE
+AAN,A An Food JSC,HOSE
 HTG,Hoa Tho Textile Garment Joint Stock Corp,HOSE
 APH,An Phat Holdings JSC,HOSE
+SGT,Saigon Telecommunication & Technologies Corp,HOSE
 CSM,Southern Rubber Industry JSC,HOSE
-SZL,Sonadezi Long Thanh Shareholding Co,HOSE
+CLC,Cat Loi JSC,HOSE
+LBM,Lamdong Minerals and Building Materials JSC,HOSE
+IDI,I.D.I International Development and Investment Corp,HOSE
+TNH,TNH Hospital Group JSC,HOSE
+HQC,Hoang Quan Consulting Trading Service Real Estate Corp,HOSE
 SRC,Saovang Rubber JSC,HOSE
 S4A,Sesan 4A Hydro Power JSC,HOSE
-HHP,HHP Global JSC,HOSE
-TNH,TNH Hospital Group JSC,HOSE
-LBM,Lamdong Minerals and Building Materials JSC,HOSE
-CLC,Cat Loi JSC,HOSE
-HQC,Hoang Quan Consulting Trading Service Real Estate Corp,HOSE
-IDI,I.D.I International Development and Investment Corp,HOSE
 LHG,Long Hau Corp,HOSE
-HPX,Hai Phat Investment JSC,HOSE
 QNP,Quy Nhon Port JSC,HOSE
-SGT,Saigon Telecommunication & Technologies Corp,HOSE
 STK,Century Synthetic Fiber Corp,HOSE
-PAC,Dry Cell and Storage Battery JSC,HOSE
+HPX,Hai Phat Investment JSC,HOSE
 SMB,Sai Gon Mien Trung Beer JSC,HOSE
-CTI,Cuong Thuan Idico Development Investment Corp,HOSE
 NSC,Vietnam National Seed Group JSC,HOSE
+CTI,Cuong Thuan Idico Development Investment Corp,HOSE
 TIX,Tan Binh Import Export JSC,HOSE
-TCI,Thanh Cong Securities JSC,HOSE
+PAC,Dry Cell and Storage Battery JSC,HOSE
 GHC,Gia Lai Hydropower JSC,HOSE
+TCI,Thanh Cong Securities JSC,HOSE
 TIP,Tin Nghia Industrial Park Development JSC,HOSE
 APG,APG Securities JSC,HOSE
 NHH,Hanoi Plastics JSC,HOSE
 FIT,F.I.T Group JSC,HOSE
-VDP,Vidipha Central Pharmaceutical JSC,HOSE
-HRC,Hoa Binh Rubber JSC,HOSE
 THG,Tien Giang Investment and Construction JSC,HOSE
-HAX,Hang Xanh Motors Service JSC,HOSE
-CVT,CMC JSC,HOSE
-ITC,Investment and Trading of Real Estate JSC,HOSE
+HRC,Hoa Binh Rubber JSC,HOSE
 EVG,Everland Group JSC,HOSE
+ITC,Investment and Trading of Real Estate JSC,HOSE
+CKG,CIC Group JSC,HOSE
+VDP,Vidipha Central Pharmaceutical JSC,HOSE
+CVT,CMC JSC,HOSE
+HAX,Hang Xanh Motors Service JSC,HOSE
 TTE,Truong Thinh Energy Investment JSC,HOSE
 SJD,Can Don Hydro Power JSC,HOSE
-TDC,Binh Duong Trade and Development JSC,HOSE
 CLL,Cat Lai Port JSC,HOSE
-CKG,CIC Group JSC,HOSE
-TCL,Tan Cang Logistics and Stevedoring JSC,HOSE
+TDC,Binh Duong Trade and Development JSC,HOSE
 NNC,Nui Nho Stone JSC,HOSE
+TCL,Tan Cang Logistics and Stevedoring JSC,HOSE
 TN1,Rox Key Holdings JSC,HOSE
-SGR,Saigon Real Estate Group JSC,HOSE
-SBG,Siba High-Tech Mechanical Group JSC,HOSE
 D2D,Industrial Urban Development JSC No 2,HOSE
+PGC,Petrolimex Gas Corp JSC,HOSE
+SBG,Siba High-Tech Mechanical Group JSC,HOSE
+SGR,Saigon Real Estate Group JSC,HOSE
 VTO,Vietnam Tanker JSC,HOSE
+HTN,Hung Thinh Incons JSC,HOSE
 HAP,Hapaco Group JSC,HOSE
 GIL,BinhThanh Import Export Production and Trade JSC,HOSE
-HVH,HVC Investment and Technology JSC,HOSE
 TVB,T-Cap Securities JSC,HOSE
+HVH,HVC Investment and Technology JSC,HOSE
 CNG,Clean Natural Gas Vietnam JSC,HOSE
-HTN,Hung Thinh Incons JSC,HOSE
-CLW,Cho Lon Water Supply JSC,HOSE
-ILB,ICD Tan Cang Long Binh JSC,HOSE
-DHA,Hoa An JSC,HOSE
-PGC,Petrolimex Gas Corp JSC,HOSE
-TEG,Truong Thanh Energy Group JSC,HOSE
 SMC,SMC Trading Investment JSC,HOSE
+DHA,Hoa An JSC,HOSE
 DC4,Dicera Holdings JSC,HOSE
 GSP,International Gas Product Shipping JSC,HOSE
-FDC,Foreign Trade Development and Investment Corp of Ho Chi Minh City,HOSE
 LSS,Lam Son Sugar Cane Joint Stock Corp,HOSE
-TTF,Truong Thanh Furniture Corp,HOSE
+TEG,Truong Thanh Energy Group JSC,HOSE
+ILB,ICD Tan Cang Long Binh JSC,HOSE
 LDG,LDG Investment JSC,HOSE
-NVT,Ninh Van Bay Travel Real Estate JSC,HOSE
+FDC,Foreign Trade Development and Investment Corp of Ho Chi Minh City,HOSE
 DLG,Duc Long Gia Lai Group JSC,HOSE
-TCO,Janus Group JSC,HOSE
-VNG,Thanh Thanh Cong Tourist JSC,HOSE
+TTF,Truong Thanh Furniture Corp,HOSE
 VIP,Viet Nam Petroleum Transport JSC,HOSE
+CLW,Cho Lon Water Supply JSC,HOSE
+NVT,Ninh Van Bay Travel Real Estate JSC,HOSE
 PDV,Phuong Dong Viet Shipping and Logistics Corp,HOSE
-HII,An Tien Industries JSC,HOSE
-TLD,Thang Long Urban Development and Construction Investment JSC,HOSE
-SFI,Sea & Air Freight International,HOSE
 OGC,Ocean Group JSC,HOSE
+SFI,Sea & Air Freight International,HOSE
+HII,An Tien Industries JSC,HOSE
+TCO,Janus Group JSC,HOSE
+TLD,Thang Long Urban Development and Construction Investment JSC,HOSE
 TSA,Truong Son Investment and Construction JSC,HOSE
 DTL,Dai Thien Loc Corp,HOSE
 ADS,Damsan JSC,HOSE
+VNG,Thanh Thanh Cong Tourist JSC,HOSE
 KHP,Khanh Hoa Power JSC,HOSE
-ABT,Bentre Aquaproduct Import and Export JSC,HOSE
 ACL,Cuulong Fish JSC,HOSE
-VRC,Vrc Real Estate and Investment JSC,HOSE
-TNC,Thong Nhat Rubber JSC,HOSE
-BTT,Ben Thanh Trading & Service JSC,HOSE
+ABT,Bentre Aquaproduct Import and Export JSC,HOSE
 NHA,Ha Noi South Housing and Urban Development Corp,HOSE
+VRC,Vrc Real Estate and Investment JSC,HOSE
 CRC,Create Capital Vietnam JSC Ltd,HOSE
-ANT,An Giang Fruit Vegetables Foodstuff JSC,HOSE
 MCP,Mychau Printing and Packaging Corp,HOSE
-DAT,Travel Investment and Seafood Development Corp,HOSE
 ICT,JSC for Telecoms and Informatics,HOSE
+BTT,Ben Thanh Trading & Service JSC,HOSE
+DAT,Travel Investment and Seafood Development Corp,HOSE
+ANT,An Giang Fruit Vegetables Foodstuff JSC,HOSE
 ADP,A Dong Paint JSC,HOSE
-SKG,Superdong Fast Ferry Kien Giang JSC,HOSE
+TNC,Thong Nhat Rubber JSC,HOSE
 TYA,Taya Vietnam Electric Wire and Cable JSC,HOSE
+ASP,An Pha Petroleum Group JSC,HOSE
+SKG,Superdong Fast Ferry Kien Giang JSC,HOSE
 SFG,Southern Fertilizer JSC,HOSE
+TNT,TNT Group JSC,HOSE
 ACC,ACC Binh Duong Investment and Construction JSC,HOSE
 CMX,Camimex Group JSC,HOSE
-VNS,Vietnam Sun Corp,HOSE
-HTI,Idico Infrastructure Development Investment JSC,HOSE
-UIC,Idico Urban and House Development Investment Joint-Stock Co,HOSE
 C32,3-2 Investment and Construction JSC,HOSE
-ASP,An Pha Petroleum Group JSC,HOSE
+VNS,Vietnam Sun Corp,HOSE
+UIC,Idico Urban and House Development Investment Joint-Stock Co,HOSE
+HTI,Idico Infrastructure Development Investment JSC,HOSE
 DSN,Dam Sen Water Park Corp,HOSE
 BTP,Baria Thermal Power JSC,HOSE
-TNT,TNT Group JSC,HOSE
 TLH,Tien Len Steel Corporation JSC,HOSE
-TMT,TMT Motors Corp,HOSE
 GDT,Duc Thanh Wood Processing JSC,HOSE
+TMT,TMT Motors Corp,HOSE
 RYG,Royal Manufacture and Investment JSC,HOSE
-TSC,Techno-Agricultural Supplying JSC,HOSE
-COM,Materials Petroleum JSC,HOSE
 TDW,Thu Duc Water Supply JSC,HOSE
-DRL,Hydro Power JSC-Power No 3,HOSE
-CCI,CuChi Commercial and Industrial Developing Investment JSC,HOSE
-PLP,Pha Le Plastics Manufacturing and Technology JSC,HOSE
-HUB,Thua Thien Hue Construction Joint Stock Corp,HOSE
-TDH,Thu Duc Housing Development Corp,HOSE
-MDG,Mien Dong JSC,HOSE
-EVE,Everpia JSC,HOSE
-ITD,ITD Technology Corp,HOSE
+TSC,Techno-Agricultural Supplying JSC,HOSE
 HSL,Hong Ha Food Investment Development JSC,HOSE
-CIG,Coma 18 JSC,HOSE
+HUB,Thua Thien Hue Construction Joint Stock Corp,HOSE
+DRL,Hydro Power JSC-Power No 3,HOSE
+PLP,Pha Le Plastics Manufacturing and Technology JSC,HOSE
+EVE,Everpia JSC,HOSE
+TDH,Thu Duc Housing Development Corp,HOSE
+ITD,ITD Technology Corp,HOSE
 SAV,Savimex Corp,HOSE
+CIG,Coma 18 JSC,HOSE
+CCI,CUCHI COMMERCIAL AND INDUSTRIAL DEVELOPING INVESTMENT JOINT STOCK COMPANY,HOSE
 AFX,An Giang Agriculture and Foods Import Export JSC,HOSE
-TVT,Viet Thang Corp,HOSE
+MDG,Mien Dong JSC,HOSE
+COM,Materials Petroleum JSC,HOSE
 MHC,MHC JSC,HOSE
 FUCTVGF4,THIEN VIET GROWTH FUND 4,HOSE
+YBM,YBM JSC,HOSE
 JVC,JAPAN VIETNAM MEDICAL INVESTMENT AND DEVELOPMENT JOINT STOCK COMPANY,HOSE
 C47,Construction JSC 47,HOSE
-TNI,Thanh Nam Group JSC,HOSE
-YBM,YBM JSC,HOSE
+TVT,Viet Thang Corp,HOSE
+LAF,Long An Food Processing Export JSC,HOSE
 CCC,CDC Construction JSC,HOSE
+VPH,Van Phat Hung Corp,HOSE
+HMC,Vnsteel Hochiminh City Metal Corp,HOSE
+HCD,Hcd Investment Producing and Trading JSC,HOSE
+SSC,Southern Seed Corp,HOSE
+PMG,Petro Center Corp,HOSE
+DBT,Ben Tre Pharmaceutical JSC,HOSE
+TNI,Thanh Nam Group JSC,HOSE
 PNC,Phuong Nam Cultural Joint Stock Corp,HOSE
 FIR,First Real JSC,HOSE
-HMC,Vnsteel Hochiminh City Metal Corp,HOSE
-LAF,Long An Food Processing Export JSC,HOSE
-SSC,Southern Seed Corp,HOSE
-HCD,Hcd Investment Producing and Trading JSC,HOSE
-DBT,Ben Tre Pharmaceutical JSC,HOSE
-VPH,Van Phat Hung Corp,HOSE
-PMG,Petro Center Corp,HOSE
 NHT,Nam Hoa Trading & Production Corp,HOSE
-SC5,Construction JSC No.5,HOSE
 VNL,Vinalink Logistics JSC,HOSE
-HID,Halcom Vietnam JSC,HOSE
-LGL,Long Giang Investment and Urban Development JSC,HOSE
-HAR,An Duong Thao Dien Real estate Trading Investment JSC,HOSE
-HTL,Truong Long Engineering and Auto JSC,HOSE
-SRF,Searefico Corp,HOSE
+SC5,Construction JSC No.5,HOSE
 DQC,Dien Quang Group JSC,HOSE
-L10,Lilama 10 JSC,HOSE
-ABS,Binhthuan Agriculture Services JSC,HOSE
 VSI,Water Supply Sewerage Construction and Investment JSC,HOSE
+HID,Halcom Vietnam JSC,HOSE
+HAR,An Duong Thao Dien Real estate Trading Investment JSC,HOSE
+LGL,Long Giang Investment and Urban Development JSC,HOSE
+HTL,Truong Long Engineering and Auto JSC,HOSE
 CCL,Cuu Long Petro Urban Development and Investment Corp,HOSE
+SRF,Searefico Corp,HOSE
+ABS,Binhthuan Agriculture Services JSC,HOSE
+L10,Lilama 10 JSC,HOSE
 BCE,Binh Duong Construction & Civil Engineering JSC,HOSE
-ABR,Viet Brand Invest JSC,HOSE
 PJT,Petrolimex Joint Stock Tanker Co,HOSE
 DHM,DHM Investment and Trading JSC,HOSE
+ABR,Viet Brand Invest JSC,HOSE
 TCT,Tay Ninh Cable Car Tour Co,HOSE
-VPS,Vietnam Pesticide JSC,HOSE
 FUCTVGF5,Thien Viet Growth 5,HOSE
-DRH,DRH Holdings JSC,HOSE
+VPS,Vietnam Pesticide JSC,HOSE
 VMD,Vimedimex Medi Pharma JSC,HOSE
+DRH,DRH Holdings JSC,HOSE
 PHC,Phuc Hung Holdings Construction JSC,HOSE
 DAH,Dong A Hotel Group JSC,HOSE
-HTV,Logistics Vicem JSC,HOSE
-VID,Vien Dong Investment Development Trading Corp,HOSE
 SFC,Saigon Fuel JSC,HOSE
 SVT,Saigon Viendong Technology JSC,HOSE
+VID,Vien Dong Investment Development Trading Corp,HOSE
+TPC,Tan Dai Hung Plastic JSC,HOSE
 PTL,Victory Group JSC,HOSE
-CMV,Camau Trading JSC,HOSE
 SBV,Siam Brothers Vietnam JSC,HOSE
+CMV,Camau Trading JSC,HOSE
 PTC,iCapital Investment JSC,HOSE
 ADG,Clever Group Corp,HOSE
+HTV,Logistics Vicem JSC,HOSE
 AAT,Tien Son Thanh Hoa Group JSC,HOSE
 VPG,Viet Phat Import Export Trading Investment JSC,HOSE
 GMC,Garmex Saigon Corp,HOSE
-SMA,Saigon Machinery Spare Parts JSC,HOSE
-BKG,BKG Viet Nam Investment JSC,HOSE
-TPC,Tan Dai Hung Plastic JSC,HOSE
-BMC,Binh Dinh Minerals JSC,HOSE
-FCM,Phan Vu Ha Nam Concrete JSC,HOSE
+LM8,Lilama 18 JSC,HOSE
 VTB,Viettronics Tan Binh JSC,HOSE
+FCM,Phan Vu Ha Nam Concrete JSC,HOSE
+SMA,Saigon Machinery Spare Parts JSC,HOSE
+BMC,Binh Dinh Minerals JSC,HOSE
 DTT,Do Thanh Technology Corp,HOSE
 SHA,Son Ha Sai Gon JSC,HOSE
-BRC,Ben Thanh Rubber JSC,HOSE
-KMR,Mirae JSC,HOSE
 SPM,SPM Corp,HOSE
-LM8,Lilama 18 JSC,HOSE
-HU1,HUD1 Investment and Construction JSC,HOSE
-NAV,Namviet JSC,HOSE
 SVD,Vu Dang Investment & Trading JSC,HOSE
-NO1,911 Group JSC,HOSE
+BKG,BKG Viet Nam Investment JSC,HOSE
+KMR,Mirae JSC,HOSE
+BRC,Ben Thanh Rubber JSC,HOSE
+NAV,Namviet JSC,HOSE
 PIT,Petrolimex International Trading JSC,HOSE
+HU1,HUD1 Investment and Construction JSC,HOSE
+NO1,911 Group JSC,HOSE
 GMH,Quang Tri Minh Hung JSC,HOSE
-VCA,Vicasa Steel JSC,HOSE
 TCR,Taicera Enterprise Co,HOSE
+VCA,Vicasa Steel JSC,HOSE
+GTA,Thuan An Wood Processing JSC,HOSE
 HAS,Hacisco JSC,HOSE
 AAM,Mekong Fisheries JSC,HOSE
-GTA,Thuan An Wood Processing JSC,HOSE
 DTA,De Tam JSC,HOSE
 TDG,TDG Global Investment JSC,HOSE
 ST8,ST8 Holdings JSC,HOSE
-DXV,Danang Building Material Vicem JSC,HOSE
 FUCVREIT,Techcom Vietnam REIT,HOSE
+DXV,Danang Building Material Vicem JSC,HOSE
