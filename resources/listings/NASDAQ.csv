@@ -15,28 +15,28 @@ WMT,Walmart Inc,NASDAQ
 AMD,Advanced Micro Devices  Inc.,NASDAQ
 ASML,ASML Holding N.V. ADR,NASDAQ
 INTC,Intel Corp,NASDAQ
-PLTR,Palantir Technologies Inc.,NASDAQ
 CSCO,Cisco Systems Inc,NASDAQ
+PLTR,Palantir Technologies Inc.,NASDAQ
 COST,Costco Wholesale Corp,NASDAQ
 LRCX,Lam Research Corporation,NASDAQ
 AMAT,Applied Materials Inc,NASDAQ
 NFLX,Netflix  Inc.,NASDAQ
 PANW,Palo Alto Networks  Inc.,NASDAQ
 ARM,ARM Holdings PLC ADR,NASDAQ
-TXN,Texas Instruments Inc,NASDAQ
-AMGN,Amgen Inc,NASDAQ
+SNDK,SanDisk Corporation,NASDAQ
 KLAC,KLA Corporation,NASDAQ
+AMGN,Amgen Inc,NASDAQ
+TXN,Texas Instruments Inc,NASDAQ
 LIN,Linde PLC,NASDAQ
 CRWD,CrowdStrike Holdings  Inc.,NASDAQ
-SNDK,SanDisk Corporation,NASDAQ
-SHOP,Shopify Inc.,NASDAQ
-TMUS,T-Mobile US Inc,NASDAQ
-PEP,PepsiCo  Inc.,NASDAQ
 MRVL,Marvell Technology  Inc.,NASDAQ
+TMUS,T-Mobile US Inc,NASDAQ
 STX,Seagate Technology Holdings PLC,NASDAQ
+PEP,PepsiCo  Inc.,NASDAQ
 GILD,Gilead Sciences  Inc.,NASDAQ
-ADI,Analog Devices  Inc.,NASDAQ
+SHOP,Shopify Inc.,NASDAQ
 QCOM,QUALCOMM Incorporated,NASDAQ
+ADI,Analog Devices  Inc.,NASDAQ
 WDC,Western Digital Corp,NASDAQ
 IBKR,Interactive Brokers Group Inc,NASDAQ
 BKNG,Booking Holdings Inc.,NASDAQ
@@ -45,1957 +45,1957 @@ ISRG,Intuitive Surgical  Inc.,NASDAQ
 SBUX,Starbucks Corp,NASDAQ
 PDD,PDD Holdings Inc. ADR,NASDAQ
 FTNT,Fortinet  Inc.,NASDAQ
-ADBE,Adobe Inc,NASDAQ
 ADP,Automatic Data Processing Inc,NASDAQ
+HOOD,Robinhood Markets  Inc.,NASDAQ
+APP,AppLovin Corporation,NASDAQ
 ABNB,Airbnb  Inc.,NASDAQ
 SNY,Sanofi SA ADR,NASDAQ
-APP,AppLovin Corporation,NASDAQ
+ADBE,Adobe Inc,NASDAQ
+CEG,Constellation Energy Corp,NASDAQ
 EQIX,Equinix  Inc.,NASDAQ
 CME,CME Group Inc.,NASDAQ
-DASH,DoorDash  Inc.,NASDAQ
 MELI,MercadoLibre  Inc.,NASDAQ
-CEG,Constellation Energy Corp,NASDAQ
-INTU,Intuit Inc.,NASDAQ
-CSX,CSX Corporation,NASDAQ
-CDNS,Cadence Design Systems  Inc.,NASDAQ
-HOOD,Robinhood Markets  Inc.,NASDAQ
 CMCSA,Comcast Corporation,NASDAQ
-MNST,Monster Beverage Corporation,NASDAQ
+DASH,DoorDash  Inc.,NASDAQ
+CSX,CSX Corporation,NASDAQ
+INTU,Intuit Inc.,NASDAQ
 MAR,Marriott International  Inc.,NASDAQ
-DDOG,Datadog Inc,NASDAQ
-SNPS,Synopsys  Inc.,NASDAQ
+MNST,Monster Beverage Corporation,NASDAQ
 REGN,Regeneron Pharmaceuticals  Inc.,NASDAQ
+CDNS,Cadence Design Systems  Inc.,NASDAQ
 CTAS,Cintas Corporation,NASDAQ
 LITE,Lumentum Holdings Inc.,NASDAQ
 MDLZ,Mondelez International Inc,NASDAQ
+DDOG,Datadog Inc,NASDAQ
 NTES,NetEase  Inc. ADR,NASDAQ
+SNPS,Synopsys  Inc.,NASDAQ
 ROST,Ross Stores Inc,NASDAQ
-WBD,Warner Bros. Discovery  Inc.,NASDAQ
 ORLY,O'Reilly Automotive  Inc.,NASDAQ
-HON,Honeywell International Inc,NASDAQ
+WBD,Warner Bros. Discovery  Inc.,NASDAQ
 AEP,American Electric Power Company Inc,NASDAQ
+HON,Honeywell International Inc.,NASDAQ
 PCAR,Paccar Inc,NASDAQ
 ARGX,argenx SE ADR,NASDAQ
 BKR,Baker Hughes Company,NASDAQ
-MPWR,Monolithic Power Systems Inc,NASDAQ
-FAST,Fastenal Company,NASDAQ
 NBIS,Nebius Group NV,NASDAQ
+MPWR,Monolithic Power Systems Inc,NASDAQ
+MRNA,Moderna  Inc.,NASDAQ
 NXPI,NXP Semiconductors NV,NASDAQ
-NDAQ,Nasdaq Inc,NASDAQ
+FAST,Fastenal Company,NASDAQ
 TER,Teradyne  Inc.,NASDAQ
 FANG,Diamondback Energy  Inc.,NASDAQ
-MRNA,Moderna  Inc.,NASDAQ
-ADSK,Autodesk  Inc.,NASDAQ
-HONA,Honeywell Aerospace Inc,NASDAQ
-ALAB,Astera Labs  Inc.,NASDAQ
-WDAY,Workday  Inc.,NASDAQ
 MSTR,Strategy Inc,NASDAQ
-AXON,Axon Enterprise  Inc.,NASDAQ
-CCEP,Coca-Cola Europacific Partners PLC,NASDAQ
-TEAM,Atlassian Corp,NASDAQ
-XEL,Xcel Energy Inc,NASDAQ
-COIN,Coinbase Global Inc,NASDAQ
-NTRA,Natera  Inc.,NASDAQ
-EBAY,eBay Inc.,NASDAQ
-CRWV,CoreWeave  Inc.,NASDAQ
-MDLN,Medline Inc.,NASDAQ
-TRI,Thomson Reuters Corp,NASDAQ
-PYPL,PayPal Holdings  Inc.,NASDAQ
-EXC,Exelon Corp,NASDAQ
-PAYX,Paychex  Inc.,NASDAQ
-RVMD,Revolution Medicines  Inc.,NASDAQ
-TTWO,Take-Two Interactive Software  Inc.,NASDAQ
-KDP,Keurig Dr Pepper Inc,NASDAQ
-CRDO,Credo Technology Group Holding Ltd,NASDAQ
-IDXX,IDEXX Laboratories Inc,NASDAQ
-FER,Ferrovial N.V.,NASDAQ
+NDAQ,Nasdaq Inc,NASDAQ
+ALAB,Astera Labs  Inc.,NASDAQ
+HONA,Honeywell Aerospace Inc,NASDAQ
 CBRS,Cerebras Systems Inc,NASDAQ
-ROP,Roper Technologies  Inc.,NASDAQ
-ODFL,Old Dominion Freight Line  Inc.,NASDAQ
+CRWV,CoreWeave  Inc.,NASDAQ
+COIN,Coinbase Global Inc,NASDAQ
+MDLN,Medline Inc.,NASDAQ
+TEAM,Atlassian Corp,NASDAQ
+NTRA,Natera  Inc.,NASDAQ
+XEL,Xcel Energy Inc,NASDAQ
+WDAY,Workday  Inc.,NASDAQ
+PYPL,PayPal Holdings  Inc.,NASDAQ
+CCEP,Coca-Cola Europacific Partners PLC,NASDAQ
+EBAY,eBay Inc.,NASDAQ
+TRI,Thomson Reuters Corp,NASDAQ
+ADSK,Autodesk  Inc.,NASDAQ
+EXC,Exelon Corp,NASDAQ
+RVMD,Revolution Medicines  Inc.,NASDAQ
+KDP,Keurig Dr Pepper Inc,NASDAQ
+PAYX,Paychex  Inc.,NASDAQ
+FER,Ferrovial N.V.,NASDAQ
+IDXX,IDEXX Laboratories  Inc.,NASDAQ
+AXON,Axon Enterprise  Inc.,NASDAQ
 FLEX,Flex Ltd,NASDAQ
-ONC,BeOne Medicines AG ADR,NASDAQ
+ROP,Roper Technologies  Inc.,NASDAQ
 MCHP,Microchip Technology Inc,NASDAQ
-EXPE,Expedia Group  Inc.,NASDAQ
-RKLB,Rocket Lab Corp,NASDAQ
+TTWO,Take-Two Interactive Software  Inc.,NASDAQ
+ONC,BeOne Medicines AG ADR,NASDAQ
 VOD,Vodafone Group PLC ADR,NASDAQ
-NTAP,NetApp Inc,NASDAQ
-KMB,Kimberly-Clark Corporation,NASDAQ
-MDB,MongoDB  Inc.,NASDAQ
-UAL,United Airlines Holdings  Inc.,NASDAQ
-JD,JD.com  Inc. ADR,NASDAQ
+ODFL,Old Dominion Freight Line  Inc.,NASDAQ
+RKLB,Rocket Lab Corp,NASDAQ
 RPRX,Royalty Pharma PLC,NASDAQ
+NTAP,NetApp Inc,NASDAQ
+EXPE,Expedia Group  Inc.,NASDAQ
+UAL,United Airlines Holdings  Inc.,NASDAQ
+ALNY,Alnylam Pharmaceuticals  Inc.,NASDAQ
 BIDU,Baidu  Inc. ADR,NASDAQ
-DXCM,Dexcom Inc,NASDAQ
+JD,JD.com  Inc. ADR,NASDAQ
+KMB,Kimberly-Clark Corporation,NASDAQ
+STLD,Steel Dynamics Inc,NASDAQ
 HBAN,Huntington Bancshares Inc,NASDAQ
 NTRS,Northern Trust Corporation,NASDAQ
 ACGL,Arch Capital Group Ltd.,NASDAQ
-STLD,Steel Dynamics Inc,NASDAQ
+DXCM,Dexcom Inc,NASDAQ
 ESLT,Elbit Systems Ltd.,NASDAQ
 ILMN,Illumina Inc,NASDAQ
-GEHC,GE HealthCare Technologies Inc.,NASDAQ
 BIIB,Biogen Inc.,NASDAQ
-WTW,Willis Towers Watson Public Limited Company,NASDAQ
-ALNY,Alnylam Pharmaceuticals  Inc.,NASDAQ
+CRDO,Credo Technology Group Holding Ltd,NASDAQ
 CPRT,Copart Inc,NASDAQ
-KHC,The Kraft Heinz Company,NASDAQ
+GEHC,GE HealthCare Technologies Inc.,NASDAQ
+WTW,Willis Towers Watson Public Limited Company,NASDAQ
 ERIC,Telefonaktiebolaget LM Ericsson ADR,NASDAQ
-ZS,Zscaler  Inc.,NASDAQ
-TCOM,Trip.com Group Limited ADR,NASDAQ
-LPLA,LPL Financial Holdings Inc.,NASDAQ
-RYAAY,Ryanair Holdings PLC ADR,NASDAQ
 OKTA,Okta  Inc.,NASDAQ
-CTSH,Cognizant Technology Solutions Corporation,NASDAQ
+MDB,MongoDB  Inc.,NASDAQ
 ZM,Zoom Communications  Inc.,NASDAQ
-FISV,Fiserv Inc,NASDAQ
+KHC,The Kraft Heinz Company,NASDAQ
 ON,ON Semiconductor Corp,NASDAQ
+RYAAY,Ryanair Holdings PLC ADR,NASDAQ
+LPLA,LPL Financial Holdings Inc.,NASDAQ
+FISV,Fiserv Inc,NASDAQ
+CTSH,Cognizant Technology Solutions Corporation,NASDAQ
 CASY,Caseys General Stores Inc,NASDAQ
-BSP,Bending Spoons SpA,NASDAQ
-CINF,Cincinnati Financial Corporation,NASDAQ
-VRSN,VeriSign  Inc.,NASDAQ
-AFRM,Affirm Holdings  Inc.,NASDAQ
+ZS,Zscaler  Inc.,NASDAQ
 INSM,Insmed Incorporated,NASDAQ
-BNTX,Biontech SE ADR,NASDAQ
+TCOM,Trip.com Group Limited ADR,NASDAQ
+VRSN,VeriSign  Inc.,NASDAQ
+CINF,Cincinnati Financial Corporation,NASDAQ
 ECHO,EchoStar Corporation,NASDAQ
+BNTX,Biontech SE ADR,NASDAQ
+SMCI,Super Micro Computer Inc,NASDAQ
+SYM,Symbotic Inc,NASDAQ
+JBHT,J.B. Hunt Transport Services  Inc.,NASDAQ
 INCY,Incyte Corp,NASDAQ
 ROIV,Roivant Sciences Ltd,NASDAQ
-VRSK,Verisk Analytics  Inc.,NASDAQ
-GFS,GLOBALFOUNDRIES Inc.,NASDAQ
-JBHT,J.B. Hunt Transport Services  Inc.,NASDAQ
-SYM,Symbotic Inc,NASDAQ
-DLTR,Dollar Tree Inc,NASDAQ
-SMCI,Super Micro Computer Inc,NASDAQ
-PFG,Principal Financial Group Inc,NASDAQ
-TROW,T. Rowe Price Group  Inc.,NASDAQ
+BSP,Bending Spoons SpA,NASDAQ
 TSEM,Tower Semiconductor Ltd.,NASDAQ
-ROKU,Roku  Inc.,NASDAQ
-SOFI,SoFi Technologies  Inc.,NASDAQ
-RIVN,Rivian Automotive Inc,NASDAQ
-TW,Tradeweb Markets Inc,NASDAQ
-FWONK,Liberty Media Formula One Ord Shs Series C,NASDAQ
-EXE,Expand Energy Corporation,NASDAQ
-ARXS,Arxis  Inc.,NASDAQ
+PFG,Principal Financial Group Inc,NASDAQ
+GFS,GLOBALFOUNDRIES Inc.,NASDAQ
+DLTR,Dollar Tree Inc,NASDAQ
+AFRM,Affirm Holdings  Inc.,NASDAQ
 ASTS,AST SpaceMobile  Inc.,NASDAQ
-FFIV,F5 Inc,NASDAQ
-RGLD,Royal Gold  Inc.,NASDAQ
+VRSK,Verisk Analytics  Inc.,NASDAQ
 ULTA,Ulta Beauty Inc,NASDAQ
-UTHR,United Therapeutics Corporation,NASDAQ
-FCNCA,First Citizens BancShares  Inc. (Delaware),NASDAQ
+SOFI,SoFi Technologies  Inc.,NASDAQ
+TROW,T. Rowe Price Group  Inc.,NASDAQ
+ROKU,Roku  Inc.,NASDAQ
+ARXS,Arxis  Inc.,NASDAQ
+RIVN,Rivian Automotive Inc,NASDAQ
+FCNCA,First Citizens BancShares  Inc.,NASDAQ
+EXE,Expand Energy Corporation,NASDAQ
+TW,Tradeweb Markets Inc,NASDAQ
+RGLD,Royal Gold  Inc.,NASDAQ
+FFIV,F5  Inc.,NASDAQ
 FSLR,First Solar  Inc.,NASDAQ
 GH,Guardant Health  Inc.,NASDAQ
-TPG,TPG Inc,NASDAQ
+FWONK,Liberty Media Formula One Ord Shs Series C,NASDAQ
 ENTG,Entegris Inc,NASDAQ
+UTHR,United Therapeutics Corporation,NASDAQ
 GMAB,Genmab A/S ADR,NASDAQ
 MTSI,MACOM Technology Solutions Holdings  Inc.,NASDAQ
-SBAC,SBA Communications Corp,NASDAQ
-KSPI,Kaspi.kz AO ADR,NASDAQ
 WWD,Woodward  Inc.,NASDAQ
+KSPI,Kaspi.kz AO ADR,NASDAQ
+TPG,TPG Inc,NASDAQ
 FTAI,FTAI Aviation Ltd.,NASDAQ
+SBAC,SBA Communications Corp,NASDAQ
 SSNC,SS&C Technologies Holdings  Inc.,NASDAQ
 VTRS,Viatris Inc.,NASDAQ
-NTNX,Nutanix  Inc.,NASDAQ
-EVRG,Evergy  Inc.,NASDAQ
-GEN,Gen Digital Inc.,NASDAQ
 CDW,CDW Corporation,NASDAQ
+EVRG,Evergy  Inc.,NASDAQ
+SITM,SiTime Corporation,NASDAQ
+NTNX,Nutanix  Inc.,NASDAQ
+GEN,Gen Digital Inc.,NASDAQ
 TSCO,Tractor Supply Company,NASDAQ
-NDSN,Nordson Corporation,NASDAQ
 PAA,Plains All American Pipeline Units,NASDAQ
 EWBC,East West Bancorp  Inc.,NASDAQ
+ASND,Ascendis Pharma A/S,NASDAQ
+NDSN,Nordson Corporation,NASDAQ
 LNT,Alliant Energy Corp,NASDAQ
+IREN,IREN Limited,NASDAQ
+MKSI,MKS Incorporated,NASDAQ
 CHTR,Charter Communications  Inc.,NASDAQ
 CHRW,C.H. Robinson Worldwide  Inc.,NASDAQ
-CG,Carlyle Group Inc,NASDAQ
-FUTU,Futu Holdings Limited ADR,NASDAQ
-MKSI,MKS Incorporated,NASDAQ
-PTC,PTC Inc.,NASDAQ
 ZBRA,Zebra Technologies Corp,NASDAQ
-SITM,SiTime Corporation,NASDAQ
+FUTU,Futu Holdings Limited ADR,NASDAQ
+CG,Carlyle Group Inc,NASDAQ
 MEDP,Medpace Holdings  Inc.,NASDAQ
-ASND,Ascendis Pharma A/S,NASDAQ
 LSCC,Lattice Semiconductor Corporation,NASDAQ
+LOGI,Logitech international S.A.,NASDAQ
 JAZZ,Jazz Pharmaceuticals PLC,NASDAQ
 VNOM,Viper Energy Inc,NASDAQ
-LOGI,Logitech international S.A.,NASDAQ
-NBIX,Neurocrine Biosciences  Inc.,NASDAQ
 TIGO,Millicom International Cellular S.A.,NASDAQ
+NBIX,Neurocrine Biosciences  Inc.,NASDAQ
 INIO,Innio NV,NASDAQ
-LECO,Lincoln Electric Holdings  Inc.,NASDAQ
-AKAM,Akamai Technologies Inc,NASDAQ
 LAMR,Lamar Advertising Co,NASDAQ
-HST,Host Hotels & Resorts  Inc.,NASDAQ
-BBIO,BridgeBio Pharma  Inc.,NASDAQ
-APA,APA Corporation,NASDAQ
-GRAB,Grab Holdings Limited,NASDAQ
-HTHT,H World Group Limited ADR,NASDAQ
-WMG,Warner Music Group Corp.,NASDAQ
-STRL,Sterling Infrastructure  Inc.,NASDAQ
-ARCC,Ares Capital Corp,NASDAQ
-TRMB,Trimble Inc,NASDAQ
+PTC,PTC Inc.,NASDAQ
 TLN,Talen Energy Corp,NASDAQ
-CHKP,Check Point Software Technologies Ltd.,NASDAQ
-IREN,IREN Limited,NASDAQ
-COO,The Cooper Companies  Inc.,NASDAQ
-REG,Regency Centers Corp,NASDAQ
+AKAM,Akamai Technologies Inc,NASDAQ
+HST,Host Hotels & Resorts  Inc.,NASDAQ
+LECO,Lincoln Electric Holdings  Inc.,NASDAQ
+WMG,Warner Music Group Corp.,NASDAQ
+APA,APA Corporation,NASDAQ
+STRL,Sterling Infrastructure  Inc.,NASDAQ
+BBIO,BridgeBio Pharma  Inc.,NASDAQ
 EXEL,Exelixis Inc,NASDAQ
-FIVE,Five Below  Inc.,NASDAQ
-QNT,Quantinuum Inc,NASDAQ
-NXT,Nextpower Inc,NASDAQ
-LULU,lululemon athletica inc.,NASDAQ
-FOXA,Fox Corporation Class A,NASDAQ
+ARCC,Ares Capital Corp,NASDAQ
+HTHT,H World Group Limited ADR,NASDAQ
+SMMT,Summit Therapeutics Inc.,NASDAQ
+CHKP,Check Point Software Technologies Ltd.,NASDAQ
+GRAB,Grab Holdings Limited,NASDAQ
+TRMB,Trimble Inc,NASDAQ
+REG,Regency Centers Corp,NASDAQ
+COO,The Cooper Companies  Inc.,NASDAQ
 ERIE,Erie Indemnity Co,NASDAQ
-FOX,Fox Corporation Class B,NASDAQ
+FOXA,Fox Corporation Class A,NASDAQ
+FIVE,Five Below  Inc.,NASDAQ
+SMTC,Semtech Corporation,NASDAQ
 SEIC,SEI Investments Company,NASDAQ
+TTMI,TTM Technologies Inc,NASDAQ
+QNT,Quantinuum Inc,NASDAQ
+DOCU,Docusign  Inc.,NASDAQ
 HAS,Hasbro  Inc.,NASDAQ
 WSE,Wise Group PLC,NASDAQ
-COKE,Coca-Cola Consolidated Inc,NASDAQ
-ICLR,ICON PLC,NASDAQ
-TXRH,Texas Roadhouse Inc,NASDAQ
-CSGP,CoStar Group  Inc.,NASDAQ
-MANH,Manhattan Associates  Inc.,NASDAQ
-AGNC,AGNC Investment Corp.,NASDAQ
-CHYM,Chime Financial  Inc.,NASDAQ
-DKNG,DraftKings Inc.,NASDAQ
 BMRN,BioMarin Pharmaceutical Inc.,NASDAQ
-TTMI,TTM Technologies Inc,NASDAQ
-GLPI,Gaming and Leisure Properties  Inc.,NASDAQ
+FOX,Fox Corporation Class B,NASDAQ
 IESC,IES Holdings Inc,NASDAQ
-MDGL,Madrigal Pharmaceuticals  Inc.,NASDAQ
-CORT,Corcept Therapeutics Incorporated,NASDAQ
-SMTC,Semtech Corporation,NASDAQ
-DOCU,Docusign  Inc.,NASDAQ
-PSKY,Paramount Skydance Corp,NASDAQ
-FROG,JFrog Ltd.,NASDAQ
-JKHY,Jack Henry & Associates Inc,NASDAQ
-ARWR,Arrowhead Pharmaceuticals  Inc.,NASDAQ
-HALO,Halozyme Therapeutics  Inc.,NASDAQ
-AMKR,Amkor Technology  Inc.,NASDAQ
-CART,Maplebear Inc.,NASDAQ
-BTSG,Brightspring Health Services Inc,NASDAQ
+NXT,Nextpower Inc,NASDAQ
+CHYM,Chime Financial  Inc.,NASDAQ
+ICLR,ICON PLC,NASDAQ
 AUR,Aurora Innovation  Inc.,NASDAQ
-DPZ,Domino's Pizza  Inc.,NASDAQ
-TEM,Tempus AI  Inc.,NASDAQ
-TECH,Bio-Techne Corporation,NASDAQ
-BSY,Bentley Systems  Inc,NASDAQ
-SAIL,SailPoint  Inc.,NASDAQ
-ALGN,Align Technology  Inc.,NASDAQ
-NWSA,News Corporation Class A,NASDAQ
-FRHC,Freedom Holding Corp,NASDAQ
+AGNC,AGNC Investment Corp.,NASDAQ
+COKE,Coca-Cola Consolidated Inc,NASDAQ
+CSGP,CoStar Group  Inc.,NASDAQ
+HALO,Halozyme Therapeutics  Inc.,NASDAQ
+MDGL,Madrigal Pharmaceuticals  Inc.,NASDAQ
+MANH,Manhattan Associates  Inc.,NASDAQ
+TXRH,Texas Roadhouse Inc,NASDAQ
+ARWR,Arrowhead Pharmaceuticals  Inc.,NASDAQ
+GLPI,Gaming and Leisure Properties  Inc.,NASDAQ
+PSKY,Paramount Skydance Corp,NASDAQ
+CORT,Corcept Therapeutics Incorporated,NASDAQ
+BTSG,Brightspring Health Services Inc,NASDAQ
+DKNG,DraftKings Inc.,NASDAQ
+AMKR,Amkor Technology  Inc.,NASDAQ
 NVMI,Nova Ltd.,NASDAQ
-UMBF,UMB Financial Corporation,NASDAQ
-SMMT,Summit Therapeutics Inc.,NASDAQ
+CART,Maplebear Inc.,NASDAQ
+TEM,Tempus AI  Inc.,NASDAQ
+JKHY,Jack Henry & Associates Inc,NASDAQ
+PAYP,PayPay Corp ADR,NASDAQ
+HUT,Hut 8 Corp,NASDAQ
+TECH,Bio-Techne Corporation,NASDAQ
+DPZ,Domino's Pizza  Inc.,NASDAQ
+ALGN,Align Technology  Inc.,NASDAQ
 AEIS,Advanced Energy Industries  Inc.,NASDAQ
+LULU,lululemon athletica inc.,NASDAQ
+SWKS,Skyworks Solutions  Inc.,NASDAQ
 ENLT,Enlight Renewable Energy Ltd.,NASDAQ
-BPOP,Popular  Inc,NASDAQ
+NWSA,News Corporation Class A,NASDAQ
+BPOP,Popular  Inc.,NASDAQ
+UMBF,UMB Financial Corporation,NASDAQ
+AXSM,Axsome Therapeutics  Inc.,NASDAQ
+FROG,JFrog Ltd.,NASDAQ
+SAIL,SailPoint  Inc.,NASDAQ
 GSAT,Globalstar  Inc.,NASDAQ
 LI,Li Auto Inc. ADR,NASDAQ
-AXSM,Axsome Therapeutics  Inc.,NASDAQ
-KRYS,Krystal Biotech  Inc.,NASDAQ
-SANM,Sanmina Corporation,NASDAQ
-PAYP,PayPay Corp ADR,NASDAQ
-WTFC,Wintrust Financial Corporation,NASDAQ
 LFUS,Littelfuse  Inc.,NASDAQ
-DRS,Leonardo DRS Inc,NASDAQ
-STRC,Strategy Variable Rate Perpetual Stretch Prf Shs Series A,NASDAQ
-CGNX,Cognex Corporation,NASDAQ
-IONS,Ionis Pharmaceuticals  Inc.,NASDAQ
-CYTK,Cytokinetics  Incorporated,NASDAQ
-HUT,Hut 8 Corp,NASDAQ
-APGE,Apogee Therapeutics  Inc.,NASDAQ
-SOLS,Solstice Advanced Materials Inc,NASDAQ
-ENSG,The Ensign Group  Inc.,NASDAQ
-PODD,Insulet Corporation,NASDAQ
-HSIC,Henry Schein  Inc.,NASDAQ
-RGEN,Repligen Corporation,NASDAQ
-SWKS,Skyworks Solutions  Inc.,NASDAQ
-ZION,Zions Bancorporation  National Association,NASDAQ
-ONB,Old National Bancorp,NASDAQ
-KYMR,Kymera Therapeutics  Inc.,NASDAQ
-WYNN,Wynn Resorts  Limited,NASDAQ
-KTOS,Kratos Defense & Security Solutions  Inc.,NASDAQ
-PRAX,Praxis Precision Medicines  Inc.,NASDAQ
-SIRI,Sirius XM Holdings Inc.,NASDAQ
-MTCH,Match Group  Inc.,NASDAQ
-TTAN,ServiceTitan  Inc.,NASDAQ
-FCFS,Firstcash Holdings Inc (Texas),NASDAQ
-GOOGM,Alphabet Dep Shs Repstg 1 20Th Int Mandatory Conv Prf Shs Ser A,NASDAQ
-SAIA,Saia Inc,NASDAQ
-GOOGN,Alphabet Dep Shs Repstg 1 20Th Int Mandatory Conv Prf Shs Ser B,NASDAQ
-TWST,Twist Bioscience Corporation,NASDAQ
-TTEK,Tetra Tech  Inc.,NASDAQ
-PTGX,Protagonist Therapeutics  Inc.,NASDAQ
-RMBS,Rambus Inc.,NASDAQ
-VSAT,Viasat Inc,NASDAQ
-XP,XP Inc,NASDAQ
+SANM,Sanmina Corporation,NASDAQ
+KRYS,Krystal Biotech  Inc.,NASDAQ
+FRHC,Freedom Holding Corp,NASDAQ
+WTFC,Wintrust Financial Corporation,NASDAQ
 GLXY,Galaxy Digital Inc,NASDAQ
-AAL,American Airlines Group Inc.,NASDAQ
-AAOI,Applied Optoelectronics  Inc.,NASDAQ
-VIAV,Viavi Solutions Inc.,NASDAQ
-CRNX,Crinetics Pharmaceuticals  Inc.,NASDAQ
+XP,XP Inc,NASDAQ
+PODD,Insulet Corporation,NASDAQ
+BSY,Bentley Systems  Inc,NASDAQ
+CYTK,Cytokinetics  Incorporated,NASDAQ
+CGNX,Cognex Corporation,NASDAQ
+VSAT,Viasat Inc,NASDAQ
+STRC,Strategy Variable Rate Perpetual Stretch Prf Shs Series A,NASDAQ
+SOLS,Solstice Advanced Materials Inc,NASDAQ
+ZION,Zions Bancorporation  National Association,NASDAQ
+HSIC,Henry Schein  Inc.,NASDAQ
+ONB,Old National Bancorp,NASDAQ
+ENSG,The Ensign Group  Inc.,NASDAQ
+PRAX,Praxis Precision Medicines  Inc.,NASDAQ
+FCFS,Firstcash Holdings Inc (Texas),NASDAQ
+SIRI,Sirius XM Holdings Inc.,NASDAQ
+DRS,Leonardo DRS Inc,NASDAQ
+KYMR,Kymera Therapeutics  Inc.,NASDAQ
+IONS,Ionis Pharmaceuticals  Inc.,NASDAQ
+MTCH,Match Group  Inc.,NASDAQ
+SAIA,Saia Inc,NASDAQ
+RGEN,Repligen Corporation,NASDAQ
+PTGX,Protagonist Therapeutics  Inc.,NASDAQ
+WYNN,Wynn Resorts  Limited,NASDAQ
+GOOGM,Alphabet Dep Shs Repstg 1 20Th Int Mandatory Conv Prf Shs Ser A,NASDAQ
+RMBS,Rambus Inc.,NASDAQ
+GOOGN,Alphabet Dep Shs Repstg 1 20Th Int Mandatory Conv Prf Shs Ser B,NASDAQ
+TTEK,Tetra Tech  Inc.,NASDAQ
 ABVX,Abivax SA ADR,NASDAQ
-LINE,Lineage  Inc.,NASDAQ
 PCVX,Vaxcyte  Inc.,NASDAQ
-BRKR,Bruker Corporation,NASDAQ
-VICR,Vicor Corporation,NASDAQ
-IDCC,InterDigital Inc,NASDAQ
-SFD,Smithfield Foods Inc,NASDAQ
-IBRX,Immunitybio Inc,NASDAQ
-IMVT,Immunovant  Inc.,NASDAQ
-COLB,Columbia Banking System Inc,NASDAQ
-BZ,KANZHUN LIMITED ADR,NASDAQ
-PCTY,Paylocity Holding Corp,NASDAQ
 QRVO,Qorvo  Inc.,NASDAQ
-BOKF,BOK Financial Corp,NASDAQ
+KTOS,Kratos Defense & Security Solutions  Inc.,NASDAQ
+AAOI,Applied Optoelectronics  Inc.,NASDAQ
+BRKR,Bruker Corporation,NASDAQ
+IDCC,InterDigital Inc,NASDAQ
+COLB,Columbia Banking System Inc,NASDAQ
 SIMO,Silicon Motion Technology Corporation ADR,NASDAQ
-CELH,Celsius Holdings  Inc.,NASDAQ
-CBSH,Commerce Bancshares  Inc.,NASDAQ
-APPF,AppFolio  Inc.,NASDAQ
-SNEX,StoneX Group Inc,NASDAQ
+VICR,Vicor Corporation,NASDAQ
+LINE,Lineage  Inc.,NASDAQ
+AAL,American Airlines Group Inc.,NASDAQ
+SFD,Smithfield Foods Inc,NASDAQ
+VIAV,Viavi Solutions Inc.,NASDAQ
 TGTX,TG Therapeutics  Inc.,NASDAQ
-MORN,Morningstar  Inc.,NASDAQ
-FIGR,Figure Technology Solutions  Inc.,NASDAQ
-TXG,10x Genomics  Inc.,NASDAQ
-SYRE,Spyre Therapeutics Inc,NASDAQ
-ALKS,Alkermes Plc,NASDAQ
-FORM,FormFactor Inc,NASDAQ
-SSRM,SSR Mining Inc.,NASDAQ
+IBRX,ImmunityBio  Inc.,NASDAQ
+TTAN,ServiceTitan  Inc.,NASDAQ
+SNEX,StoneX Group Inc,NASDAQ
+CBSH,Commerce Bancshares  Inc.,NASDAQ
+BOKF,BOK Financial Corp,NASDAQ
+GTLB,GitLab Inc.,NASDAQ
+TWST,Twist Bioscience Corporation,NASDAQ
 WULF,TeraWulf Inc.,NASDAQ
-APLD,Applied Digital Corporation,NASDAQ
+RIOT,Riot Platforms  Inc.,NASDAQ
+TXG,10x Genomics  Inc.,NASDAQ
+IMVT,Immunovant  Inc.,NASDAQ
+PCTY,Paylocity Holding Corp,NASDAQ
+FIGR,Figure Technology Solutions  Inc.,NASDAQ
+BZ,KANZHUN LIMITED ADR,NASDAQ
 CHRD,Chord Energy Corporation,NASDAQ
 HQY,HealthEquity  Inc.,NASDAQ
+MORN,Morningstar  Inc.,NASDAQ
+CAE,CAE Inc.,NASDAQ
+CELH,Celsius Holdings  Inc.,NASDAQ
+ALKS,Alkermes Plc,NASDAQ
+APPF,AppFolio  Inc.,NASDAQ
+SSRM,SSR Mining Inc.,NASDAQ
+FORM,FormFactor Inc,NASDAQ
+SYRE,Spyre Therapeutics Inc,NASDAQ
 CBC,Central Bancompany  Inc.,NASDAQ
-CAE,CAE Inc,NASDAQ
-DBX,Dropbox Inc,NASDAQ
+BLTE,Belite Bio  Inc ADR,NASDAQ
 VLY,Valley National Bancorp,NASDAQ
+APLD,Applied Digital Corporation,NASDAQ
 SFM,Sprouts Farmers Market Inc,NASDAQ
-GTLB,GitLab Inc.,NASDAQ
-PPC,Pilgrims Pride Corp,NASDAQ
-AVAV,AeroVironment  Inc.,NASDAQ
-RYTM,Rhythm Pharmaceuticals  Inc.,NASDAQ
-MAAS,Maase Inc,NASDAQ
-MBLY,Mobileye Global Inc,NASDAQ
-SLAB,Silicon Laboratories Inc.,NASDAQ
-VCTR,Victory Capital Holdings  Inc.,NASDAQ
+DBX,Dropbox Inc,NASDAQ
 AVT,Avnet Inc,NASDAQ
-NAVN,Navan  Inc.,NASDAQ
-CAI,Caris Life Sciences  Inc.,NASDAQ
+CIFR,Cipher Digital Inc,NASDAQ
+SLAB,Silicon Laboratories Inc.,NASDAQ
+AVAV,AeroVironment  Inc.,NASDAQ
+MBLY,Mobileye Global Inc,NASDAQ
+PPC,Pilgrims Pride Corp,NASDAQ
+MAAS,Maase Inc,NASDAQ
+DUOL,Duolingo  Inc.,NASDAQ
 VFS,VinFast Auto Ltd,NASDAQ
-RIOT,Riot Platforms  Inc.,NASDAQ
-AUGO,Aura Minerals Inc,NASDAQ
-SRRK,Scholar Rock Holding Corporation,NASDAQ
-LNW,Light & Wonder Inc,NASDAQ
-DSGX,The Descartes Systems Group Inc.,NASDAQ
 XE,X-Energy Inc,NASDAQ
+AUGO,Aura Minerals Inc,NASDAQ
+CAI,Caris Life Sciences  Inc.,NASDAQ
+RYTM,Rhythm Pharmaceuticals  Inc.,NASDAQ
+NAVN,Navan  Inc.,NASDAQ
+LNW,Light & Wonder Inc,NASDAQ
+VCTR,Victory Capital Holdings  Inc.,NASDAQ
+WFRD,Weatherford International PLC,NASDAQ
+URBN,Urban Outfitters  Inc.,NASDAQ
+ALGM,Allegro Microsystems Inc,NASDAQ
+CAMT,Camtek Ltd.,NASDAQ
+TTD,Trade Desk Inc,NASDAQ
+ACT,Enact Holdings Inc,NASDAQ
+DSGX,The Descartes Systems Group Inc.,NASDAQ
+SRRK,Scholar Rock Holding Corporation,NASDAQ
+POOL,Pool Corporation,NASDAQ
+CGON,CG Oncology  Inc.,NASDAQ
+POWL,Powell Industries Inc,NASDAQ
+LNTH,Lantheus Holdings  Inc.,NASDAQ
+PLXS,Plexus Corp,NASDAQ
+MIRM,Mirum Pharmaceuticals  Inc.,NASDAQ
+MMED,MiniMed Group Inc,NASDAQ
+AAON,AAON  Inc.,NASDAQ
+UBSI,United Bankshares  Inc.,NASDAQ
+DOX,Amdocs Limited,NASDAQ
+GDS,GDS Holdings Limited ADR,NASDAQ
+LKQ,LKQ Corp,NASDAQ
+GLBE,Global-E Online Ltd.,NASDAQ
 CPB,Campbell's Co,NASDAQ
 BILI,Bilibili Inc ADR,NASDAQ
-URBN,Urban Outfitters  Inc.,NASDAQ
-GDS,GDS Holdings Limited ADR,NASDAQ
-DUOL,Duolingo  Inc.,NASDAQ
-POOL,Pool Corporation,NASDAQ
-ACT,Enact Holdings Inc,NASDAQ
-WFRD,Weatherford International PLC,NASDAQ
-GLBE,Global-E Online Ltd.,NASDAQ
 LYFT,Lyft  Inc.,NASDAQ
-ALGM,Allegro Microsystems Inc,NASDAQ
-POWL,Powell Industries Inc,NASDAQ
 LLYVK,Liberty Live Holdings Inc Series C,NASDAQ
-CGON,CG Oncology  Inc.,NASDAQ
-LNTH,Lantheus Holdings  Inc.,NASDAQ
-DOX,Amdocs Limited,NASDAQ
-UBSI,United Bankshares  Inc.,NASDAQ
-QLYS,Qualys  Inc.,NASDAQ
-LKQ,LKQ Corp,NASDAQ
-PLXS,Plexus Corp,NASDAQ
-TTD,Trade Desk Inc,NASDAQ
-MIRM,Mirum Pharmaceuticals  Inc.,NASDAQ
-QBTS,D-Wave Quantum Inc.,NASDAQ
-CAMT,Camtek Ltd.,NASDAQ
-Z,Zillow Group  Inc. Class C,NASDAQ
-ERAS,Erasca  Inc.,NASDAQ
-CIFR,Cipher Digital Inc,NASDAQ
-NWS,News Corporation Class B,NASDAQ
-AAON,AAON  Inc.,NASDAQ
-ROAD,Construction Partners  Inc.,NASDAQ
-TVTX,Travere Therapeutics  Inc.,NASDAQ
-BLTE,Belite Bio  Inc ADR,NASDAQ
-AMRX,Amneal Pharmaceuticals  Inc.,NASDAQ
-ORKA,Oruka Therapeutics Inc,NASDAQ
-COGT,Cogent Biosciences  Inc.,NASDAQ
-NICE,NICE Ltd. ADR,NASDAQ
-CHDN,Churchill Downs Incorporated,NASDAQ
 FSV,FIRSTSERVICE CORPORATION,NASDAQ
 CACC,Credit Acceptance Corp,NASDAQ
-LSTR,Landstar System  Inc.,NASDAQ
-NTSK,Netskope  Inc.,NASDAQ
+QBTS,D-Wave Quantum Inc.,NASDAQ
+NICE,NICE Ltd. ADR,NASDAQ
+TVTX,Travere Therapeutics  Inc.,NASDAQ
+PEGA,Pegasystems Inc.,NASDAQ
+Z,Zillow Group  Inc. Class C,NASDAQ
+NWS,News Corporation Class B,NASDAQ
 KNSA,Kiniksa Pharmaceuticals International  PLC,NASDAQ
-OTEX,Open Text Corporation,NASDAQ
-STEP,StepStone Group Inc.,NASDAQ
+AMRX,Amneal Pharmaceuticals  Inc.,NASDAQ
+CHDN,Churchill Downs Incorporated,NASDAQ
 LQDA,Liquidia Corporation,NASDAQ
-CZR,Caesars Entertainment Inc,NASDAQ
-VSEC,VSE Corp,NASDAQ
+STEP,StepStone Group Inc.,NASDAQ
+ORKA,Oruka Therapeutics Inc,NASDAQ
 HWC,Hancock Whitney Corporation,NASDAQ
+CZR,Caesars Entertainment Inc,NASDAQ
+DNTH,Dianthus Therapeutics Inc,NASDAQ
+LSTR,Landstar System  Inc.,NASDAQ
+COGT,Cogent Biosciences  Inc.,NASDAQ
 RRR,Red Rock Resorts  Inc.,NASDAQ
 CWST,Casella Waste Systems  Inc.,NASDAQ
-PEGA,Pegasystems Inc.,NASDAQ
-DNTH,Dianthus Therapeutics Inc,NASDAQ
-RDNT,RadNet  Inc.,NASDAQ
-CROX,Crocs  Inc.,NASDAQ
-PTCT,PTC Therapeutics  Inc.,NASDAQ
-HLNE,Hamilton Lane Incorporated,NASDAQ
-EXLS,ExlService Holdings  Inc.,NASDAQ
-LGN,Legence Corp.,NASDAQ
-XENE,Xenon Pharmaceuticals Inc.,NASDAQ
-BGC,Bgc Group Inc,NASDAQ
-MKTX,MarketAxess Holdings Inc.,NASDAQ
-FTDR,Frontdoor Inc,NASDAQ
-VSNT,Versant Media Group Inc,NASDAQ
-BCPC,Balchem Corporation,NASDAQ
-MMED,MiniMed Group Inc,NASDAQ
-CVLT,Commvault Systems  Inc.,NASDAQ
-NXST,Nexstar Media Group Inc,NASDAQ
-RELY,Remitly Global  Inc.,NASDAQ
-MXL,MaxLinear  Inc.,NASDAQ
+ROAD,Construction Partners  Inc.,NASDAQ
+QLYS,Qualys  Inc.,NASDAQ
 GGAL,Grupo Financiero Galicia S.A. ADR,NASDAQ
-LGND,Ligand Pharmaceuticals Incorporated,NASDAQ
-CRSP,CRISPR Therapeutics AG,NASDAQ
-CAKE,Cheesecake Factory Inc,NASDAQ
-MMYT,MakeMyTrip Limited,NASDAQ
-PAGP,Plains GP Holdings Limited Partner Interests Units Class A,NASDAQ
-SIGI,Selective Insurance Group  Inc.,NASDAQ
-DFTX,Definium Therapeutics Inc,NASDAQ
-SHC,Sotera Health Company,NASDAQ
-CRUS,Cirrus Logic  Inc.,NASDAQ
-ACIW,ACI Worldwide  Inc.,NASDAQ
-MMSI,Merit Medical Systems Inc,NASDAQ
-XMTR,Xometry  Inc.,NASDAQ
-OZK,Bank Ozk,NASDAQ
-NOVT,Novanta Inc.,NASDAQ
-LAUR,Laureate Education  Inc.,NASDAQ
-SAIC,Science Applications International Corp,NASDAQ
-MRCY,Mercury Systems Inc,NASDAQ
-MWH,Solv Energy Inc,NASDAQ
+RDNT,RadNet  Inc.,NASDAQ
+OTEX,Open Text Corporation,NASDAQ
+BGC,Bgc Group Inc,NASDAQ
+XENE,Xenon Pharmaceuticals Inc.,NASDAQ
+PTCT,PTC Therapeutics  Inc.,NASDAQ
+MKTX,MarketAxess Holdings Inc.,NASDAQ
 CORZ,Core Scientific Inc,NASDAQ
-SBRA,Sabra Health Care REIT  Inc.,NASDAQ
-CIGI,Colliers International Group Inc.,NASDAQ
-PSMT,PriceSmart  Inc.,NASDAQ
-RGTI,Rigetti Computing  Inc.,NASDAQ
-ALM,Almonty Industries Inc.,NASDAQ
-ACMR,ACM Research  Inc.,NASDAQ
-OCTV,Octave Intelligence PLC,NASDAQ
+LGN,Legence Corp.,NASDAQ
+VSEC,VSE Corp,NASDAQ
+NTSK,Netskope  Inc.,NASDAQ
+LGND,Ligand Pharmaceuticals Incorporated,NASDAQ
+FTDR,Frontdoor Inc,NASDAQ
+MXL,MaxLinear  Inc.,NASDAQ
+HLNE,Hamilton Lane Incorporated,NASDAQ
+CRUS,Cirrus Logic  Inc.,NASDAQ
 MRX,Marex Group Ltd,NASDAQ
-PI,Impinj  Inc.,NASDAQ
+ERAS,Erasca  Inc.,NASDAQ
+CVLT,Commvault Systems  Inc.,NASDAQ
+CROX,Crocs  Inc.,NASDAQ
+NOVT,Novanta Inc.,NASDAQ
+EXLS,ExlService Holdings  Inc.,NASDAQ
+RELY,Remitly Global  Inc.,NASDAQ
+PAGP,Plains GP Holdings Limited Partner Interests Units Class A,NASDAQ
+OZK,Bank Ozk,NASDAQ
+SIGI,Selective Insurance Group  Inc.,NASDAQ
+BCPC,Balchem Corporation,NASDAQ
+NXST,Nexstar Media Group Inc,NASDAQ
+CRSP,CRISPR Therapeutics AG,NASDAQ
+SHC,Sotera Health Company,NASDAQ
+VSNT,Versant Media Group Inc,NASDAQ
+PSMT,PriceSmart  Inc.,NASDAQ
+CAKE,Cheesecake Factory Inc,NASDAQ
+MMSI,Merit Medical Systems Inc,NASDAQ
+ACIW,ACI Worldwide  Inc.,NASDAQ
 GLNG,Golar LNG Limited,NASDAQ
-MIDD,The Middleby Corporation,NASDAQ
-EBC,Eastern Bankshares Inc,NASDAQ
-REYN,Reynolds Consumer Products Inc,NASDAQ
+SAIC,Science Applications International Corp,NASDAQ
+SBRA,Sabra Health Care REIT  Inc.,NASDAQ
+XMTR,Xometry  Inc.,NASDAQ
 VRNS,Varonis Systems  Inc.,NASDAQ
-WAY,Waystar Holding Corp.,NASDAQ
-PECO,Phillips Edison & Company  Inc.,NASDAQ
-ACAD,Acadia Pharmaceuticals Inc.,NASDAQ
+PI,Impinj  Inc.,NASDAQ
+OCTV,Octave Intelligence PLC,NASDAQ
+MMYT,MakeMyTrip Limited,NASDAQ
 GTX,Garrett Motion Inc.,NASDAQ
 BULL,Webull Corp,NASDAQ
+DFTX,Definium Therapeutics Inc,NASDAQ
+ALM,Almonty Industries Inc.,NASDAQ
+CIGI,Colliers International Group Inc.,NASDAQ
+FRVO,Fervo Energy Co,NASDAQ
+ACMR,ACM Research  Inc.,NASDAQ
+MWH,Solv Energy Inc,NASDAQ
 SLM,SLM Corp,NASDAQ
+EBC,Eastern Bankshares Inc,NASDAQ
+RGTI,Rigetti Computing  Inc.,NASDAQ
+LAUR,Laureate Education  Inc.,NASDAQ
+MIDD,The Middleby Corporation,NASDAQ
+PECO,Phillips Edison & Company  Inc.,NASDAQ
 IRDM,Iridium Communications Inc.,NASDAQ
-ENPH,Enphase Energy  Inc.,NASDAQ
+SMCIP,Super Micro Computer Depositary Shs representing 1 20th Mandatory Convert Prf,NASDAQ
+MRCY,Mercury Systems Inc,NASDAQ
+EQPT,Equipmentshare.Com Inc,NASDAQ
+PBLS,Parabilis Medicines Inc,NASDAQ
 TFSL,TFS Financial Corp,NASDAQ
 CAR,Avis Budget Group Inc,NASDAQ
-ATAT,Atour Lifestyle Holdings Limited ADR,NASDAQ
+GNTX,Gentex Corporation,NASDAQ
+LFST,LifeStance Health Group  Inc.,NASDAQ
 DAVE,Dave Inc.,NASDAQ
 IEP,Icahn Enterprises Units,NASDAQ
+ACAD,Acadia Pharmaceuticals Inc.,NASDAQ
+WAY,Waystar Holding Corp.,NASDAQ
+ENPH,Enphase Energy  Inc.,NASDAQ
 FFIN,First Financial Bankshares Inc,NASDAQ
-GNTX,Gentex Corporation,NASDAQ
-PBLS,Parabilis Medicines Inc,NASDAQ
-UFPI,UFP Industries  Inc.,NASDAQ
 PTEN,Patterson-UTI Energy Inc,NASDAQ
-SMCIP,Super Micro Computer Depositary Shs representing 1 20th Mandatory Convert Prf,NASDAQ
-LFST,LifeStance Health Group  Inc.,NASDAQ
-CHEF,The Chefs' Warehouse  Inc.,NASDAQ
-DYN,Dyne Therapeutics  Inc.,NASDAQ
-RUSHA,Rush Enterprises  Inc. Class A,NASDAQ
-EWTX,Edgewise Therapeutics  Inc.,NASDAQ
-CENX,Century Aluminum Company,NASDAQ
-MYRG,MYR Group Inc,NASDAQ
 NSIT,Insight Enterprises Inc,NASDAQ
-DOO,BRP Inc.,NASDAQ
-FULT,Fulton Financial Corporation,NASDAQ
-ONDS,Ondas Inc,NASDAQ
-EQPT,Equipmentshare.Com Inc,NASDAQ
-USAR,USA Rare Earth  Inc.,NASDAQ
-MEOH,Methanex Corp,NASDAQ
-FELE,FRANKLIN ELECTRIC CO.  INC.,NASDAQ
-LIVN,LivaNova PLC,NASDAQ
-CCC,CCC Intelligent Solutions Holdings Inc.,NASDAQ
-IBOC,International Bancshares Corp,NASDAQ
 BLLN,BillionToOne  Inc.,NASDAQ
-ICUI,ICU Medical  Inc.,NASDAQ
-OLLI,Ollie's Bargain Outlet Holdings Inc,NASDAQ
-CVCO,Cavco Industries  Inc.,NASDAQ
-AMLX,Amylyx Pharmaceuticals  Inc.,NASDAQ
-FRVO,Fervo Energy Co,NASDAQ
-DLO,DLocal Limited,NASDAQ
 CELC,Celcuity Inc.,NASDAQ
-NWE,NorthWestern Energy Group  Inc.,NASDAQ
-OMAB,Grupo Aeroportuario del Centro Norte  S.A.B. de C.V. ADR,NASDAQ
-ITRI,Itron  Inc.,NASDAQ
-KLIC,Kulicke and Soffa Industries Inc,NASDAQ
-ELVN,Enliven Therapeutics  Inc.,NASDAQ
-MARA,MARA Holdings  Inc.,NASDAQ
-AXTI,AXT  Inc.,NASDAQ
-MAT,Mattel Inc,NASDAQ
-TCBI,Texas Capital Bancshares  Inc.,NASDAQ
-BWIN,The Baldwin Insurance Group  Inc.,NASDAQ
-MNDY,monday.com Ltd.,NASDAQ
+EWTX,Edgewise Therapeutics  Inc.,NASDAQ
+ATAT,Atour Lifestyle Holdings Limited ADR,NASDAQ
+RUSHA,Rush Enterprises  Inc. Class A,NASDAQ
 CLMT,Calumet  Inc.,NASDAQ
+CHEF,The Chefs' Warehouse  Inc.,NASDAQ
+UFPI,UFP Industries  Inc.,NASDAQ
+CENX,Century Aluminum Company,NASDAQ
+REYN,Reynolds Consumer Products Inc,NASDAQ
+FULT,Fulton Financial Corporation,NASDAQ
+OLLI,Ollie's Bargain Outlet Holdings  Inc.,NASDAQ
+MEOH,Methanex Corp,NASDAQ
+DYN,Dyne Therapeutics  Inc.,NASDAQ
+LIVN,LivaNova PLC,NASDAQ
+DLO,DLocal Limited,NASDAQ
+IBOC,International Bancshares Corp,NASDAQ
+MYRG,MYR Group Inc,NASDAQ
+CCC,CCC Intelligent Solutions Holdings Inc.,NASDAQ
 VEON,VEON Ltd ADR,NASDAQ
-SEZL,Sezzle Inc,NASDAQ
-HTFL,Heartflow  Inc.,NASDAQ
-TENB,Tenable Holdings  Inc.,NASDAQ
-CATY,Cathay General Bancorp,NASDAQ
-INDV,Indivior Pharmaceuticals Inc,NASDAQ
-RLAY,Relay Therapeutics  Inc.,NASDAQ
+FELE,FRANKLIN ELECTRIC CO.  INC.,NASDAQ
+USAR,USA Rare Earth  Inc.,NASDAQ
+MARA,MARA Holdings  Inc.,NASDAQ
+ONDS,Ondas Inc,NASDAQ
+NWE,NorthWestern Energy Group  Inc.,NASDAQ
+CVCO,Cavco Industries  Inc.,NASDAQ
+ELVN,Enliven Therapeutics  Inc.,NASDAQ
 CECO,CECO Environmental Corp.,NASDAQ
-DIOD,Diodes Incorporated,NASDAQ
-AYA,Aya Gold & Silver Inc (Quebec),NASDAQ
-ADPT,Adaptive Biotechnologies Corporation,NASDAQ
-WSFS,WSFS Financial Corporation,NASDAQ
-IRTC,iRhythm Holdings  Inc,NASDAQ
-LOPE,Grand Canyon Education Inc,NASDAQ
-TNGX,Tango Therapeutics  Inc.,NASDAQ
-CVBF,CVB Financial Corp,NASDAQ
-BRZE,Braze Inc,NASDAQ
-INDB,Independent Bank Corp (Massachusetts),NASDAQ
-SRAD,Sportradar Group AG,NASDAQ
-WSBC,Wesbanco  Inc.,NASDAQ
-IDYA,IDEAYA Biosciences  Inc.,NASDAQ
+BWIN,The Baldwin Insurance Group  Inc.,NASDAQ
+TCBI,Texas Capital Bancshares  Inc.,NASDAQ
+AMLX,Amylyx Pharmaceuticals  Inc.,NASDAQ
+HTFL,Heartflow  Inc.,NASDAQ
 LEGN,Legend Biotech Corporation ADR,NASDAQ
-SKYW,SkyWest  Inc.,NASDAQ
-DORM,Dorman Products  Inc.,NASDAQ
-DNLI,Denali Therapeutics Inc.,NASDAQ
-TLX,Telix Pharmaceuticals Limited ADR,NASDAQ
-OLED,Universal Display Corp,NASDAQ
-OTTR,Otter Tail Corporation,NASDAQ
-WSC,WillScot Holdings Corporation,NASDAQ
-IPAR,Interparfums Inc,NASDAQ
-PTRN,Pattern Group Inc.,NASDAQ
-VKTX,Viking Therapeutics  Inc.,NASDAQ
-CALM,Cal-Maine Foods  Inc.,NASDAQ
-SYNA,Synaptics Incorporated,NASDAQ
-BANF,BancFirst Corp,NASDAQ
-ABCL,AbCellera Biologics Inc.,NASDAQ
-FSLY,Fastly  Inc.,NASDAQ
-WIX,Wix.com Ltd.,NASDAQ
-JOYY,JOYY Inc. ADR,NASDAQ
-IOVA,Iovance Biotherapeutics Inc,NASDAQ
-FRSH,Freshworks Inc.,NASDAQ
-FA,First Advantage Corporation,NASDAQ
-RUM,RUM Group Inc.,NASDAQ
-OPCH,Option Care Health Inc,NASDAQ
-GRAL,Grail Inc,NASDAQ
-ACLS,Axcelis Technologies  Inc.,NASDAQ
-FLY,Firefly Aerospace Inc.,NASDAQ
-COCO,The Vita Coco Company  Inc.,NASDAQ
-LIF,Life360  Inc.,NASDAQ
-FIBK,First Interstate BancSystem  Inc.,NASDAQ
-LUNR,Intuitive Machines Inc,NASDAQ
-VCYT,Veracyte  Inc.,NASDAQ
-NESR,National Energy Services Reunited Corp.,NASDAQ
-QS,QuantumScape Corporation,NASDAQ
-GPCR,Structure Therapeutics Inc. ADR,NASDAQ
-MCHB,Mechanics Bancorp,NASDAQ
-CRVL,CorVel Corporation,NASDAQ
-PLMR,Palomar Holdings  Inc.,NASDAQ
-TOWN,TowneBank,NASDAQ
-FFBC,First Financial Bancorp.,NASDAQ
-USLM,United States Lime & Minerals Inc,NASDAQ
-SBLK,Star Bulk Carriers Corp.,NASDAQ
-FRPT,Freshpet  Inc.,NASDAQ
-EXPO,Exponent  Inc.,NASDAQ
-MGNI,Magnite  Inc.,NASDAQ
-PLSE,Pulse Biosciences Inc,NASDAQ
-GBDC,Golub Capital BDC Inc,NASDAQ
-QURE,uniQure N.V.,NASDAQ
-NMIH,NMI Holdings  Inc.,NASDAQ
-ARLP,Alliance Resource Partners Units,NASDAQ
-CSQ,Calamos Strategic Total Return Closed Fund,NASDAQ
-TRMD,Torm PLC,NASDAQ
-SBCF,Seacoast Banking Corporation of Florida,NASDAQ
-INTA,Intapp  Inc.,NASDAQ
-AGYS,Agilysys Inc,NASDAQ
+AYA,Aya Gold & Silver Inc (Quebec),NASDAQ
+KLIC,Kulicke and Soffa Industries Inc,NASDAQ
+ITRI,Itron  Inc.,NASDAQ
+OMAB,Grupo Aeroportuario del Centro Norte  S.A.B. de C.V. ADR,NASDAQ
+DIOD,Diodes Incorporated,NASDAQ
+ICUI,ICU Medical  Inc.,NASDAQ
+CATY,Cathay General Bancorp,NASDAQ
 TARS,Tarsus Pharmaceuticals  Inc.,NASDAQ
-OSIS,OSI Systems  Inc.,NASDAQ
-PONY,Pony AI Inc ADR,NASDAQ
-SFNC,Simmons First National Corporation,NASDAQ
-CARG,CarGurus  Inc.,NASDAQ
-IPGP,IPG Photonics Corp,NASDAQ
-SHOO,Steven Madden  Ltd.,NASDAQ
+RLAY,Relay Therapeutics  Inc.,NASDAQ
+MAT,Mattel Inc,NASDAQ
+INDV,Indivior Pharmaceuticals Inc,NASDAQ
+VKTX,Viking Therapeutics  Inc.,NASDAQ
+SEZL,Sezzle Inc,NASDAQ
+TLX,Telix Pharmaceuticals Limited ADR,NASDAQ
+IRTC,iRhythm Holdings  Inc,NASDAQ
+WSFS,WSFS Financial Corporation,NASDAQ
+AXTI,AXT  Inc.,NASDAQ
+IOVA,Iovance Biotherapeutics Inc,NASDAQ
+CVBF,CVB Financial Corp,NASDAQ
+LOPE,Grand Canyon Education Inc,NASDAQ
+INDB,Independent Bank Corp (Massachusetts),NASDAQ
+WSBC,Wesbanco  Inc.,NASDAQ
+DORM,Dorman Products  Inc.,NASDAQ
+ADPT,Adaptive Biotechnologies Corporation,NASDAQ
+SYNA,Synaptics Incorporated,NASDAQ
+SRAD,Sportradar Group AG,NASDAQ
+MNDY,monday.com Ltd.,NASDAQ
+SKYW,SkyWest  Inc.,NASDAQ
+IDYA,IDEAYA Biosciences  Inc.,NASDAQ
+PLSE,Pulse Biosciences Inc,NASDAQ
+TNGX,Tango Therapeutics  Inc.,NASDAQ
+BANF,BancFirst Corp,NASDAQ
+OLED,Universal Display Corp,NASDAQ
+TENB,Tenable Holdings  Inc.,NASDAQ
+OTTR,Otter Tail Corporation,NASDAQ
+IPAR,Interparfums Inc,NASDAQ
+ABCL,AbCellera Biologics Inc.,NASDAQ
+JOYY,JOYY Inc. ADR,NASDAQ
+FA,First Advantage Corporation,NASDAQ
+FLY,Firefly Aerospace Inc.,NASDAQ
+OPCH,Option Care Health Inc,NASDAQ
+SBLK,Star Bulk Carriers Corp.,NASDAQ
+WSC,WillScot Holdings Corporation,NASDAQ
+FIBK,First Interstate BancSystem  Inc.,NASDAQ
+TRMD,Torm PLC,NASDAQ
+BRZE,Braze  Inc.,NASDAQ
+LIF,Life360  Inc.,NASDAQ
+PLMR,Palomar Holdings  Inc.,NASDAQ
+GRAL,Grail Inc,NASDAQ
+PTRN,Pattern Group Inc.,NASDAQ
+DNLI,Denali Therapeutics Inc.,NASDAQ
+NESR,National Energy Services Reunited Corp.,NASDAQ
+MCHB,Mechanics Bancorp,NASDAQ
+CALM,Cal-Maine Foods  Inc.,NASDAQ
+TOWN,TowneBank,NASDAQ
+MGNI,Magnite  Inc.,NASDAQ
+FFBC,First Financial Bancorp.,NASDAQ
+CRVL,CorVel Corporation,NASDAQ
+RUM,RUM Group Inc.,NASDAQ
+VCYT,Veracyte  Inc.,NASDAQ
+FRSH,Freshworks Inc.,NASDAQ
+ACLS,Axcelis Technologies  Inc.,NASDAQ
 IOND,Ionic Digital Inc,NASDAQ
-KC,Kingsoft Cloud Holdings Ltd ADR,NASDAQ
-FRMI,Fermi Inc,NASDAQ
-LFTO,Liftoff Mobile Inc,NASDAQ
-OPEN,Opendoor Technologies Inc.,NASDAQ
-SOUN,SoundHound AI  Inc.,NASDAQ
-UCTT,Ultra Clean Holdings Inc,NASDAQ
-PPTA,Perpetua Resources Corp.,NASDAQ
-FHB,First Hawaiian  Inc.,NASDAQ
-MZTI,The Marzetti Company,NASDAQ
-IMNM,Immunome  Inc.,NASDAQ
-CLBK,Columbia Financial Inc,NASDAQ
-KYIV,Kyivstar Group Ltd,NASDAQ
-AMBA,Ambarella  Inc.,NASDAQ
-NAMS,NewAmsterdam Pharma Company N.V.,NASDAQ
-IRON,Disc Medicine  Inc.,NASDAQ
-CLDX,Celldex Therapeutics  Inc.,NASDAQ
-TMDX,TransMedics Group  Inc.,NASDAQ
-BELFB,Bel Fuse Inc. Class B,NASDAQ
-PLUG,Plug Power Inc.,NASDAQ
-ARCB,ArcBest Corporation,NASDAQ
-BHF,Brighthouse Financial  Inc.,NASDAQ
-FIZZ,National Beverage Corp.,NASDAQ
-MBX,MBX Biosciences  Inc.,NASDAQ
-BEAM,Beam Therapeutics Inc.,NASDAQ
-CLBT,Cellebrite DI Ltd,NASDAQ
-NVTS,Navitas Semiconductor Corporation,NASDAQ
-CLSK,CleanSpark  Inc.,NASDAQ
-ARQT,Arcutis Biotherapeutics  Inc.,NASDAQ
-ZLAB,Zai Lab Ltd ADR,NASDAQ
-POWI,Power Integrations  Inc.,NASDAQ
-BTDR,Bitdeer Technologies Group,NASDAQ
-SLS,Sellas Life Sciences Group Inc,NASDAQ
-WING,Wingstop Inc.,NASDAQ
-SPSC,SPS Commerce  Inc.,NASDAQ
-APPN,Appian Corp,NASDAQ
-COLM,Columbia Sportswear Company,NASDAQ
-AVPT,AvePoint  Inc.,NASDAQ
-MGEE,MGE Energy  Inc.,NASDAQ
-EXTR,Extreme Networks  Inc.,NASDAQ
-WDFC,WD-40 Company,NASDAQ
-PPLI,People Incorporated,NASDAQ
-AVAH,Aveanna Healthcare Holdings Inc,NASDAQ
-ALMS,Alumis Inc.,NASDAQ
-DXPE,DXP Enterprises  Inc.,NASDAQ
-DGII,Digi International Inc.,NASDAQ
-NMRK,Newmark Group Inc,NASDAQ
-NTCT,NetScout Systems  Inc.,NASDAQ
-ADEA,Adeia Inc.,NASDAQ
-UPST,Upstart Holdings  Inc.,NASDAQ
-ALHC,Alignment Healthcare  Inc.,NASDAQ
-ALRM,Alarm.com Holdings  Inc.,NASDAQ
-GCMG,GCM Grosvenor Inc.,NASDAQ
-IQMX,Iqm Quantum Computers Oyj ADR,NASDAQ
-AXGN,AxoGen  Inc.,NASDAQ
-LIME,Neutron Holdings Inc,NASDAQ
-RNW,Renew Energy Global PLC,NASDAQ
-SLDE,Slide Insurance Holdings  Inc.,NASDAQ
-MGRC,McGrath RentCorp,NASDAQ
-HSAI,Hesai Group ADR,NASDAQ
-ATRO,Astronics Corporation,NASDAQ
-CHRN,Chronoscale Corp,NASDAQ
+SFNC,Simmons First National Corporation,NASDAQ
 RGC,Regencell Bioscience Holdings Ltd,NASDAQ
-VC,Visteon Corporation,NASDAQ
-NRIX,Nurix Therapeutics Inc,NASDAQ
-VECO,Veeco Instruments Inc,NASDAQ
-ATAI,AtaiBeckley Inc,NASDAQ
+ARLP,Alliance Resource Partners Units,NASDAQ
+QS,QuantumScape Corporation,NASDAQ
+LUNR,Intuitive Machines Inc,NASDAQ
+CSQ,Calamos Strategic Total Return Closed Fund,NASDAQ
+GPCR,Structure Therapeutics Inc. ADR,NASDAQ
+FRPT,Freshpet  Inc.,NASDAQ
+GBDC,Golub Capital BDC Inc,NASDAQ
+NMIH,NMI Holdings  Inc.,NASDAQ
+BTDR,Bitdeer Technologies Group,NASDAQ
+SBCF,Seacoast Banking Corporation of Florida,NASDAQ
+USLM,United States Lime & Minerals Inc,NASDAQ
+IPGP,IPG Photonics Corp,NASDAQ
+KC,Kingsoft Cloud Holdings Ltd ADR,NASDAQ
+FSLY,Fastly  Inc.,NASDAQ
+UCTT,Ultra Clean Holdings Inc,NASDAQ
+FRMI,Fermi Inc,NASDAQ
+CLSK,CleanSpark  Inc.,NASDAQ
+KYIV,Kyivstar Group Ltd,NASDAQ
+OSIS,OSI Systems  Inc.,NASDAQ
+EXPO,Exponent  Inc.,NASDAQ
+SHOO,Steven Madden  Ltd.,NASDAQ
+PONY,Pony AI Inc ADR,NASDAQ
+INTA,Intapp  Inc.,NASDAQ
+WIX,Wix.com Ltd.,NASDAQ
+COCO,The Vita Coco Company  Inc.,NASDAQ
+LFTO,Liftoff Mobile Inc,NASDAQ
+FHB,First Hawaiian  Inc.,NASDAQ
+ARCB,ArcBest Corporation,NASDAQ
+CLBK,Columbia Financial Inc,NASDAQ
+AGYS,Agilysys Inc,NASDAQ
+PPTA,Perpetua Resources Corp.,NASDAQ
+TMDX,TransMedics Group  Inc.,NASDAQ
+CLDX,Celldex Therapeutics  Inc.,NASDAQ
+QURE,uniQure N.V.,NASDAQ
+BHF,Brighthouse Financial  Inc.,NASDAQ
+BEAM,Beam Therapeutics Inc.,NASDAQ
+OPEN,Opendoor Technologies Inc.,NASDAQ
+IRON,Disc Medicine  Inc.,NASDAQ
+IMNM,Immunome  Inc.,NASDAQ
+NAMS,NewAmsterdam Pharma Company N.V.,NASDAQ
+PLUG,Plug Power Inc.,NASDAQ
+FIZZ,National Beverage Corp.,NASDAQ
+CARG,CarGurus  Inc.,NASDAQ
+BELFB,Bel Fuse Inc. Class B,NASDAQ
+ARQT,Arcutis Biotherapeutics  Inc.,NASDAQ
+SOUN,SoundHound AI  Inc.,NASDAQ
+SPSC,SPS Commerce  Inc.,NASDAQ
+ZLAB,Zai Lab Ltd ADR,NASDAQ
+WING,Wingstop Inc.,NASDAQ
+MBX,MBX Biosciences  Inc.,NASDAQ
+AVAH,Aveanna Healthcare Holdings Inc,NASDAQ
+COLM,Columbia Sportswear Company,NASDAQ
+CHRN,Chronoscale Corp,NASDAQ
+MGEE,MGE Energy  Inc.,NASDAQ
+CLBT,Cellebrite DI Ltd,NASDAQ
+APPN,Appian Corp,NASDAQ
+NVTS,Navitas Semiconductor Corporation,NASDAQ
+HSAI,Hesai Group ADR,NASDAQ
+ADEA,Adeia Inc.,NASDAQ
+PPLI,People Incorporated,NASDAQ
+SLDE,Slide Insurance Holdings  Inc.,NASDAQ
+MZTI,The Marzetti Company,NASDAQ
+DXPE,DXP Enterprises  Inc.,NASDAQ
+AVPT,AvePoint  Inc.,NASDAQ
+IQMX,Iqm Quantum Computers Oyj ADR,NASDAQ
+EXTR,Extreme Networks  Inc.,NASDAQ
+POWI,Power Integrations  Inc.,NASDAQ
+ALHC,Alignment Healthcare  Inc.,NASDAQ
+SLS,Sellas Life Sciences Group Inc,NASDAQ
 ASO,Academy Sports and Outdoors  Inc.,NASDAQ
-TRMK,Trustmark Corporation,NASDAQ
-PATK,Patrick Industries  Inc.,NASDAQ
-TBBK,Bancorp Inc,NASDAQ
-NBTB,NBT Bancorp Inc.,NASDAQ
-DJT,Trump Media & Technology Group Corp,NASDAQ
-BATRK,Liberty Media Liberty Braves Ord Shs Series C,NASDAQ
-WAFD,WaFd Inc,NASDAQ
-HTO,H2O America(Dover),NASDAQ
-ACHC,Acadia Healthcare Company  Inc.,NASDAQ
-PRVA,Privia Health Group Inc,NASDAQ
-FBNC,First Bancorp (North Carolina),NASDAQ
-AEHR,Aehr Test Systems,NASDAQ
-FRME,First Merchants Corporation,NASDAQ
-VRDN,Viridian Therapeutics Inc,NASDAQ
-DRH,Diamondrock Hospitality Co,NASDAQ
-NN,NextNav Inc.,NASDAQ
-CDNA,CareDx  Inc.,NASDAQ
-WGS,GeneDx Holdings Corp.,NASDAQ
-OSW,OneSpaWorld Holdings Ltd,NASDAQ
-FIVN,Five9  Inc.,NASDAQ
-PENG,Penguin Solutions Inc,NASDAQ
-RARE,Ultragenyx Pharmaceutical Inc.,NASDAQ
-OUST,Ouster  Inc.,NASDAQ
-PHVS,Pharvaris N.V.,NASDAQ
-LASR,nLIGHT  Inc.,NASDAQ
-PSQL,Bleichroeder Acquisition Corp II,NASDAQ
-NWL,Newell Brands Inc,NASDAQ
+WDFC,WD-40 Company,NASDAQ
+ALRM,Alarm.com Holdings  Inc.,NASDAQ
+RNW,Renew Energy Global PLC,NASDAQ
+NMRK,Newmark Group Inc,NASDAQ
 EEFT,Euronet Worldwide Inc,NASDAQ
-SKWD,Skyward Specialty Insurance Group Inc,NASDAQ
-KALU,Kaiser Aluminum Corporation,NASDAQ
-LLYVA,Liberty Live Holdings Inc Series A,NASDAQ
-NEOG,Neogen Corporation,NASDAQ
-HURN,Huron Consulting Group Inc.,NASDAQ
-SUPN,Supernus Pharmaceuticals  Inc.,NASDAQ
-GSHD,Goosehead Insurance  Inc.,NASDAQ
+AMBA,Ambarella  Inc.,NASDAQ
+ATRO,Astronics Corporation,NASDAQ
+ATAI,AtaiBeckley Inc,NASDAQ
+VC,Visteon Corporation,NASDAQ
+VECO,Veeco Instruments Inc.,NASDAQ
+UPST,Upstart Holdings  Inc.,NASDAQ
+TBBK,Bancorp Inc,NASDAQ
+MGRC,McGrath RentCorp,NASDAQ
+NBTB,NBT Bancorp Inc.,NASDAQ
+NRIX,Nurix Therapeutics Inc,NASDAQ
+TRMK,Trustmark Corporation,NASDAQ
+NTCT,NetScout Systems  Inc.,NASDAQ
 HWKN,Hawkins Inc,NASDAQ
-BCRX,BioCryst Pharmaceuticals  Inc.,NASDAQ
-BUSE,First Busey Corporation,NASDAQ
-PGEN,Precigen  Inc.,NASDAQ
-SYBT,Stock Yards Bancorp Inc,NASDAQ
-NKTR,Nektar Therapeutics,NASDAQ
+HTO,H2O America,NASDAQ
+GCMG,GCM Grosvenor Inc.,NASDAQ
+FBNC,First Bancorp (North Carolina),NASDAQ
+WAFD,WaFd Inc,NASDAQ
+KALU,Kaiser Aluminum Corporation,NASDAQ
+BATRK,Liberty Media Liberty Braves Ord Shs Series C,NASDAQ
+PATK,Patrick Industries  Inc.,NASDAQ
+FRME,First Merchants Corporation,NASDAQ
+PRVA,Privia Health Group Inc,NASDAQ
+CDNA,CareDx  Inc.,NASDAQ
+DGII,Digi International Inc.,NASDAQ
+OUST,Ouster  Inc.,NASDAQ
 ATRC,AtriCure  Inc.,NASDAQ
-ETOR,eToro Group Ltd.,NASDAQ
-VERA,Vera Therapeutics  Inc.,NASDAQ
-LIFE,Ethos Technologies Inc,NASDAQ
-MBIN,Merchants Bancorp,NASDAQ
-UNIT,Uniti Group Inc (Delaware),NASDAQ
-NCNO,nCino  Inc.,NASDAQ
-ADBT,Advasa Holdings  Inc.,NASDAQ
-HUBG,Hub Group  Inc.,NASDAQ
-PAYO,Payoneer Global Inc,NASDAQ
+ACHC,Acadia Healthcare Company  Inc.,NASDAQ
 BANR,Banner Corp,NASDAQ
-TRVI,Trevi Therapeutics  Inc.,NASDAQ
-PTON,Peloton Interactive Inc,NASDAQ
-HIMX,Himax Technologies  Inc. ADR,NASDAQ
+NWL,Newell Brands Inc,NASDAQ
+VRDN,Viridian Therapeutics  Inc.,NASDAQ
+ETOR,eToro Group Ltd.,NASDAQ
+WGS,GeneDx Holdings Corp.,NASDAQ
+NN,NextNav Inc.,NASDAQ
+SKWD,Skyward Specialty Insurance Group Inc,NASDAQ
+BCRX,BioCryst Pharmaceuticals  Inc.,NASDAQ
+PGEN,Precigen  Inc.,NASDAQ
+NKTR,Nektar Therapeutics,NASDAQ
+SUPN,Supernus Pharmaceuticals  Inc.,NASDAQ
+DJT,Trump Media & Technology Group Corp.,NASDAQ
 INTR,Inter & Co Inc,NASDAQ
-KOD,Kodiak Sciences Inc.,NASDAQ
-IOSP,Innospec Inc,NASDAQ
-RAPP,Rapport Therapeutics  Inc.,NASDAQ
-PENN,PENN Entertainment  Inc.,NASDAQ
-UFPT,UFP Technologies Inc,NASDAQ
-NEO,NeoGenomics  Inc.,NASDAQ
-VERX,Vertex  Inc.,NASDAQ
-WERN,Werner Enterprises  Inc.,NASDAQ
-EFSC,Enterprise Financial Services Corp,NASDAQ
-PURR,Hyperliquid Strategies Inc,NASDAQ
-FLYW,Flywire Corporation,NASDAQ
-HRMY,Harmony Biosciences Holdings  Inc.,NASDAQ
-PLUS,ePlus inc.,NASDAQ
-OCUL,Ocular Therapeutix  Inc.,NASDAQ
-COHU,Cohu  Inc.,NASDAQ
+FIVN,Five9  Inc.,NASDAQ
+AEHR,Aehr Test Systems,NASDAQ
+PENG,Penguin Solutions Inc,NASDAQ
+AXGN,AxoGen  Inc.,NASDAQ
+VERA,Vera Therapeutics  Inc.,NASDAQ
+NEOG,Neogen Corporation,NASDAQ
+LIFE,Ethos Technologies Inc,NASDAQ
+BUSE,First Busey Corporation,NASDAQ
+ASST,Strive Inc,NASDAQ
 MLYS,Mineralys Therapeutics  Inc.,NASDAQ
-MESO,Mesoblast Limited ADR,NASDAQ
-CLOV,Clover Health Investments  Corp.,NASDAQ
-NWBI,Northwest Bancshares Inc,NASDAQ
-FWONA,Liberty Media Formula One Ord Shs Series A,NASDAQ
-HYMC,Hycroft Mining Holding Corp,NASDAQ
-TSAT,Telesat Corp,NASDAQ
+PHVS,Pharvaris N.V.,NASDAQ
+DRH,Diamondrock Hospitality Co,NASDAQ
+HURN,Huron Consulting Group Inc.,NASDAQ
+SYBT,Stock Yards Bancorp Inc,NASDAQ
+UNIT,Uniti Group Inc (Delaware),NASDAQ
+HRMY,Harmony Biosciences Holdings  Inc.,NASDAQ
+TRVI,Trevi Therapeutics  Inc.,NASDAQ
+HCM,HUTCHMED (China) Ltd ADR,NASDAQ
+DOO,BRP Inc.,NASDAQ
+LLYVA,Liberty Live Holdings Inc Series A,NASDAQ
+NCNO,nCino  Inc.,NASDAQ
+PAYO,Payoneer Global Inc,NASDAQ
+MBIN,Merchants Bancorp,NASDAQ
+PURR,Hyperliquid Strategies Inc,NASDAQ
+PLUS,ePlus inc.,NASDAQ
+WERN,Werner Enterprises  Inc.,NASDAQ
+COHU,Cohu  Inc.,NASDAQ
+LIME,Neutron Holdings Inc,NASDAQ
+HIMX,Himax Technologies  Inc. ADR,NASDAQ
 SRPT,Sarepta Therapeutics  Inc.,NASDAQ
+PTON,Peloton Interactive Inc,NASDAQ
+ANDE,Andersons Inc,NASDAQ
+EFSC,Enterprise Financial Services Corp,NASDAQ
+OCUL,Ocular Therapeutix  Inc.,NASDAQ
+STNE,StoneCo Ltd.,NASDAQ
+GSHD,Goosehead Insurance  Inc.,NASDAQ
+IOSP,Innospec Inc,NASDAQ
+TSAT,Telesat Corp,NASDAQ
+LASR,nLIGHT  Inc.,NASDAQ
+PENN,PENN Entertainment  Inc.,NASDAQ
+NWBI,Northwest Bancshares Inc,NASDAQ
+OSW,OneSpaWorld Holdings Ltd,NASDAQ
+XRAY,DENTSPLY SIRONA Inc.,NASDAQ
+PVLA,Palvella Therapeutics Inc,NASDAQ
+CLOV,Clover Health Investments  Corp.,NASDAQ
+FLYW,Flywire Corporation,NASDAQ
+MESO,Mesoblast Limited ADR,NASDAQ
+HUBG,Hub Group  Inc.,NASDAQ
+DRVN,Driven Brands Holdings Inc.,NASDAQ
+UFPT,UFP Technologies Inc,NASDAQ
+VERX,Vertex  Inc.,NASDAQ
+NEO,NeoGenomics  Inc.,NASDAQ
+CHA,Chagee Holdings Ltd ADR,NASDAQ
+KOD,Kodiak Sciences Inc.,NASDAQ
+ADUS,Addus Homecare Corp,NASDAQ
+RAPP,Rapport Therapeutics  Inc.,NASDAQ
 MCRI,Monarch Casino & Resort  Inc.,NASDAQ
 URGN,UroGen Pharma Ltd.,NASDAQ
-ALMR,Alamar Biosciences Inc,NASDAQ
-TMC,TMC the metals company Inc.,NASDAQ
-KLRA,Kailera Therapeutics Inc,NASDAQ
-COAG,Hemab Therapeutics Holdings Inc,NASDAQ
-STNE,StoneCo Ltd.,NASDAQ
-TILE,Interface  Inc.,NASDAQ
-XRAY,DENTSPLY SIRONA Inc.,NASDAQ
-BLKB,Blackbaud  Inc.,NASDAQ
-ANDE,Andersons Inc,NASDAQ
-CMPR,Cimpress PLC,NASDAQ
-AUPH,Aurinia Pharmaceuticals Inc.,NASDAQ
-ALKT,Alkami Technology  Inc.,NASDAQ
-PVLA,Palvella Therapeutics Inc,NASDAQ
-HCM,HUTCHMED (China) Ltd ADR,NASDAQ
-ALGT,Allegiant Travel Company,NASDAQ
-ADUS,Addus Homecare Corp,NASDAQ
 STGW,Stagwell Inc.,NASDAQ
-MFP,Midera Food Processing Inc,NASDAQ
-RUN,Sunrun Inc,NASDAQ
+BLKB,Blackbaud  Inc.,NASDAQ
+HYMC,Hycroft Mining Holding Corp,NASDAQ
 ESTA,Establishment Labs Holdings Inc,NASDAQ
+ADMA,ADMA Biologics  Inc.,NASDAQ
+TILE,Interface  Inc.,NASDAQ
+ZBIO,Zenas BioPharma  Inc.,NASDAQ
+KEEL,Keel Infrastructure Corp,NASDAQ
+RUN,Sunrun Inc,NASDAQ
+AUPH,Aurinia Pharmaceuticals Inc.,NASDAQ
+ALMR,Alamar Biosciences Inc,NASDAQ
+ALGT,Allegiant Travel Company,NASDAQ
+CMPR,Cimpress PLC,NASDAQ
+CNXN,PC Connection Inc,NASDAQ
+FWONA,Liberty Media Formula One Ord Shs Series A,NASDAQ
+ICHR,Ichor Holdings  Ltd.,NASDAQ
+ALKT,Alkami Technology  Inc.,NASDAQ
+SEDG,SolarEdge Technologies  Inc.,NASDAQ
+KLRA,Kailera Therapeutics Inc,NASDAQ
+GENB,Generate Biomedicines Inc,NASDAQ
+SRCE,1st Source Corporation,NASDAQ
+NVCR,NovoCure Limited,NASDAQ
 PRDO,Perdoceo Education Corporation,NASDAQ
+COAG,Hemab Therapeutics Holdings Inc,NASDAQ
+ZYME,Zymeworks Inc.,NASDAQ
 ECPG,Encore Capital Group  Inc.,NASDAQ
 VCEL,Vericel Corporation,NASDAQ
-BRVE,Braveheart Bio  Inc.,NASDAQ
-ADMA,ADMA Biologics  Inc.,NASDAQ
-SRCE,1st Source Corp,NASDAQ
-ICHR,Ichor Holdings  Ltd.,NASDAQ
-KARO,Karooooo Ltd,NASDAQ
-NVCR,NovoCure Limited,NASDAQ
 HAPN,Happen  Inc.,NASDAQ
-CHA,Chagee Holdings Ltd ADR,NASDAQ
-PLBL,Polibeli Group Ltd,NASDAQ
-DRVN,Driven Brands Holdings Inc.,NASDAQ
-STOK,Stoke Therapeutics  Inc.,NASDAQ
-ZBIO,Zenas BioPharma  Inc.,NASDAQ
-EMAT,Evolution Metals & Technologies Corp,NASDAQ
 EZPW,EZCORP Inc,NASDAQ
-MLCO,Melco Resorts & Entertainment Ltd ADR,NASDAQ
+MFP,Midera Food Processing Inc,NASDAQ
 CHCO,City Holding Co,NASDAQ
-CNXN,PC Connection Inc,NASDAQ
-FLNC,Fluence Energy Inc,NASDAQ
-ZYME,Zymeworks Inc.,NASDAQ
-NBTX,Nanobiotix SA ADR,NASDAQ
-PGNY,Progyny  Inc.,NASDAQ
-MRVI,Maravai LifeSciences Holdings Inc,NASDAQ
-WRD,WeRide Inc ADR,NASDAQ
-AGIO,Agios Pharmaceuticals  Inc.,NASDAQ
-KEEL,Keel Infrastructure Corp,NASDAQ
-GRFS,Grifols  S.A. ADR,NASDAQ
-PLPC,Preformed Line Products Co,NASDAQ
-PRCH,Porch Group Inc,NASDAQ
-LCID,Lucid Group  Inc.,NASDAQ
-GENB,Generate Biomedicines Inc,NASDAQ
-NEXT,NextDecade Corporation,NASDAQ
-ASST,Strive Inc,NASDAQ
-INOD,Innodata Inc.,NASDAQ
-LIND,Lindblad Expeditions Holdings  Inc.,NASDAQ
+BRVE,Braveheart Bio  Inc.,NASDAQ
+PRCH,Porch Group  Inc.,NASDAQ
+KARO,Karooooo Ltd,NASDAQ
 IMOS,ChipMOS Technologies Inc ADR,NASDAQ
-XNCR,Xencor  Inc.,NASDAQ
-SEDG,SolarEdge Technologies  Inc.,NASDAQ
-GHRS,GH Research PLC,NASDAQ
-CMPS,Compass Pathways PLC ADR,NASDAQ
-MCHPP,Microchip Technology Dep Shs Repstg 1 20Th Pfd Conv Ser A,NASDAQ
-SHAZ,SharonAI Holdings Inc,NASDAQ
-TOP,TOP Financial Group Ltd,NASDAQ
-CENTA,Central Garden & Pet Co Class A,NASDAQ
-ALVO,Alvotech SA,NASDAQ
-FORTY,Formula Systems 1985 Ltd ADR,NASDAQ
-BL,BlackLine Inc,NASDAQ
-ZD,Ziff Davis Inc,NASDAQ
-IMCR,Immunocore Holdings PLC ADR,NASDAQ
-LKFT,Lakefront Biotherapeutics NV ADR,NASDAQ
-PDFS,PDF Solutions  Inc.,NASDAQ
-GCT,Gigacloud Technology Inc,NASDAQ
-LBTYA,Liberty Global Ltd Class A,NASDAQ
-ASTH,Astrana Health  Inc.,NASDAQ
-TSHA,Taysha Gene Therapies  Inc.,NASDAQ
-STRA,Strategic Education  Inc.,NASDAQ
 BLBD,Blue Bird Corporation,NASDAQ
-GABC,German American Bancorp Inc,NASDAQ
-KARD,Kardigan Inc,NASDAQ
-NYAX,Nayax Ltd.,NASDAQ
-FSUN,Firstsun Capital Bancorp,NASDAQ
-VNET,VNET Group  Inc. ADR,NASDAQ
-RBCAA,Republic Bancorp Inc,NASDAQ
-DHC,Diversified Healthcare Trust,NASDAQ
-TH,Target Hospitality Corp.,NASDAQ
-QUBT,Quantum Computing Inc.,NASDAQ
-PSNY,Polestar Automotive Holding UK PLC ADR Class A,NASDAQ
-PAX,Patria Investments Ltd,NASDAQ
-LMAT,LeMaitre Vascular  Inc.,NASDAQ
-PRGS,Progress Software Corp,NASDAQ
-PGY,Pagaya Technologies Ltd.,NASDAQ
-VIR,Vir Biotechnology  Inc.,NASDAQ
-GT,Goodyear Tire & Rubber Co,NASDAQ
-OCFC,OceanFirst Financial Corp,NASDAQ
-PSNL,Personalis  Inc.,NASDAQ
-INBX,Inhibrx Biosciences Inc,NASDAQ
-SEPN,Septerna  Inc.,NASDAQ
-JBLU,JetBlue Airways Corporation,NASDAQ
-ATEX,Anterix Inc.,NASDAQ
-SONO,Sonos  Inc.,NASDAQ
-CDNL,Cardinal Infrastructure Group Inc,NASDAQ
-NTLA,INTELLIA THERAPEUTICS  INC.,NASDAQ
+GRFS,Grifols  S.A. ADR,NASDAQ
+SHAZ,SharonAI Holdings Inc,NASDAQ
+PGNY,Progyny  Inc.,NASDAQ
+MLCO,Melco Resorts & Entertainment Ltd ADR,NASDAQ
+XNCR,Xencor  Inc.,NASDAQ
+PLBL,Polibeli Group Ltd,NASDAQ
+FORTY,Formula Systems 1985 Ltd ADR,NASDAQ
+AGIO,Agios Pharmaceuticals  Inc.,NASDAQ
+WRD,WeRide Inc ADR,NASDAQ
 CNXC,Concentrix Corporation,NASDAQ
+TMC,TMC the metals company Inc.,NASDAQ
+NEXT,NextDecade Corporation,NASDAQ
+KARD,Kardigan Inc,NASDAQ
+PLPC,Preformed Line Products Co,NASDAQ
+GHRS,GH Research PLC,NASDAQ
+VIR,Vir Biotechnology  Inc.,NASDAQ
+STOK,Stoke Therapeutics  Inc.,NASDAQ
+NYAX,Nayax Ltd.,NASDAQ
+ZD,Ziff Davis Inc,NASDAQ
+BL,BlackLine Inc,NASDAQ
+MRVI,Maravai LifeSciences Holdings Inc,NASDAQ
+ALVO,Alvotech SA,NASDAQ
+IMCR,Immunocore Holdings PLC ADR,NASDAQ
+SBET,Sharplink Inc,NASDAQ
+NBTX,Nanobiotix SA ADR,NASDAQ
+EMAT,Evolution Metals & Technologies Corp,NASDAQ
+PSQL,Bleichroeder Acquisition Corp II,NASDAQ
+TH,Target Hospitality Corp.,NASDAQ
+RXRX,Recursion Pharmaceuticals  Inc.,NASDAQ
+PDFS,PDF Solutions  Inc.,NASDAQ
+PGY,Pagaya Technologies Ltd.,NASDAQ
+INOD,Innodata Inc.,NASDAQ
+FLNC,Fluence Energy Inc,NASDAQ
+ASTH,Astrana Health  Inc.,NASDAQ
+FSUN,Firstsun Capital Bancorp,NASDAQ
+MCHPP,Microchip Technology Dep Shs Repstg 1 20Th Pfd Conv Ser A,NASDAQ
+RBCAA,Republic Bancorp Inc,NASDAQ
+GABC,German American Bancorp Inc,NASDAQ
+OCFC,OceanFirst Financial Corp.,NASDAQ
+LBTYA,Liberty Global Ltd Class A,NASDAQ
+LKFT,Lakefront Biotherapeutics NV ADR,NASDAQ
 SGRY,Surgery Partners  Inc.,NASDAQ
 DMRA,Damora Therapeutics Inc (Pre-Reincorporation),NASDAQ
-FTRE,Fortrea Holdings Inc,NASDAQ
-RXRX,Recursion Pharmaceuticals  Inc.,NASDAQ
-AMPL,Amplitude  Inc.,NASDAQ
-SBET,Sharplink Inc,NASDAQ
-BLFS,BioLife Solutions  Inc.,NASDAQ
-HOPE,Hope Bancorp Inc,NASDAQ
-STBA,S&T Bancorp Inc,NASDAQ
+TOP,TOP Financial Group Ltd,NASDAQ
+CENTA,Central Garden & Pet Co Class A,NASDAQ
+GCT,Gigacloud Technology Inc,NASDAQ
+LMAT,LeMaitre Vascular  Inc.,NASDAQ
+LCID,Lucid Group  Inc.,NASDAQ
+CMPS,Compass Pathways PLC ADR,NASDAQ
+PSNL,Personalis  Inc.,NASDAQ
 SNDX,Syndax Pharmaceuticals  Inc.,NASDAQ
-OPRA,Opera Ltd ADR,NASDAQ
-ZG,Zillow Group  Inc. Class A,NASDAQ
-TCBK,Trico Bancshares,NASDAQ
-WB,Weibo Corp ADR,NASDAQ
-ETON,Eton Pharmaceuticals Inc,NASDAQ
-AAPG,Ascentage Pharma Group International ADR,NASDAQ
-CASH,Pathward Financial Inc,NASDAQ
-ANAB,AnaptysBio  Inc.,NASDAQ
-PLAB,Photronics  Inc.,NASDAQ
-MQ,Marqeta  Inc.,NASDAQ
-BFC,Bank First Corp,NASDAQ
-ANIP,ANI Pharmaceuticals  Inc.,NASDAQ
-JJSF,J&J Snack Foods Corp,NASDAQ
-QCRH,QCR Holdings Inc,NASDAQ
-EVCM,EverCommerce Inc,NASDAQ
-CSWC,Capital Southwest Corporation,NASDAQ
-UROY,Uranium Royalty Corp,NASDAQ
-ICFI,ICF International  Inc.,NASDAQ
-BTSGU,BrightSpring Health Services Units,NASDAQ
-DSGR,Distribution Solutions Group  Inc.,NASDAQ
-PWP,Perella Weinberg Partners,NASDAQ
-CNOB,ConnectOne Bancorp  Inc.,NASDAQ
+TSHA,Taysha Gene Therapies  Inc.,NASDAQ
+DHC,Diversified Healthcare Trust,NASDAQ
+SONO,Sonos  Inc.,NASDAQ
+VNET,VNET Group  Inc. ADR,NASDAQ
+QUBT,Quantum Computing Inc.,NASDAQ
+STRA,Strategic Education  Inc.,NASDAQ
+PAX,Patria Investments Ltd,NASDAQ
+PRGS,Progress Software Corp,NASDAQ
+HOPE,Hope Bancorp Inc,NASDAQ
+GT,Goodyear Tire & Rubber Co,NASDAQ
+STBA,S&T Bancorp Inc,NASDAQ
+NTLA,INTELLIA THERAPEUTICS  INC.,NASDAQ
+INBX,Inhibrx Biosciences Inc,NASDAQ
 FRNM,Freenome  Inc.,NASDAQ
-LBTYK,Liberty Global Ltd Class C,NASDAQ
-ALNT,Allient Inc,NASDAQ
-BAND,Bandwidth Inc.,NASDAQ
-WEN,Wendy's Co,NASDAQ
-MLKN,MillerKnoll  Inc.,NASDAQ
-IMKTA,Ingles Markets  Incorporated,NASDAQ
-YSWY,Yesway Inc,NASDAQ
-BCAX,Bicara Therapeutics Inc,NASDAQ
-XERS,Xeris Biopharma Holdings  Inc.,NASDAQ
-HCSG,Healthcare Services Group  Inc.,NASDAQ
-LBRX,LB Pharmaceuticals Inc,NASDAQ
-AVLN,Avalyn Pharma Inc,NASDAQ
-PAHC,Phibro Animal Health Corp,NASDAQ
+JBLU,JetBlue Airways Corporation,NASDAQ
+TCBK,Trico Bancshares,NASDAQ
+BFC,Bank First Corp,NASDAQ
+CDNL,Cardinal Infrastructure Group Inc,NASDAQ
+CASH,Pathward Financial Inc,NASDAQ
+MQ,Marqeta  Inc.,NASDAQ
+BLFS,BioLife Solutions  Inc.,NASDAQ
+PLAB,Photronics  Inc.,NASDAQ
+SEPN,Septerna  Inc.,NASDAQ
+LIND,Lindblad Expeditions Holdings  Inc.,NASDAQ
+UROY,Uranium Royalty Corp,NASDAQ
+ATEX,Anterix Inc.,NASDAQ
 NVAX,Novavax  Inc.,NASDAQ
-MAZE,Maze Therapeutics  Inc.,NASDAQ
-SAFT,Safety Insurance Group Inc,NASDAQ
-INVA,Innoviva  Inc.,NASDAQ
+FTRE,Fortrea Holdings Inc,NASDAQ
+ZG,Zillow Group  Inc. Class A,NASDAQ
+ANAB,AnaptysBio  Inc.,NASDAQ
+QCRH,QCR Holdings Inc,NASDAQ
+ETON,Eton Pharmaceuticals Inc,NASDAQ
+WB,Weibo Corp ADR,NASDAQ
+ANIP,ANI Pharmaceuticals  Inc.,NASDAQ
+AMPL,Amplitude  Inc.,NASDAQ
 SLBT,SL Science Holding Ltd,NASDAQ
-HLMN,Hillman Solutions Corp,NASDAQ
-OMCL,Omnicell Inc,NASDAQ
-QQQX,Nuveen Nasdaq 100 Dynamic Overwrite Fund,NASDAQ
-KMTS,Kestra Medical Technologies  Ltd.,NASDAQ
-TRAX,First Tracks Biotherapeutics Inc,NASDAQ
-ABSI,Absci Corp,NASDAQ
-TNDM,Tandem Diabetes Care  Inc.,NASDAQ
 TYRA,Tyra Biosciences  Inc.,NASDAQ
-AVBP,ArriVent BioPharma  Inc.,NASDAQ
-LKFN,Lakeland Financial Corp,NASDAQ
-INNV,InnovAge Holding Corp,NASDAQ
-SDGR,Schrodinger Inc,NASDAQ
-REPL,Replimune Group  Inc.,NASDAQ
-ATEC,Alphatec Holdings  Inc.,NASDAQ
-LTGO,Latigo Biotherapeutics  Inc.,NASDAQ
-AMAL,Amalgamated Financial Corp,NASDAQ
-OMDA,Omada Health  Inc.,NASDAQ
-BHRB,Burke & Herbert Financial Services Corp,NASDAQ
-AZTA,Azenta  Inc.,NASDAQ
-IMTX,Immatics N.V.,NASDAQ
-FCEL,Fuelcell Energy Inc,NASDAQ
-CNL,Collective Mining Ltd.,NASDAQ
-VISN,Vistance Networks Inc,NASDAQ
-HROW,Harrow  Inc.,NASDAQ
-CGEM,Cullinan Therapeutics  Inc.,NASDAQ
-ELE,Elemental Royalty Corp,NASDAQ
-AMSC,American Superconductor Corp,NASDAQ
-BRUN,Boost Run Inc,NASDAQ
-PEBO,Peoples Bancorp Inc,NASDAQ
-TRS,TriMas Corporation,NASDAQ
-GIII,G-III Apparel Group Ltd,NASDAQ
-DMLP,Dorchester Minerals Units,NASDAQ
-CTBI,Community Trust Bancorp  Inc.,NASDAQ
-WBTN,Webtoon Entertainment Inc,NASDAQ
-UFCS,United Fire Group Inc,NASDAQ
-AKTS,Aktis Oncology Inc,NASDAQ
-BJRI,BJ's Restaurants Inc,NASDAQ
-ATLC,Atlanticus Holdings Corp,NASDAQ
-WLTH,Wealthfront Corporation,NASDAQ
-SGML,Sigma Lithium Corporation,NASDAQ
-EYE,National Vision Holdings  Inc.,NASDAQ
-ORIC,ORIC Pharmaceuticals  Inc.,NASDAQ
-XPEL,XPEL  Inc.,NASDAQ
+OPRA,Opera Ltd ADR,NASDAQ
+AVLN,Avalyn Pharma Inc,NASDAQ
+AAPG,Ascentage Pharma Group International ADR,NASDAQ
+CNOB,ConnectOne Bancorp  Inc.,NASDAQ
+ALNT,Allient Inc,NASDAQ
+DSGR,Distribution Solutions Group  Inc.,NASDAQ
+BTSGU,BrightSpring Health Services Units,NASDAQ
+LBRX,LB Pharmaceuticals Inc,NASDAQ
+PWP,Perella Weinberg Partners,NASDAQ
+LBTYK,Liberty Global Ltd Class C,NASDAQ
+ICFI,ICF International  Inc.,NASDAQ
+IMKTA,Ingles Markets  Incorporated,NASDAQ
+MLKN,MillerKnoll  Inc.,NASDAQ
+JJSF,J&J Snack Foods Corp,NASDAQ
+OMCL,Omnicell Inc,NASDAQ
+YSWY,Yesway Inc,NASDAQ
+CSWC,Capital Southwest Corporation,NASDAQ
 MGRT,Mega Fortune Co Ltd,NASDAQ
-CCEC,Capital Clean Energy Carriers Corp,NASDAQ
-ESQ,Esquire Financial Holdings Inc,NASDAQ
-DRTS,Alpha Tau Medical Ltd,NASDAQ
-OMER,Omeros Corporation,NASDAQ
-ULCC,Frontier Group Holdings  Inc.,NASDAQ
-ROCK,Gibraltar Industries  Inc.,NASDAQ
-APPS,Digital Turbine  Inc.,NASDAQ
-WABC,Westamerica Bancorp,NASDAQ
-WLDN,Willdan Group  Inc.,NASDAQ
+XERS,Xeris Biopharma Holdings  Inc.,NASDAQ
+CNL,Collective Mining Ltd.,NASDAQ
+PAHC,Phibro Animal Health Corp,NASDAQ
+INVA,Innoviva  Inc.,NASDAQ
+BCAX,Bicara Therapeutics Inc,NASDAQ
+WEN,Wendy's Co,NASDAQ
+LTGO,Latigo Biotherapeutics  Inc.,NASDAQ
+AVBP,ArriVent BioPharma  Inc.,NASDAQ
+SAFT,Safety Insurance Group Inc,NASDAQ
+ABSI,Absci Corp,NASDAQ
+PSNY,Polestar Automotive Holding UK PLC ADR Class A,NASDAQ
+RARE,Ultragenyx Pharmaceutical Inc.,NASDAQ
+LKFN,Lakeland Financial Corp,NASDAQ
+SDGR,Schrodinger Inc,NASDAQ
+HCSG,Healthcare Services Group  Inc.,NASDAQ
+KMTS,Kestra Medical Technologies  Ltd.,NASDAQ
+QQQX,Nuveen Nasdaq 100 Dynamic Overwrite Fund,NASDAQ
+HLMN,Hillman Solutions Corp.,NASDAQ
+PICS,Pics NV,NASDAQ
 VOR,Vor Biopharma Inc.,NASDAQ
+VISN,Vistance Networks Inc,NASDAQ
+AMAL,Amalgamated Financial Corp,NASDAQ
+BHRB,Burke & Herbert Financial Services Corp,NASDAQ
+ATEC,Alphatec Holdings  Inc.,NASDAQ
+INNV,InnovAge Holding Corp,NASDAQ
+MAZE,Maze Therapeutics  Inc.,NASDAQ
+IMTX,Immatics N.V.,NASDAQ
+AKTS,Aktis Oncology Inc,NASDAQ
+TRAX,First Tracks Biotherapeutics Inc,NASDAQ
+HROW,Harrow  Inc.,NASDAQ
+ESQ,Esquire Financial Holdings Inc,NASDAQ
+UFCS,United Fire Group Inc,NASDAQ
+PEBO,Peoples Bancorp Inc,NASDAQ
+ALMS,Alumis Inc.,NASDAQ
+DMLP,Dorchester Minerals Units,NASDAQ
+CGEM,Cullinan Therapeutics  Inc.,NASDAQ
+REPL,Replimune Group  Inc.,NASDAQ
+ATLC,Atlanticus Holdings Corp,NASDAQ
+BAND,Bandwidth Inc.,NASDAQ
+SGML,Sigma Lithium Corporation,NASDAQ
+TNDM,Tandem Diabetes Care  Inc.,NASDAQ
+AMSC,American Superconductor Corp,NASDAQ
+WLTH,Wealthfront Corporation,NASDAQ
+XPEL,XPEL  Inc.,NASDAQ
+TRS,TriMas Corporation,NASDAQ
+EOSE,Eos Energy Enterprises  Inc.,NASDAQ
+CTBI,Community Trust Bancorp  Inc.,NASDAQ
+ROCK,Gibraltar Industries  Inc.,NASDAQ
+BRUN,Boost Run Inc,NASDAQ
+EVCM,EverCommerce Inc,NASDAQ
+OMDA,Omada Health  Inc.,NASDAQ
+DRTS,Alpha Tau Medical Ltd,NASDAQ
+ODTX,Odyssey Therapeutics Inc,NASDAQ
+CRSR,Corsair Gaming Inc,NASDAQ
+WABC,Westamerica Bancorp,NASDAQ
+AZTA,Azenta  Inc.,NASDAQ
+ULCC,Frontier Group Holdings  Inc.,NASDAQ
+OMER,Omeros Corporation,NASDAQ
+POET,POET Technologies Inc,NASDAQ
 FMBH,First Mid Bancshares Inc,NASDAQ
-LGIH,LGI Homes  Inc.,NASDAQ
-REAL,The RealReal  Inc.,NASDAQ
+CCEC,Capital Clean Energy Carriers Corp,NASDAQ
+ELE,Elemental Royalty Corp,NASDAQ
+WBTN,Webtoon Entertainment Inc,NASDAQ
+STRF,Strategy 10 00 Perpetual Strife Prf Shs Series A,NASDAQ
 MGTX,MeiraGTx Holdings PLC,NASDAQ
+ORIC,ORIC Pharmaceuticals  Inc.,NASDAQ
+SPTX,Seaport Therapeutics Inc,NASDAQ
+HBT,HBT Financial Inc,NASDAQ
+PNTG,The Pennant Group  Inc.,NASDAQ
+NSSC,NAPCO Security Technologies  Inc.,NASDAQ
+EYE,National Vision Holdings  Inc.,NASDAQ
+NUTX,Nutex Health Inc,NASDAQ
 LILAK,Liberty Latin America Ltd. Class C,NASDAQ
-JBIO,Jade Biosciences Inc,NASDAQ
+LQDT,Liquidity Services Inc,NASDAQ
+OSBC,Old Second Bancorp  Inc,NASDAQ
+WLDN,Willdan Group  Inc.,NASDAQ
+MNKD,MannKind Corporation,NASDAQ
+PRCT,PROCEPT BioRobotics Corporation,NASDAQ
 IART,Integra LifeSciences Holdings Corporation,NASDAQ
+AFYA,Afya Limited,NASDAQ
+RUSHB,Rush Enterprises  Inc. Class B,NASDAQ
+APPS,Digital Turbine  Inc.,NASDAQ
 HLIT,Harmonic Inc.,NASDAQ
 PCT,PureCycle Technologies  Inc.,NASDAQ
-STRF,Strategy 10 00 Perpetual Strife Prf Shs Series A,NASDAQ
-PICS,Pics NV,NASDAQ
-HBT,HBT Financial Inc,NASDAQ
-LQDT,Liquidity Services Inc,NASDAQ
-TRUP,Trupanion  Inc.,NASDAQ
-CRSR,Corsair Gaming Inc,NASDAQ
-POET,POET Technologies Inc,NASDAQ
+LGIH,LGI Homes  Inc.,NASDAQ
 RCAT,Red Cat Holdings Inc,NASDAQ
-NUTX,Nutex Health Inc,NASDAQ
-PNTG,The Pennant Group  Inc.,NASDAQ
-AFYA,Afya Limited,NASDAQ
-SPTX,Seaport Therapeutics Inc,NASDAQ
-RMIX,Suncrete  Inc,NASDAQ
-OSBC,Old Second Bancorp  Inc,NASDAQ
-RUSHB,Rush Enterprises  Inc. Class B,NASDAQ
 MLTX,MoonLake Immunotherapeutics,NASDAQ
-CERT,Certara  Inc.,NASDAQ
-ARHS,Arhaus  Inc.,NASDAQ
-MNKD,MannKind Corporation,NASDAQ
-NSSC,NAPCO Security Technologies  Inc.,NASDAQ
-HBNB,Hotel101 Global Holdings Corp,NASDAQ
+BJRI,BJ's Restaurants Inc,NASDAQ
+JBIO,Jade Biosciences  Inc.,NASDAQ
 THFF,First Financial Corp,NASDAQ
+THRM,Gentherm Incorporated,NASDAQ
+PFBC,Preferred Bank,NASDAQ
+JCAP,Jefferson Capital Inc,NASDAQ
+RDVT,Red Violet Inc,NASDAQ
+HBNB,Hotel101 Global Holdings Corp,NASDAQ
+TRUP,Trupanion  Inc.,NASDAQ
+CERT,Certara  Inc.,NASDAQ
+CRVS,Corvus Pharmaceuticals  Inc.,NASDAQ
+REAL,The RealReal  Inc.,NASDAQ
+GLUE,Monte Rosa Therapeutics  Inc.,NASDAQ
+CRCT,Cricut  Inc.,NASDAQ
+ARHS,Arhaus  Inc.,NASDAQ
+JANX,Janux Therapeutics  Inc.,NASDAQ
+RMIX,Suncrete  Inc,NASDAQ
+GO,Grocery Outlet Holding Corp.,NASDAQ
+OPK,OPKO Health  Inc.,NASDAQ
+CBRL,Cracker Barrel Old Country Store Inc,NASDAQ
+GTM,ZoomInfo Technologies Inc.,NASDAQ
 CRON,Cronos Group Inc.,NASDAQ
 SHLS,Shoals Technologies Group  Inc.,NASDAQ
-AIIR,Air Global PLC,NASDAQ
-CBRL,Cracker Barrel Old Country Store Inc,NASDAQ
-PFBC,Preferred Bank,NASDAQ
-GTM,ZoomInfo Technologies Inc.,NASDAQ
-THRM,Gentherm Incorporated,NASDAQ
-CRCT,Cricut Inc,NASDAQ
-WINA,Winmark Corporation,NASDAQ
-JCAP,Jefferson Capital Inc,NASDAQ
-GO,Grocery Outlet Holding Corp.,NASDAQ
-GDRX,GoodRx Holdings  Inc.,NASDAQ
-RDWR,Radware Ltd.,NASDAQ
-FBYD,Falcon's Beyond Global Inc,NASDAQ
-BITF,Bitfarms Ltd,NASDAQ
-PRCT,Procept Biorobotics Corp,NASDAQ
-CRVS,Corvus Pharmaceuticals  Inc.,NASDAQ
-EOSE,Eos Energy Enterprises  Inc.,NASDAQ
-RZLV,Rezolve AI PLC,NASDAQ
-APMD,Apnimed Inc,NASDAQ
-PSEC,Prospect Capital Corp,NASDAQ
-SANA,Sana Biotechnology  Inc.,NASDAQ
-RDVT,Red Violet Inc,NASDAQ
 HFWA,Heritage Financial Corp,NASDAQ
-MRTN,Marten Transport  Ltd.,NASDAQ
-ODTX,Odyssey Therapeutics Inc,NASDAQ
-BVS,Bioventus Inc.,NASDAQ
+FCEL,Fuelcell Energy Inc,NASDAQ
+BITF,Bitfarms Ltd,NASDAQ
 BRKRP,Bruker 6 375 Mandatory Convertible Preference Shares Ser A,NASDAQ
-TRIP,TripAdvisor  Inc.,NASDAQ
-OCSL,Oaktree Specialty Lending Corp,NASDAQ
-UVSP,Univest Financial Corp,NASDAQ
-GLUE,Monte Rosa Therapeutics  Inc.,NASDAQ
-SCSC,ScanSource  Inc.,NASDAQ
-ELVR,Elevra Lithium Ltd ADR,NASDAQ
-IGIC,International General Insurance Holdings Ltd,NASDAQ
+RDWR,Radware Ltd.,NASDAQ
 WLFC,Willis Lease Finance Corporation,NASDAQ
-BRAI,Braiin Ltd,NASDAQ
-AVO,Mission Produce Inc,NASDAQ
-UPWK,Upwork Inc.,NASDAQ
+GDRX,GoodRx Holdings  Inc.,NASDAQ
+BVS,Bioventus Inc.,NASDAQ
 KURA,Kura Oncology  Inc.,NASDAQ
-UPBD,Upbound Group  Inc.,NASDAQ
-FSBC,Five Star Bancorp,NASDAQ
-IRMD,IRADIMED CORPORATION,NASDAQ
-VMET,Versamet Royalties Corporation,NASDAQ
+SCSC,ScanSource  Inc.,NASDAQ
 STAA,STAAR Surgical Company,NASDAQ
+MRTN,Marten Transport  Ltd.,NASDAQ
+AIIR,Air Global PLC,NASDAQ
+PSEC,Prospect Capital Corp,NASDAQ
+GIII,G-III Apparel Group Ltd,NASDAQ
 LMRI,Lumexa Imaging Holdings  Inc.,NASDAQ
-NBN,Northeast Bank,NASDAQ
-OPK,OPKO Health  Inc.,NASDAQ
-JANX,Janux Therapeutics  Inc.,NASDAQ
-MSEX,Middlesex Water Company,NASDAQ
-CRAI,CRA International Inc,NASDAQ
-QNST,QuinStreet Inc,NASDAQ
-AEVA,Aeva Technologies  Inc.,NASDAQ
-CFFN,Capitol Federal Financial Inc,NASDAQ
-QFIN,Qfin Holdings  Inc. ADR,NASDAQ
-AIP,Arteris Inc,NASDAQ
-SVRA,Savara Inc.,NASDAQ
-NWPX,NWPX Infrastructure Inc,NASDAQ
-AVTX,Avalo Therapeutics  Inc.,NASDAQ
-SLDB,Solid Biosciences Inc,NASDAQ
-CRML,Critical Metals Corp,NASDAQ
-SIFY,Sify Technologies Ltd ADR,NASDAQ
-OBX,Obsidian Therapeutics  Inc,NASDAQ
-LZ,LegalZoom.com  Inc.,NASDAQ
-CHY,Calamos Convertible and High Income Closed Fund,NASDAQ
-SENEA,Seneca Foods Corporation Class A,NASDAQ
-MBWM,Mercantile Bank Corp,NASDAQ
-CHI,Calamos Convertible Opportunities and Income Closed Fund,NASDAQ
-SBGI,Sinclair  Inc.,NASDAQ
-GPRE,Green Plains Inc.,NASDAQ
-PCRX,Pacira BioSciences  Inc.,NASDAQ
-HPK,Highpeak Energy Inc,NASDAQ
-CSTL,Castle Biosciences  Inc.,NASDAQ
-TBLA,Taboola.com Ltd,NASDAQ
-SVC,Service Properties Trust,NASDAQ
-LXRX,Lexicon Pharmaceuticals  Inc.,NASDAQ
-BFST,Business First Bancshares Inc,NASDAQ
-MCBS,Metrocity Bankshares Inc,NASDAQ
-QDEL,QuidelOrtho Corp,NASDAQ
-STRD,Strategy 10 00 Perpetual Stride Prf Shs Series A,NASDAQ
-CCNE,CNB Financial Corp,NASDAQ
-ITRN,Ituran Location and Control Ltd,NASDAQ
-STRK,Strategy 8 00 Perpetual Strike Prf Shs Series A,NASDAQ
-ABUS,Arbutus Biopharma Corp,NASDAQ
-HBNC,Horizon Bancorp Inc,NASDAQ
-CADL,Candel Therapeutics Inc,NASDAQ
-ASTE,Astec Industries  Inc.,NASDAQ
-IMMX,Immix Biopharma  Inc.,NASDAQ
-WVE,Wave Life Sciences Ltd.,NASDAQ
-TRON,TRON Inc,NASDAQ
-NBBK,NB Bancorp Inc,NASDAQ
-IVA,Inventiva SA ADR,NASDAQ
-KRT,Karat Packaging Inc,NASDAQ
-TRST,TrustCo Bank Corp NY,NASDAQ
-GERN,Geron Corporation,NASDAQ
-BXBL,BOXABL Inc,NASDAQ
-NNE,NANO Nuclear Energy Inc.,NASDAQ
-AEBI,Aebi Schmidt Holding AG,NASDAQ
-CAC,Camden National Corp,NASDAQ
-ARDX,Ardelyx  Inc.,NASDAQ
-EVLV,Evolv Technologies Holdings  Inc.,NASDAQ
-OXLC,Oxford Lane Capital Corp,NASDAQ
-HEPS,D Market Elektronik Hizmetler ve Ticaret AS ADR,NASDAQ
-DSGN,Design Therapeutics  Inc.,NASDAQ
-ANNX,Annexon  Inc.,NASDAQ
-HTLD,Heartland Express Inc,NASDAQ
-AMPH,Amphastar Pharmaceuticals  Inc.,NASDAQ
-GLIBK,Liberty Capital Corporation Series C,NASDAQ
-DAKT,Daktronics Inc,NASDAQ
-MPB,Mid Penn Bancorp Inc,NASDAQ
-FMNB,Farmers National Banc Corp,NASDAQ
-FCBC,First Community Bankshares Inc,NASDAQ
-HAFC,Hanmi Financial Corp,NASDAQ
-ACDC,ProFrac Holding Corp.,NASDAQ
-OLMA,Olema Pharmaceuticals  Inc.,NASDAQ
-MAKO,Mako Mining Corp,NASDAQ
-CSIQ,Canadian Solar Inc.,NASDAQ
+UVSP,Univest Financial Corp,NASDAQ
 ATTO,Attovia Therapeutics Inc,NASDAQ
-HELP,Cybin Inc.,NASDAQ
-BLZE,Backblaze Inc,NASDAQ
-SCZM,Santacruz Silver Mining Ltd,NASDAQ
-QMCO,Quantum Corp,NASDAQ
-INDI,indie Semiconductor Inc,NASDAQ
-SMPL,The Simply Good Foods Company,NASDAQ
-CBLL,CeriBell  Inc.,NASDAQ
-FRBT,Forbright Inc,NASDAQ
-TIGR,UP Fintech Holding Limited ADR,NASDAQ
-BLMN,Bloomin' Brands Inc,NASDAQ
-EVER,EverQuote  Inc.,NASDAQ
-RPD,Rapid7  Inc.,NASDAQ
-ANL,Adlai Nortye Group Ltd ADR,NASDAQ
-SABR,Sabre Corporation,NASDAQ
-IQ,iQIYI Inc ADR,NASDAQ
-BBNX,Beta Bionics Inc,NASDAQ
-NAVI,Navient Corporation,NASDAQ
-TBPH,Theravance Biopharma  Inc.,NASDAQ
-PLTK,Playtika Holding Corp,NASDAQ
-ACRS,Aclaris Therapeutics  Inc.,NASDAQ
-SGP,SpyGlass Pharma  Inc.,NASDAQ
-ADAM,Adamas Trust  Inc.,NASDAQ
-APC,Arko Petroleum Corp,NASDAQ
-DSP,Viant Technology Inc,NASDAQ
-CCBG,Capital City Bank Group Inc,NASDAQ
-WRLD,World Acceptance Corp,NASDAQ
-VERB,Verb Technology Company Inc,NASDAQ
+BRAI,Braiin Ltd,NASDAQ
+IGIC,International General Insurance Holdings Ltd,NASDAQ
+SANA,Sana Biotechnology  Inc.,NASDAQ
+FSBC,Five Star Bancorp,NASDAQ
+OCSL,Oaktree Specialty Lending Corp,NASDAQ
+WINA,Winmark Corporation,NASDAQ
+NBN,Northeast Bank,NASDAQ
+AVO,Mission Produce Inc,NASDAQ
+QFIN,Qfin Holdings  Inc. ADR,NASDAQ
+CFFN,Capitol Federal Financial Inc,NASDAQ
+UPBD,Upbound Group  Inc.,NASDAQ
+VMET,Versamet Royalties Corporation,NASDAQ
+SVRA,Savara Inc.,NASDAQ
+SLDB,Solid Biosciences Inc,NASDAQ
+UPWK,Upwork Inc.,NASDAQ
+MSEX,Middlesex Water Company,NASDAQ
+AEVA,Aeva Technologies  Inc.,NASDAQ
+APMD,Apnimed Inc,NASDAQ
+TRIP,TripAdvisor  Inc.,NASDAQ
+ELVR,Elevra Lithium Ltd ADR,NASDAQ
+STRK,Strategy 8 00 Perpetual Strike Prf Shs Series A,NASDAQ
+MBWM,Mercantile Bank Corp,NASDAQ
+CRAI,CRA International Inc,NASDAQ
+CRML,Critical Metals Corp,NASDAQ
+QNST,QuinStreet Inc,NASDAQ
+IRMD,IRADIMED CORPORATION,NASDAQ
+STRD,Strategy 10 00 Perpetual Stride Prf Shs Series A,NASDAQ
+BXBL,BOXABL Inc,NASDAQ
+PCRX,Pacira BioSciences  Inc.,NASDAQ
+LZ,LegalZoom.com  Inc.,NASDAQ
+OBX,Obsidian Therapeutics  Inc,NASDAQ
+NWPX,NWPX Infrastructure  Inc.,NASDAQ
+SENEA,Seneca Foods Corporation Class A,NASDAQ
+GPRE,Green Plains Inc.,NASDAQ
+AIP,Arteris Inc,NASDAQ
+TBLA,Taboola.com Ltd,NASDAQ
+SIFY,Sify Technologies Ltd ADR,NASDAQ
+BFST,Business First Bancshares Inc,NASDAQ
 FTH,Faeth Therapeutics  Inc,NASDAQ
-ROOT,Root Inc,NASDAQ
-JBSS,John B. Sanfilippo & Son  Inc.,NASDAQ
-WOOF,Petco Health and Wellness Company Inc,NASDAQ
+CCNE,CNB Financial Corp,NASDAQ
+CHY,Calamos Convertible and High Income Closed Fund,NASDAQ
+AVTX,Avalo Therapeutics  Inc.,NASDAQ
+MCBS,Metrocity Bankshares Inc,NASDAQ
+ITRN,Ituran Location and Control Ltd,NASDAQ
+HBNC,Horizon Bancorp Inc,NASDAQ
+ABUS,Arbutus Biopharma Corp,NASDAQ
+ASTE,Astec Industries  Inc.,NASDAQ
+HPK,Highpeak Energy Inc,NASDAQ
+NBBK,NB Bancorp Inc,NASDAQ
+SMPL,The Simply Good Foods Company,NASDAQ
+CHI,Calamos Convertible Opportunities and Income Closed Fund,NASDAQ
+GERN,Geron Corporation,NASDAQ
+CSTL,Castle Biosciences  Inc.,NASDAQ
+AEBI,Aebi Schmidt Holding AG,NASDAQ
+IVA,Inventiva SA ADR,NASDAQ
+SBGI,Sinclair  Inc.,NASDAQ
+LXRX,Lexicon Pharmaceuticals  Inc.,NASDAQ
+IMMX,Immix Biopharma  Inc.,NASDAQ
+FBYD,Falcon's Beyond Global Inc,NASDAQ
+TRST,TrustCo Bank Corp NY,NASDAQ
+AMPH,Amphastar Pharmaceuticals  Inc.,NASDAQ
+SVC,Service Properties Trust,NASDAQ
+CAC,Camden National Corp,NASDAQ
+CADL,Candel Therapeutics Inc,NASDAQ
+QMCO,Quantum Corp,NASDAQ
+SGP,SpyGlass Pharma  Inc.,NASDAQ
+ANL,Adlai Nortye Group Ltd ADR,NASDAQ
+KRT,Karat Packaging Inc,NASDAQ
+HTLD,Heartland Express Inc,NASDAQ
+QDEL,QuidelOrtho Corp,NASDAQ
+WVE,Wave Life Sciences Ltd.,NASDAQ
+HEPS,D Market Elektronik Hizmetler ve Ticaret AS ADR,NASDAQ
+FMNB,Farmers National Banc Corp,NASDAQ
+NNE,NANO Nuclear Energy Inc.,NASDAQ
+HAFC,Hanmi Financial Corp,NASDAQ
+CBLL,CeriBell  Inc.,NASDAQ
+MPB,Mid Penn Bancorp Inc,NASDAQ
+DSGN,Design Therapeutics  Inc.,NASDAQ
+OXLC,Oxford Lane Capital Corp,NASDAQ
+FRBT,Forbright Inc,NASDAQ
+ARDX,Ardelyx  Inc.,NASDAQ
+GLIBK,Liberty Capital Corporation Series C,NASDAQ
+OLMA,Olema Pharmaceuticals  Inc.,NASDAQ
+ACDC,ProFrac Holding Corp.,NASDAQ
+DAKT,Daktronics Inc,NASDAQ
+FCBC,First Community Bankshares Inc,NASDAQ
+ANNX,Annexon  Inc.,NASDAQ
+RZLV,Rezolve AI PLC,NASDAQ
+SCZM,Santacruz Silver Mining Ltd.,NASDAQ
+TIGR,UP Fintech Holding Limited ADR,NASDAQ
 RIGL,Rigel Pharmaceuticals  Inc.,NASDAQ
-FOXF,Fox Factory Holding Corp.,NASDAQ
-HDL,Super Hi International Holding Ltd. ADR,NASDAQ
-RJET,Republic Airways Holdings Inc.,NASDAQ
-SIBN,SI-BONE  Inc.,NASDAQ
-GSBC,Great Southern Bancorp Inc,NASDAQ
-DJCO,Daily Journal Corporation,NASDAQ
-HSTM,HealthStream  Inc.,NASDAQ
-CRTO,Criteo SA (Pre-Reincorporation),NASDAQ
-INMD,InMode Ltd.,NASDAQ
-AVR,Anteris Technologies Global Corp,NASDAQ
-DBVT,Dbv Technologies SA ADR,NASDAQ
-MITK,Mitek Systems Inc,NASDAQ
-ADSE,ADS-TEC Energy PLC,NASDAQ
-LWLG,Lightwave Logic  Inc.,NASDAQ
-MOMO,Hello Group Inc. ADR,NASDAQ
-APEI,American Public Education  Inc.,NASDAQ
-APOG,Apogee Enterprises Inc,NASDAQ
-EGBN,Eagle Bancorp  Inc.,NASDAQ
-CLYM,Climb Bio Inc,NASDAQ
+CSIQ,Canadian Solar Inc.,NASDAQ
+MAKO,Mako Mining Corp,NASDAQ
 PSIX,Power Solutions International  Inc.,NASDAQ
+ACRS,Aclaris Therapeutics  Inc.,NASDAQ
+DSP,Viant Technology Inc,NASDAQ
+EVLV,Evolv Technologies Holdings  Inc.,NASDAQ
+FOXF,Fox Factory Holding Corp.,NASDAQ
+APC,Arko Petroleum Corp,NASDAQ
+NAVI,Navient Corporation,NASDAQ
+HELP,Cybin Inc.,NASDAQ
+CLYM,Climb Bio Inc,NASDAQ
+WRLD,World Acceptance Corp,NASDAQ
+CCBG,Capital City Bank Group Inc,NASDAQ
+TBPH,Theravance Biopharma  Inc.,NASDAQ
+AHCO,AdaptHealth Corp.,NASDAQ
+AVR,Anteris Technologies Global Corp,NASDAQ
+SLN,Silence Therapeutics PLC ADR,NASDAQ
+EVER,EverQuote  Inc.,NASDAQ
+VERB,Verb Technology Company Inc,NASDAQ
+ROOT,Root Inc,NASDAQ
+ADAM,Adamas Trust  Inc.,NASDAQ
+GSBC,Great Southern Bancorp Inc,NASDAQ
+WOOF,Petco Health and Wellness Company Inc,NASDAQ
+BBNX,Beta Bionics  Inc.,NASDAQ
 ACHV,Achieve Life Sciences  Inc.,NASDAQ
-KOPN,Kopin Corp,NASDAQ
-PHAR,Pharming Group N.V. ADR,NASDAQ
+GSM,Ferroglobe PLC,NASDAQ
+ADSE,ADS-TEC Energy PLC,NASDAQ
+DJCO,Daily Journal Corporation,NASDAQ
+CRTO,Criteo SA (Pre-Reincorporation),NASDAQ
+SABR,Sabre Corporation,NASDAQ
+SPFI,South Plains Financial Inc,NASDAQ
+EGBN,Eagle Bancorp  Inc.,NASDAQ
+INMD,InMode Ltd.,NASDAQ
+HSTM,HealthStream  Inc.,NASDAQ
+HIVE,HIVE Digital Technologies Ltd,NASDAQ
+IQ,iQIYI Inc ADR,NASDAQ
 ORRF,Orrstown Financial Services Inc,NASDAQ
-COLL,Collegium Pharmaceutical Inc,NASDAQ
+JBSS,John B. Sanfilippo & Son  Inc.,NASDAQ
+DBVT,Dbv Technologies SA ADR,NASDAQ
 ALRS,Alerus Financial Corp,NASDAQ
 HQ,Horizon Quantum Holdings Ltd,NASDAQ
+PLTK,Playtika Holding Corp,NASDAQ
+RJET,Republic Airways Holdings Inc.,NASDAQ
+BLMN,Bloomin' Brands Inc,NASDAQ
+MITK,Mitek Systems Inc,NASDAQ
+QVCG,QVC Group  Inc.,NASDAQ
+SWIM,Latham Group Inc,NASDAQ
+INDI,indie Semiconductor Inc,NASDAQ
+BLZE,Backblaze Inc,NASDAQ
+APEI,American Public Education  Inc.,NASDAQ
+IBCP,Independent Bank Corp,NASDAQ
+SIBN,SI-BONE  Inc.,NASDAQ
+FDMT,4D Molecular Therapeutics Inc,NASDAQ
+PGC,Peapack-Gladstone Financial Corp,NASDAQ
+BBSI,Barrett Business Services Inc,NASDAQ
+FISI,Financial Institutions Inc,NASDAQ
+HTZ,Hertz Global Holdings Inc,NASDAQ
+SMBC,Southern Missouri Bancorp Inc,NASDAQ
+LINC,Lincoln Educational Services Corp,NASDAQ
+RXT,Rackspace Technology Inc,NASDAQ
+HDL,Super Hi International Holding Ltd. ADR,NASDAQ
+PHAR,Pharming Group N.V. ADR,NASDAQ
+APOG,Apogee Enterprises Inc,NASDAQ
+HTBK,Heritage Commerce Corp,NASDAQ
+LWLG,Lightwave Logic  Inc.,NASDAQ
+CTMX,CytomX Therapeutics  Inc.,NASDAQ
+CGBD,Carlyle Secured Lending Inc,NASDAQ
 CYRX,Cryoport  Inc.,NASDAQ
 TRNS,Transcat  Inc.,NASDAQ
-RXT,Rackspace Technology Inc,NASDAQ
-REAX,The Real Brokerage Inc.,NASDAQ
-LPTH,LightPath Technologies Inc,NASDAQ
-AHG,Akso Health Group ADR,NASDAQ
-QVCG,QVC Group  Inc.,NASDAQ
-BBSI,Barrett Business Services Inc,NASDAQ
-SWIM,Latham Group Inc,NASDAQ
-HTBK,Heritage Commerce Corp,NASDAQ
-SPFI,South Plains Financial Inc,NASDAQ
-IBCP,Independent Bank Corp,NASDAQ
-SMBC,Southern Missouri Bancorp Inc,NASDAQ
-CGBD,Carlyle Secured Lending Inc,NASDAQ
-FDMT,4D Molecular Therapeutics Inc,NASDAQ
-SLN,Silence Therapeutics PLC ADR,NASDAQ
-FISI,Financial Institutions Inc,NASDAQ
-LINC,Lincoln Educational Services Corp,NASDAQ
-LOT,Lotus Technology Inc ADR,NASDAQ
-PGC,Peapack-Gladstone Financial Corp,NASDAQ
-GRPN,Groupon  Inc.,NASDAQ
-MFIC,MidCap Financial Investment Corp,NASDAQ
-AHCO,AdaptHealth Corp.,NASDAQ
-CSHR,Coinshares PLC,NASDAQ
-KDK,Kodiak AI Inc,NASDAQ
-WEST,Westrock Coffee Co,NASDAQ
-SATA,Strive Perp Var Rate Pref Shs Series A,NASDAQ
-PZZA,Papa John's International Inc,NASDAQ
-NOVTU,Novanta Tangible Equity Units,NASDAQ
-VREX,Varex Imaging Corporation,NASDAQ
-CCXI,Churchill Capital Corp XI,NASDAQ
 NVCT,Nuvectis Pharma Inc,NASDAQ
-SHBI,Shore Bancshares Inc,NASDAQ
-FWRG,First Watch Restaurant Group  Inc.,NASDAQ
-TASK,Taskus Inc,NASDAQ
-AURA,Aura Biosciences  Inc.,NASDAQ
-PUBM,PubMatic  Inc.,NASDAQ
-GILT,Gilat Satellite Networks Ltd.,NASDAQ
-HNRG,Hallador Energy Company,NASDAQ
-CEVA,Ceva  Inc.,NASDAQ
-MAMA,Mama's Creations Inc,NASDAQ
-IPX,IperionX Limited ADR,NASDAQ
-GSM,Ferroglobe PLC,NASDAQ
-OCS,Oculis Holding AG,NASDAQ
-WASH,Washington Trust Bancorp Inc,NASDAQ
-ENRD,Einride AB (publ) ADR,NASDAQ
+KOPN,Kopin Corp,NASDAQ
+NOVTU,Novanta Tangible Equity Units,NASDAQ
+MFIC,MidCap Financial Investment Corp,NASDAQ
 MNPR,Monopar Therapeutics Inc.,NASDAQ
-FDUS,Fidus Investment Corp,NASDAQ
-SATL,Satellogic Inc.,NASDAQ
-HIVE,HIVE Digital Technologies Ltd,NASDAQ
-AOSL,Alpha and Omega Semiconductor Limited,NASDAQ
-BWMN,Bowman Consulting Group Ltd.,NASDAQ
-ENVX,Enovix Corporation,NASDAQ
+SHBI,Shore Bancshares Inc,NASDAQ
+IPX,IperionX Limited ADR,NASDAQ
+AURA,Aura Biosciences  Inc.,NASDAQ
+SATA,Strive Perp Var Rate Pref Shs Series A,NASDAQ
+HNRG,Hallador Energy Company,NASDAQ
+VREX,Varex Imaging Corporation,NASDAQ
+GILT,Gilat Satellite Networks Ltd.,NASDAQ
+AGMB,Agomab Therapeutics NV ADR,NASDAQ
+CBIO,Crescent Biopharma  Inc.,NASDAQ
 NGNE,Neurogene Inc.,NASDAQ
-PAYS,Paysign Inc,NASDAQ
-SCHL,Scholastic Corporation,NASDAQ
-LYTS,LSI Industries Inc,NASDAQ
-DRUG,Bright Minds Biosciences Inc.,NASDAQ
-ALOY,REalloys Inc,NASDAQ
-NHP,National Healthcare Properties  Inc.,NASDAQ
-STTK,Shattuck Labs Inc,NASDAQ
-BBOT,BridgeBio Oncology Therapeutics Inc,NASDAQ
-CTMX,CytomX Therapeutics  Inc.,NASDAQ
-CCSI,Consensus Cloud Solutions Inc,NASDAQ
-SOPH,SOPHiA GENETICS SA,NASDAQ
-WYFI,WhiteFiber Inc,NASDAQ
-HTZ,Hertz Global Holdings Inc,NASDAQ
-PHAT,Phathom Pharmaceuticals  Inc.,NASDAQ
+MOMO,Hello Group Inc. ADR,NASDAQ
 CCB,Coastal Financial Corp (EVERETT),NASDAQ
-CASS,Cass Information Systems Inc,NASDAQ
-MLAB,Mesa Laboratories  Inc.,NASDAQ
+PHAT,Phathom Pharmaceuticals  Inc.,NASDAQ
+WASH,Washington Trust Bancorp Inc,NASDAQ
+GRPN,Groupon  Inc.,NASDAQ
+KDK,Kodiak AI Inc,NASDAQ
+COLL,Collegium Pharmaceutical  Inc.,NASDAQ
+CSHR,Coinshares PLC,NASDAQ
+CRESY,Cresud SACIF y A ADR,NASDAQ
+AOSL,Alpha and Omega Semiconductor Limited,NASDAQ
+PAYS,Paysign Inc,NASDAQ
+WYFI,WhiteFiber Inc,NASDAQ
+CEVA,Ceva  Inc.,NASDAQ
+WEST,Westrock Coffee Co,NASDAQ
+LYTS,LSI Industries Inc,NASDAQ
 RCBC,River City Bank,NASDAQ
+PUBM,PubMatic  Inc.,NASDAQ
+OCS,Oculis Holding AG,NASDAQ
+PZZA,Papa John's International Inc,NASDAQ
+CCXI,Churchill Capital Corp XI,NASDAQ
+LOT,Lotus Technology Inc ADR,NASDAQ
+ASMB,Assembly Biosciences Inc,NASDAQ
+FDUS,Fidus Investment Corp,NASDAQ
+FWRG,First Watch Restaurant Group  Inc.,NASDAQ
+VSTM,Verastem Inc,NASDAQ
+RPD,Rapid7  Inc.,NASDAQ
+ZVRA,Zevra Therapeutics Inc,NASDAQ
+BWMN,Bowman Consulting Group Ltd.,NASDAQ
+AROW,Arrow Financial Corp,NASDAQ
+AHG,Akso Health Group ADR,NASDAQ
+ENVX,Enovix Corporation,NASDAQ
+TASK,Taskus Inc,NASDAQ
+CWBC,Community West Bancshares,NASDAQ
 PRAA,PRA Group Inc,NASDAQ
+MLAB,Mesa Laboratories  Inc.,NASDAQ
+MAMA,Mama's Creations Inc,NASDAQ
+TRON,TRON Inc,NASDAQ
+SCHL,Scholastic Corporation,NASDAQ
+GYRE,Gyre Therapeutics  Inc.,NASDAQ
+VBNK,Versabank,NASDAQ
+BBOT,BridgeBio Oncology Therapeutics Inc,NASDAQ
+PFIS,Peoples Financial Services Corp,NASDAQ
+NHP,National Healthcare Properties  Inc.,NASDAQ
+CASS,Cass Information Systems Inc,NASDAQ
+SATL,Satellogic Inc.,NASDAQ
 KRNT,Kornit Digital Ltd.,NASDAQ
+CARE,Carter Bankshares Inc,NASDAQ
+ARRY,Array Technologies Inc,NASDAQ
 TBLD,Thornburg Income Builder Opportunities Trust,NASDAQ
 NMFC,New Mountain Finance Corp,NASDAQ
-CCD,Calamos Dynamic Convertible And Income Closed Fund,NASDAQ
-AGNT,AGNT  Inc.,NASDAQ
-ARRY,Array Technologies Inc,NASDAQ
-AROW,Arrow Financial Corp,NASDAQ
-OIO,Oio Group,NASDAQ
-CWBC,Community West Bancshares,NASDAQ
-CRESY,Cresud SACIF y A ADR,NASDAQ
-GYRE,Gyre Therapeutics  Inc.,NASDAQ
-ALLO,Allogene Therapeutics  Inc.,NASDAQ
-CARE,Carter Bankshares Inc,NASDAQ
-SSII,SS Innovations International  Inc.,NASDAQ
-PFIS,Peoples Financial Services Corp,NASDAQ
-TECX,Tectonic Therapeutic  Inc.,NASDAQ
-SPT,Sprout Social  Inc.,NASDAQ
-ASMB,Assembly Biosciences Inc,NASDAQ
-METC,Ramaco Resources  Inc. Class A,NASDAQ
-SHEN,Shenandoah Telecommunications Co,NASDAQ
-TIPT,Tiptree Inc,NASDAQ
-ZVRA,Zevra Therapeutics Inc,NASDAQ
-MSBI,Midland States Bancorp Inc,NASDAQ
-BCAL,California Bancorp,NASDAQ
-SLRC,SLR Investment Corp,NASDAQ
-IRWD,Ironwood Pharmaceuticals  Inc.,NASDAQ
-EVO,Evotec SE ADR,NASDAQ
 BLDP,Ballard Power Systems Inc,NASDAQ
-FEIM,Frequency Electronics Inc,NASDAQ
+BCAL,California Bancorp,NASDAQ
+IRWD,Ironwood Pharmaceuticals  Inc.,NASDAQ
+ALOY,REalloys Inc,NASDAQ
 SSYS,Stratasys Ltd.,NASDAQ
-LEGH,Legacy Housing Corp (Texas),NASDAQ
-DMIIU,Drugs Made In America Acquisition II Units,NASDAQ
-VRRM,Verra Mobility Corporation,NASDAQ
-HELE,Helen of Troy Ltd,NASDAQ
+MSBI,Midland States Bancorp Inc,NASDAQ
+CCD,Calamos Dynamic Convertible And Income Closed Fund,NASDAQ
+SHEN,Shenandoah Telecommunications Co,NASDAQ
+SOPH,SOPHiA GENETICS SA,NASDAQ
+TIPT,Tiptree Inc,NASDAQ
+SPT,Sprout Social  Inc.,NASDAQ
+SLRC,SLR Investment Corp,NASDAQ
+SSII,SS Innovations International  Inc.,NASDAQ
+REAX,Real Remax Group  Inc.,NASDAQ
+STTK,Shattuck Labs Inc,NASDAQ
+ALLO,Allogene Therapeutics  Inc.,NASDAQ
 RRBI,Red River Bancshares Inc,NASDAQ
-PKOH,Park Ohio Holdings Corp,NASDAQ
-ODD,ODDITY Tech Ltd.,NASDAQ
-CBIO,Crescent Biopharma  Inc.,NASDAQ
-ACNB,ACNB Corp,NASDAQ
-MDXG,MiMedx Group  Inc.,NASDAQ
 SGMT,Sagimet Biosciences Inc.,NASDAQ
-ANGO,AngioDynamics  Inc.,NASDAQ
-PRME,Prime Medicine  Inc.,NASDAQ
-GAIN,Gladstone Investment Corp,NASDAQ
-VSTM,Verastem Inc,NASDAQ
-MATW,Matthews International Corp,NASDAQ
-CGNT,COGNYTE SOFTWARE LTD.,NASDAQ
+FEIM,Frequency Electronics Inc,NASDAQ
 HIFS,Hingham Institution For Savings,NASDAQ
-OABI,OmniAb Inc,NASDAQ
-AGMB,Agomab Therapeutics NV ADR,NASDAQ
-VBNK,Versabank,NASDAQ
-NKLR,Terra Innovatum Global NV,NASDAQ
-CCXIU,Churchill Capital XI Units,NASDAQ
-VLGEA,Village Super Market Inc,NASDAQ
+LEGH,Legacy Housing Corp (Texas),NASDAQ
+PKOH,Park Ohio Holdings Corp,NASDAQ
+AGNT,AGNT  Inc.,NASDAQ
+PRME,Prime Medicine  Inc.,NASDAQ
+ACNB,ACNB Corp,NASDAQ
+AQST,Aquestive Therapeutics  Inc.,NASDAQ
+DMIIU,Drugs Made In America Acquisition II Units,NASDAQ
+MDXG,MiMedx Group  Inc.,NASDAQ
+HELE,Helen of Troy Ltd,NASDAQ
+EVO,Evotec SE ADR,NASDAQ
+MATW,Matthews International Corp,NASDAQ
+KRNY,Kearny Financial Corp,NASDAQ
 CRMD,CorMedix Inc.,NASDAQ
 GDYN,Grid Dynamics Holdings  Inc.,NASDAQ
-DMII,Drugs Made In America Acquisition II Corp,NASDAQ
-CTNM,Contineum Therapeutics  Inc.,NASDAQ
-BOT,RoboStrategy Inc,NASDAQ
-RGNX,REGENXBIO Inc.,NASDAQ
-KRNY,Kearny Financial Corp,NASDAQ
-RSVR,Reservoir Media Inc,NASDAQ
-DCBO,Docebo Inc.,NASDAQ
-AGCC,Agencia Comercial Spirits Ltd,NASDAQ
-DDI,DoubleDown Interactive Co Ltd ADR,NASDAQ
-NRDS,NerdWallet  Inc.,NASDAQ
-TLRY,Tilray Brands Inc,NASDAQ
-AQST,Aquestive Therapeutics Inc,NASDAQ
-GOOD,Gladstone Commercial Corp,NASDAQ
-ADTN,ADTRAN Holdings Inc,NASDAQ
-STLN,Starling Oncology  Inc.,NASDAQ
-ALTI,AlTi Global  Inc,NASDAQ
-RMR,The RMR Group Inc.,NASDAQ
-AUTL,Autolus Therapeutics PLC ADR,NASDAQ
-VINP,Vinci Compass Investments Ltd,NASDAQ
-YB,Yuanbao Inc ADR,NASDAQ
-KIDS,OrthoPediatrics Corp,NASDAQ
 VALN,Valneva SE ADR,NASDAQ
-OSPN,OneSpan Inc.,NASDAQ
-CTKB,Cytek Biosciences  Inc.,NASDAQ
-HNST,The Honest Company  Inc.,NASDAQ
-DGICA,Donegal Group Inc Class A,NASDAQ
-ALT,Altimmune Inc,NASDAQ
-DNUT,Krispy Kreme  Inc.,NASDAQ
-CXII,Churchill Capital Corp XII,NASDAQ
-NB,NioCorp Developments Ltd.,NASDAQ
-ARVN,Arvinas  Inc.,NASDAQ
-BLSM,BlossomHill Therapeutics Inc,NASDAQ
-ITG,ITG Inc,NASDAQ
-CBNK,Capital Bancorp Inc,NASDAQ
-ASPI,ASP Isotopes Inc.,NASDAQ
-EIKN,Eikon Therapeutics Inc,NASDAQ
-BWB,Bridgewater Bancshares Inc,NASDAQ
-GCBC,Greene County Bancorp Inc,NASDAQ
-FBIZ,First Business Financial Services Inc,NASDAQ
-CEPF,Cantor Equity Partners IV Inc,NASDAQ
-UNTY,Unity Bancorp Inc,NASDAQ
-SFST,Southern First Bancshares Inc,NASDAQ
-EOLS,Evolus Inc,NASDAQ
-SPRY,ARS Pharmaceuticals  Inc.,NASDAQ
-AGNCP,Agnc Invt 1000 Dep Shs Repstg Cum Red Prf Series F,NASDAQ
-MCFT,Mastercraft Boat Holdings Inc,NASDAQ
-XMAX,XMax Inc,NASDAQ
-FWRD,Forward Air Corp (Delaware),NASDAQ
-NTGR,NETGEAR  Inc.,NASDAQ
-SWBI,Smith & Wesson Brands Inc,NASDAQ
-BMM,Blue Moon Metals Inc.,NASDAQ
+GAIN,Gladstone Investment Corp,NASDAQ
+CCSI,Consensus Cloud Solutions Inc,NASDAQ
+DMII,Drugs Made In America Acquisition II Corp,NASDAQ
+DRUG,Bright Minds Biosciences Inc.,NASDAQ
+VLGEA,Village Super Market Inc,NASDAQ
+RSVR,Reservoir Media Inc,NASDAQ
+DDI,DoubleDown Interactive Co Ltd ADR,NASDAQ
+BOT,RoboStrategy Inc,NASDAQ
+ODD,ODDITY Tech Ltd.,NASDAQ
+OABI,OmniAb Inc,NASDAQ
+CTNM,Contineum Therapeutics  Inc.,NASDAQ
+VINP,Vinci Compass Investments Ltd,NASDAQ
 ABTC,American Bitcoin Corp,NASDAQ
-CAPR,Capricor Therapeutics  Inc.,NASDAQ
-GEMI,Gemini Space Station Inc,NASDAQ
-ARTV,Artiva Biotherapeutics Inc,NASDAQ
-IMSR,Terrestrial Energy Inc,NASDAQ
-SWMR,Swarmer Inc,NASDAQ
+METC,Ramaco Resources  Inc. Class A,NASDAQ
+BLSM,BlossomHill Therapeutics Inc,NASDAQ
+ALT,Altimmune Inc,NASDAQ
+CCXIU,Churchill Capital XI Units,NASDAQ
+ASPI,ASP Isotopes Inc.,NASDAQ
+LPTH,LightPath Technologies Inc,NASDAQ
 MPLT,MapLight Therapeutics  Inc.,NASDAQ
-NEXN,Nexxen International Ltd,NASDAQ
-KRUS,Kura Sushi USA  Inc.,NASDAQ
-BWAY,Brainsway Ltd ADR,NASDAQ
-BATRA,Liberty Media Liberty Braves Ord Shs  Series A,NASDAQ
-CIVB,Civista Bancshares Inc,NASDAQ
-NRIM,Northrim BanCorp Inc,NASDAQ
-DCTH,Delcath Systems Inc,NASDAQ
-ITIC,Investors Title Co,NASDAQ
-KE,Kimball Electronics Inc,NASDAQ
-CTRN,Citi Trends Inc,NASDAQ
-RFAIU,RF Acquisition II Units,NASDAQ
-NXH,Neighborhood Intelligence  Inc.,NASDAQ
-CHSCO,CHS Cumulative Redeemable Pref Shs Class B,NASDAQ
-ILPT,Industrial Logistics Properties Trust,NASDAQ
-YORW,York Water Co,NASDAQ
-XNDU,Xanadu Quantum Technologies Ltd,NASDAQ
+HNST,The Honest Company  Inc.,NASDAQ
+ITG,ITG Inc,NASDAQ
+GOOD,Gladstone Commercial Corp,NASDAQ
+YB,Yuanbao Inc ADR,NASDAQ
+NRDS,NerdWallet  Inc.,NASDAQ
+ANGO,AngioDynamics  Inc.,NASDAQ
+RMR,The RMR Group Inc.,NASDAQ
+CGNT,COGNYTE SOFTWARE LTD.,NASDAQ
+ENRD,Einride AB (publ) ADR,NASDAQ
+TLRY,Tilray Brands Inc,NASDAQ
+VRRM,Verra Mobility Corporation,NASDAQ
+BMM,Blue Moon Metals Inc.,NASDAQ
+AGCC,Agencia Comercial Spirits Ltd,NASDAQ
+DCBO,Docebo Inc.,NASDAQ
+OSPN,OneSpan Inc.,NASDAQ
+EOLS,Evolus Inc,NASDAQ
+ARVN,Arvinas  Inc.,NASDAQ
+DGICA,Donegal Group Inc Class A,NASDAQ
+OIO,Oio Group,NASDAQ
+CTKB,Cytek Biosciences  Inc.,NASDAQ
+FBIZ,First Business Financial Services Inc,NASDAQ
+BWB,Bridgewater Bancshares Inc,NASDAQ
 PROK,Prokidney Corp,NASDAQ
-LAES,Sealsq Corp,NASDAQ
-ZURA,Zura Bio Ltd,NASDAQ
-OVID,Ovid Therapeutics Inc.,NASDAQ
-HBCP,Home Bancorp Inc,NASDAQ
-ROMA,Roma Green Finance Ltd,NASDAQ
-CHW,Calamos Global Dynamic Income Closed Fund,NASDAQ
-KELYA,Kelly Services Inc Class A,NASDAQ
-VACH,Voyager Acquisition Corp,NASDAQ
-ESEA,Euroseas Ltd,NASDAQ
-FLGT,Fulgent Genetics  Inc.,NASDAQ
-MBUU,Malibu Boats Inc,NASDAQ
-CERS,Cerus Corp,NASDAQ
-SLDP,Solid Power  Inc.,NASDAQ
-BWFG,Bankwell Financial Group Inc,NASDAQ
-CABA,Cabaletta Bio  Inc.,NASDAQ
-SRTA,Strata Critical Medical  Inc.,NASDAQ
-CLMB,Climb Global Solutions Inc,NASDAQ
-PANL,Pangaea Logistics Solutions Ltd.,NASDAQ
-RMNI,Rimini Street Inc,NASDAQ
-FAC,Factorial Energy Inc,NASDAQ
-TCMD,Tactile Systems Technology  Inc.,NASDAQ
-ENTX,Entera Bio Ltd,NASDAQ
-CHSCL,CHS Cumulative Redeemable Pref Shs Series 4 Class B,NASDAQ
-GRVY,Gravity Co Ltd ADR,NASDAQ
-AMCX,AMC Global Media Inc.,NASDAQ
-CMCO,Columbus McKinnon Corp,NASDAQ
-KYTX,Kyverna Therapeutics  Inc.,NASDAQ
-BTBT,Bit Digital  Inc.,NASDAQ
-OBT,Orange County Bancorp Inc,NASDAQ
-BSRR,Sierra Bancorp,NASDAQ
-PBAM,Private Bancorp of America Inc,NASDAQ
-ELMT,Elmet Group Co,NASDAQ
-GLRE,Greenlight Capital Re Ltd,NASDAQ
-ADUR,Aduro Clean Technologies Inc,NASDAQ
-SCTX,Scribe Therapeutics Inc,NASDAQ
-BRBI,BRBI BR Partners SA ADR,NASDAQ
-NUAI,New Era Energy & Digital Inc,NASDAQ
-BTQ,BTQ Technologies Corp.,NASDAQ
-NVEC,NVE Corp,NASDAQ
-EDIT,Editas Medicine  Inc.,NASDAQ
-CCCC,C4 Therapeutics  Inc.,NASDAQ
-PRLD,Prelude Therapeutics Incorporated,NASDAQ
-ULH,Universal Logistics Holdings Inc,NASDAQ
-IBEX,Ibex Ltd,NASDAQ
-VOGX,Vogenx  Inc.,NASDAQ
-COFS,ChoiceOne Financial Services Inc,NASDAQ
-BSVN,Bank7 Corp,NASDAQ
-PDLB,Ponce Financial Group Inc,NASDAQ
-NPCE,NeuroPace  Inc.,NASDAQ
-SENS,Senseonics Holdings Inc,NASDAQ
+GCBC,Greene County Bancorp Inc,NASDAQ
+GEMI,Gemini Space Station Inc,NASDAQ
+STLN,Starling Oncology  Inc.,NASDAQ
+SFST,Southern First Bancshares Inc,NASDAQ
+CBNK,Capital Bancorp Inc,NASDAQ
+UNTY,Unity Bancorp Inc,NASDAQ
+NB,NioCorp Developments Ltd.,NASDAQ
+TECX,Tectonic Therapeutic  Inc.,NASDAQ
+KE,Kimball Electronics Inc,NASDAQ
+AUTL,Autolus Therapeutics PLC ADR,NASDAQ
+CXII,Churchill Capital Corp XII,NASDAQ
 LMB,Limbach Holdings Inc,NASDAQ
-CENT,Central Garden & Pet Co,NASDAQ
-ARKO,Arko Corp.,NASDAQ
-MLAA,Mountain Lake Acquisition Corp II,NASDAQ
-AMSF,Amerisafe Inc,NASDAQ
-CCOI,Cogent Communications Holdings Inc,NASDAQ
-WTBA,West Bancorporation Inc,NASDAQ
-NRC,NRC Health,NASDAQ
-OWLS,OBOOK Holdings Inc,NASDAQ
-GTEN,Gores Holdings X Inc,NASDAQ
-JOUT,Johnson Outdoors Inc,NASDAQ
-CHSCM,CHS Reset Rate Cumulative Redeemable Pref Shs Series 3 Class B,NASDAQ
-PRTA,Prothena Corporation PLC,NASDAQ
-KMDA,Kamada Ltd.,NASDAQ
-CWCO,Consolidated Water Co Ltd,NASDAQ
-CRAN,Crane Harbor Acquisition Corp II,NASDAQ
-STRZ,Starz Entertainment Corp.,NASDAQ
-CLPT,Clearpoint Neuro Inc,NASDAQ
-FMAO,Farmers & Merchants Bancorp Inc,NASDAQ
-TATT,TAT Technologies Ltd,NASDAQ
-SGHT,Sight Sciences  Inc.,NASDAQ
-GCGR,General Catalyst Global Resilience Merger Corp,NASDAQ
-OTLY,Oatly Group AB ADR,NASDAQ
-PBYI,Puma Biotechnology Inc,NASDAQ
-CBK,Commercial BancGroup Inc,NASDAQ
-TMS,Teamshares Inc.,NASDAQ
-LOCO,El Pollo Loco Holdings Inc,NASDAQ
-APXT,Apex Treasury Corp,NASDAQ
+CEPF,Cantor Equity Partners IV Inc,NASDAQ
+CTRN,Citi Trends Inc,NASDAQ
+BTBT,Bit Digital  Inc.,NASDAQ
+RGNX,REGENXBIO Inc.,NASDAQ
+NRIM,Northrim BanCorp Inc,NASDAQ
+CABA,Cabaletta Bio  Inc.,NASDAQ
+EIKN,Eikon Therapeutics Inc,NASDAQ
+DNUT,Krispy Kreme  Inc.,NASDAQ
+KIDS,OrthoPediatrics Corp,NASDAQ
+AGNCP,Agnc Invt 1000 Dep Shs Repstg Cum Red Prf Series F,NASDAQ
+NTGR,NETGEAR  Inc.,NASDAQ
+ADTN,ADTRAN Holdings Inc,NASDAQ
+CIVB,Civista Bancshares Inc,NASDAQ
+BATRA,Liberty Media Liberty Braves Ord Shs  Series A,NASDAQ
+DCTH,Delcath Systems Inc,NASDAQ
+BWAY,Brainsway Ltd ADR,NASDAQ
+SCTX,Scribe Therapeutics Inc,NASDAQ
+ALTI,AlTi Global  Inc,NASDAQ
 KPLT,Katapult Holdings Inc,NASDAQ
-BBCP,Concrete Pumping Holdings Inc,NASDAQ
-ATNI,ATN International Inc,NASDAQ
-FITBI,Fifth Third Bancorp Depositary Shares Representing 1/1000th Perp Pref Shs,NASDAQ
-RLMD,Relmada Therapeutics Inc,NASDAQ
-BCCQ,Bleichroeder Acquisition Corp III,NASDAQ
-CARL,Carlsmed  Inc.,NASDAQ
-MFI,mF International Limited,NASDAQ
-CXIIU,Churchill Capital XII Units,NASDAQ
-CZNC,Citizens & Northern Corp,NASDAQ
-PHOE,Phoenix Asia Holdings Ltd,NASDAQ
-OCGN,Ocugen  Inc.,NASDAQ
-QTTB,Q32 Bio Inc.,NASDAQ
+TITN,Titan Machinery Inc,NASDAQ
+FWRD,Forward Air Corp (Delaware),NASDAQ
+ZURA,Zura Bio Ltd,NASDAQ
+MCFT,Mastercraft Boat Holdings Inc,NASDAQ
+NKLR,Terra Innovatum Global NV,NASDAQ
+SWBI,Smith & Wesson Brands Inc,NASDAQ
+NUAI,New Era Energy & Digital Inc,NASDAQ
+SLDP,Solid Power  Inc.,NASDAQ
+ITIC,Investors Title Co,NASDAQ
+NXH,Neighborhood Intelligence  Inc.,NASDAQ
+PANL,Pangaea Logistics Solutions Ltd.,NASDAQ
+RFAIU,RF Acquisition II Units,NASDAQ
+SPRY,ARS Pharmaceuticals  Inc.,NASDAQ
+FAC,Factorial Energy Inc,NASDAQ
+XMAX,XMax Inc,NASDAQ
+CHSCO,CHS Cumulative Redeemable Pref Shs Class B,NASDAQ
+HBCP,Home Bancorp Inc,NASDAQ
+YORW,York Water Co,NASDAQ
+ILPT,Industrial Logistics Properties Trust,NASDAQ
+MBUU,Malibu Boats Inc,NASDAQ
+ARKO,Arko Corp.,NASDAQ
+CHW,Calamos Global Dynamic Income Closed Fund,NASDAQ
+ARTV,Artiva Biotherapeutics Inc,NASDAQ
+BSVN,Bank7 Corp,NASDAQ
+BRBI,BRBI BR Partners SA ADR,NASDAQ
+OVID,Ovid Therapeutics Inc.,NASDAQ
+CAPR,Capricor Therapeutics  Inc.,NASDAQ
+IMSR,Terrestrial Energy Inc,NASDAQ
+NEXN,Nexxen International Ltd,NASDAQ
+CLMB,Climb Global Solutions Inc,NASDAQ
+CMCO,Columbus McKinnon Corp,NASDAQ
+FLGT,Fulgent Genetics  Inc.,NASDAQ
+VACH,Voyager Acquisition Corp,NASDAQ
+LAES,Sealsq Corp,NASDAQ
+ESEA,Euroseas Ltd,NASDAQ
+BWFG,Bankwell Financial Group Inc,NASDAQ
+KRUS,Kura Sushi USA  Inc.,NASDAQ
+KELYA,Kelly Services Inc Class A,NASDAQ
+CHSCL,CHS Cumulative Redeemable Pref Shs Series 4 Class B,NASDAQ
+BSRR,Sierra Bancorp,NASDAQ
+IBEX,Ibex Ltd,NASDAQ
+ROMA,Roma Green Finance Ltd,NASDAQ
 GFUZ,General Fusion Group Ltd,NASDAQ
-RZLT,Rezolute  Inc.,NASDAQ
-PWRL,PowerLaw10 LLC,NASDAQ
-MASS,908 Devices Inc.,NASDAQ
-BIOA,BioAge Labs  Inc.,NASDAQ
-ASTL,Algoma Steel Group Inc,NASDAQ
-PACB,Pacific Biosciences of California  Inc.,NASDAQ
-FWDI,Forward Industries Inc,NASDAQ
+CERS,Cerus Corp,NASDAQ
+ENTX,Entera Bio Ltd,NASDAQ
+OBT,Orange County Bancorp Inc,NASDAQ
+TATT,TAT Technologies Ltd,NASDAQ
+PBAM,Private Bancorp of America Inc,NASDAQ
+AMCX,AMC Global Media Inc.,NASDAQ
+CCOI,Cogent Communications Holdings  Inc.,NASDAQ
+SWMR,Swarmer Inc,NASDAQ
+COFS,ChoiceOne Financial Services Inc,NASDAQ
+XNDU,Xanadu Quantum Technologies Ltd,NASDAQ
+NPCE,NeuroPace  Inc.,NASDAQ
+ELMT,Elmet Group Co,NASDAQ
+KYTX,Kyverna Therapeutics  Inc.,NASDAQ
+SENS,Senseonics Holdings Inc,NASDAQ
+GRVY,Gravity Co Ltd ADR,NASDAQ
+GLRE,Greenlight Capital Re Ltd,NASDAQ
 EPRX,Eupraxia Pharmaceuticals Inc,NASDAQ
-CMPX,Compass Therapeutics Inc.,NASDAQ
-ARCT,Arcturus Therapeutics Holdings Inc,NASDAQ
-XLAB,D Boral ARC Acquisition I Corp,NASDAQ
-VITL,Vital Farms Inc,NASDAQ
-GLAD,Gladstone Capital Corp,NASDAQ
-GHXI,Gores Holdings XI Inc,NASDAQ
-ACIC,American Coastal Insurance Corp,NASDAQ
+BBCP,Concrete Pumping Holdings Inc,NASDAQ
+PRTA,Prothena Corporation PLC,NASDAQ
+ULH,Universal Logistics Holdings Inc,NASDAQ
+PDLB,Ponce Financial Group Inc,NASDAQ
+WTBA,West Bancorporation Inc,NASDAQ
+ASTL,Algoma Steel Group Inc,NASDAQ
+EDIT,Editas Medicine  Inc.,NASDAQ
+TCMD,Tactile Systems Technology  Inc.,NASDAQ
+PBYI,Puma Biotechnology Inc,NASDAQ
+KMDA,Kamada Ltd.,NASDAQ
+MLAA,Mountain Lake Acquisition Corp II,NASDAQ
+FMAO,Farmers & Merchants Bancorp Inc,NASDAQ
+NVEC,NVE Corp,NASDAQ
+JOUT,Johnson Outdoors Inc,NASDAQ
+OWLS,OBOOK Holdings Inc,NASDAQ
+CHSCM,CHS Reset Rate Cumulative Redeemable Pref Shs Series 3 Class B,NASDAQ
+AMSF,Amerisafe Inc,NASDAQ
+GTEN,Gores Holdings X Inc,NASDAQ
+MFI,mF International Limited,NASDAQ
+ADUR,Aduro Clean Technologies Inc,NASDAQ
+CBK,Commercial BancGroup Inc,NASDAQ
+ATNI,ATN International Inc,NASDAQ
+NRC,NRC Health,NASDAQ
+CRAN,Crane Harbor Acquisition Corp II,NASDAQ
+EVGO,EVgo Inc,NASDAQ
+RLMD,Relmada Therapeutics Inc,NASDAQ
+VOGX,Vogenx  Inc.,NASDAQ
+SRTA,Strata Critical Medical  Inc.,NASDAQ
+GCGR,General Catalyst Global Resilience Merger Corp,NASDAQ
+CENT,Central Garden & Pet Co,NASDAQ
+CWCO,Consolidated Water Co Ltd,NASDAQ
+CZNC,Citizens & Northern Corp,NASDAQ
+LOCO,El Pollo Loco Holdings Inc,NASDAQ
+RMNI,Rimini Street Inc,NASDAQ
+AVIR,Atea Pharmaceuticals  Inc.,NASDAQ
+FWDI,Forward Industries Inc,NASDAQ
+APXT,Apex Treasury Corp,NASDAQ
+MOVE,Corvex Inc,NASDAQ
+CCCC,C4 Therapeutics  Inc.,NASDAQ
+FITBI,Fifth Third Bancorp Depositary Shares Representing 1/1000th Perp Pref Shs,NASDAQ
+OCGN,Ocugen  Inc.,NASDAQ
+PBFS,Pioneer Bancorp Inc,NASDAQ
+STRZ,Starz Entertainment Corp.,NASDAQ
+SGHT,Sight Sciences  Inc.,NASDAQ
+BCCQ,Bleichroeder Acquisition Corp III,NASDAQ
 FRBA,FIRST BANK (Hamilton),NASDAQ
+CXIIU,Churchill Capital XII Units,NASDAQ
+RBB,RBB Bancorp,NASDAQ
+PRTH,Priority Technology Holdings Inc,NASDAQ
+GHXI,Gores Holdings XI Inc,NASDAQ
+TMS,Teamshares Inc.,NASDAQ
+GLAD,Gladstone Capital Corp,NASDAQ
+BPYPM,Brookfield Property Preferred Pref Shs Class A,NASDAQ
+ACIC,American Coastal Insurance Corp,NASDAQ
+OTLY,Oatly Group AB ADR,NASDAQ
 KBON,Karbon Capital Partners Corp,NASDAQ
 IEAG,Infinite Eagle Acquisition Corp,NASDAQ
 WTFCN,Wintrust Financial Depositary Shares Rep 1000 Share 7 875 Fixed Rate Reset Non,NASDAQ
-RBB,RBB Bancorp,NASDAQ
-BPYPM,Brookfield Property Preferred Pref Shs Class A,NASDAQ
-PRTH,Priority Technology Holdings Inc,NASDAQ
-ADV,Advantage Solutions Inc.,NASDAQ
-XIIIU,Churchill Capital XIII Units,NASDAQ
-PRE,Prenetics Global Ltd,NASDAQ
+TRVG,Trivago NV ADR,NASDAQ
+GALT,Galectin Therapeutics Inc,NASDAQ
+PHOE,Phoenix Asia Holdings Ltd,NASDAQ
+ARCT,Arcturus Therapeutics Holdings Inc,NASDAQ
+BMRC,Bank of Marin Bancorp,NASDAQ
+BTQ,BTQ Technologies Corp.,NASDAQ
+GBLI,Global Indemnity Group LLC,NASDAQ
+BMBL,Bumble Inc.,NASDAQ
+ACTG,Acacia Research Corporation,NASDAQ
+PWRL,PowerLaw10 LLC,NASDAQ
 MBVI,M3-Brigade Acquisition VI Corp,NASDAQ
-BELFA,Bel Fuse Inc. Class A,NASDAQ
-PBFS,Pioneer Bancorp Inc,NASDAQ
+RZLT,Rezolute  Inc.,NASDAQ
+MTLS,Materialise NV ADR,NASDAQ
+BIOA,BioAge Labs  Inc.,NASDAQ
+PLBC,Plumas Bancorp,NASDAQ
+XIIIU,Churchill Capital XIII Units,NASDAQ
 IMXI,International Money Express Inc,NASDAQ
 IACO,Idea Acquisition Corp,NASDAQ
-ACTG,Acacia Research Corporation,NASDAQ
-SERV,Serve Robotics Inc.,NASDAQ
+IIIV,I3 Verticals  Inc.,NASDAQ
+PRE,Prenetics Global Ltd,NASDAQ
+XRX,Xerox Holdings Corp,NASDAQ
+PRLD,Prelude Therapeutics Incorporated,NASDAQ
+BNTC,Benitec Biopharma Inc,NASDAQ
 MESH,Meshflow Acquisition Corp,NASDAQ
-RFAI,RF Acquisition Corp II,NASDAQ
-EVGO,EVgo Inc,NASDAQ
-GBLI,Global Indemnity Group LLC,NASDAQ
-WEYS,WEYCO Group Inc,NASDAQ
+FENC,Fennec Pharmaceuticals Inc.,NASDAQ
+IHRT,iHeartMedia  Inc.,NASDAQ
 DBCA,D Boral Acquisition I Corp,NASDAQ
-BMRC,Bank of Marin Bancorp,NASDAQ
+USCB,USCB Financial Holdings Inc,NASDAQ
+FRPH,FRP Holdings Inc,NASDAQ
+WEYS,WEYCO Group Inc,NASDAQ
 AXG,Solowin Holdings Ltd,NASDAQ
 KRAQ,KRAKacquisition Corp,NASDAQ
-PLBC,Plumas Bancorp,NASDAQ
-AVIR,Atea Pharmaceuticals  Inc.,NASDAQ
-IIIV,I3 Verticals  Inc.,NASDAQ
-BNTC,Benitec Biopharma Inc,NASDAQ
-FRPH,FRP Holdings Inc,NASDAQ
-IHRT,iHeartMedia  Inc.,NASDAQ
-GCGRU,General Catalyst Global Resilience Merger Units,NASDAQ
-CGC,Canopy Growth Corporation,NASDAQ
-FIP,FTAI Infrastructure Inc.,NASDAQ
-CHSCN,CHS Reset Rate Pref Shs Class B Series 2,NASDAQ
-BMBL,Bumble Inc.,NASDAQ
-KFII,K&F Growth Acquisition II Corp,NASDAQ
+SERV,Serve Robotics Inc.,NASDAQ
+CMPX,Compass Therapeutics Inc.,NASDAQ
 ISTR,Investar Holding Corp,NASDAQ
-LRMR,Larimar Therapeutics  Inc.,NASDAQ
+BELFA,Bel Fuse Inc. Class A,NASDAQ
+BRCB,Black Rock Coffee Bar  Inc.,NASDAQ
+CARL,Carlsmed  Inc.,NASDAQ
+VITL,Vital Farms Inc,NASDAQ
+CLPT,Clearpoint Neuro Inc,NASDAQ
+GCGRU,General Catalyst Global Resilience Merger Units,NASDAQ
+CHSCN,CHS Reset Rate Pref Shs Class B Series 2,NASDAQ
+LAND,Gladstone Land Corp,NASDAQ
+RCKT,Rocket Pharmaceuticals  Inc.,NASDAQ
 SBC,SBC Medical Group Holdings Inc,NASDAQ
-TITN,Titan Machinery Inc,NASDAQ
+FISN,Deep Fission  Inc,NASDAQ
+PACB,Pacific Biosciences of California  Inc.,NASDAQ
+KFII,K&F Growth Acquisition II Corp,NASDAQ
 LILAP,Liberty Latin America 9 0 Fixed Rate Cumulative Perpetual Redeemable Prf Shs,NASDAQ
 FITBM,Fifth Third Bancorp Depositary Shares Representing a 1 40th Ownership Interest,NASDAQ
-MTLS,Materialise NV ADR,NASDAQ
-GEVO,Gevo  Inc.,NASDAQ
-ECX,Ecarx Holdings Inc.,NASDAQ
-RR,Richtech Robotics Inc.,NASDAQ
-DSC,DSC Holdings Ltd ADR,NASDAQ
-SUPX,SuperX AI Technology Ltd,NASDAQ
-GALT,Galectin Therapeutics Inc,NASDAQ
-MRAM,Everspin Technologies Inc,NASDAQ
-XFOR,X4 Pharmaceuticals Inc,NASDAQ
-GRRR,Gorilla Technology Group Inc,NASDAQ
-VELO,Velo3D Inc,NASDAQ
-FENC,Fennec Pharmaceuticals Inc.,NASDAQ
-RCKT,Rocket Pharmaceuticals  Inc.,NASDAQ
-TRVG,Trivago NV ADR,NASDAQ
-SFIX,Stitch Fix  Inc.,NASDAQ
-USCB,USCB Financial Holdings Inc,NASDAQ
+MASS,908 Devices Inc.,NASDAQ
 AGNCO,AGNC Investment DS REP 1/1000 Cumulative Pref Shs Series E,NASDAQ
-AIOT,Powerfleet  Inc.,NASDAQ
-CDRO,Codere Online Luxembourg SA,NASDAQ
-TREE,LendingTree  Inc.,NASDAQ
-BRCB,Black Rock Coffee Bar  Inc.,NASDAQ
-MNRO,Monro  Inc.,NASDAQ
-CNCK,Coincheck Group NV,NASDAQ
-OSPR,Osprey Acquisition Corp. III,NASDAQ
-NATH,Nathan's Famous Inc,NASDAQ
-XRX,Xerox Holdings Corp,NASDAQ
-FCNCN,First Ctzns Bancshares Del Dep Sh Repstg 1 40Th Int Non Cum Perp Pfd Ser E,NASDAQ
-CLFD,Clearfield Inc,NASDAQ
-NPAC,New Providence Acquisition Corp III,NASDAQ
-MEVO,M Evo Global Acquisition Corp II,NASDAQ
-PKBK,Parke Bancorp Inc,NASDAQ
-LXEO,Lexeo Therapeutics  Inc.,NASDAQ
-LWAY,Lifeway Foods Inc,NASDAQ
-FRST,Primis Financial Corp,NASDAQ
-ERII,Energy Recovery  Inc.,NASDAQ
+ECX,Ecarx Holdings Inc.,NASDAQ
+CGC,Canopy Growth Corporation,NASDAQ
 ENTA,Enanta Pharmaceuticals Inc,NASDAQ
-LSAK,Lesaka Technologies Inc,NASDAQ
-OFIX,Orthofix Medical Inc.,NASDAQ
-MVBF,MVB Financial Corp,NASDAQ
 CHMG,Chemung Financial Corp,NASDAQ
-TACO,Berto Acquisition Corp,NASDAQ
+SFIX,Stitch Fix  Inc.,NASDAQ
+GEVO,Gevo  Inc.,NASDAQ
+AIOT,Powerfleet  Inc.,NASDAQ
+ADV,Advantage Solutions Inc.,NASDAQ
+ORBS,Eightco Holdings Inc (Texas),NASDAQ
+CD,Chaince Digital Holdings Inc,NASDAQ
+MTC,MMTEC Inc,NASDAQ
+MNRO,Monro  Inc.,NASDAQ
+CDRO,Codere Online Luxembourg SA,NASDAQ
+SHIP,Seanergy Maritime Holdings Corp,NASDAQ
+PKBK,Parke Bancorp Inc,NASDAQ
+FRST,Primis Financial Corp,NASDAQ
+SUJA,Suja Life Inc,NASDAQ
+MVBF,MVB Financial Corp,NASDAQ
+NATH,Nathan's Famous Inc,NASDAQ
+OSPR,Osprey Acquisition Corp. III,NASDAQ
+FIP,FTAI Infrastructure Inc.,NASDAQ
+NPAC,New Providence Acquisition Corp III,NASDAQ
+LXEO,Lexeo Therapeutics  Inc.,NASDAQ
+MEVO,M Evo Global Acquisition Corp II,NASDAQ
+DSC,DSC Holdings Ltd ADR,NASDAQ
+XFOR,X4 Pharmaceuticals Inc,NASDAQ
+VOXR,Vox Royalty Corp,NASDAQ
 FSTR,L B Foster Co,NASDAQ
-TMCR,Metals Royalty Company Inc,NASDAQ
+CZFS,Citizens Financial Services Inc,NASDAQ
+MRAM,Everspin Technologies Inc,NASDAQ
+TREE,LendingTree  Inc.,NASDAQ
+LRMR,Larimar Therapeutics  Inc.,NASDAQ
+FCNCN,First Ctzns Bancshares Del Dep Sh Repstg 1 40Th Int Non Cum Perp Pfd Ser E,NASDAQ
+PESI,Perma-Fix Environmental Services Inc,NASDAQ
 FNLC,First Bancorp Inc,NASDAQ
-ALFUU,Centurion Acquisition Units Expiry 22nd May 2029,NASDAQ
+PCB,PCB Bancorp,NASDAQ
+EYPT,EyePoint Inc,NASDAQ
+RR,Richtech Robotics Inc.,NASDAQ
+TACO,Berto Acquisition Corp,NASDAQ
 ZKP,Lafayette Digital Acquisition Corp I,NASDAQ
-GUAC,Berto Acquisition Corp II,NASDAQ
+ALFUU,Centurion Acquisition Units Expiry 22nd May 2029,NASDAQ
 RDAG,Republic Digital Acquisition Co,NASDAQ
+GUAC,Berto Acquisition Corp II,NASDAQ
 GTENU,Gores Holdings X Units,NASDAQ
 WENN,Wen Acquisition Corp,NASDAQ
+ERII,Energy Recovery  Inc.,NASDAQ
 OPI,Office Properties Income Trust,NASDAQ
-CZFS,Citizens Financial Services Inc,NASDAQ
-CCAP,Crescent Capital BDC Inc,NASDAQ
-LAND,Gladstone Land Corp,NASDAQ
-VOXR,Vox Royalty Corp,NASDAQ
-FISN,Deep Fission  Inc,NASDAQ
-EYPT,EyePoint Inc,NASDAQ
-PCB,PCB Bancorp,NASDAQ
-SHIP,Seanergy Maritime Holdings Corp,NASDAQ
-PESI,Perma-Fix Environmental Services Inc,NASDAQ
+CLFD,Clearfield Inc,NASDAQ
+IRD,Opus Genetics Inc,NASDAQ
+LSAK,Lesaka Technologies Inc,NASDAQ
+MOBI,Mobia Medical Inc,NASDAQ
+WSBF,Waterstone Financial Inc,NASDAQ
 CRNC,Cerence Inc.,NASDAQ
-TKNO,Alpha Teknova  Inc.,NASDAQ
-ALLT,Allot Ltd,NASDAQ
 DGXX,Digi Power X Inc,NASDAQ
+CCAP,Crescent Capital BDC Inc,NASDAQ
+IPSC,Century Therapeutics  Inc.,NASDAQ
 YICC,Yorkville International Capital Corp,NASDAQ
 KEYY,Keystone Acquisition Corp,NASDAQ
-AIIO,Robo.ai Inc,NASDAQ
-CURR,CURRENC Group Inc,NASDAQ
-MTC,MMTEC Inc,NASDAQ
-IPSC,Century Therapeutics  Inc.,NASDAQ
-MKDW,MKDWELL Tech Inc,NASDAQ
-FNKO,Funko  Inc.,NASDAQ
-TWFG,TWFG  Inc.,NASDAQ
-PERI,Perion Network Ltd,NASDAQ
-WSBF,Waterstone Financial Inc,NASDAQ
-MOBI,Mobia Medical Inc,NASDAQ
-HACQ,HCM IV Acquisition Corp,NASDAQ
-ALOV,Aldabra 4 Liquidity Opportunity Vehicle Inc,NASDAQ
-MLAAU,Mountain Lake Acquisition II Units,NASDAQ
+GRRR,Gorilla Technology Group Inc,NASDAQ
 NWFL,Norwood Financial Corp,NASDAQ
-SLP,Simulations Plus  Inc.,NASDAQ
-SHOE,Shoe Station Group Inc,NASDAQ
-LE,Lands' End  Inc.,NASDAQ
-GIW,GigCapital8 Corp,NASDAQ
-IA,Innovative Solutions and Support Inc,NASDAQ
-FVAV,Fortress Value Acquisition Corp V,NASDAQ
-FDMM,Freedom Metals Acquisition Corp,NASDAQ
+OFIX,Orthofix Medical Inc.,NASDAQ
+CNCK,Coincheck Group NV,NASDAQ
+LWAY,Lifeway Foods Inc,NASDAQ
+ZNTL,Zentalis Pharmaceuticals  Inc.,NASDAQ
+HACQ,HCM IV Acquisition Corp,NASDAQ
+TWFG,TWFG  Inc.,NASDAQ
+TKNO,Alpha Teknova  Inc.,NASDAQ
+QTTB,Q32 Bio Inc.,NASDAQ
+SUPX,SuperX AI Technology Ltd,NASDAQ
+BUUU,BUUU Group Ltd,NASDAQ
 GOGO,Gogo Inc.,NASDAQ
-SOHU,Sohu.com Ltd ADR,NASDAQ
-CRANU,Crane Harbor Acquisition II Units,NASDAQ
-UPB,Upstream Bio  Inc.,NASDAQ
-BRTMU,B&R Technology Merger Units,NASDAQ
+SHOE,Shoe Station Group Inc,NASDAQ
+ABAT,American Battery Technology Company,NASDAQ
+MKDW,MKDWELL Tech Inc,NASDAQ
+ALOV,Aldabra 4 Liquidity Opportunity Vehicle Inc,NASDAQ
+FVAV,Fortress Value Acquisition Corp V,NASDAQ
+NECB,Northeast Community Bancorp Inc,NASDAQ
+ALLT,Allot Ltd,NASDAQ
+VELO,Velo3D Inc,NASDAQ
+MLAAU,Mountain Lake Acquisition II Units,NASDAQ
+SLP,Simulations Plus  Inc.,NASDAQ
+ARQQ,Arqit Quantum Inc,NASDAQ
+AGEN,Agenus Inc,NASDAQ
+GIW,GigCapital8 Corp,NASDAQ
+FDMM,Freedom Metals Acquisition Corp,NASDAQ
 GHXIU,Gores Holdings XI Units,NASDAQ
+CRANU,Crane Harbor Acquisition II Units,NASDAQ
+PERI,Perion Network Ltd,NASDAQ
 SDHI,Siddhi Acquisition Corp,NASDAQ
+BRTMU,B&R Technology Merger Units,NASDAQ
 OIM,OneIM Acquisition Corp,NASDAQ
 GIX,GigCapital9 Corp,NASDAQ
 KBONU,Karbon Capital Partners Units,NASDAQ
-NECB,Northeast Community Bancorp Inc,NASDAQ
-RBBN,Ribbon Communications Inc.,NASDAQ
+PALI,Palisade Bio Inc,NASDAQ
+DMAC,DiaMedica Therapeutics Inc,NASDAQ
+CLNE,Clean Energy Fuels Corp.,NASDAQ
+TMCR,Metals Royalty Company Inc,NASDAQ
 TACH,Titan Acquisition Corp,NASDAQ
+VALU,Value Line Inc,NASDAQ
 IEAGU,Infinite Eagle Acquisition Units,NASDAQ
 TSBK,Timberland Bancorp Inc,NASDAQ
-OPAL,Opal Fuels Inc.,NASDAQ
-ZNTL,Zentalis Pharmaceuticals  Inc.,NASDAQ
-CLNE,Clean Energy Fuels Corp.,NASDAQ
+NEWT,NewtekOne  Inc.,NASDAQ
 WLACU,Willow Lane Acquisition Units,NASDAQ
-CD,Chaince Digital Holdings Inc,NASDAQ
-BCCQU,Bleichroeder Acquisition III Units,NASDAQ
-CCII,Cohen Circle Acquisition Corp II,NASDAQ
 TLS,Telos Corp,NASDAQ
+SOHU,Sohu.com Ltd ADR,NASDAQ
 KCHV,Kochav Defense Acquisition Corp,NASDAQ
+CCII,Cohen Circle Acquisition Corp II,NASDAQ
+TDUP,ThredUp Inc.,NASDAQ
+VFF,Village Farms International Inc,NASDAQ
+SNDL,SNDL Inc,NASDAQ
 ARCI,Archimedes Tech SPAC Partners III Co,NASDAQ
+RBBN,Ribbon Communications Inc.,NASDAQ
 ACAA,Averin Capital Acquisition Corp,NASDAQ
 MBVIU,M3 Brigade Acquisition VI Units,NASDAQ
-FHTX,Foghorn Therapeutics Inc.,NASDAQ
-LYEL,Lyell Immunopharma  Inc.,NASDAQ
 HCIC,Hennessy Capital Investment Corp. VIII,NASDAQ
+BCCQU,Bleichroeder Acquisition III Units,NASDAQ
 APXTU,Apex Treasury Units,NASDAQ
-AGNCZ,AGNC Investment 8 75 Fixed Rate Cumulative Redeemable Prf Shs Series H,NASDAQ
-ABAT,American Battery Technology Company,NASDAQ
-NEGG,Newegg Commerce Inc,NASDAQ
-ARQQ,Arqit Quantum Inc,NASDAQ
-PALI,Palisade Bio Inc,NASDAQ
-SABS,SAB Biotherapeutics Inc,NASDAQ
-DMAC,DiaMedica Therapeutics Inc,NASDAQ
-NEWT,NewtekOne  Inc.,NASDAQ
-PHOS,First Phosphate Corp ADR,NASDAQ
-EH,EHang Holdings Limited ADR,NASDAQ
-STRO,Sutro Biopharma Inc,NASDAQ
-BUUU,BUUU Group Ltd,NASDAQ
-MRLN,Merlin Inc,NASDAQ
-SUJA,Suja Life Inc,NASDAQ
-MGPI,MGP Ingredients  Inc.,NASDAQ
-TDUP,ThredUp Inc.,NASDAQ
-PTLO,Portillos Inc,NASDAQ
-VFF,Village Farms International Inc,NASDAQ
-GASS,StealthGas Inc,NASDAQ
 BDCI,BTC Development Corp,NASDAQ
-IACOU,Idea Acquisition Units,NASDAQ
 OYSE,Oyster Enterprises II Acquisition Corp,NASDAQ
+LYEL,Lyell Immunopharma  Inc.,NASDAQ
+IACOU,Idea Acquisition Units,NASDAQ
+AGNCZ,AGNC Investment 8 75 Fixed Rate Cumulative Redeemable Prf Shs Series H,NASDAQ
 BLZR,Trailblazer Acquisition Corp,NASDAQ
-MESHU,Meshflow Acquisition Units,NASDAQ
+MGPI,MGP Ingredients  Inc.,NASDAQ
 KRAQU,KRAKacquisition Units,NASDAQ
-ARTC,Art Technology Acquisition Corp,NASDAQ
-AVBH,Avidbank Holdings Inc,NASDAQ
+MESHU,Meshflow Acquisition Units,NASDAQ
 TLNC,Talon Capital Corp,NASDAQ
+IKT,Inhibikase Therapeutics  Inc.,NASDAQ
+RFAI,RF Acquisition Corp II,NASDAQ
+CURR,CURRENC Group Inc,NASDAQ
+OPRT,Oportun Financial Corp,NASDAQ
+EH,EHang Holdings Limited ADR,NASDAQ
+CDZI,Cadiz Inc,NASDAQ
+OPAL,Opal Fuels Inc.,NASDAQ
+AVBH,Avidbank Holdings Inc,NASDAQ
+ARTC,Art Technology Acquisition Corp,NASDAQ
 HCMA,HCM III Acquisition Corp,NASDAQ
 FGII,FG Imperii Acquisition Corp,NASDAQ
-DSAC,Daedalus Special Acquisition Corp,NASDAQ
+RCEL,AVITA Medical Inc,NASDAQ
 SORN,Soren Acquisition Corp,NASDAQ
-TCPC,BlackRock TCP Capital Corp,NASDAQ
-ORBS,Eightco Holdings Inc (Texas),NASDAQ
-AGEN,Agenus Inc,NASDAQ
-VALU,Value Line Inc,NASDAQ
-OPTX,Syntec Optics Holdings  Inc,NASDAQ
-RCKY,Rocky Brands Inc,NASDAQ
-AACI,Armada Acquisition Corp III,NASDAQ
-IPFX,Inflection Point Acquisition Corp VI,NASDAQ
-CGCF,Cartesian Growth Corporation IV,NASDAQ
-PTOR,Praetorian Acquisition Corp,NASDAQ
-CAII,Collective Acquisition Corp. II,NASDAQ
-ABEO,Abeona Therapeutics Inc,NASDAQ
-OPRT,Oportun Financial Corp,NASDAQ
-BEAG,Bold Eagle Acquisition Corp,NASDAQ
-CDZI,Cadiz Inc,NASDAQ
-FSBW,FS Bancorp  Inc,NASDAQ
-NNNN,Anbio Biotechnology,NASDAQ
-ARTNA,Artesian Resources Corp,NASDAQ
-SNDL,SNDL Inc,NASDAQ
-AGNCN,Agnc Invt 1000 DS Repstg Pref Shs Series C,NASDAQ
-IKT,Inhibikase Therapeutics  Inc.,NASDAQ
 VMD,Viemed Healthcare Inc,NASDAQ
+GASS,StealthGas Inc,NASDAQ
+DSAC,Daedalus Special Acquisition Corp,NASDAQ
 SIMAU,SM Acquisition Units,NASDAQ
-BLUW,Blue Water Acquisition Corp III,NASDAQ
-FLXS,Flexsteel Industries Inc,NASDAQ
-AIRJ,AirJoule Technologies Corporation,NASDAQ
-ATIIU,Archimedes Tech SPAC Partners II Units,NASDAQ
+FSBW,FS Bancorp  Inc,NASDAQ
 TWIN,Twin Disc Inc,NASDAQ
-XRPN,Armada Acquisition Corp II,NASDAQ
-PPHC,Public Policy Holding Company Inc,NASDAQ
-NNDM,Nano Dimension Ltd. ADR,NASDAQ
-PMTS,CPI Card Group Inc,NASDAQ
 PNRG,Primeenergy Resources Corp,NASDAQ
-RREV,RRE Ventures Acquisition Corp,NASDAQ
+ABEO,Abeona Therapeutics Inc,NASDAQ
 RPAY,Repay Holdings Corp,NASDAQ
-FVCB,FVCBankcorp Inc,NASDAQ
+ARTNA,Artesian Resources Corp,NASDAQ
+AACI,Armada Acquisition Corp III,NASDAQ
 ELVA,Electrovaya Inc,NASDAQ
-IFRX,InflaRx NV,NASDAQ
-HBANP,Huntington Bancshares 4.500 Depositary Shares Rep Perp Prf Shs Series H,NASDAQ
-IMRX,Immuneering Corporation,NASDAQ
-CUVL,Clinuvel Pharmaceuticals Ltd ADR,NASDAQ
+NNDM,Nano Dimension Ltd. ADR,NASDAQ
+TCPC,BlackRock TCP Capital Corp,NASDAQ
+CGCF,Cartesian Growth Corporation IV,NASDAQ
+CAII,Collective Acquisition Corp. II,NASDAQ
+IPFX,Inflection Point Acquisition Corp VI,NASDAQ
+PTOR,Praetorian Acquisition Corp,NASDAQ
+MRLN,Merlin Inc,NASDAQ
+SABS,SAB Biotherapeutics Inc,NASDAQ
+BEAG,Bold Eagle Acquisition Corp,NASDAQ
+FVCB,FVCBankcorp Inc,NASDAQ
 BCML,BayCom Corp,NASDAQ
+FLXS,Flexsteel Industries Inc,NASDAQ
+AGNCN,Agnc Invt 1000 DS Repstg Pref Shs Series C,NASDAQ
+PTLO,Portillos Inc,NASDAQ
+BLUW,Blue Water Acquisition Corp III,NASDAQ
+ATIIU,Archimedes Tech SPAC Partners II Units,NASDAQ
+XRPN,Armada Acquisition Corp II,NASDAQ
+STRO,Sutro Biopharma Inc,NASDAQ
+IA,Innovative Solutions and Support Inc,NASDAQ
+RREV,RRE Ventures Acquisition Corp,NASDAQ
 CEPV,Cantor Equity Partners V Inc,NASDAQ
-PCAP,Procap Acquisition Corp,NASDAQ
-HBANL,Huntington Bancshares Dep Shs Repstg 1 40Th Int Non Cum Perp Prf Depositary,NASDAQ
+JMSB,John Marshall Bancorp Inc,NASDAQ
+UPB,Upstream Bio  Inc.,NASDAQ
 FERA,Fifth Era Acquisition Corp I,NASDAQ
-NPACU,New Providence Acquisition III Units,NASDAQ
-PLAY,Dave & Buster's Entertainment  Inc.,NASDAQ
-DRDB,Roman Dbdr Acquisition Corp. II,NASDAQ
+FRD,Friedman Industries Inc,NASDAQ
+RTAC,Renatus Tactical Acquisition I Corp,NASDAQ
+PCAP,Procap Acquisition Corp,NASDAQ
 CHSCP,CHS 8 Cumulative Redeemable Pref Shs,NASDAQ
+DRDB,Roman Dbdr Acquisition Corp. II,NASDAQ
+HBANL,Huntington Bancshares Dep Shs Repstg 1 40Th Int Non Cum Perp Prf Depositary,NASDAQ
+IFRX,InflaRx NV,NASDAQ
+NPACU,New Providence Acquisition III Units,NASDAQ
 SZZL,Sizzle Acquisition Corp II,NASDAQ
 OBA,Oxley Bridge Acquisition Ltd,NASDAQ
-RTAC,Renatus Tactical Acquisition I Corp,NASDAQ
+PMTS,CPI Card Group Inc,NASDAQ
+PPHC,Public Policy Holding Company Inc,NASDAQ
+NEGG,Newegg Commerce Inc,NASDAQ
+AIRJ,AirJoule Technologies Corporation,NASDAQ
+RCKY,Rocky Brands Inc,NASDAQ
+CUVL,Clinuvel Pharmaceuticals Ltd ADR,NASDAQ
+EMBC,Embecta Corp.,NASDAQ
+VNDA,Vanda Pharmaceuticals Inc,NASDAQ
+POLE,Andretti Acquisition Corp. II,NASDAQ
+VCRE,Vicore Pharma Holding AB ADR,NASDAQ
+TACOU,Berto Acquisition Units,NASDAQ
 LNKB,LINKBANCORP Inc,NASDAQ
 ALDFU,Aldel Financial II Units,NASDAQ
 WLAC,Willow Lane Acquisition Corp,NASDAQ
 CRAQ,Cal Redwood Acquisition Corp,NASDAQ
-JMSB,John Marshall Bancorp Inc,NASDAQ
-TACOU,Berto Acquisition Units,NASDAQ
-EVOX,Evolution Global Acquisition Corp,NASDAQ
-PRQR,ProQR Therapeutics NV,NASDAQ
-KOYN,CSLM Digital Asset Acquisition III Corp Ltd,NASDAQ
-ALDF,Aldel Financial II Inc,NASDAQ
-CAES,Cantor Equity Partners VII Inc,NASDAQ
-IACQ,Irenic Acquisition Corp,NASDAQ
-ILLUU,Illumination Acquisition I Units,NASDAQ
-PMTR,Perimeter Acquisition I Corp,NASDAQ
-RCEL,AVITA Medical Inc,NASDAQ
-VNDA,Vanda Pharmaceuticals Inc,NASDAQ
-LPAAU,Launch One Acquisition Units,NASDAQ
-XNET,Xunlei Ltd ADR,NASDAQ
-GUACU,Berto Acquisition II Units,NASDAQ
-ACGLN,Arch Capital Group Depositary Shares Rep1000 Non Cumu Pref Shs Series G,NASDAQ
-VCRE,Vicore Pharma Holding AB ADR,NASDAQ
-RNGT,Range Capital Acquisition II Corp,NASDAQ
-SMTI,Sanara Medtech Inc,NASDAQ
-UMBFO,Umb Finl Corp Dep Shs Repstg 1 400Th Perp Pfd Ser B,NASDAQ
-FUND,Sprott Focus Trust,NASDAQ
-SAAQ,Space Asset Acquisition Corp,NASDAQ
-KFIIU,K and F Growth Acquisition Ii Units,NASDAQ
-GPATU,GP Act III Acquisition Units,NASDAQ
-TVA,Texas Ventures Acquisition III Corp,NASDAQ
-FOSL,Fossil Group Inc,NASDAQ
-AEAQ,Activate Energy Acquisition Corp,NASDAQ
 FCCO,First Community Corp (South Carolina),NASDAQ
-POLE,Andretti Acquisition Corp. II,NASDAQ
-ATII,Archimedes Tech SPAC Partners II Co,NASDAQ
-ALTO,Alto Ingredients Inc,NASDAQ
-FRD,Friedman Industries Inc,NASDAQ
-RDAGU,Republic Digital Acquisition Units,NASDAQ
 HRZN,Horizon Technology Finance Corporation,NASDAQ
-IPXG,Inflection Point Acquisition Corp. VII,NASDAQ
-WENNU,WEN Acquisition Units,NASDAQ
-AACO,Abony Acquisition Corp I,NASDAQ
-SVIV,Spring Valley Acquisition Corp. IV,NASDAQ
-ILLU,Illumination Acquisition I Corp,NASDAQ
-CAQ,Cambridge Acquisition Corp,NASDAQ
-LPBB,Launch Two Acquisition Corp,NASDAQ
-NODK,NI Holdings Inc,NASDAQ
-IRD,Opus Genetics Inc,NASDAQ
-DUOT,Duos Technologies Group Inc,NASDAQ
-MOVE,Corvex Inc,NASDAQ
-LILA,Liberty Latin America Ltd. Class A,NASDAQ
+EVOX,Evolution Global Acquisition Corp,NASDAQ
+LE,Lands' End  Inc.,NASDAQ
+KOYN,CSLM Digital Asset Acquisition III Corp Ltd,NASDAQ
+SENEB,Seneca Foods Corporation Class B,NASDAQ
+ALDF,Aldel Financial II Inc,NASDAQ
+IACQ,Irenic Acquisition Corp,NASDAQ
+HBANP,Huntington Bancshares 4.500 Depositary Shares Rep Perp Prf Shs Series H,NASDAQ
+PMTR,Perimeter Acquisition I Corp,NASDAQ
+CAES,Cantor Equity Partners VII Inc,NASDAQ
+ILLUU,Illumination Acquisition I Units,NASDAQ
+GUACU,Berto Acquisition II Units,NASDAQ
 FDBC,Fidelity D&D Bancorp Inc,NASDAQ
-OBIO,Orchestra Biomed Holdings Inc,NASDAQ
-JACK,Jack in the Box Inc,NASDAQ
-LWAC,LightWave Acquisition Corp,NASDAQ
-TMTS,Spartacus Acquisition Corp II,NASDAQ
-VHCP,Vine Hill Capital Investment Corp II,NASDAQ
-CCCT,Columbus Circle Capital Corp III,NASDAQ
-OSPRU,Osprey Acquisition III Units,NASDAQ
-VLOSU,Velos Acquisition I Units,NASDAQ
-ITHA,ITHAX Acquisition Corp III,NASDAQ
-ZUMZ,Zumiez Inc.,NASDAQ
-TBCVU,Thunder Bridge Capital Partners V Units,NASDAQ
-MEVOU,M Evo Global Acquisition II Units,NASDAQ
-MTRX,Matrix Service Co,NASDAQ
-GLOO,Gloo Holdings  Inc.,NASDAQ
-BIXI,Bitcoin Infrastructure Acquisition Corp Ltd,NASDAQ
-ZKPU,Lafayette Digital Acquisition I Units,NASDAQ
+LPAAU,Launch One Acquisition Units,NASDAQ
+SMTI,Sanara Medtech Inc,NASDAQ
+FUND,Sprott Focus Trust,NASDAQ
+RNGT,Range Capital Acquisition II Corp,NASDAQ
+FNKO,Funko  Inc.,NASDAQ
+MNTK,Montauk Renewables Inc,NASDAQ
+KFIIU,K and F Growth Acquisition Ii Units,NASDAQ
+ACGLN,Arch Capital Group Depositary Shares Rep1000 Non Cumu Pref Shs Series G,NASDAQ
+GPATU,GP Act III Acquisition Units,NASDAQ
+SAAQ,Space Asset Acquisition Corp,NASDAQ
+AEAQ,Activate Energy Acquisition Corp,NASDAQ
+TVA,Texas Ventures Acquisition III Corp,NASDAQ
+RDAGU,Republic Digital Acquisition Units,NASDAQ
+ATII,Archimedes Tech SPAC Partners II Co,NASDAQ
+IPXG,Inflection Point Acquisition Corp. VII,NASDAQ
+LILA,Liberty Latin America Ltd. Class A,NASDAQ
+WENNU,WEN Acquisition Units,NASDAQ
+ALTO,Alto Ingredients Inc,NASDAQ
+UMBFO,Umb Finl Corp Dep Shs Repstg 1 400Th Perp Pfd Ser B,NASDAQ
+ILLU,Illumination Acquisition I Corp,NASDAQ
 TMCI,Treace Medical Concepts  Inc.,NASDAQ
+AACO,Abony Acquisition Corp I,NASDAQ
+CAQ,Cambridge Acquisition Corp,NASDAQ
+SVIV,Spring Valley Acquisition Corp. IV,NASDAQ
+IMRX,Immuneering Corporation,NASDAQ
+NODK,NI Holdings Inc,NASDAQ
+XNET,Xunlei Ltd ADR,NASDAQ
+LPBB,Launch Two Acquisition Corp,NASDAQ
+LWAC,LightWave Acquisition Corp,NASDAQ
+FXHO,UTime Ltd,NASDAQ
+VHCP,Vine Hill Capital Investment Corp II,NASDAQ
+TMTS,Spartacus Acquisition Corp II,NASDAQ
 MYGN,Myriad Genetics  Inc.,NASDAQ
+OPTX,Syntec Optics Holdings  Inc,NASDAQ
+SION,Sionna Therapeutics  Inc.,NASDAQ
+PYXS,Pyxis Oncology Inc,NASDAQ
+JACK,Jack in the Box Inc,NASDAQ
+CFFI,C&F Financial Corp,NASDAQ
+CCCT,Columbus Circle Capital Corp III,NASDAQ
+ITHA,ITHAX Acquisition Corp III,NASDAQ
+VLOSU,Velos Acquisition I Units,NASDAQ
+TLSI,TriSalus Life Sciences Inc,NASDAQ
+AIIO,Robo.ai Inc,NASDAQ
+OSPRU,Osprey Acquisition III Units,NASDAQ
+MYFW,First Western Financial Inc,NASDAQ
 SSP,E W Scripps Co,NASDAQ
+TBCVU,Thunder Bridge Capital Partners V Units,NASDAQ
+ISBA,Isabella Bank Corp,NASDAQ
+MEVOU,M Evo Global Acquisition II Units,NASDAQ
+FOSL,Fossil Group Inc,NASDAQ
+ZUMZ,Zumiez Inc.,NASDAQ
+BIXI,Bitcoin Infrastructure Acquisition Corp Ltd,NASDAQ
+PHOS,First Phosphate Corp ADR,NASDAQ
+PLAY,Dave & Buster's Entertainment  Inc.,NASDAQ
+ZKPU,Lafayette Digital Acquisition I Units,NASDAQ
 OTGA,OTG Acquisition I Corp,NASDAQ
 ALOVU,Aldabra 4 Liquidity Opportunity Vehicle Units,NASDAQ
+CNDT,Conduent Incorporated,NASDAQ
+HVMC,Highview Merger Corp,NASDAQ
 GSRV,GSR V Acquisition Corp,NASDAQ
 DBCAU,D Boral Acquisition I Units,NASDAQ
-ISBA,Isabella Bank Corp,NASDAQ
-HVMC,Highview Merger Corp,NASDAQ
-GSRF,GSR IV Acquisition Corp,NASDAQ
-TTRX,Turn Therapeutics Inc,NASDAQ
-MYFW,First Western Financial Inc,NASDAQ
-SENEB,Seneca Foods Corporation Class B,NASDAQ
-SLMBP,SLM Floating Rate Non Cumulative Pref Shs Series B,NASDAQ
-ALCO,Alico Inc,NASDAQ
-AIBZ,Bitzero Holdings Inc,NASDAQ
-CFFI,C&F Financial Corp,NASDAQ
-NTRSO,Northern Trust DS Representing 1 1000th Non Cumulative Perpetual Pref Shs,NASDAQ
-TLSI,TriSalus Life Sciences Inc,NASDAQ
-CV,CapsoVision Inc,NASDAQ
-SDHIU,Siddhi Acquisition Units,NASDAQ
-GPAC,General Purpose Acquisition Corp,NASDAQ
-OIMAU,OneIM Acquisition Units,NASDAQ
-TACHU,Titan Acquisition Units,NASDAQ
-ARCIU,Archimedes Tech SPAC Partners III Units,NASDAQ
-AMRN,Amarin Corporation PLC ADR,NASDAQ
-SVAQ,Silicon Valley Acquisition Corp,NASDAQ
-IRHO,Iron Horse Acquisitions Corp II,NASDAQ
-HCAC,Hall Chadwick Acquisition Corp,NASDAQ
 BCYC,Bicycle Therapeutics PLC ADR,NASDAQ
-FULC,Fulcrum Therapeutics  Inc.,NASDAQ
-GBFH,GBank Financial Holdings Inc,NASDAQ
-FATE,Fate Therapeutics Inc,NASDAQ
-RNAC,Cartesian Therapeutics  Inc.,NASDAQ
+GSRF,GSR IV Acquisition Corp,NASDAQ
+MTRX,Matrix Service Co,NASDAQ
+ALCO,Alico Inc,NASDAQ
+CV,CapsoVision Inc,NASDAQ
+TTRX,Turn Therapeutics Inc,NASDAQ
+NTRSO,Northern Trust DS Representing 1 1000th Non Cumulative Perpetual Pref Shs,NASDAQ
 AFRI,Forafric Global PLC,NASDAQ
-PDYN,Palladyne AI Corp,NASDAQ
-BDSX,Biodesix Inc,NASDAQ
-LTBR,Lightbridge Corp,NASDAQ
-NNBR,NN Inc,NASDAQ
-MVST,Microvast Holdings  Inc.,NASDAQ
+SDHIU,Siddhi Acquisition Units,NASDAQ
+TACHU,Titan Acquisition Units,NASDAQ
+BPRN,Princeton Bancorp Inc,NASDAQ
 SLNH,Soluna Holdings Inc,NASDAQ
-STRT,Strattec Security Corp,NASDAQ
-RCMT,R C M Technologies Inc,NASDAQ
+GPAC,General Purpose Acquisition Corp,NASDAQ
+SLMBP,SLM Floating Rate Non Cumulative Pref Shs Series B,NASDAQ
+OIMAU,OneIM Acquisition Units,NASDAQ
+AIAI,AIAI Holdings Corp,NASDAQ
+SVAQ,Silicon Valley Acquisition Corp,NASDAQ
+HCAC,Hall Chadwick Acquisition Corp,NASDAQ
+ARCIU,Archimedes Tech SPAC Partners III Units,NASDAQ
+IRHO,Iron Horse Acquisitions Corp II,NASDAQ
 PACH,Pioneer Acquisition I Corp,NASDAQ
-BACC,Blue Acquisition Corp,NASDAQ
+FULC,Fulcrum Therapeutics  Inc.,NASDAQ
+OVLY,Oak Valley Bancorp,NASDAQ
 NHIC,NewHold Investment Corp III,NASDAQ
-HACQU,HCM IV Acquisition Units,NASDAQ
+BACC,Blue Acquisition Corp,NASDAQ
+PRQR,ProQR Therapeutics NV,NASDAQ
 ACGC,ACP Holdings Acquisition Corp,NASDAQ
-JAKK,JAKKS Pacific Inc,NASDAQ
-ADAC,American Drive Acquisition Co,NASDAQ
+HACQU,HCM IV Acquisition Units,NASDAQ
+ACIU,AC Immune SA,NASDAQ
+IPHXU,Inflection Point Acquisition VIII Units,NASDAQ
 KINS,Kingstone Companies Inc,NASDAQ
+XLAB,D Boral ARC Acquisition I Corp,NASDAQ
+CAN,Canaan Inc ADR,NASDAQ
+OBIO,Orchestra Biomed Holdings Inc,NASDAQ
+NNBR,NN Inc,NASDAQ
+FATE,Fate Therapeutics Inc,NASDAQ
+STRT,Strattec Security Corp,NASDAQ
+GBFH,GBank Financial Holdings Inc,NASDAQ
+MKTW,MarketWise Inc,NASDAQ
+TTGT,TechTarget Inc,NASDAQ
+FHTX,Foghorn Therapeutics Inc.,NASDAQ
+RCMT,R C M Technologies Inc,NASDAQ
+ADAC,American Drive Acquisition Co,NASDAQ
 BEAGU,Bold Eagle Acquisition Units,NASDAQ
+FRAF,Franklin Financial Services Corp,NASDAQ
 KEYYU,Keystone Acquisition Units,NASDAQ
 LPCV,Launchpad Cadenza Acquisition Corp I,NASDAQ
-BPRN,Princeton Bancorp Inc,NASDAQ
-EGHT,8x8 Inc,NASDAQ
-AIAI,AIAI Holdings Corp,NASDAQ
-EMBC,Embecta Corp.,NASDAQ
-SHOT,RMG ML Sports Holdings,NASDAQ
-OVLY,Oak Valley Bancorp,NASDAQ
-CUB,Lionheart Holdings,NASDAQ
-BLZRU,Trailblazer Acquisition Units,NASDAQ
-MKTW,MarketWise Inc,NASDAQ
-RILY,BRC Group Holdings Inc,NASDAQ
-JAB,JAB Acquisition Corp I,NASDAQ
-WLCO,Wilco 63 Corp,NASDAQ
-FDMMU,Freedom Metals Acquisition Units,NASDAQ
-ANIK,Anika Therapeutics Inc,NASDAQ
-HCKT,The Hackett Group  Inc.,NASDAQ
-TVAI,Thayer Ventures Acquisition II Corp,NASDAQ
-AXIN,Axiom Intelligence Acquisition Corp 1,NASDAQ
-XCBE,X3 Acquisition Corp Ltd,NASDAQ
-FNRN,First Northern Community Bancorp,NASDAQ
-TTGT,TechTarget Inc,NASDAQ
-QNBC,QNB Corp,NASDAQ
+AMRN,Amarin Corporation PLC ADR,NASDAQ
 ATLO,Ames National Corp,NASDAQ
-AENT,Alliance Entertainment Holding Corp,NASDAQ
-AZ,A2Z Cust2Mate Solutions Corp,NASDAQ
-FRAF,Franklin Financial Services Corp,NASDAQ
-FUNC,First United Corp,NASDAQ
-FXNC,First National Corp,NASDAQ
-NHIV,Newhold Investment Corp IV,NASDAQ
 ESCA,Escalade Inc,NASDAQ
-OYSEU,Oyster Enterprises II Acquisition Units,NASDAQ
-AVXL,Anavex Life Sciences Corp,NASDAQ
-LCNB,LCNB Corp,NASDAQ
-ISNR,Snow Rothschild Acquisition Corp,NASDAQ
-ALXO,ALX Oncology Holdings Inc,NASDAQ
-XSLL,Xsolla SPAC 1,NASDAQ
-RWAY,Runway Growth Finance Corp,NASDAQ
-PCYO,Pure Cycle Corp,NASDAQ
-TRDA,Entrada Therapeutics  Inc.,NASDAQ
-ACIU,AC Immune SA,NASDAQ
-PYXS,Pyxis Oncology Inc,NASDAQ
-DVLT,Datavault AI Inc,NASDAQ
-ASYS,Amtech Systems Inc,NASDAQ
-SRZN,Surrozen  Inc.,NASDAQ
-WHWK,Whitehawk Therapeutics  Inc.,NASDAQ
-NMRA,Neumora Therapeutics Inc,NASDAQ
-OSS,One Stop Systems Inc,NASDAQ
-LTRX,Lantronix Inc,NASDAQ
-YDES,YD Bio Ltd,NASDAQ
-RXST,RxSight  Inc.,NASDAQ
-IVVD,Invivyd  Inc.,NASDAQ
-WNEB,Western New England Bancorp Inc,NASDAQ
-CEPO,Cantor Equity Partners I Inc,NASDAQ
+NNNN,Anbio Biotechnology,NASDAQ
+FUNC,First United Corp,NASDAQ
+SHOT,RMG ML Sports Holdings,NASDAQ
+FXNC,First National Corp,NASDAQ
+CUB,Lionheart Holdings,NASDAQ
+FNRN,First Northern Community Bancorp,NASDAQ
+BLZRU,Trailblazer Acquisition Units,NASDAQ
+ATLQ,JAB Acquisition Corp I,NASDAQ
+LTBR,Lightbridge Corp,NASDAQ
+FDMMU,Freedom Metals Acquisition Units,NASDAQ
+RILY,BRC Group Holdings Inc,NASDAQ
+TVAI,Thayer Ventures Acquisition II Corp,NASDAQ
+WLCO,Wilco 63 Corp,NASDAQ
+JONE,Jones Ventures INTL Acquisition1 Corp,NASDAQ
+PDYN,Palladyne AI Corp,NASDAQ
+AXIN,Axiom Intelligence Acquisition Corp 1,NASDAQ
+JAKK,JAKKS Pacific Inc,NASDAQ
+QNBC,QNB Corp,NASDAQ
+XCBE,X3 Acquisition Corp Ltd,NASDAQ
 MFIN,Medallion Financial Corp,NASDAQ
-CGCFU,Cartesian Growth IV Units,NASDAQ
 REFI,Chicago Atlantic Real Estate Finance Inc,NASDAQ
+RNAC,Cartesian Therapeutics  Inc.,NASDAQ
+HCKT,The Hackett Group  Inc.,NASDAQ
+RWAY,Runway Growth Finance Corp,NASDAQ
+ANIK,Anika Therapeutics Inc,NASDAQ
+WNEB,Western New England Bancorp Inc,NASDAQ
+ALXO,ALX Oncology Holdings Inc,NASDAQ
+ISNR,Snow Rothschild Acquisition Corp,NASDAQ
+SY,So-Young International Inc ADR,NASDAQ
+TRDA,Entrada Therapeutics  Inc.,NASDAQ
+NHIV,Newhold Investment Corp IV,NASDAQ
+OYSEU,Oyster Enterprises II Acquisition Units,NASDAQ
+CAMP,CAMP4 Therapeutics Corp,NASDAQ
+XSLL,Xsolla SPAC 1,NASDAQ
+BDSX,Biodesix Inc,NASDAQ
+PMTRU,Perimeter Acquisition I Units,NASDAQ
+DUOT,Duos Technologies Group Inc,NASDAQ
+ALEC,Alector  Inc.,NASDAQ
+CEPO,Cantor Equity Partners I Inc,NASDAQ
+CGCFU,Cartesian Growth IV Units,NASDAQ
+EGHT,8x8 Inc,NASDAQ
 FCNCP,First Citizens Bancshares 40 DS Rep 1 Non Cumulative Perpetual Pref Shs Series A,NASDAQ
+TRBG,Turbogen Ltd,NASDAQ
+MGNX,MacroGenics Inc,NASDAQ
+LCNB,LCNB Corp,NASDAQ
+ASLE,AerSale Corp,NASDAQ
+HWBK,Hawthorn Bancshares Inc,NASDAQ
+GLOO,Gloo Holdings  Inc.,NASDAQ
+PAMT,PAMT Corp,NASDAQ
+AIBZ,Bitzero Holdings Inc,NASDAQ
+API,Agora Inc ADR,NASDAQ
+TROO,TROOPS Inc,NASDAQ
 MUZE,Muzero Acquisition Corp,NASDAQ
 BLUWU,Blue Water Acquisition III Units,NASDAQ
-FXHO,UTime Ltd,NASDAQ
-OFLX,Omega Flex Inc,NASDAQ
 CCIIU,Cohen Circle Acquisition II Units,NASDAQ
-BHFAN,Brighthouse Financial 1000 DS Repstg Non Cum Pfd Ser C,NASDAQ
-PMTRU,Perimeter Acquisition I Units,NASDAQ
-KCHVU,Kochav Defense Acquisition Units,NASDAQ
-DNMX,Dynamix Corp III,NASDAQ
-HWBK,Hawthorn Bancshares Inc,NASDAQ
-NSLR,Neostellar Capital Corp,NASDAQ
-SORNU,Soren Acquisition Units,NASDAQ
-ASLE,AerSale Corp,NASDAQ
+LMNR,Limoneira Co,NASDAQ
 GIWWU,Gigcapital8 Units,NASDAQ
-IPFXU,Inflection Point Acquisition VI Units,NASDAQ
-TLNCU,Talon Capital Units,NASDAQ
-CNDT,Conduent Incorporated,NASDAQ
-BDCIU,BTC Development Units,NASDAQ
-NTWO,Newbury Street II Acquisition Corp,NASDAQ
+OFLX,Omega Flex Inc,NASDAQ
+AZ,A2Z Cust2Mate Solutions Corp,NASDAQ
+KCHVU,Kochav Defense Acquisition Units,NASDAQ
+BHFAN,Brighthouse Financial 1000 DS Repstg Non Cum Pfd Ser C,NASDAQ
+AKBA,Akebia Therapeutics Inc,NASDAQ
+DNMX,Dynamix Corp III,NASDAQ
+PCYO,Pure Cycle Corp,NASDAQ
+SORNU,Soren Acquisition Units,NASDAQ
+LAB,Standard BioTools Inc.,NASDAQ
 RMBI,Richmond Mutual Bancorporation Inc,NASDAQ
-POLEU,Andretti Acquisition II Units,NASDAQ
-PCAPU,Procap Acquisition Units A,NASDAQ
-AMACU,AMR Resources Acquisition Units,NASDAQ
-SION,Sionna Therapeutics  Inc.,NASDAQ
-API,Agora Inc ADR,NASDAQ
-XRPNU,Armada Acquisition II Units,NASDAQ
-HCMAU,HCM III Acquisition Units,NASDAQ
-ARTCU,Art Technology Acquisition Units,NASDAQ
-DSACU,Daedalus Special Acquisition Units,NASDAQ
-OACC,Oaktree Acquisition III Life Sciences Corp,NASDAQ
-USAU,US Gold Corp,NASDAQ
-RELL,Richardson Electronics Ltd,NASDAQ
-GWRS,Global Water Resources Inc,NASDAQ
-TROO,TROOPS Inc,NASDAQ
-PACHU,Pioneer Acquisition I Units,NASDAQ
-OBAWU,Oxley Bridge Acquisition Units,NASDAQ
-GIXXU,GigCapital9 Units,NASDAQ
-CPZ,Calamos Long Short Equity Dynamic Income Trust Closed Fund,NASDAQ
-IACQU,Irenic Acquisition Units,NASDAQ
-ALEC,Alector  Inc.,NASDAQ
-DMAA,Drugs Made In America Acquisition Corp,NASDAQ
-ELDN,Eledon Pharmaceuticals Inc,NASDAQ
-DCX,Digital Currency X Technology Inc,NASDAQ
-UXIN,Uxin Ltd ADR,NASDAQ
-AREC,American Resources Corp,NASDAQ
-AVNW,Aviat Networks Inc,NASDAQ
-EU,enCore Energy Corp.,NASDAQ
-ADAG,Adagene Inc. ADR,NASDAQ
-CGEN,Compugen Ltd.,NASDAQ
-SILC,Silicom Ltd,NASDAQ
-GLSI,Greenwich Lifesciences Inc,NASDAQ
-MGNX,MacroGenics Inc,NASDAQ
-ASUR,Asure Software Inc,NASDAQ
 NKSH,National Bankshares Inc,NASDAQ
-PTORU,Praetorian Acquisition Units,NASDAQ
-CAMP,CAMP4 Therapeutics Corp,NASDAQ
-NAGE,Niagen Bioscience Inc,NASDAQ
-ACB,Aurora Cannabis Inc,NASDAQ
-FACT,FACT II Acquisition Corp,NASDAQ
+ASUR,Asure Software Inc,NASDAQ
+XTER,Karman Line Acquisition Corp.,NASDAQ
+TLNCU,Talon Capital Units,NASDAQ
+SRZN,Surrozen  Inc.,NASDAQ
+NSLR,Neostellar Capital Corp,NASDAQ
+BDCIU,BTC Development Units,NASDAQ
+USAU,US Gold Corp,NASDAQ
+AMACU,AMR Resources Acquisition Units,NASDAQ
+MVST,Microvast Holdings  Inc.,NASDAQ
+PCAPU,Procap Acquisition Units A,NASDAQ
+OACC,Oaktree Acquisition III Life Sciences Corp,NASDAQ
 RTACU,Renatus Tactical Acquisition I Units,NASDAQ
+RXST,RxSight  Inc.,NASDAQ
+AVXL,Anavex Life Sciences Corp,NASDAQ
+DEFT,DeFi Technologies Inc,NASDAQ
+HCMAU,HCM III Acquisition Units,NASDAQ
+DSACU,Daedalus Special Acquisition Units,NASDAQ
+NTWO,Newbury Street II Acquisition Corp,NASDAQ
+ARTCU,Art Technology Acquisition Units,NASDAQ
+IPFXU,Inflection Point Acquisition VI Units,NASDAQ
+PACHU,Pioneer Acquisition I Units,NASDAQ
+GIXXU,GigCapital9 Units,NASDAQ
+WHWK,Whitehawk Therapeutics  Inc.,NASDAQ
+OBAWU,Oxley Bridge Acquisition Units,NASDAQ
+AENT,Alliance Entertainment Holding Corp,NASDAQ
+IACQU,Irenic Acquisition Units,NASDAQ
+DMAA,Drugs Made In America Acquisition Corp,NASDAQ
+FACT,FACT II Acquisition Corp,NASDAQ
+AREC,American Resources Corp,NASDAQ
+XRPNU,Armada Acquisition II Units,NASDAQ
 IPXGU,Inflection Point Acquisition Units,NASDAQ
 TRGS,TRG Latin America Acquisitions Corp,NASDAQ
 AACIU,Armada Acquisition III Units,NASDAQ
+PTORU,Praetorian Acquisition Units,NASDAQ
+YDES,YD Bio Ltd,NASDAQ
+GPRO,GoPro Inc,NASDAQ
+ASYS,Amtech Systems Inc,NASDAQ
+CYPH,Cypherpunk Technologies Inc,NASDAQ
+INBK,First Internet Bancorp,NASDAQ
+UXIN,Uxin Ltd ADR,NASDAQ
+RELL,Richardson Electronics Ltd,NASDAQ
+CPZ,Calamos Long Short Equity Dynamic Income Trust Closed Fund,NASDAQ
 CAIIU,Collective Acquisition II Units,NASDAQ
 VNME,Vendome Acquisition Corp I,NASDAQ
-ACAAU,Averin Capital Acquisition Unit,NASDAQ
-CUBWU,Lionheart Holdings Units,NASDAQ
+GWRS,Global Water Resources Inc,NASDAQ
+ACB,Aurora Cannabis Inc,NASDAQ
 IMMR,Immersion Corp,NASDAQ
+CRDL,Cardiol Therapeutics Inc,NASDAQ
+POLEU,Andretti Acquisition II Units,NASDAQ
+ACAAU,Averin Capital Acquisition Unit,NASDAQ
+FBLA,FB Bancorp  Inc.,NASDAQ
+VABK,Virginia National Bankshares Corp,NASDAQ
 FERAU,Fifth Era Acquisition I Units,NASDAQ
-VLOS,Velos Acquisition I Corp,NASDAQ
-IPVV,InterPrivate Investment Partners V Inc,NASDAQ
+CUBWU,Lionheart Holdings Units,NASDAQ
+AVNW,Aviat Networks Inc,NASDAQ
